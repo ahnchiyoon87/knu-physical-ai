@@ -46,12 +46,12 @@
     },
     {
       "path": "00_문서/대본/실전반/영상05_제조 데이터 파이프라인 설계_대본.md",
-      "hash": "a8f80a7d0de2a79307d9d6d9442b753530f59601f0c5664a9d568ceb3f11d459",
+      "hash": "c8602900e741cf9f0c2c0a374807ffb9a8a267e3a6435482533815b3b2236862",
       "group": "실전반",
       "video": "영상5",
       "key": "E",
       "slides": 60,
-      "spoken_characters": 18589,
+      "spoken_characters": 16709,
       "status": "집필본: 개념 발화 별도 작성, 적용·판단 발화의 반복과 분량 추가 검토 필요",
       "duration_measured": false
     },

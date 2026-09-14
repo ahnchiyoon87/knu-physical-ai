@@ -123,12 +123,12 @@
     },
     {
       "path": "00_문서/대본/통합반/영상04_시계열 데이터와 이상_대본.md",
-      "hash": "2b014c8d6053d6b7d278e43138c905835b7909ab11c26f0b3ad49b920b9f9b73",
+      "hash": "713b923ccfff7b972bef46f4523d714e63c2f6c8b1918698bf4a174a1bc17bc1",
       "group": "통합반",
       "video": "영상4",
       "key": "H",
       "slides": 60,
-      "spoken_characters": 15989,
+      "spoken_characters": 13829,
       "status": "집필본: 개념 발화 별도 작성, 적용·판단 발화의 반복과 분량 추가 검토 필요",
       "duration_measured": false
     },

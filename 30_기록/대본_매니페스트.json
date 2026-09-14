@@ -35,12 +35,12 @@
     },
     {
       "path": "00_문서/대본/실전반/영상04_이상감지의 원리와 한계_대본.md",
-      "hash": "061ee36685bf0e8624f77641d118b50f98a927d2ad6d665bba9370a62fa29090",
+      "hash": "53790e997af69276f2c2b2fec5a9bcf8824287abf88b1ecbffb13a7aa4c4bd43",
       "group": "실전반",
       "video": "영상4",
       "key": "D",
       "slides": 60,
-      "spoken_characters": 18504,
+      "spoken_characters": 16506,
       "status": "집필본: 개념 발화 별도 작성, 적용·판단 발화의 반복과 분량 추가 검토 필요",
       "duration_measured": false
     },

@@ -1,0 +1,26 @@
+{
+  "topic": "D",
+  "authored_application_scenes": 18,
+  "both_current_editions": [
+    {
+      "group": "실전반",
+      "video": 3,
+      "matching_authored_scenes": 18
+    },
+    {
+      "group": "통합반",
+      "video": 3,
+      "matching_authored_scenes": 18
+    }
+  ],
+  "other_source_decks_preserved": 18,
+  "other_source_narrations_preserved": 18,
+  "semantic_review": [
+    "Rule target, units, source, comparator, scope and version are distinguished; boundary inclusion is explicit rather than assumed.",
+    "10 plus/minus 1.5 gives 8.5 to 11.5; 1.5 mm equals 0.15 cm, explicitly hypothetical settings.",
+    "Missing baseline and unknown labels are separate from normal observations, false negatives, and quality judgments.",
+    "Detection history, notification suppression and severity policies remain separate; conceptual additional policies are not claimed as current runtime features.",
+    "Related components are investigation clues, and future trend-model performance is not promised."
+  ],
+  "scope": "D application passages and six adjacent sequences, arithmetic, source preservation, and both current editions. No whole-course meaning, runtime or duration proof."
+}

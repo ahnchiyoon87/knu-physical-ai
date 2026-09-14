@@ -9,7 +9,7 @@ from backend.common.gateway import database
 from backend.common.log import span
 
 from . import models
-from .provenance import bind_predictions
+from .provenance import bind_predictions, bind_series_scores
 from .gateway import all_series
 
 
@@ -47,6 +47,7 @@ def job(profile: str,source_id: str,method: str,parameters: dict):
             values=[row["value"] for row in rows]
             if method=="pyod":
                 result=models.pyod_scores(values,parameters["baseline_count"])
+                result=bind_series_scores(result,rows,profile,source_id)
             elif method=="forecast":
                 result=models.forecast_evaluation(values,parameters.get("horizon"),parameters.get('evaluate_last',True))
             else:

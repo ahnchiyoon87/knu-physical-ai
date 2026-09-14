@@ -1,6 +1,6 @@
 {
   "scope": "두 반4일차 가이드의 구현·등록·실행 순서와 실제 코드/출발본 정적 대조. 학생 소요시간·모델·DB 실행 미검증",
-  "code_stamp": "20260914_184210",
+  "code_stamp": "20260914_185519",
   "guides": 2,
   "action_explanations_each": 7,
   "corrected": [
@@ -12,13 +12,10 @@
     "새 원천 ID/table/규칙으로 변경 입력 보존",
     "Chronos 평가 제외 후 최소 입력과 같은 관찰 구간 비교"
   ],
-  "remaining_code": [
-    "PyOD 점수별 원본 행 연결",
-    "파이프라인 실제 단계 예외와 CSV/Neo4j 반영 상태 표현",
-    "규칙의 입력 행 수와 실제 판정 대상 수 구분"
-  ],
+  "remaining_code": [],
   "guide_hashes": {
-    "실전반": "5ad043c6d49cadabf538360653a3c1473ef27719d8a2853dfe9bfdddddcc7ca2",
-    "통합반": "71a0f06205f5fad15abf8dd7f0323b6fc0dbd46cabe3045043a986a8ada9bfd9"
-  }
+    "실전반": "3f2514ee5369d7f25743cf614ac6390cff401a643d803064a0d99d787d6debe5",
+    "통합반": "901466f5ecd5e8ae61416dcbdc22c62d29ab6bbfa4fd5b482be788bb9f53a1c5"
+  },
+  "updated_code_evidence": "비교범위와단계중단_검사.json: 기록했던3항목 코드 보완. 실제 외부 실행은 여전히 미검증."
 }

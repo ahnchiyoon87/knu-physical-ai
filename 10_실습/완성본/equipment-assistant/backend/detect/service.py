@@ -20,16 +20,19 @@ def run_rules(rid: str, profile: str, source_id: str, rule_id: str):
     if not rows:
         return reply(rid, status="insufficient", reason="적재된 감지 입력이 없습니다")
     try:
-        alarms = detect_rows(rows, definition)
+        counts = {}
+        alarms = detect_rows(rows, definition, counts)
     except ValueError as exc:
         return reply(rid,status="insufficient",reason=str(exc))
+    if not counts["evaluated"]:
+        return reply(rid, counts, status="insufficient", reason="판정할 유효 관측이 없습니다. 기준 구간과 결측을 확인하세요")
     provenance = source(source_id, profile)["provenance"]
     gateway.save_events(profile, source_id, f"rule:{rule_id}:{selected['version']}", alarms, provenance)
-    answer = {"evaluated": len(rows), "flagged": len(alarms),
+    answer = {**counts, "flagged": len(alarms),
               "notified": sum(not x["suppressed"] for x in alarms),
               "suppressed": sum(x["suppressed"] for x in alarms), "rule_version": selected["version"],
               "preview": alarms[:20], "provenance": provenance,
-              "graph_status": "queued", "label_evaluation": "미수행: 정답 라벨과 대조하지 않았습니다"}
+              "graph_status": "queued" if alarms else "no_new_events", "label_evaluation": "미수행: 정답 라벨과 대조하지 않았습니다"}
     return reply(rid, answer, evidence=[{"kind": "table", "ref": source_id, "rows": len(rows)}])
 
 

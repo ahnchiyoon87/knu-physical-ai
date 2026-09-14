@@ -6,7 +6,7 @@ import ForecastResult from './ForecastResult.vue'
 const props=defineProps({result:Object})
 const labels={ok:'결과 있음',none:'조회 결과 없음',refused:'답변·실행 보류',failed:'실행 실패',error:'입력 확인',pending_approval:'승인 대기',insufficient:'판단 자료 부족'}
 const answer=computed(()=>props.result?.answer)
-const rows=computed(()=>Array.isArray(answer.value)?answer.value:answer.value?.rows||answer.value?.statistics||[])
+const rows=computed(()=>Array.isArray(answer.value)?answer.value:answer.value?.rows||answer.value?.statistics||answer.value?.observations||[])
 const claims=computed(()=>rows.value.length&&rows.value.every(x=>x&&typeof x.text==='string'))
 const keys=computed(()=>rows.value.length&&typeof rows.value[0]==='object'?Object.keys(rows.value[0]):[])
 const fields=computed(()=>answer.value&&typeof answer.value==='object'&&!Array.isArray(answer.value)?

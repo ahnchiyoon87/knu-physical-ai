@@ -27,3 +27,21 @@ def bind_predictions(result, rows, profile, source_id, import_record, artifact_i
             edges.append({"source": row_id, "source_type": "source_row", "relation": "belongs_to_lot",
                           "target": lot_target, "target_type": "lot", "provenance": f"import={import_record['id']}"})
     return {**result, "predictions": predictions, "input_import": {key: import_record[key] for key in required}}, edges
+
+
+def bind_series_scores(result, rows, profile, source_id):
+    baseline = result["baseline_count"]
+    if type(baseline) is not int or not 0 < baseline < len(rows):
+        raise ValueError("점수의 기준 구간을 확인하세요")
+    held_out = rows[baseline:]
+    if len(result["scores"]) != len(held_out) or len(result["predictions"]) != len(held_out):
+        raise ValueError("점수·예측·평가 원본 행 수가 일치하지 않습니다")
+    numbers = [row["row_no"] for row in rows]
+    if len(set(numbers)) != len(numbers) or any(type(n) is not int or n < 1 for n in numbers):
+        raise ValueError("원본 행 번호가 없거나 중복됩니다")
+    return {**result, "input_rows": len(rows), "test_rows": len(held_out),
+            "observations": [{"profile": profile, "source_id": source_id, "row_no": row["row_no"],
+                              "row_id": f"{profile}:{source_id}:row:{row['row_no']}",
+                              "lot_id": row.get("lot_id"), "value": row["value"],
+                              "score": score, "predicted": prediction}
+                             for row,score,prediction in zip(held_out,result["scores"],result["predictions"])]}

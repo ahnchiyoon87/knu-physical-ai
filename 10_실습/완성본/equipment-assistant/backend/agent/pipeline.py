@@ -20,34 +20,67 @@ class PipelineState(TypedDict,total=False):
     response:dict
 
 
+def stopped(state, stage, exc):
+    known = isinstance(exc, (ValueError, FileNotFoundError, ImportError))
+    reason = str(exc) if known else type(exc).__name__
+    completed = {key: state[key] for key in ('ingest','detection','prediction') if key in state}
+    return {'response': reply(state['rid'], {'stopped_at':stage,'completed':completed},
+        status='insufficient' if known else 'failed', reason=stage+' 단계 중단: '+reason,
+        meta={'warnings':['앞서 저장된 결과는 유지됩니다. 자동 롤백을 수행하지 않았습니다'],
+              'stage':stage,'failure_type':type(exc).__name__}).model_dump(mode='json')}
+
+
+def checked(state, name, response):
+    output = response.model_dump(mode='json')
+    result = {name:output}
+    if response.status != 'ok':
+        completed = {key: state[key] for key in ('ingest','detection','prediction') if key in state}
+        result['response'] = reply(state['rid'], {'stopped_at':name,'completed':completed,'stage_result':output},
+            status=response.status, reason=name+' 단계 중단: '+response.reason).model_dump(mode='json')
+    return result
+
+
 def ingest(state):
-    response=upload(state['rid'],state['profile'],state['source_id'])
-    return {'ingest':response.model_dump(mode='json'),**({'response':response.model_dump(mode='json')} if response.status!='ok' else {})}
+    try:
+        return checked(state,'ingest',upload(state['rid'],state['profile'],state['source_id']))
+    except Exception as exc:
+        return stopped(state,'ingest',exc)
 
 
 def detect(state):
-    response=run_rules(state['rid'],state['profile'],state['source_id'],state['rule_id'])
-    return {'detection':response.model_dump(mode='json'),**({'response':response.model_dump(mode='json')} if response.status!='ok' else {})}
+    try:
+        return checked(state,'detection',run_rules(state['rid'],state['profile'],state['source_id'],state['rule_id']))
+    except Exception as exc:
+        return stopped(state,'detection',exc)
 
 
 def project(state):
-    result=flush_outbox()
-    return {'projection':result,'response':reply(state['rid'],{'ingest':state['ingest']['answer'],
-        'detect':state['detection']['answer'],'prediction':state.get('prediction'),'graph':result,
-        'scope':'적재·규칙 감지·요청한 CPU 예측·관계 반영' if state.get('prediction_request') else '적재·규칙 감지·관계 반영. 이번 요청에서 예측은 선택하지 않음'},
-        meta={'warnings':['그래프 반영이 남았습니다'] if result.get('remaining') else []}).model_dump(mode='json')}
+    try:
+        result=flush_outbox()
+        status=result.get('status')
+        if status not in {'not_applicable','pending','synchronized'}:
+            raise RuntimeError('unknown projection state')
+        warnings=([result['reason']] if status=='not_applicable' else
+                  ['그래프 반영이 남았습니다'] if status=='pending' else [])
+        return {'projection':result,'response':reply(state['rid'],{
+            'ingest':state['ingest']['answer'],'detect':state['detection']['answer'],
+            'prediction':state.get('prediction'),'graph':result,
+            'scope':{'ingest':'completed','detection':'completed',
+                     'prediction':'completed' if state.get('prediction_request') else 'not_requested',
+                     'projection':status}},meta={'warnings':warnings}).model_dump(mode='json')}
+    except Exception as exc:
+        return stopped(state,'projection',exc)
 
 
 def predict(state):
     request=state.get('prediction_request')
     if not request:return {}
-    from backend.detect.model_gateway import job
     try:
+        from backend.detect.model_gateway import job
         result=job(state['profile'],state['source_id'],request['method'],request['parameters'])
-    except (ValueError,FileNotFoundError,ImportError) as exc:
-        return {'response':reply(state['rid'],{'ingest':state['ingest'],'detection':state['detection']},
-            status='insufficient',reason='감지는 완료됐지만 예측 입력·의존성이 부족합니다: '+str(exc)).model_dump(mode='json')}
-    return {'prediction':result}
+        return {'prediction':result}
+    except Exception as exc:
+        return stopped(state,'prediction',exc)
 
 
 def run(rid,profile,source_id,rule_id,prediction_request=None):

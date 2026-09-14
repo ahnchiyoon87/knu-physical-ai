@@ -1,0 +1,1370 @@
+{
+  "version": 1,
+  "profiles": {
+    "synthetic": {
+      "label": "교육용 합성",
+      "sources": {
+        "shots": {
+          "path": "data/generated/shots.csv",
+          "table": "synthetic_shots",
+          "columns": [
+            {
+              "id": 1,
+              "name": "No_Shot",
+              "meaning": "LOT 내부 샷 번호",
+              "unit": "샷",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 2,
+              "name": "Machine_Cycle_Time",
+              "meaning": "기계 사이클 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 3,
+              "name": "Cycle_Time",
+              "meaning": "이전 샷과 현재 샷 사이 간격",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 4,
+              "name": "Barrel_Temp_Z1",
+              "meaning": "배럴 1구역 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 5,
+              "name": "Barrel_Temp_Z2",
+              "meaning": "배럴 2구역 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 6,
+              "name": "Barrel_Temp_Z3",
+              "meaning": "배럴 3구역 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 7,
+              "name": "Barrel_Temp_Z4",
+              "meaning": "배럴 4구역 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 8,
+              "name": "Hopper_Temp",
+              "meaning": "호퍼 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 9,
+              "name": "Injection_Pressure_Real_Time",
+              "meaning": "사출 시간; 이름의 Pressure만 보고 압력으로 해석하지 않음",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 10,
+              "name": "Screw_Position",
+              "meaning": "스크류 최소 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 11,
+              "name": "Injection_Peak_Press",
+              "meaning": "최대 사출 압력",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 12,
+              "name": "Max_Injection_Rate",
+              "meaning": "최대 사출률",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 13,
+              "name": "Screw_Velocity",
+              "meaning": "스크류 속도",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 14,
+              "name": "VP_Time",
+              "meaning": "충진 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 15,
+              "name": "VP_Position",
+              "meaning": "보압 절환 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 16,
+              "name": "Weighing_Start_Position",
+              "meaning": "보압 종료 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 17,
+              "name": "VP_Press",
+              "meaning": "사출에서 보압으로 전환할 때 압력",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 18,
+              "name": "Plasticizing_Time",
+              "meaning": "계량 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 19,
+              "name": "Plasticizing_Start_Position",
+              "meaning": "계량 시작 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 20,
+              "name": "Plasticizing_End_Position",
+              "meaning": "계량 종료 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 21,
+              "name": "Plasticizing_RPM",
+              "meaning": "계량 스크류 회전수",
+              "unit": "rpm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 22,
+              "name": "Minimum_Cushion",
+              "meaning": "쿠션 최소 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 23,
+              "name": "Cooling_Time",
+              "meaning": "냉각 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 24,
+              "name": "Back_Flow",
+              "meaning": "배압; 역류량으로 해석하지 않음",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 25,
+              "name": "Decompression_Time",
+              "meaning": "석백 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            },
+            {
+              "id": 26,
+              "name": "_ID",
+              "meaning": "파일의 순서 식별자",
+              "unit": "순서",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요; 합성 프로필의 값은 생성값"
+            }
+          ],
+          "shot_column": "No_Shot",
+          "order_column": "_ID",
+          "time_column": null,
+          "lot_rule": "파일 첫 묶음 0, No_Shot이 0으로 돌아오면 다음 LOT. 첫 행이 LOT 중간이면 부분 LOT",
+          "provenance": "교육용 합성: 새로 생성한 순차 자료. KAMP 실측이 아님",
+          "joins": [
+            {
+              "source_id": "conditions",
+              "left_column": "lot_id",
+              "right_column": "lot_id",
+              "meaning": "해당 LOT의 교육용 설정 기준",
+              "provenance": "설계: 합성 샷의 LOT별 대응 기록"
+            },
+            {
+              "source_id": "worklog",
+              "left_column": "lot_id",
+              "right_column": "lot_id",
+              "meaning": "해당 LOT의 교육용 관측 기록",
+              "provenance": "설계: 합성 샷의 LOT별 대응 기록"
+            }
+          ],
+          "quality_rules": {
+            "22": {
+              "lower": 0,
+              "provenance": "설계: 교육용 음수 쿠션 검토 표시. 원인 판정이나 자동 삭제 기준이 아님"
+            }
+          },
+          "clean_table": "synthetic_shots_clean",
+          "duplicate_column_candidates": [
+            [
+              10,
+              22
+            ]
+          ]
+        },
+        "conditions": {
+          "path": "data/generated/conditions.csv",
+          "table": "synthetic_conditions",
+          "columns": [
+            {
+              "id": 101,
+              "name": "lot",
+              "meaning": "이 원천의 LOT 식별자",
+              "unit": "ID",
+              "type": "text",
+              "meaning_status": "documented",
+              "source": "설계"
+            },
+            {
+              "id": 102,
+              "name": "cushion_reference",
+              "meaning": "교육용 설정 기준",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "설계"
+            },
+            {
+              "id": 103,
+              "name": "setting_status",
+              "meaning": "기록의 성격",
+              "unit": "상태",
+              "type": "text",
+              "meaning_status": "documented",
+              "source": "설계"
+            },
+            {
+              "id": 104,
+              "name": "revision",
+              "meaning": "개정 번호",
+              "unit": "ID",
+              "type": "text",
+              "meaning_status": "documented",
+              "source": "설계"
+            }
+          ],
+          "lot_column": "lot",
+          "provenance": "설계: 교육용 합성 샷과 연결한 설정표"
+        },
+        "worklog": {
+          "path": "data/generated/worklog.csv",
+          "table": "synthetic_worklog",
+          "columns": [
+            {
+              "id": 201,
+              "name": "lot",
+              "meaning": "이 원천의 LOT 식별자",
+              "unit": "ID",
+              "type": "text",
+              "meaning_status": "documented",
+              "source": "설계"
+            },
+            {
+              "id": 202,
+              "name": "shot_count",
+              "meaning": "LOT에 포함된 샷 수",
+              "unit": "샷",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "설계"
+            },
+            {
+              "id": 203,
+              "name": "inspection_status",
+              "meaning": "검사 여부",
+              "unit": "상태",
+              "type": "text",
+              "meaning_status": "documented",
+              "source": "설계"
+            },
+            {
+              "id": 204,
+              "name": "note",
+              "meaning": "기록 설명",
+              "unit": "문장",
+              "type": "text",
+              "meaning_status": "documented",
+              "source": "설계"
+            }
+          ],
+          "lot_column": "lot",
+          "provenance": "설계: 교육용 합성 샷 수를 집계한 작업 기록"
+        },
+        "labeled": {
+          "path": "data/generated/labeled.csv",
+          "table": "synthetic_labeled",
+          "columns": [
+            {
+              "id": 301,
+              "name": "sequence",
+              "meaning": "샘플 순서",
+              "unit": "순서",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "합성"
+            },
+            {
+              "id": 302,
+              "name": "cushion",
+              "meaning": "쿠션 관측값",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "합성"
+            },
+            {
+              "id": 303,
+              "name": "cycle",
+              "meaning": "사이클 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "합성"
+            },
+            {
+              "id": 304,
+              "name": "label",
+              "meaning": "합성 규칙 판정",
+              "unit": "0=기준 안/1=기준 밖",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "합성"
+            },
+            {
+              "id": 305,
+              "name": "label_origin",
+              "meaning": "라벨 생성 방식",
+              "unit": "설명",
+              "type": "text",
+              "meaning_status": "documented",
+              "source": "합성"
+            }
+          ],
+          "order_column": "sequence",
+          "label_column_id": 304,
+          "label_values": {
+            "0": 0,
+            "1": 1
+          },
+          "provenance": "교육용 합성: 규칙 라벨 재현 실습이며 품질 예측 실증 아님"
+        }
+      },
+      "ontology": "ontology/synthetic.csv",
+      "documents": [
+        {
+          "id": "COND-A",
+          "title": "조건 기록 관리",
+          "revision": "A",
+          "status": "obsolete",
+          "path": "data/documents/COND-A.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "COND-B",
+          "title": "조건 기록 관리",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/COND-B.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "SHIFT",
+          "title": "시업 점검",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/SHIFT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "FIRST",
+          "title": "초물 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/FIRST.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "PATROL",
+          "title": "자주검사 기록",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/PATROL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "LAST",
+          "title": "종물 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/LAST.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "HANDOVER",
+          "title": "교대 인수인계",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/HANDOVER.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "FOURM",
+          "title": "4M 변경 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/FOURM.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "CHANGE",
+          "title": "변경 실행 기록",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/CHANGE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "TRACE",
+          "title": "LOT와 출처 연결",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/TRACE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "ALARM",
+          "title": "알람 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/ALARM.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "RULE",
+          "title": "감지 기준 변경",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/RULE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "MAINT",
+          "title": "보전 검토 요청",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/MAINT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "SCREW",
+          "title": "스크류·체크링 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/SCREW.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "MOLD",
+          "title": "금형 변경 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/MOLD.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "RESIN",
+          "title": "재료 조건 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/RESIN.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "INSPECT",
+          "title": "검사 기록 항목",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/INSPECT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "THERMAL",
+          "title": "열화상 자료 읽기",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/THERMAL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "SPLIT",
+          "title": "모델 평가 분할",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/SPLIT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "PREDICT",
+          "title": "예측 해석",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/PREDICT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "EIGHTD",
+          "title": "8D 기록 구분",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/EIGHTD.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "FMEA",
+          "title": "위험 검토 메모",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/FMEA.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "CONTROL",
+          "title": "관리 항목 연결",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/CONTROL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "DEVIATION",
+          "title": "부적합 처리 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/DEVIATION.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "DOCCTRL",
+          "title": "문서 개정 관리",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/DOCCTRL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "EVIDENCE",
+          "title": "근거 인용 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/EVIDENCE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "APPROVAL",
+          "title": "검토안 승인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/APPROVAL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "RESTART",
+          "title": "중단과 재개",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/RESTART.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "HANDOFF",
+          "title": "결과물 설명",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/HANDOFF.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "SCOPE",
+          "title": "교육용 서비스 범위",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/SCOPE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        }
+      ]
+    },
+    "kamp": {
+      "label": "KAMP 원본 연결",
+      "sources": {
+        "shots": {
+          "path": "data/raw/InjectionMolding_Raw_Data.csv",
+          "table": "kamp_shots",
+          "columns": [
+            {
+              "id": 1,
+              "name": "No_Shot",
+              "meaning": "LOT 내부 샷 번호",
+              "unit": "샷",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 2,
+              "name": "Machine_Cycle_Time",
+              "meaning": "기계 사이클 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 3,
+              "name": "Cycle_Time",
+              "meaning": "이전 샷과 현재 샷 사이 간격",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 4,
+              "name": "Barrel_Temp_Z1",
+              "meaning": "배럴 1구역 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 5,
+              "name": "Barrel_Temp_Z2",
+              "meaning": "배럴 2구역 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 6,
+              "name": "Barrel_Temp_Z3",
+              "meaning": "배럴 3구역 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 7,
+              "name": "Barrel_Temp_Z4",
+              "meaning": "배럴 4구역 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 8,
+              "name": "Hopper_Temp",
+              "meaning": "호퍼 온도",
+              "unit": "°C",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 9,
+              "name": "Injection_Pressure_Real_Time",
+              "meaning": "사출 시간; 이름의 Pressure만 보고 압력으로 해석하지 않음",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 10,
+              "name": "Screw_Position",
+              "meaning": "스크류 최소 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 11,
+              "name": "Injection_Peak_Press",
+              "meaning": "최대 사출 압력",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 12,
+              "name": "Max_Injection_Rate",
+              "meaning": "최대 사출률",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 13,
+              "name": "Screw_Velocity",
+              "meaning": "스크류 속도",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 14,
+              "name": "VP_Time",
+              "meaning": "충진 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 15,
+              "name": "VP_Position",
+              "meaning": "보압 절환 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 16,
+              "name": "Weighing_Start_Position",
+              "meaning": "보압 종료 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 17,
+              "name": "VP_Press",
+              "meaning": "사출에서 보압으로 전환할 때 압력",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 18,
+              "name": "Plasticizing_Time",
+              "meaning": "계량 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 19,
+              "name": "Plasticizing_Start_Position",
+              "meaning": "계량 시작 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 20,
+              "name": "Plasticizing_End_Position",
+              "meaning": "계량 종료 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 21,
+              "name": "Plasticizing_RPM",
+              "meaning": "계량 스크류 회전수",
+              "unit": "rpm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 22,
+              "name": "Minimum_Cushion",
+              "meaning": "쿠션 최소 위치",
+              "unit": "mm",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 23,
+              "name": "Cooling_Time",
+              "meaning": "냉각 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 24,
+              "name": "Back_Flow",
+              "meaning": "배압; 역류량으로 해석하지 않음",
+              "unit": "미확인",
+              "type": "number",
+              "meaning_status": "needs_verification",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 25,
+              "name": "Decompression_Time",
+              "meaning": "석백 시간",
+              "unit": "s",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            },
+            {
+              "id": 26,
+              "name": "_ID",
+              "meaning": "파일의 순서 식별자",
+              "unit": "순서",
+              "type": "number",
+              "meaning_status": "documented",
+              "source": "패키지 R5; 원문 가이드북 재대조 필요"
+            }
+          ],
+          "shot_column": "No_Shot",
+          "order_column": "_ID",
+          "time_column": null,
+          "lot_rule": "파일 첫 묶음 0, No_Shot이 0으로 돌아오면 다음 LOT. 첫 행이 LOT 중간이면 부분 LOT",
+          "provenance": "KAMP 사출성형 예지보전(2022); 원본 경로·이용조건 확인 후 사용"
+        }
+      },
+      "ontology": "ontology/kamp.csv",
+      "documents": [
+        {
+          "id": "COND-A",
+          "title": "조건 기록 관리",
+          "revision": "A",
+          "status": "obsolete",
+          "path": "data/documents/COND-A.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "COND-B",
+          "title": "조건 기록 관리",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/COND-B.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "SHIFT",
+          "title": "시업 점검",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/SHIFT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "FIRST",
+          "title": "초물 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/FIRST.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "PATROL",
+          "title": "자주검사 기록",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/PATROL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "LAST",
+          "title": "종물 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/LAST.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "HANDOVER",
+          "title": "교대 인수인계",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/HANDOVER.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "FOURM",
+          "title": "4M 변경 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/FOURM.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "CHANGE",
+          "title": "변경 실행 기록",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/CHANGE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "TRACE",
+          "title": "LOT와 출처 연결",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/TRACE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "ALARM",
+          "title": "알람 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/ALARM.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "RULE",
+          "title": "감지 기준 변경",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/RULE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "MAINT",
+          "title": "보전 검토 요청",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/MAINT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "SCREW",
+          "title": "스크류·체크링 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/SCREW.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "MOLD",
+          "title": "금형 변경 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/MOLD.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "RESIN",
+          "title": "재료 조건 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/RESIN.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "INSPECT",
+          "title": "검사 기록 항목",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/INSPECT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "THERMAL",
+          "title": "열화상 자료 읽기",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/THERMAL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "SPLIT",
+          "title": "모델 평가 분할",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/SPLIT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "PREDICT",
+          "title": "예측 해석",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/PREDICT.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "EIGHTD",
+          "title": "8D 기록 구분",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/EIGHTD.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "FMEA",
+          "title": "위험 검토 메모",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/FMEA.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "CONTROL",
+          "title": "관리 항목 연결",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/CONTROL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "DEVIATION",
+          "title": "부적합 처리 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/DEVIATION.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "DOCCTRL",
+          "title": "문서 개정 관리",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/DOCCTRL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "EVIDENCE",
+          "title": "근거 인용 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/EVIDENCE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "APPROVAL",
+          "title": "검토안 승인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/APPROVAL.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "RESTART",
+          "title": "중단과 재개",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/RESTART.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "HANDOFF",
+          "title": "결과물 설명",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/HANDOFF.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        },
+        {
+          "id": "SCOPE",
+          "title": "교육용 서비스 범위",
+          "revision": "B",
+          "status": "current",
+          "path": "data/documents/SCOPE.md",
+          "source": "리뉴얼 패키지 설계서01·리서치R4의 업무/양식 참고; 본문은 새 교육용 설계",
+          "provenance": "설계: 현장 실문서나 사건 증거 아님"
+        }
+      ]
+    },
+    "transfer": {
+      "label": "도서 대출 문의 · 교육용 설계",
+      "ontology": "ontology/transfer.csv",
+      "documents": [
+        {
+          "id": "LIB-LOAN",
+          "title": "대출 상태 확인",
+          "revision": "B",
+          "status": "current",
+          "path": "data/transfer/LIB-LOAN.md",
+          "source": "새로 작성한 도서 대출 전이 사례",
+          "provenance": "설계: 실제 도서관 규정 아님"
+        },
+        {
+          "id": "LIB-EXTEND",
+          "title": "연장 검토",
+          "revision": "B",
+          "status": "current",
+          "path": "data/transfer/LIB-EXTEND.md",
+          "source": "새로 작성한 도서 대출 전이 사례",
+          "provenance": "설계: 실제 도서관 규정 아님"
+        },
+        {
+          "id": "LIB-PRIVACY",
+          "title": "이용 기록의 범위",
+          "revision": "B",
+          "status": "current",
+          "path": "data/transfer/LIB-PRIVACY.md",
+          "source": "새로 작성한 도서 대출 전이 사례",
+          "provenance": "설계: 실제 도서관 규정 아님"
+        }
+      ],
+      "sources": {
+        "books": {
+          "path": "data/transfer/books.csv",
+          "table": "transfer_books",
+          "provenance": "교육용 설계: 실제 소장 자료 아님",
+          "columns": [
+            {
+              "id": 601,
+              "name": "book_id",
+              "meaning": "도서 식별자",
+              "unit": "ID",
+              "type": "text",
+              "source": "교육용 설계",
+              "meaning_status": "documented"
+            },
+            {
+              "id": 602,
+              "name": "category",
+              "meaning": "분류",
+              "unit": "범주",
+              "type": "text",
+              "source": "교육용 설계",
+              "meaning_status": "documented"
+            },
+            {
+              "id": 603,
+              "name": "copies",
+              "meaning": "소장 권수",
+              "unit": "권",
+              "type": "number",
+              "source": "교육용 설계",
+              "meaning_status": "documented"
+            }
+          ]
+        },
+        "loans": {
+          "path": "data/transfer/loans.csv",
+          "table": "transfer_loans",
+          "provenance": "교육용 설계: 실제 대출 기록 아님",
+          "columns": [
+            {
+              "id": 701,
+              "name": "loan_id",
+              "meaning": "대출 건 식별자",
+              "unit": "ID",
+              "type": "text",
+              "source": "교육용 설계",
+              "meaning_status": "documented"
+            },
+            {
+              "id": 702,
+              "name": "book_id",
+              "meaning": "해당 도서 식별자",
+              "unit": "ID",
+              "type": "text",
+              "source": "교육용 설계",
+              "meaning_status": "documented"
+            },
+            {
+              "id": 703,
+              "name": "borrower_role",
+              "meaning": "이용자 역할; 개인 식별자 아님",
+              "unit": "역할",
+              "type": "text",
+              "source": "교육용 설계",
+              "meaning_status": "documented"
+            },
+            {
+              "id": 704,
+              "name": "days_from_due",
+              "meaning": "자료 기준일에서 반납기한을 뺀 일수; 양수는 기한 경과",
+              "unit": "일",
+              "type": "number",
+              "source": "교육용 설계",
+              "meaning_status": "documented"
+            },
+            {
+              "id": 705,
+              "name": "state",
+              "meaning": "대출중 또는 반납완료",
+              "unit": "상태",
+              "type": "text",
+              "source": "교육용 설계",
+              "meaning_status": "documented"
+            }
+          ],
+          "joins": [
+            {
+              "source_id": "books",
+              "left_column": "c702",
+              "right_column": "c601",
+              "meaning": "해당 대출의 도서",
+              "provenance": "설계: 가상 도서 ID"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "vision": {
+    "path": "data/raw/thermal",
+    "manifest": "data/raw/thermal/manifest.csv",
+    "shape": [
+      256,
+      320
+    ],
+    "unit": "°C",
+    "provenance": "KAMP 원본 수령 후 변환. 기본 이미지 자동 대체 없음"
+  },
+  "rul": {
+    "path": "data/raw/CMAPSS",
+    "provenance": "NASA C-MAPSS 공개 대체 자료; 사출 설비 실증 아님"
+  }
+}

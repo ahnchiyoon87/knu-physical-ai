@@ -4,12 +4,14 @@ from statistics import fmean, pstdev
 from backend.common.service import finite_number
 
 
-def detect_rows(rows: list[dict], definition: dict) -> list[dict]:
+def detect_rows(rows: list[dict], definition: dict, counts=None) -> list[dict]:
+    counts = counts if counts is not None else {}
+    counts.update(input_rows=len(rows), baseline_rows=0, missing_rows=0, evaluated=0)
     mode = definition["mode"]
     if mode not in {"absolute", "relative", "combined", "multichannel"}:
         raise ValueError("지원하지 않는 규칙입니다")
     if mode == "multichannel":
-        return detect_multichannel(rows, definition)
+        return detect_multichannel(rows, definition, counts)
     minimum = int(definition.get("baseline_count", 10))
     suppression = int(definition.get("suppression_shots", 0))
     if minimum < 2 or suppression < 0:
@@ -29,15 +31,17 @@ def detect_rows(rows: list[dict], definition: dict) -> list[dict]:
         std = pstdev(valid) if valid else None
         last_notified = None
         for offset, row in enumerate(samples):
+            if mode != "absolute" and offset < minimum:
+                counts["baseline_rows"] += 1
+                continue
             if row["value"] is None:
+                counts["missing_rows"] += 1
                 continue
             value = finite_number(row["value"], "감지값")
             low, high = row.get("lower",definition.get("lower")), row.get("upper",definition.get("upper"))
             if mode in {"absolute","combined"} and low is None and high is None:
                 raise ValueError("적용할 절대 기준이 없습니다")
             absolute = (low is not None and value < low) or (high is not None and value > high)
-            if mode != "absolute" and offset < minimum:
-                continue
             if mode != "absolute" and definition.get("relative_unit") == "percent":
                 if mean == 0:
                     raise ValueError("기준 평균 0에서는 평균 대비 비율을 계산할 수 없습니다")
@@ -47,6 +51,7 @@ def detect_rows(rows: list[dict], definition: dict) -> list[dict]:
             else:
                 relative = False if mode == "absolute" else abs(value - mean) > definition["width"] * std
             flagged = absolute if mode == "absolute" else relative if mode == "relative" else absolute and relative
+            counts["evaluated"] += 1
             if flagged:
                 suppressed = last_notified is not None and offset - last_notified <= suppression
                 if not suppressed:
@@ -57,8 +62,10 @@ def detect_rows(rows: list[dict], definition: dict) -> list[dict]:
     return alarms
 
 
-def detect_multichannel(rows, definition):
+def detect_multichannel(rows, definition, counts=None):
     """Apply AND/OR to named channels using only their preceding baseline rows."""
+    counts = counts if counts is not None else {}
+    counts.update(input_rows=len(rows), baseline_rows=0, missing_rows=0, evaluated=0)
     conditions=definition.get("conditions",[])
     if len(conditions)<2 or definition.get("operator") not in {"and","or"}:
         raise ValueError("조합 규칙은 두 채널 이상과 and/or가 필요합니다")
@@ -80,6 +87,7 @@ def detect_multichannel(rows, definition):
             if any(value is None for value in values):raise ValueError('조합 기준 구간에 결측이 있습니다')
             baselines[cid]=fmean(finite_number(value,'채널값') for value in values)
             if baselines[cid]==0:raise ValueError('기준 평균 0에서는 변화율을 계산할 수 없습니다')
+        counts["baseline_rows"] += minimum
         last=None
         for offset,row in enumerate(samples[minimum:],minimum):
             checks=[];details=[]
@@ -91,6 +99,7 @@ def detect_multichannel(rows, definition):
                 hit=change>condition['percent'] if condition['direction']=='above' else change < -condition['percent']
                 checks.append(hit);details.append({'column_id':int(cid),'value':value,'baseline':baselines[cid],
                                                    'percent_change':change,'matched':hit})
+            counts['evaluated'] += 1
             if (all(checks) if definition['operator']=='and' else any(checks)):
                 suppressed=last is not None and offset-last<=suppression
                 if not suppressed:last=offset

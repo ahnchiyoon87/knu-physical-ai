@@ -8,7 +8,8 @@ from lab_guide_content import UNITS
 from lab_intro_guidance import AFTER_ACTION
 from lab_quality_guidance import QUALITY_ACTION
 from lab_table_guidance import TABLE_ACTION
-AFTER_ACTION = {**AFTER_ACTION, **QUALITY_ACTION, **TABLE_ACTION}
+from lab_rules_pipeline_guidance import RULES_PIPELINE_ACTION
+AFTER_ACTION = {**AFTER_ACTION, **QUALITY_ACTION, **TABLE_ACTION, **RULES_PIPELINE_ACTION}
 from common_lab_plan import ORDER, THEORY, stages
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -19,11 +20,11 @@ QUESTIONS=['실제 사출 압력이 가장 높은 샷 10개는?','배럴 온도 
  '데이터 마지막 LOT 기준 최근 다섯 LOT의 사이클 평균은?','배압의 최댓값은?',
  '불량이 많은 LOT는?','조건표의 기준과 다른 LOT는?','쿠션이 8 mm 미만인 샷은 몇 개인가?']
 EXTRA = {
- ('rules',0): '참고 구현의 세 규칙은 LOT 조건표 기준 ±1.5 mm, LOT 첫 200행 평균 대비 2.5% 초과 변화, 쿠션 2.5% 초과 상승 AND 계량시간 2.5% 초과 하락입니다. 교육용 기준입니다. 조건표의 적용 행이 하나인지 확인하고 첫 200행 뒤의 관측을 판정합니다.',
+ ('rules',0): '참고 구현의 세 규칙은 LOT 조건표 기준 ±1.5 mm, LOT 첫 200행 평균 대비 2.5% 초과 변화, 쿠션 2.5% 초과 상승 AND 계량시간 2.5% 초과 하락입니다. 교육용 기준입니다. 절대 기준은 조건표가 적용되는 모든 행을 비교합니다. 상대·조합 기준은 LOT 첫 200행으로 기준을 만들고 그 뒤의 관측을 판정합니다.',
  ('agent',1): '합성 관계표의 LOT → 작업일지 → `synthetic:document:FOURM` → `synthetic:document:FIRST`는 조사할 절차를 연결한 교육용 설계입니다. 실제 조건 변경의 증거는 아닙니다. 관계표를 적재한 뒤 끝 대상 ID를 입력합니다.',
 }
 PREDICT='예측을 같은 실행에 묶으려면 `forecast.json`에 선택 LOT·열 번호·horizon을 넣도록 요청합니다. `uv run --env-file .env python scripts/reload.py --profile synthetic --source shots --rule cushion-relative --predict forecast --parameters forecast.json`으로 연결할 수 있습니다. 예측을 요청하지 않은 상태와 요청한 예측의 실패를 구별합니다.'
-for key in ('pipeline','integration'):EXTRA[(key,3)]=PREDICT
+EXTRA[('integration',3)]=PREDICT
 
 
 def main():

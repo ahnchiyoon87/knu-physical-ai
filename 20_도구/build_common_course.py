@@ -11,6 +11,7 @@ from datetime import datetime
 from pathlib import Path
 from deck_content import CAT
 from common_course_editorial import TRANSITIONS, FIRST_TERMS
+from common_worked_examples import WORKED
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / '00_문서/공통강의'
@@ -99,6 +100,10 @@ def main():
                 slides.append(s)
             provenance.append({'unit': number, 'key': key, 'deck': deck['path'], 'deck_sha256': deck['sha256'],
                                'script': script['path'], 'script_sha256': script['hash'], 'source_range': [deck['slides'][2]['id'], deck['slides'][end-1]['id']]})
+            for example_number, example in enumerate(WORKED.get(key, []), 1):
+                item=copy.deepcopy(example)
+                item.update(source_key=key,worked_example=example_number)
+                slides.append(item)
         first = {'id': f'U{number:02}-S001', 'title': title, 'screen': [opening, '결과와 함께 입력·판단 기준·근거를 확인합니다.'],
                  'visual': '이 단위의 두 입력과 결과를 하나의 구체적인 작업 장면으로 연결한다. 서로 다른 원천을 같은 사건인 것처럼 그리지 않는다.',
                  'conclusion': opening, 'bridge': slides[0]['title'], 'evidence': '공통 과정 설계',
@@ -150,6 +155,7 @@ def main():
     for path, text in planned.items():
         path.parent.mkdir(parents=True, exist_ok=True); path.write_text(text, encoding='utf-8')
     record = {'status': '공통 내용 집필본; 시간·선수 개념·실습·일정 전환 검토 중', 'units': units, 'sources': provenance,
+              'editorial_sources': {f'20_도구/{name}': digest(ROOT/'20_도구'/name) for name in ('common_course_editorial.py','common_worked_examples.py')},
               'cohorts': {'실전반(4학년)': [u['deck'] for u in units], '통합반(2·3학년)': [u['deck'] for u in units]},
               'files': {p.relative_to(ROOT).as_posix(): digest(p) for p in planned}}
     MANIFEST.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding='utf-8')

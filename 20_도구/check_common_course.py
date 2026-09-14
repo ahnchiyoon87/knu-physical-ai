@@ -37,6 +37,8 @@ def main():
     for source in record['sources']:
         for kind in ('deck', 'script'):
             assert hashlib.sha256((ROOT / source[kind]).read_bytes()).hexdigest() == source[kind + '_sha256']
+    for name, expected in record.get('editorial_sources', {}).items():
+        assert hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == expected
     for u in record['units']:
         full = (ROOT / u['deck']).read_text(encoding='utf-8')
         script = (ROOT / u['script']).read_text(encoding='utf-8')

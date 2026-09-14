@@ -1,0 +1,27 @@
+{
+  "topic": "G",
+  "authored_application_scenes": 18,
+  "both_current_editions": [
+    {
+      "group": "실전반",
+      "video": 5,
+      "matching_authored_scenes": 18
+    },
+    {
+      "group": "통합반",
+      "video": 5,
+      "matching_authored_scenes": 18
+    }
+  ],
+  "other_source_decks_preserved": 18,
+  "other_source_narrations_preserved": 18,
+  "semantic_review": [
+    "Thermal values, display colors, product identities and label units are distinct; file order does not prove label correspondence.",
+    "Original/product grouping precedes transformations and split; evaluation includes normal examples.",
+    "Heatmap intensity is not cause or pixel-level localization accuracy without spatial ground truth.",
+    "Hypothetical all-positive prediction on 90 normal and 10 defective images yields recall 100%, precision 10%, and 100 reviews.",
+    "Model comparisons preserve split and preprocessing; external performance and unmeasured local CPU timing remain distinct.",
+    "Product predictions do not fabricate missing sensor-LOT relationships."
+  ],
+  "scope": "G application passages and six adjacent sequences, illustrative arithmetic, source preservation and both current editions. No image-model runtime, whole-course review or duration proof."
+}

@@ -1,13 +1,13 @@
 {
   "scope": "Five current documents local links, UTF-8 replacement characters, and tracked sensitive filenames. Not a full content/secret audit or lecture completion test.",
   "documents": {
-    "00_문서/0_인계.md": "cce6f7d95fcac3a0f961dfd45d9ea75ad5463766b5d820cab3f12324eec08b3d",
+    "00_문서/0_인계.md": "1f7be80b4a2b9995b852087ef67778b44ca22ffaf7d6c282a68fc5a6b0b49938",
     "00_문서/1_규범.md": "cd464df6b6f7f1d9630bc93b82dae36e8e07f2bda96eda515b7dc14d1e65da78",
-    "30_기록/전체제작_현재미결.md": "222ea1545937c6b5dbf8c22abf7b7f0306ac071771e0e44f67bae993755cf137",
-    "30_기록/전체제작_작업계획.md": "9b1864e3af3697d7da97b71c4e3a7fc2258c43c39af18744678ef5d5f94c4107",
-    "30_기록/요구반영표.md": "39b5c2f5af28aa2ffeca342b7a24dfaa2f70c8840f08956f02b0337853abe8ce"
+    "30_기록/전체제작_현재미결.md": "144b12bb9a7e247a7ee0db701cbf28303e8bbb2c1890c499302ffdbe0d28978f",
+    "30_기록/전체제작_작업계획.md": "37bf97cefc3e6341790d3413c6f5a7bcb8f53fd9d5b0915e1d6ce090112644f2",
+    "30_기록/요구반영표.md": "29c8d06148eff39b019e322878d9bf43865f1b9611e68596838f28d25518fa88"
   },
-  "local_links": 50,
+  "local_links": 51,
   "missing_links": [],
   "tracked_sensitive_filenames": [],
   "prior_status_preserved_at": "ae1202b"

@@ -1,0 +1,62 @@
+{
+  "topic": "A",
+  "authored_scenes": 18,
+  "cohort_screen_changes": 36,
+  "cohort_spoken_changes": 36,
+  "unselected_decks_preserved": 17,
+  "unselected_narrations_preserved": 17,
+  "checked": [
+    {
+      "group": "실전반",
+      "slides": [
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47"
+      ]
+    },
+    {
+      "group": "통합반",
+      "slides": [
+        "S30",
+        "S31",
+        "S32",
+        "S33",
+        "S34",
+        "S35",
+        "S36",
+        "S37",
+        "S38",
+        "S39",
+        "S40",
+        "S41",
+        "S42",
+        "S43",
+        "S44",
+        "S45",
+        "S46",
+        "S47"
+      ]
+    }
+  ],
+  "semantic_review": [
+    "Six three-scene sequences connect row meaning, average calculation, column semantics, join multiplicity, actual category values, and ontology paths.",
+    "4 and 6 average 5; adding 20 from another LOT gives 10. Duplicating 4 and 6 leaves mean 5 but sum grows 10 to 20. Both are explicitly hypothetical.",
+    "On-screen anchors include calculation values and interpretation limits. Narration distinguishes query validity, semantic selection, missing records, and graph relations."
+  ],
+  "scope": "Authored A application passages and adjacent transitions; exact screen/spoken inclusion and non-target preservation. Not whole-course meaning, actual runtime, or four-hour narration proof."
+}

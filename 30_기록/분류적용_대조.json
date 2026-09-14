@@ -1,0 +1,26 @@
+{
+  "topic": "F",
+  "authored_application_scenes": 18,
+  "both_current_editions": [
+    {
+      "group": "실전반",
+      "video": 2,
+      "matching_authored_scenes": 18
+    },
+    {
+      "group": "통합반",
+      "video": 2,
+      "matching_authored_scenes": 18
+    }
+  ],
+  "other_source_decks_preserved": 18,
+  "other_source_narrations_preserved": 18,
+  "semantic_review": [
+    "Target label and prediction-time availability precede feature choice; post-inspection information is leakage for earlier prediction.",
+    "Train/validation/test roles and grouping follow deployment intent; test denominators are counted within the evaluated subset.",
+    "Hypothetical majority baseline and confusion counts show accuracy 95%, recall 0%, precision 8/12 and recall 8/10. Zero denominators are not perfect performance.",
+    "Threshold selection uses validation and discloses reuse of test data; rule reproduction is not actual quality prediction.",
+    "Source identities, model versions and deployment-domain limitations remain attached to predictions."
+  ],
+  "scope": "F application passages and six adjacent sequences, illustrative arithmetic, source preservation and both current editions. No model execution, whole-course review or duration proof."
+}

@@ -1,11 +1,11 @@
 {
   "scope": "Five current documents local links, UTF-8 replacement characters, and tracked sensitive filenames. Not a full content/secret audit or lecture completion test.",
   "documents": {
-    "00_문서/0_인계.md": "a981effc2159c8f40ac72a5b0fd03c4007d545399bb52c8122165f5c53ee3892",
+    "00_문서/0_인계.md": "b8b9240a64f5370de9ddfc48d55bd725777459998790aac390611d583003a3cd",
     "00_문서/1_규범.md": "cd464df6b6f7f1d9630bc93b82dae36e8e07f2bda96eda515b7dc14d1e65da78",
-    "30_기록/전체제작_현재미결.md": "87ddca766e1ff3058b60de0edc43f948187cefe11df7154f59288817131db5be",
+    "30_기록/전체제작_현재미결.md": "e56c467669422ed540359debb8d10f319ac3fe767634903ca49f1f47e145dcd4",
     "30_기록/전체제작_작업계획.md": "9b1864e3af3697d7da97b71c4e3a7fc2258c43c39af18744678ef5d5f94c4107",
-    "30_기록/요구반영표.md": "131b1c7197ee6d77c93a11f07d38b008ffeed0b45325cd4ef992798c3dd71a24"
+    "30_기록/요구반영표.md": "2ed9219a7f927b4de7132f36b575f31df18c3a538708bb9fbd2fabf5a9d9a2d8"
   },
   "local_links": 50,
   "missing_links": [],

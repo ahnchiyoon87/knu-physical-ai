@@ -101,12 +101,12 @@
     },
     {
       "path": "00_문서/대본/통합반/영상02_제조 데이터와 머신러닝 개론_대본.md",
-      "hash": "a9f7e675cb289c108c15e544755b62f2f347f56b3ae991165a5ff9146603c2c0",
+      "hash": "7672074a7cfcd0730c88ef1d3ad31fb4004c68b3aa46048211b0b0894bad351e",
       "group": "통합반",
       "video": "영상2",
       "key": "F",
       "slides": 60,
-      "spoken_characters": 16445,
+      "spoken_characters": 14495,
       "status": "집필본: 개념 발화 별도 작성, 적용·판단 발화의 반복과 분량 추가 검토 필요",
       "duration_measured": false
     },

@@ -7,7 +7,8 @@ from pathlib import Path
 from lab_guide_content import UNITS
 from lab_intro_guidance import AFTER_ACTION
 from lab_quality_guidance import QUALITY_ACTION
-AFTER_ACTION = {**AFTER_ACTION, **QUALITY_ACTION}
+from lab_table_guidance import TABLE_ACTION
+AFTER_ACTION = {**AFTER_ACTION, **QUALITY_ACTION, **TABLE_ACTION}
 from common_lab_plan import ORDER, THEORY, stages
 
 ROOT=Path(__file__).resolve().parents[1]

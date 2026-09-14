@@ -1,9 +1,9 @@
 {
   "scope": "Five current documents local links, UTF-8 replacement characters, and tracked sensitive filenames. Not a full content/secret audit or lecture completion test.",
   "documents": {
-    "00_문서/0_인계.md": "1cc5129d7fc7651357e3f01193efce59fb9a32b2724c290134b38d4396f702da",
+    "00_문서/0_인계.md": "6d2d7eb1f0b89d8920340da29b0234b057dbd86a6ba63d73f6763d879d06a342",
     "00_문서/1_규범.md": "cd464df6b6f7f1d9630bc93b82dae36e8e07f2bda96eda515b7dc14d1e65da78",
-    "30_기록/전체제작_현재미결.md": "b9a0b029b7096a54f349125fd0144b5a30c1abd311f9e7038e0b8d173c72a326",
+    "30_기록/전체제작_현재미결.md": "02280cd0502a2e706b83587905865e3f39b42f03d5ff3504bce6aa780f9e61af",
     "30_기록/전체제작_작업계획.md": "37bf97cefc3e6341790d3413c6f5a7bcb8f53fd9d5b0915e1d6ce090112644f2",
     "30_기록/요구반영표.md": "39ba6ac30b777ce8956c4c7226eed6c74276fbf5df3787f4927a4e55d8553367"
   },

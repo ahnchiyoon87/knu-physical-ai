@@ -1,0 +1,58 @@
+{
+  "path": "data/generated/labeled.csv",
+  "table": "synthetic_labeled",
+  "columns": [
+    {
+      "id": 301,
+      "name": "sequence",
+      "meaning": "샘플 순서",
+      "unit": "순서",
+      "type": "number",
+      "meaning_status": "documented",
+      "source": "합성"
+    },
+    {
+      "id": 302,
+      "name": "cushion",
+      "meaning": "쿠션 관측값",
+      "unit": "mm",
+      "type": "number",
+      "meaning_status": "documented",
+      "source": "합성"
+    },
+    {
+      "id": 303,
+      "name": "cycle",
+      "meaning": "사이클 시간",
+      "unit": "s",
+      "type": "number",
+      "meaning_status": "documented",
+      "source": "합성"
+    },
+    {
+      "id": 304,
+      "name": "label",
+      "meaning": "합성 규칙 판정",
+      "unit": "0=기준 안/1=기준 밖",
+      "type": "number",
+      "meaning_status": "documented",
+      "source": "합성"
+    },
+    {
+      "id": 305,
+      "name": "label_origin",
+      "meaning": "라벨 생성 방식",
+      "unit": "설명",
+      "type": "text",
+      "meaning_status": "documented",
+      "source": "합성"
+    }
+  ],
+  "order_column": "sequence",
+  "label_column_id": 304,
+  "label_values": {
+    "0": 0,
+    "1": 1
+  },
+  "provenance": "교육용 합성: 규칙 라벨 재현 실습이며 품질 예측 실증 아님"
+}

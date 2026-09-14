@@ -27,6 +27,10 @@ def main():
         support='10_실습/학생가이드/실행_연결_안내.md';entries[support]=ROOT/support
         for pdf in (ROOT/'실습가이드핸즈온문서').glob('*.pdf'):
             entries[pdf.relative_to(ROOT).as_posix()]=pdf
+        if 'quality' in g['keys']:
+            for name in ('labeled.csv','labeled_source.json'):
+                path=ROOT/'10_실습/공통학생가이드/자료/품질'/name
+                entries[path.relative_to(ROOT).as_posix()]=path
         if set(g['keys'])&{'rag','eval'}:
             for name in ('RAG_질문20.json','내_질문30_작성틀.json'):
                 path=ROOT/'10_실습/학생가이드/자료'/name

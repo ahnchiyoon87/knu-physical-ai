@@ -24,12 +24,12 @@
     },
     {
       "path": "00_문서/대본/실전반/영상03_수집 데이터 시각화의 원칙_대본.md",
-      "hash": "5d491042fa1b6178bca87dfc8cbb31336f0b87349118fa9292b25e71667c66e3",
+      "hash": "77b7dd934632e339bd1f5086ca2c61b7b8ae103114a8441c0746c0d95b7fddec",
       "group": "실전반",
       "video": "영상3",
       "key": "C",
       "slides": 60,
-      "spoken_characters": 19078,
+      "spoken_characters": 17059,
       "status": "집필본: 개념 발화 별도 작성, 적용·판단 발화의 반복과 분량 추가 검토 필요",
       "duration_measured": false
     },

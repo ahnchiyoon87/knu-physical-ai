@@ -1,0 +1,25 @@
+{
+  "topic": "C",
+  "authored_application_scenes": 18,
+  "both_current_editions": [
+    {
+      "group": "실전반",
+      "video": 2,
+      "matching_authored_scenes": 18
+    },
+    {
+      "group": "통합반",
+      "video": 2,
+      "matching_authored_scenes": 18
+    }
+  ],
+  "other_source_decks_preserved": 18,
+  "other_source_narrations_preserved": 18,
+  "semantic_review": [
+    "Chart specification links question, selected LOT, axis meaning, units, and raw-data access.",
+    "Summary 2,2,14 has mean 6 but maximum 14; report ratios 8/100 and 8/80 are explicitly hypothetical and use distinct denominators.",
+    "UNKNOWN evidence is distinguished from policy to withhold acceptance; fixing aggregate does not excuse loss of filter.",
+    "Role-specific reports preserve metric definitions, and reusable procedures require reading evidence rather than changing completion wording."
+  ],
+  "scope": "C application screen/spoken passages, six adjacent teaching sequences, illustrative arithmetic, source preservation and both current editions. Not whole-course review or duration proof."
+}

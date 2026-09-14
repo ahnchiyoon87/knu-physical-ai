@@ -1,0 +1,25 @@
+{
+  "topic": "B",
+  "authored_application_scenes": 18,
+  "both_current_editions": [
+    {
+      "group": "실전반",
+      "video": 1,
+      "matching_authored_scenes": 18
+    },
+    {
+      "group": "통합반",
+      "video": 1,
+      "matching_authored_scenes": 18
+    }
+  ],
+  "other_source_decks_preserved": 18,
+  "other_source_narrations_preserved": 18,
+  "semantic_review": [
+    "Quality counts are tied to row scope; overlapping categories are not summed as unique bad rows.",
+    "Confirmed error-code handling preserves raw values and shows valid-count denominators; negative values are not automatically deleted.",
+    "LOT-specific selections distinguish missed changes and unavailable criteria; source definitions and citation support remain separate from format checks.",
+    "Trailing-three-value mean example is explicitly hypothetical; no measured filter performance or elapsed-time claim."
+  ],
+  "scope": "B application screen/spoken content, six adjacent teaching sequences, illustrative arithmetic, source preservation, and current-edition inclusion. Not all-course quality or duration proof."
+}

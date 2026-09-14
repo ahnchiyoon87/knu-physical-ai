@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-09-14T17:26:22",
+  "scope": "Initial seven SHA256 values compared with current files, including the rehearsal outside this repository. Content accuracy is not tested.",
+  "results": [
+    {
+      "path": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\KNU_package_20260912.zip",
+      "expected": "f757d5f504a78fe3baad8d8346630bcf17965ce17224cf47265008cc54b33d2a",
+      "actual": "f757d5f504a78fe3baad8d8346630bcf17965ce17224cf47265008cc54b33d2a",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\KNU_practice_flow_20260912.html",
+      "expected": "1dacf48e53722b481bd00bb679c7814695ceb12cc61964bafd7acea8e94c7ed4",
+      "actual": "1dacf48e53722b481bd00bb679c7814695ceb12cc61964bafd7acea8e94c7ed4",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\work\\study\\경남대 피지컬AI 2일 리허설\\최종 END\\2일차 슬라이드.pptx",
+      "expected": "26a66d3264c6b8260c8554d90c5aaf0f8eb8f609d0ab73584d45a2e7cb8ed4c2",
+      "actual": "26a66d3264c6b8260c8554d90c5aaf0f8eb8f609d0ab73584d45a2e7cb8ed4c2",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\실습가이드핸즈온문서\\1_GoogleCloud세팅.pdf",
+      "expected": "112d47e7a62246cfb70bfe0ac7af8bc824e0d98f2429331e3404226f98514499",
+      "actual": "112d47e7a62246cfb70bfe0ac7af8bc824e0d98f2429331e3404226f98514499",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\실습가이드핸즈온문서\\2_VSCode설치및_코딩에이전트세팅.pdf",
+      "expected": "6a7f7217b662965e0a9c36fd0856f10b051c6c48d8ee67cbf00e0d868ac99ae3",
+      "actual": "6a7f7217b662965e0a9c36fd0856f10b051c6c48d8ee67cbf00e0d868ac99ae3",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\실습가이드핸즈온문서\\3_도커설치및세팅.pdf",
+      "expected": "ed24a4d4bf5f698ee44be355e89afd8a220a6a26b33a183f3d7d6255d2d48698",
+      "actual": "ed24a4d4bf5f698ee44be355e89afd8a220a6a26b33a183f3d7d6255d2d48698",
+      "unchanged": true
+    },
+    {
+      "path": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\실습가이드핸즈온문서\\4_실습의존성설치.pdf",
+      "expected": "1519096b8d4401afb2b3db85530ca988c005846d4180aa5b36681ba990126086",
+      "actual": "1519096b8d4401afb2b3db85530ca988c005846d4180aa5b36681ba990126086",
+      "unchanged": true
+    }
+  ]
+}

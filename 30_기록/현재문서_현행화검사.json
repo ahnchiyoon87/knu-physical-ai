@@ -1,13 +1,13 @@
 {
   "scope": "Five current documents local links, UTF-8 replacement characters, and tracked sensitive filenames. Not a full content/secret audit or lecture completion test.",
   "documents": {
-    "00_문서/0_인계.md": "1f7be80b4a2b9995b852087ef67778b44ca22ffaf7d6c282a68fc5a6b0b49938",
+    "00_문서/0_인계.md": "b610f4e2f4579c3b8130c3b70dc56ca9b3e88600ce6c7272817c30292a157b9d",
     "00_문서/1_규범.md": "cd464df6b6f7f1d9630bc93b82dae36e8e07f2bda96eda515b7dc14d1e65da78",
-    "30_기록/전체제작_현재미결.md": "144b12bb9a7e247a7ee0db701cbf28303e8bbb2c1890c499302ffdbe0d28978f",
+    "30_기록/전체제작_현재미결.md": "4f524a9023a593125965c087e12c17d19e1e56696e72b80d5c6ea08a65747b36",
     "30_기록/전체제작_작업계획.md": "37bf97cefc3e6341790d3413c6f5a7bcb8f53fd9d5b0915e1d6ce090112644f2",
-    "30_기록/요구반영표.md": "29c8d06148eff39b019e322878d9bf43865f1b9611e68596838f28d25518fa88"
+    "30_기록/요구반영표.md": "3190a0e3a21511729a017806b326b400ba8506c8f1bbe559bbeab241115f79fc"
   },
-  "local_links": 51,
+  "local_links": 52,
   "missing_links": [],
   "tracked_sensitive_filenames": [],
   "prior_status_preserved_at": "ae1202b"

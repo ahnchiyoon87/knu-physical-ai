@@ -5,6 +5,7 @@ import shutil
 from datetime import datetime
 from pathlib import Path
 from lab_guide_content import UNITS
+from lab_intro_guidance import AFTER_ACTION
 from common_lab_plan import ORDER, THEORY, stages
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -40,7 +41,7 @@ def main():
         lines=[f'# {group} {day}일차 · {title}','',f'일정: {row["B"]} {row["F"]} · 4시간','',
                '## 오늘 작업을 엽니다 · 20분','',
                '잘 이어지는 자기 프로젝트는 그대로 사용합니다. 결석했거나 진행이 막혔다면 오늘 배포받은 출발본을 새 폴더에서 엽니다. 자기 작업을 삭제하거나 덮지 않습니다. 두 폴더의 서버를 동시에 실행하지 않습니다.','',
-               'VS Code에서 작업 폴더를 열고 README의 순서로 서버와 자료 연결을 확인합니다. 첫날에는 아직 앱이 없는 빈 프로젝트에서 시작합니다. 오늘 기능은 코딩 에이전트에게 목적과 확인 기준을 설명하며 만듭니다.','',
+               ('첫날 출발본에는 앱 코드가 없습니다. VS Code에서 `constitution.md`와 `mapping.json`이 보이는 프로젝트 폴더를 열고 아래 첫 행동부터 시작합니다. 서버 실행은 첫 화면을 만든 뒤에 진행합니다.' if day==1 else 'VS Code에서 작업 폴더를 열고 README와 실행 연결 안내 순서로 이전 단계의 서버와 자료 연결을 확인합니다. 오늘 기능은 그 위에 코딩 에이전트에게 목적과 확인 기준을 설명하며 만듭니다.'),'',
                '설치가 남았다면 [Google Cloud](../../../실습가이드핸즈온문서/1_GoogleCloud세팅.pdf), [VS Code와 코딩 에이전트](../../../실습가이드핸즈온문서/2_VSCode설치및_코딩에이전트세팅.pdf), [Docker](../../../실습가이드핸즈온문서/3_도커설치및세팅.pdf), [의존성](../../../실습가이드핸즈온문서/4_실습의존성설치.pdf) 중 필요한 단계를 마칩니다. 설치 뒤에는 [실행 연결 안내](../../학생가이드/실행_연결_안내.md)를 확인합니다.','',
                'synthetic은 교육용 합성, kamp는 직접 연결한 원본입니다. 원본 경로가 없으면 자료를 준비해야 합니다. 합성을 사용했다면 결과에도 표시합니다. 모델 호출 전 사용할 계정과 모델, 예상 비용을 확인하고 허용하지 않은 실행은 시작하지 않습니다.','']
         theory=sorted({n for k in keys for n in THEORY[k]})
@@ -63,8 +64,9 @@ def main():
                 if key in ('rag','eval') and i==0:
                     lines+=['[RAG 질문 20개](../../학생가이드/자료/RAG_질문20.json)와 [내 질문 작성틀](../../학생가이드/자료/내_질문30_작성틀.json)을 준비합니다. 빈 질문으로 평가하지 않고 자기 질문과 기대 근거를 넣습니다.','']
                 if (key,i) in EXTRA:lines += [EXTRA[(key,i)],'']
-                lines += [f'### {step}. {heading} · 약 {minutes}분','',why,'',action,'',
-                          '**결과를 읽습니다.** '+check,'','**막히면 여기서 확인합니다.** '+recovery,'',bridge,'']
+                lines += [f'### {step}. {heading} · 약 {minutes}분','',why,'',action,'']
+                if (key,i) in AFTER_ACTION:lines += [AFTER_ACTION[(key,i)],'']
+                lines += ['**결과를 읽습니다.** '+check,'','**막히면 여기서 확인합니다.** '+recovery,'',bridge,'']
         lines+=['## 오늘 만든 것을 이어갈 준비 · 20분','',
                 '현재 폴더와 실행 설정을 저장하고 오늘 확인한 대표 입력을 다시 찾을 수 있게 둡니다. 아직 실행하지 않은 모델이나 부족한 자료는 성공 결과로 바꾸지 않습니다. 다음 시간에는 자기 프로젝트를 이어가거나 그날 출발본으로 합류할 수 있습니다.','',
                 '참고 완성본과 화면이나 코드가 같을 필요는 없습니다. 원하는 입력과 결과가 연결되고, 근거와 한계를 설명할 수 있는지 확인합니다. 별도 회고문 제출이나 정해진 모양의 개인 노트는 요구하지 않습니다.','']

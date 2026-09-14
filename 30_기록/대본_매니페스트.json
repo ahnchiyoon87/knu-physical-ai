@@ -134,12 +134,12 @@
     },
     {
       "path": "00_문서/대본/통합반/영상05_예지보전의 개념_대본.md",
-      "hash": "6a5e7220e20d1b2fb0e796815a64d586957285141351b7af8d7f2fe174b31cdd",
+      "hash": "63ae6b9b99b36dd4a7424a8768d62768a0ffc2525cf59370443238d2d572126a",
       "group": "통합반",
       "video": "영상5",
       "key": "I",
       "slides": 60,
-      "spoken_characters": 15873,
+      "spoken_characters": 13761,
       "status": "집필본: 개념 발화 별도 작성, 적용·판단 발화의 반복과 분량 추가 검토 필요",
       "duration_measured": false
     },

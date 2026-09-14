@@ -1,0 +1,8 @@
+{
+  "candidate_files": 7511,
+  "bytes": 352599346,
+  "archives_scanned": 192,
+  "archive_members_scanned": 16237,
+  "findings": [],
+  "scope": "Known credential patterns and sensitive filenames, including existing ZIP contents. No secret values printed; not proof against all possible credentials."
+}

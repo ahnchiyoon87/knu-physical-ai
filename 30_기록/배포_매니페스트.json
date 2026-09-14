@@ -1,0 +1,154 @@
+[
+  {
+    "id": "실01-start",
+    "guide": "10_실습/학생가이드/실전반/01일차_intro.md",
+    "archive": "10_실습/일차별_배포/실01_수업시작_20260914_161026.zip",
+    "archive_hash": "d4be1d9b04522a29b59aa42302e30ace9d60a702a84b4951cb94ad046d4ea140",
+    "files": 50,
+    "solution_archive": "10_실습/일차별_완성본/실01-complete_20260914_161026.zip"
+  },
+  {
+    "id": "실02-start",
+    "guide": "10_실습/학생가이드/실전반/02일차_quality.md",
+    "archive": "10_실습/일차별_배포/실02_수업시작_20260914_161026.zip",
+    "archive_hash": "a6d93e0f2f9d467956bcc6117a494ac9e48e4e212801a465a45a65fe10ea0525",
+    "files": 66,
+    "solution_archive": "10_실습/일차별_완성본/실02-complete_20260914_161026.zip"
+  },
+  {
+    "id": "실03-start",
+    "guide": "10_실습/학생가이드/실전반/03일차_visual.md",
+    "archive": "10_실습/일차별_배포/실03_수업시작_20260914_161026.zip",
+    "archive_hash": "9533c208908e912b04f4db725301198d7435c3078af1a76bc5ed02142cd31ec9",
+    "files": 69,
+    "solution_archive": "10_실습/일차별_완성본/실03-complete_20260914_161026.zip"
+  },
+  {
+    "id": "실04-start",
+    "guide": "10_실습/학생가이드/실전반/04일차_rules.md",
+    "archive": "10_실습/일차별_배포/실04_수업시작_20260914_161026.zip",
+    "archive_hash": "f74cc4b8143a116eb55c574c24aec037c47731301cd6b4ad4d411870b7133bfe",
+    "files": 72,
+    "solution_archive": "10_실습/일차별_완성본/실04-complete_20260914_161026.zip"
+  },
+  {
+    "id": "실05-start",
+    "guide": "10_실습/학생가이드/실전반/05일차_pipeline.md",
+    "archive": "10_실습/일차별_배포/실05_수업시작_20260914_161026.zip",
+    "archive_hash": "8b72cc0fa3c705b9b79cb124160866c9c876fb1871eaeb316766b1fb195cb3eb",
+    "files": 78,
+    "solution_archive": "10_실습/일차별_완성본/실05-complete_20260914_161026.zip"
+  },
+  {
+    "id": "실06-start",
+    "guide": "10_실습/학생가이드/실전반/06일차_rag.md",
+    "archive": "10_실습/일차별_배포/실06_수업시작_20260914_161026.zip",
+    "archive_hash": "933a3b3d4e7c3b61884967e52facca9db45bf74eebc2d9ae1abffd0fdb2426d0",
+    "files": 89,
+    "solution_archive": "10_실습/일차별_완성본/실06-complete_20260914_161026.zip"
+  },
+  {
+    "id": "실07-start",
+    "guide": "10_실습/학생가이드/실전반/07일차_eval.md",
+    "archive": "10_실습/일차별_배포/실07_수업시작_20260914_161026.zip",
+    "archive_hash": "be85a404c2a04c9a8fdb25c8410dd6abdbabbb606fba2086ee95a06ea284092c",
+    "files": 125,
+    "solution_archive": "10_실습/일차별_완성본/실07-complete_20260914_161026.zip"
+  },
+  {
+    "id": "실08-start",
+    "guide": "10_실습/학생가이드/실전반/08일차_agent.md",
+    "archive": "10_실습/일차별_배포/실08_수업시작_20260914_161026.zip",
+    "archive_hash": "4b93faf32238bba0e49b00363339c144abb749562adbc6251b65f9308bb85166",
+    "files": 130,
+    "solution_archive": "10_실습/일차별_완성본/실08-complete_20260914_161026.zip"
+  },
+  {
+    "id": "실09-start",
+    "guide": "10_실습/학생가이드/실전반/09일차_transfer.md",
+    "archive": "10_실습/일차별_배포/실09_수업시작_20260914_161026.zip",
+    "archive_hash": "9ec8fcafb825c7a64e5003a18a494133a5af09d89c78ae17407a82560febbbaf",
+    "files": 136,
+    "solution_archive": "10_실습/일차별_완성본/실09-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통01-start",
+    "guide": "10_실습/학생가이드/통합반/01일차_intro.md",
+    "archive": "10_실습/일차별_배포/통01_수업시작_20260914_161026.zip",
+    "archive_hash": "b51a1475cf51d90c638682e237f7c2e105d992b46897a86236f11dfa3b0d3311",
+    "files": 50,
+    "solution_archive": "10_실습/일차별_완성본/통01-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통02-start",
+    "guide": "10_실습/학생가이드/통합반/02일차_table.md",
+    "archive": "10_실습/일차별_배포/통02_수업시작_20260914_161026.zip",
+    "archive_hash": "92687a75dc621a92af32621a1792207d6d23c8816a6e293cfa9c5623fed58731",
+    "files": 72,
+    "solution_archive": "10_실습/일차별_완성본/통02-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통03-start",
+    "guide": "10_실습/학생가이드/통합반/03일차_vision.md",
+    "archive": "10_실습/일차별_배포/통03_수업시작_20260914_161026.zip",
+    "archive_hash": "7b4a6c3213c2b7be7d787a7fed195411879adca8bd2a8991c37b3ff4cb0c4785",
+    "files": 78,
+    "solution_archive": "10_실습/일차별_완성본/통03-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통04-start",
+    "guide": "10_실습/학생가이드/통합반/04일차_pipeline.md",
+    "archive": "10_실습/일차별_배포/통04_수업시작_20260914_161026.zip",
+    "archive_hash": "b9f3cf446dd0c0641af7db5b1cec3075beb83b3b0da500fa1550c3a6931cc75a",
+    "files": 86,
+    "solution_archive": "10_실습/일차별_완성본/통04-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통05-start",
+    "guide": "10_실습/학생가이드/통합반/05일차_rul.md",
+    "archive": "10_실습/일차별_배포/통05_수업시작_20260914_161026.zip",
+    "archive_hash": "618170b45b6507694560a188f89c28711f8fb6dbc6fd39f7fbd1105bc6ccf10b",
+    "files": 90,
+    "solution_archive": "10_실습/일차별_완성본/통05-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통06-start",
+    "guide": "10_실습/학생가이드/통합반/06일차_integration.md",
+    "archive": "10_실습/일차별_배포/통06_수업시작_20260914_161026.zip",
+    "archive_hash": "8a23a636ddadfe91bf8d1933def74faf85606b97bdbaebc71b26ecf3b4a31987",
+    "files": 90,
+    "solution_archive": "10_실습/일차별_완성본/통06-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통07-start",
+    "guide": "10_실습/학생가이드/통합반/07일차_rag.md",
+    "archive": "10_실습/일차별_배포/통07_수업시작_20260914_161026.zip",
+    "archive_hash": "8cf102f68c37b9edd32851282406a25848bdbbf3ecdf0651616321d30d9bf338",
+    "files": 93,
+    "solution_archive": "10_실습/일차별_완성본/통07-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통08-start",
+    "guide": "10_실습/학생가이드/통합반/08일차_eval.md",
+    "archive": "10_실습/일차별_배포/통08_수업시작_20260914_161026.zip",
+    "archive_hash": "3a5e98f808b113a12e09b55830d35e9fadcbe0bd65064151bed5ffeed6dd97f6",
+    "files": 129,
+    "solution_archive": "10_실습/일차별_완성본/통08-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통09-start",
+    "guide": "10_실습/학생가이드/통합반/09일차_deploy.md",
+    "archive": "10_실습/일차별_배포/통09_수업시작_20260914_161026.zip",
+    "archive_hash": "a49013faa2066bcfe33f285f71c23ba45c0613d25eacda5f27f3042b5db711d5",
+    "files": 134,
+    "solution_archive": "10_실습/일차별_완성본/통09-complete_20260914_161026.zip"
+  },
+  {
+    "id": "통10-start",
+    "guide": "10_실습/학생가이드/통합반/10일차_agent.md",
+    "archive": "10_실습/일차별_배포/통10_수업시작_20260914_161026.zip",
+    "archive_hash": "e10d14c2e75fce68001dfc49c6a939358cef603a834d2f6951b5958dc37b800f",
+    "files": 139,
+    "solution_archive": "10_실습/일차별_완성본/통10-complete_20260914_161026.zip"
+  }
+]

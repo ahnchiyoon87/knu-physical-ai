@@ -1,0 +1,13 @@
+# Preserve authored bytes: manifests and ZIP verifiers use SHA-256 hashes.
+* -text
+*.md diff
+*.py diff
+*.js diff
+*.cjs diff
+*.json diff
+*.yaml diff
+*.yml diff
+*.zip binary
+*.pdf binary
+*.xlsx binary
+*.png binary

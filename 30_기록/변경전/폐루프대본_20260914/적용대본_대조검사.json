@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "deck": "00_문서\\이론덱\\실전반\\영상06_LLM·RAG의 구조와 한계.md",
+      "script": "00_문서/대본/실전반/영상06_LLM·RAG의 구조와 한계_대본.md",
+      "screen_edits": 18,
+      "application_narrations": 18,
+      "case_narrations": 6,
+      "spoken_characters": 15306
+    },
+    {
+      "deck": "00_문서\\이론덱\\실전반\\영상07_근거 인용과 응답 평가.md",
+      "script": "00_문서/대본/실전반/영상07_근거 인용과 응답 평가_대본.md",
+      "screen_edits": 18,
+      "application_narrations": 18,
+      "case_narrations": 6,
+      "spoken_characters": 15684
+    },
+    {
+      "deck": "00_문서\\이론덱\\통합반\\영상07_LLM과 RAG의 구조.md",
+      "script": "00_문서/대본/통합반/영상07_LLM과 RAG의 구조_대본.md",
+      "screen_edits": 18,
+      "application_narrations": 18,
+      "case_narrations": 6,
+      "spoken_characters": 15310
+    },
+    {
+      "deck": "00_문서\\이론덱\\통합반\\영상08_근거 인용과 응답 평가.md",
+      "script": "00_문서/대본/통합반/영상08_근거 인용과 응답 평가_대본.md",
+      "screen_edits": 18,
+      "application_narrations": 18,
+      "case_narrations": 6,
+      "spoken_characters": 15684
+    }
+  ],
+  "unaffected_decks_verified": 15,
+  "checker_valid_and_invalid_verified": true,
+  "scope": "J/K 적용 장면·사례의 집필 소스가 전체·분할 덱·대본에 반영됐는지 확인. 녹화 길이와 전체 강의 완료의 증거 아님"
+}

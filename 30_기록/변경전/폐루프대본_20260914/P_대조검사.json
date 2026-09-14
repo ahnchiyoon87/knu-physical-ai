@@ -1,0 +1,15 @@
+{
+  "results": [
+    {
+      "deck": "00_문서\\이론덱\\통합반\\영상11_폐루프 자동화 설계.md",
+      "script": "00_문서/대본/통합반/영상11_폐루프 자동화 설계_대본.md",
+      "screen_edits": 18,
+      "application_narrations": 18,
+      "case_narrations": 0,
+      "spoken_characters": 14846
+    }
+  ],
+  "unaffected_decks_verified": 18,
+  "checker_valid_and_invalid_verified": true,
+  "scope": "P 적용 장면·사례의 집필 소스가 전체·분할 덱·대본에 반영됐는지 확인. 녹화 길이와 전체 강의 완료의 증거 아님"
+}

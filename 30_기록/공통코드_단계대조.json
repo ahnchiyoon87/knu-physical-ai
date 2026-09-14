@@ -1,0 +1,563 @@
+{
+  "checked": [
+    {
+      "id": "실01-start",
+      "features": []
+    },
+    {
+      "id": "실01-complete",
+      "features": [
+        "data"
+      ]
+    },
+    {
+      "id": "실02-start",
+      "features": [
+        "data"
+      ]
+    },
+    {
+      "id": "실02-complete",
+      "features": [
+        "data",
+        "judge",
+        "quality",
+        "visual"
+      ]
+    },
+    {
+      "id": "실03-start",
+      "features": [
+        "data",
+        "judge",
+        "quality",
+        "visual"
+      ]
+    },
+    {
+      "id": "실03-complete",
+      "features": [
+        "data",
+        "judge",
+        "models",
+        "quality",
+        "table",
+        "visual"
+      ]
+    },
+    {
+      "id": "실04-start",
+      "features": [
+        "data",
+        "judge",
+        "models",
+        "quality",
+        "table",
+        "visual"
+      ]
+    },
+    {
+      "id": "실04-complete",
+      "features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "visual"
+      ]
+    },
+    {
+      "id": "실05-start",
+      "features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "visual"
+      ]
+    },
+    {
+      "id": "실05-complete",
+      "features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "실06-start",
+      "features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "실06-complete",
+      "features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "실07-start",
+      "features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "실07-complete",
+      "features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "실08-start",
+      "features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "실08-complete",
+      "features": [
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "실09-start",
+      "features": [
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "실09-complete",
+      "features": [
+        "agent",
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "transfer",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통01-start",
+      "features": []
+    },
+    {
+      "id": "통01-complete",
+      "features": [
+        "data"
+      ]
+    },
+    {
+      "id": "통02-start",
+      "features": [
+        "data"
+      ]
+    },
+    {
+      "id": "통02-complete",
+      "features": [
+        "data",
+        "judge",
+        "quality",
+        "visual"
+      ]
+    },
+    {
+      "id": "통03-start",
+      "features": [
+        "data",
+        "judge",
+        "quality",
+        "visual"
+      ]
+    },
+    {
+      "id": "통03-complete",
+      "features": [
+        "data",
+        "judge",
+        "models",
+        "quality",
+        "table",
+        "visual"
+      ]
+    },
+    {
+      "id": "통04-start",
+      "features": [
+        "data",
+        "judge",
+        "models",
+        "quality",
+        "table",
+        "visual"
+      ]
+    },
+    {
+      "id": "통04-complete",
+      "features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "visual"
+      ]
+    },
+    {
+      "id": "통05-start",
+      "features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "visual"
+      ]
+    },
+    {
+      "id": "통05-complete",
+      "features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통06-start",
+      "features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통06-complete",
+      "features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통07-start",
+      "features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통07-complete",
+      "features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통08-start",
+      "features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통08-complete",
+      "features": [
+        "data",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통09-start",
+      "features": [
+        "data",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통09-complete",
+      "features": [
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통10-start",
+      "features": [
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ]
+    },
+    {
+      "id": "통10-complete",
+      "features": [
+        "agent",
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "transfer",
+        "vision",
+        "visual"
+      ]
+    }
+  ],
+  "day_chain_code_hashes_equal": true,
+  "final_cohort_code_hashes_equal_except_readme": true,
+  "scope": "Selected API/function and source presence, previous completion versus next starter hash equality. Not all semantic dependencies or runtime business behavior."
+}

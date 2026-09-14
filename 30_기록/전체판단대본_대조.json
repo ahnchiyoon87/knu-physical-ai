@@ -1,0 +1,121 @@
+{
+  "results": [
+    {
+      "path": "00_문서/대본/실전반/영상01_산업 데이터는 어떻게 생기는가_대본.md",
+      "key": "A",
+      "case_sections": 6,
+      "hash": "bdd816197407b911c260bdf755f2199ffc05ce873a046043835233cd30f74a30"
+    },
+    {
+      "path": "00_문서/대본/실전반/영상02_센서 신호와 노이즈_대본.md",
+      "key": "B",
+      "case_sections": 6,
+      "hash": "87ebe7403894160736fc8b0deadb21fe8d65d8916d919234e47e30cf660783ef"
+    },
+    {
+      "path": "00_문서/대본/실전반/영상03_수집 데이터 시각화의 원칙_대본.md",
+      "key": "C",
+      "case_sections": 6,
+      "hash": "5d491042fa1b6178bca87dfc8cbb31336f0b87349118fa9292b25e71667c66e3"
+    },
+    {
+      "path": "00_문서/대본/실전반/영상04_이상감지의 원리와 한계_대본.md",
+      "key": "D",
+      "case_sections": 6,
+      "hash": "061ee36685bf0e8624f77641d118b50f98a927d2ad6d665bba9370a62fa29090"
+    },
+    {
+      "path": "00_문서/대본/실전반/영상05_제조 데이터 파이프라인 설계_대본.md",
+      "key": "E",
+      "case_sections": 6,
+      "hash": "a8f80a7d0de2a79307d9d6d9442b753530f59601f0c5664a9d568ceb3f11d459"
+    },
+    {
+      "path": "00_문서/대본/실전반/영상06_LLM·RAG의 구조와 한계_대본.md",
+      "key": "J",
+      "case_sections": 6,
+      "hash": "68f5d42b2c624bb3e3936c2b087068f49135c01cd02de3b90d13d900106021f5"
+    },
+    {
+      "path": "00_문서/대본/실전반/영상07_근거 인용과 응답 평가_대본.md",
+      "key": "K",
+      "case_sections": 6,
+      "hash": "1d4133ad48aacd5d3eea5cf3a91dbf1a3985e0f9de159c4208b53cd7c1606028"
+    },
+    {
+      "path": "00_문서/대본/실전반/영상08_에이전트 패턴과 폐루프 설계_대본.md",
+      "key": "M",
+      "case_sections": 6,
+      "hash": "bd23c08afe94c64b2524e8530f7ef3d684df9a9872019ec513f1984ca8c362b5"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상01_센서 데이터의 구조_대본.md",
+      "key": "A",
+      "case_sections": 6,
+      "hash": "1b65b7ad5d22c410648cc34eca237274a668719073dcaa4a80a76543bfcbab9d"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상02_제조 데이터와 머신러닝 개론_대본.md",
+      "key": "F",
+      "case_sections": 6,
+      "hash": "a9f7e675cb289c108c15e544755b62f2f347f56b3ae991165a5ff9146603c2c0"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상03_비전 데이터와 학습_대본.md",
+      "key": "G",
+      "case_sections": 6,
+      "hash": "ad08146cb07a3bb9498f87beb9945e0e7c07cabc62a6ba10f73e9c50689ac777"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상04_시계열 데이터와 이상_대본.md",
+      "key": "H",
+      "case_sections": 6,
+      "hash": "2b014c8d6053d6b7d278e43138c905835b7909ab11c26f0b3ad49b920b9f9b73"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상05_예지보전의 개념_대본.md",
+      "key": "I",
+      "case_sections": 6,
+      "hash": "6a5e7220e20d1b2fb0e796815a64d586957285141351b7af8d7f2fe174b31cdd"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상06_모델 성능을 올리는 법_대본.md",
+      "key": "N",
+      "case_sections": 6,
+      "hash": "82368628dd833bb4a2845b87e7bd9fb71707faab0c414f17734c8c20e8a959d3"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상07_LLM과 RAG의 구조_대본.md",
+      "key": "J",
+      "case_sections": 6,
+      "hash": "48da09657ce342658a94accd123ef061e80383dc1658a91034b350d814542c33"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상08_근거 인용과 응답 평가_대본.md",
+      "key": "K",
+      "case_sections": 6,
+      "hash": "84fda4dea9ea846e36293647b5a13eb5d493bb74d69de320d10754cdcc5e2a08"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상09_Cloud GenAI 서비스 구조_대본.md",
+      "key": "L",
+      "case_sections": 6,
+      "hash": "b74384cb3efe83bb64e82628416b527de143b0c440bd8e7b6636f9aa63ecb18e"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상10_에이전트 패턴과 도구 사용_대본.md",
+      "key": "O",
+      "case_sections": 6,
+      "hash": "8d1074d1700a7bfd94012e720e0071631644bd79443b5db8a575f58efd0fbd55"
+    },
+    {
+      "path": "00_문서/대본/통합반/영상11_폐루프 자동화 설계_대본.md",
+      "key": "P",
+      "case_sections": 6,
+      "hash": "2a6cf416b698190a0c05378ef369539db554129c6340ffc658049f797bd5fc4b"
+    }
+  ],
+  "topics": 16,
+  "unchanged_this_revision": 13,
+  "scope": "All 19 videos: three case situations/answers on screen and six independent spoken sections. Text matching; not a duration or full-course completion claim."
+}

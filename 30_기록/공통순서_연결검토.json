@@ -1,0 +1,47 @@
+{
+  "transitions": 7,
+  "first_term_explanations": 2,
+  "units": [
+    {
+      "unit": 1,
+      "slides": 102,
+      "spoken_characters": 32578
+    },
+    {
+      "unit": 2,
+      "slides": 99,
+      "spoken_characters": 26480
+    },
+    {
+      "unit": 3,
+      "slides": 99,
+      "spoken_characters": 25514
+    },
+    {
+      "unit": 4,
+      "slides": 99,
+      "spoken_characters": 23130
+    },
+    {
+      "unit": 5,
+      "slides": 99,
+      "spoken_characters": 25199
+    },
+    {
+      "unit": 6,
+      "slides": 50,
+      "spoken_characters": 10854
+    },
+    {
+      "unit": 7,
+      "slides": 108,
+      "spoken_characters": 22714
+    },
+    {
+      "unit": 8,
+      "slides": 99,
+      "spoken_characters": 20088
+    }
+  ],
+  "scope": "Seven authored topic boundaries and two missing first-use explanations inspected; not all 755 slides semantically reviewed. Character counts are not recording duration."
+}

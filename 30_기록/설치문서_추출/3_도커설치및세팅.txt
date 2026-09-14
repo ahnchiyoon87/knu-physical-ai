@@ -1,0 +1,127 @@
+PAGE 1
+실습 환경 세팅 문서 · 3 / 4
+03
+도커 설치 및 세팅
+WSL(윈도우 안의 리눅스)을 먼저 깔고, 그 위에 Docker Desktop 을 올린다.
+도커는 프로그램을 통째로 포장해서 받아 돌리는 도구다. 실습에서 쓸 서버·데이터베이스를 하
+나씩 깔고 맞추는 대신 포장된 채로 받아 명령 한 줄로 켠다. 윈도우에서는 도커가 리눅스 위에
+서만 돌기 때문에 WSL 을 먼저 깔고, 컴퓨터를 한 번 다시 시작한 뒤 Docker Desktop 을 설
+치한다.
+2026-09 · Windows 11 기준
+
+PAGE 2
+1장. WSL 설치 — 윈도우 안에 리눅스 넣기
+1
+관리자 PowerShell 열기
+화면 맨 아래 검색창에 powershell 을 친다.
+맨 위 Windows PowerShell 에서 오른쪽 클릭 → 관리자 권한으로 실행. 「변경을 허용하시겠습니까?」가
+뜨면 예.
+그림 1-1. 검색창에 powershell → 오른쪽 클릭 → 관리자 권한으로 실행
+확인 · 파란(또는 검은) 창이 열리고 제목에 「관리자」가 붙어 있다.
+1. 
+2. 
+3. 도커 설치 및 세팅
+2026-09
+2
+
+PAGE 3
+2
+wsl --install 한 줄
+아래 한 줄을 붙여넣고 Enter . WSL 과 Ubuntu 를 차례로 내려받아 깐다.
+wsl --install
+중간에 세 가지를 묻는다. 아래 표대로 답한다.
+그림 1-2. wsl --install — 설치가 끝나고 이름·암호를 묻는다
+확인 · 마지막에 학생@내컴퓨터:/mnt/c/…$ 처럼 $ 로 끝나는 줄이 나오면 WSL 설치 끝.
+물어보는 것
+이렇게 한다
+Create a default Unix user account
+이름은 그대로 두고 Enter
+New password · Retype new password
+1234 를 두 번. 쳐도 화면에 아무것도 안 보이는 것이 정상
+긴 영어 질문 끝에 [Y/n/e]
+y 를 치고 Enter
+주의 · 평소 쓰는 암호를 넣지 말 것. 이 암호는 그 컴퓨터 안 Ubuntu 에서만 쓰고 윈도우 로그인과 관계없다. 다
+시 칠 일도 없으니 1234 로 둔다.
+3
+컴퓨터 다시 시작
+창을 닫고 컴퓨터를 다시 시작한다.
+확인 · 다시 켜졌다. 이걸 건너뛰면 2장에서 도커가 안 켜진다.
+1. 
+2. 
+1. 
+3. 도커 설치 및 세팅
+2026-09
+3
+
+PAGE 4
+2장. Docker Desktop 설치
+4
+내려받기
+브라우저에서 docker.com/products/docker-desktop 으로 간다.
+Download Docker Desktop 을 누르면 목록이 펼쳐진다. Download for Windows – AMD64 를 고른다.
+그림 2-1. 내려받기 목록 — Download for Windows – AMD64
+확인 · 설치 파일(Docker Desktop Installer.exe)이 내려온다.
+1. 
+2. 
+3. 도커 설치 및 세팅
+2026-09
+4
+
+PAGE 5
+5
+설치 — 전부 기본값
+받은 파일을 실행한다. Configuration 화면이 나오면 아무것도 바꾸지 말고 OK. (「Use WSL 2 instead of
+Hyper-V」가 보이면 선택된 채로 둔다.)
+파일이 풀리는 동안 기다린다.
+Installation succeeded 가 뜨면 Close.
+그림 2-2. Configuration — 그대로 두고 OK
+그림 2-3. Installation succeeded — Close
+확인 · 바탕화면에 Docker Desktop 아이콘이 생겼다.
+1. 
+2. 
+3. 
+3. 도커 설치 및 세팅
+2026-09
+5
+
+PAGE 6
+6
+Docker Desktop 첫 실행 — 약관, 로그인 건너뛰기
+바탕화면의 Docker Desktop 아이콘을 연다.
+약관 화면에서 Accept.
+로그인(Welcome to Docker) 화면은 계정이 필요 없다. 오른쪽 위 Skip.
+그림 2-4. 약관 — Accept
+1. 
+2. 
+3. 
+3. 도커 설치 및 세팅
+2026-09
+6
+
+PAGE 7
+그림 2-5. Welcome to Docker — 오른쪽 위 Skip
+확인 · Docker Desktop 메인 화면이 뜨고 왼쪽 아래가 초록색(Engine running)이다.
+화면이 다를 때 · 「WSL not installed」 창이 뜨면 → 오른쪽 아래 Quit. 1장을 안 했거나 다시 시작을 건너
+뛴 것이다. 1장 → 다시 시작 → 여기로 돌아온다.
+그림 2-6. WSL not installed — Quit 으로 닫고 1장부터
+화면이 다를 때 · 「Starting the Docker Engine…」에서 몇 분째 돌기만 하면 → 컴퓨터를 다시 시작하고
+Docker Desktop 을 다시 켠다.
+3. 도커 설치 및 세팅
+2026-09
+7
+
+PAGE 8
+7
+WSL2 로 도는지 확인
+위쪽 막대의 톱니(설정) 아이콘을 누른다.
+General 의 「Choose how to run Docker containers」에서 WSL2 가 골라져 있는지만 본다. 골라져 있으
+면 바꿀 것 없이 설정 창을 닫는다.
+그림 2-7. 위쪽 막대 — 톱니(설정)
+그림 2-8. Settings → General — WSL2 가 골라져 있다
+확인 · WSL2 가 선택되어 있다. Docker Desktop 은 켜 둔 채로 이 문서 끝. 4번 문서로 간다.
+팁 · 같은 자리가 「Use WSL 2 based engine」이라는 이름으로 보이는 PC도 있다. 켜져 있으면 같은 상태다.
+1. 
+2. 
+3. 도커 설치 및 세팅
+2026-09
+8

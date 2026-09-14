@@ -1,0 +1,11 @@
+source,source_type,relation,target,target_type,provenance
+transfer:loan:L01,loan,borrows,transfer:book:B01,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L02,loan,borrows,transfer:book:B02,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L03,loan,borrows,transfer:book:B03,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L04,loan,borrows,transfer:book:B04,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L05,loan,borrows,transfer:book:B05,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L06,loan,borrows,transfer:book:B01,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L07,loan,borrows,transfer:book:B02,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L08,loan,borrows,transfer:book:B03,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L09,loan,borrows,transfer:book:B04,book,교육용 설계: 명시 도서 키 연결
+transfer:loan:L10,loan,borrows,transfer:book:B05,book,교육용 설계: 명시 도서 키 연결

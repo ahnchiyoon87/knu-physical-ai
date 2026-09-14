@@ -1,0 +1,7 @@
+# 통07-complete · 일차 참고 완성 코드
+
+오늘 기능을 비교할 참고 구현입니다. 자신의 결과와 화면이 같을 필요는 없습니다. 다음 일차 합류에는 다음 출발본을 사용합니다.
+
+포함 기능: data, forecast, integration, judge, models, pipeline, pyod, quality, rag, rul, rules, table, vision, visual
+
+설정·DB 준비와 실행 명령은 배포 가이드의 실행 연결 안내를 따릅니다. 실제 키와 원시 측정 데이터는 포함하지 않습니다. 교육용 합성 자료의 출처를 유지합니다. 이 패키지는 코드 작성본이며 학생 실습 완주를 실행해 인증한 파일이 아닙니다.

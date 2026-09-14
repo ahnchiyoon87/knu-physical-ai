@@ -1,0 +1,36 @@
+# Credentials and machine-local configuration
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+service_account*.json
+**/.config/gcloud/
+**/.supabase/.temp/
+
+# Reproducible local environments, caches and build output
+**/.venv/
+**/venv/
+**/node_modules/
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+**/.ruff_cache/
+**/.mypy_cache/
+**/frontend/dist/
+**/.cache/
+**/.DS_Store
+**/Thumbs.db
+
+# Runtime state, not authored teaching resources
+**/logs/*.jsonl
+**/logs/*.log
+**/artifacts/*.pt
+**/artifacts/*.pth
+**/artifacts/*.ckpt
+**/artifacts/*.safetensors

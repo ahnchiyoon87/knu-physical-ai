@@ -1,0 +1,9 @@
+{
+  "guides": 19,
+  "units_each_cohort": 14,
+  "instruction_blocks": 112,
+  "local_links": 127,
+  "dates_times_preserved": true,
+  "omission_and_future_state_fixture_rejected": true,
+  "scope": "일정·필수 단위·본문 보존·로컬 링크·출발/완성 기능 계획. 실제 출발본 생성·실습 완주·수업시간 검증 아님"
+}

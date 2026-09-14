@@ -1,0 +1,53 @@
+service:
+  backend: http://localhost:8000
+  frontend: http://localhost:5173
+  mcp: http://localhost:8001/mcp
+  row_limit: 500
+  statement_timeout_ms: 5000
+  upload_limit_mb: 200
+  default_profile: synthetic
+  day: equipment-assistant
+models:
+  api:
+    base_url_env: API_MODEL_BASE_URL
+    name_env: API_MODEL_NAME
+    key_env: API_MODEL_KEY
+    input_usd_per_million: null
+    output_usd_per_million: null
+    max_output_tokens: 2048
+    max_input_chars: 24000
+    timeout_seconds: 60
+  internal:
+    base_url_env: INTERNAL_MODEL_BASE_URL
+    name_env: INTERNAL_MODEL_NAME
+    key_env: INTERNAL_MODEL_KEY
+    input_usd_per_million: null
+    output_usd_per_million: null
+    max_output_tokens: 2048
+    max_input_chars: 24000
+    timeout_seconds: 60
+rag:
+  embedding: BAAI/bge-m3
+  embedding_dimensions: 1024
+  reranker: BAAI/bge-reranker-v2-m3
+  chunk_chars: 1400
+  overlap_chars: 160
+  candidates: 20
+  top_k: 5
+  rrf_k: 60
+  min_rerank_score: 0.0
+detect:
+  window: 200
+  suppression_shots: 10
+  contamination: 0.05
+  forecast_model: amazon/chronos-bolt-small
+  forecast_horizon: 20
+  forecast_min_input: 200
+  seed: 42
+agent:
+  max_steps: 8
+  autonomy: 1
+  allowed_rule_width:
+  - 0.5
+  - 5.0
+  max_graph_hops: 4

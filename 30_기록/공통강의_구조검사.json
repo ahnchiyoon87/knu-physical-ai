@@ -1,0 +1,8 @@
+{
+  "units": 8,
+  "slides": 755,
+  "files": 85,
+  "same_cohort_paths": true,
+  "missing_topic_and_cohort_mismatch_rejected": true,
+  "scope": "공통 필수 주제 목록·같은 파일 연결·출처 파일 해시·전체/분할/대본 문구 검사. 전 장 의미·시간·실습 배정 검증 아님"
+}

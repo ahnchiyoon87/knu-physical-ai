@@ -1,0 +1,21 @@
+﻿source,source_type,relation,target,target_type,provenance
+synthetic:shots:lot:0,lot,has_conditions,synthetic:conditions:lot:0,condition_record,설계: 생성 LOT 키 연결
+synthetic:shots:lot:0,lot,has_log,synthetic:worklog:lot:0,worklog,설계: 생성 LOT 키 연결
+synthetic:shots:lot:1,lot,has_conditions,synthetic:conditions:lot:1,condition_record,설계: 생성 LOT 키 연결
+synthetic:shots:lot:1,lot,has_log,synthetic:worklog:lot:1,worklog,설계: 생성 LOT 키 연결
+synthetic:shots:lot:2,lot,has_conditions,synthetic:conditions:lot:2,condition_record,설계: 생성 LOT 키 연결
+synthetic:shots:lot:2,lot,has_log,synthetic:worklog:lot:2,worklog,설계: 생성 LOT 키 연결
+synthetic:shots:lot:3,lot,has_conditions,synthetic:conditions:lot:3,condition_record,설계: 생성 LOT 키 연결
+synthetic:shots:lot:3,lot,has_log,synthetic:worklog:lot:3,worklog,설계: 생성 LOT 키 연결
+synthetic:shots:lot:4,lot,has_conditions,synthetic:conditions:lot:4,condition_record,설계: 생성 LOT 키 연결
+synthetic:shots:lot:4,lot,has_log,synthetic:worklog:lot:4,worklog,설계: 생성 LOT 키 연결
+synthetic:shots:lot:5,lot,has_conditions,synthetic:conditions:lot:5,condition_record,설계: 생성 LOT 키 연결
+synthetic:shots:lot:5,lot,has_log,synthetic:worklog:lot:5,worklog,설계: 생성 LOT 키 연결
+synthetic:channel:22,channel,observes,synthetic:component:screw,component,"관계 설계; 패키지 AAS의 쿠션-스크류 대응 참고, 원인 확정 아님"
+synthetic:worklog:lot:0,worklog,procedure_reference,synthetic:document:FOURM,document,설계: 변경 여부를 조사할 때 읽을 교육용 절차. 이 LOT에 실제 변경이 있었다는 증거 아님
+synthetic:worklog:lot:1,worklog,procedure_reference,synthetic:document:FOURM,document,설계: 변경 여부를 조사할 때 읽을 교육용 절차. 이 LOT에 실제 변경이 있었다는 증거 아님
+synthetic:worklog:lot:2,worklog,procedure_reference,synthetic:document:FOURM,document,설계: 변경 여부를 조사할 때 읽을 교육용 절차. 이 LOT에 실제 변경이 있었다는 증거 아님
+synthetic:worklog:lot:3,worklog,procedure_reference,synthetic:document:FOURM,document,설계: 변경 여부를 조사할 때 읽을 교육용 절차. 이 LOT에 실제 변경이 있었다는 증거 아님
+synthetic:worklog:lot:4,worklog,procedure_reference,synthetic:document:FOURM,document,설계: 변경 여부를 조사할 때 읽을 교육용 절차. 이 LOT에 실제 변경이 있었다는 증거 아님
+synthetic:worklog:lot:5,worklog,procedure_reference,synthetic:document:FOURM,document,설계: 변경 여부를 조사할 때 읽을 교육용 절차. 이 LOT에 실제 변경이 있었다는 증거 아님
+synthetic:document:FOURM,document,inspection_reference,synthetic:document:FIRST,document,설계: 교육용 4M 절차와 초물검사 안내의 관련 읽기

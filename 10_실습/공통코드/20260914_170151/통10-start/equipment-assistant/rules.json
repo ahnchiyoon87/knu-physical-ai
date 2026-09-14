@@ -1,0 +1,5 @@
+[
+  {"id":"cushion-absolute","definition":{"profile":"synthetic","source_id":"shots","column_id":22,"mode":"absolute","condition_reference":{"source_id":"conditions","column_id":102,"width":1.5},"baseline_count":200,"suppression_shots":10,"priority":"review","provenance":"설계: 교육용 LOT 조건표 기준 ±1.5 mm. 실제 현장 기준이 아님"}},
+  {"id":"cushion-relative","definition":{"profile":"synthetic","source_id":"shots","column_id":22,"mode":"relative","relative_unit":"percent","width":2.5,"baseline_count":200,"suppression_shots":10,"priority":"review","provenance":"설계: LOT 첫 200행 평균 대비 절대 변화율 2.5% 초과. 기준 구간은 판정에서 제외"}},
+  {"id":"cushion-combined","definition":{"profile":"synthetic","source_id":"shots","column_id":22,"mode":"multichannel","operator":"and","conditions":[{"column_id":22,"direction":"above","percent":2.5},{"column_id":18,"direction":"below","percent":2.5}],"baseline_count":200,"suppression_shots":10,"priority":"review","provenance":"설계: LOT 첫 200행 평균 대비 쿠션 2.5% 초과 상승 AND 계량시간 2.5% 초과 하락. 실제 현장 기준이 아님"}}
+]

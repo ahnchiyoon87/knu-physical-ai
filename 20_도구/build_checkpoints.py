@@ -154,7 +154,7 @@ def app_files(folder,features):
     if 'rules' in features or 'models' in features:
         for name in ('__init__.py','gateway.py'):
             if (APP/'backend/detect'/name).exists():put(folder,'backend/detect/'+name,source('backend/detect/'+name))
-        helpers=({'detect_rows','detect_multichannel'} if 'rules' in features else set())|({'classification_counts'} if 'table' in features else set())|({'first_threshold_crossing'} if 'rul' in features else set())
+        helpers=({'detect_rows','detect_multichannel'} if 'rules' in features else set())|({'classification_counts','classification_summary'} if 'table' in features else set())|({'first_threshold_crossing'} if 'rul' in features else set())
         put(folder,'backend/detect/rules.py',filtered(source('backend/detect/rules.py'),helpers))
     if 'rules' in features:
         put(folder,'backend/detect/service.py',source('backend/detect/service.py'));put(folder,'rules.json',source('rules.json'));put(folder,'scripts/seed_rules.py',source('scripts/seed_rules.py'))
@@ -233,6 +233,11 @@ def app_files(folder,features):
 def frontend(folder,features):
     for name in ('package.json','package-lock.json','index.html','vite.config.js','src/main.js','src/api.js','src/Result.vue','src/style.css'):
         put(folder,'frontend/'+name,source('frontend/'+name))
+    if 'table' in features:put(folder,'frontend/src/ClassificationResult.vue',source('frontend/src/ClassificationResult.vue'))
+    else:
+        text=(folder/'frontend/src/Result.vue').read_text(encoding='utf-8').replace("import ClassificationResult from './ClassificationResult.vue'\n",'')
+        text=re.sub(r'    <ClassificationResult.*?/>\n','',text)
+        put(folder,'frontend/src/Result.vue',text)
     if features&{'forecast','rul'}:put(folder,'frontend/src/ForecastResult.vue',source('frontend/src/ForecastResult.vue'))
     else:
         text=(folder/'frontend/src/Result.vue').read_text(encoding='utf-8').replace("import ForecastResult from './ForecastResult.vue'\n",'')

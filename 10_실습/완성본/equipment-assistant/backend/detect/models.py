@@ -4,7 +4,7 @@ import os
 from backend.common.config import settings
 from backend.common.service import finite_number
 
-from .rules import classification_counts, first_threshold_crossing
+from .rules import classification_summary, first_threshold_crossing
 
 
 def table_classifier(rows: list[dict], feature_ids: list[int], label_id: int, label_values: dict,
@@ -24,6 +24,8 @@ def table_classifier(rows: list[dict], feature_ids: list[int], label_id: int, la
         raw_label = str(int(raw_value)) if isinstance(raw_value, float) and raw_value.is_integer() else str(raw_value).strip()
         if raw_label not in label_values:
             raise ValueError("매핑에 없는 라벨입니다. 삭제하거나 임의로 바꾸지 않았습니다")
+        if type(label_values[raw_label]) is not int or label_values[raw_label] not in (0, 1):
+            raise ValueError("라벨 매핑 결과는 정수 0 또는 1이어야 합니다")
         labels.append(label_values[raw_label])
         features.append([np.nan if row.get(f"c{identity}") is None else
                          finite_number(row[f"c{identity}"], "특징") for identity in feature_ids])
@@ -44,8 +46,9 @@ def table_classifier(rows: list[dict], feature_ids: list[int], label_id: int, la
                           RandomForestClassifier(n_estimators=100, class_weight="balanced", random_state=seed, n_jobs=1))
     model.fit(x[train], y[train])
     predicted = model.predict(x[test]).astype(int).tolist()
-    scores = classification_counts(y[test].astype(int).tolist(), predicted)
-    return {"metrics": scores, "train_rows": len(train), "test_rows": len(test), "split": split,
+    summary = classification_summary(y[test].astype(int).tolist(), predicted, feature_ids,
+                                     model.steps[-1][1].feature_importances_.tolist())
+    return {**summary, "train_rows": len(train), "test_rows": len(test), "split": split,
             "features": feature_ids, "predictions": [{"row_no": rows[int(i)]["row_no"], "predicted": int(p),
                 "expected": int(y[i])} for i, p in zip(test, predicted)],
             "limitations": "전처리는 학습 구간에서만 적합. 파일 순서는 실제 시각과 같다는 보장이 없음"}

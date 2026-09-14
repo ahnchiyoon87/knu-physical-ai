@@ -108,6 +108,7 @@
   "equipment-assistant/frontend/src/AgentPanel.vue",
   "equipment-assistant/frontend/src/App.vue",
   "equipment-assistant/frontend/src/ApprovalPanel.vue",
+  "equipment-assistant/frontend/src/ClassificationResult.vue",
   "equipment-assistant/frontend/src/DataPanel.vue",
   "equipment-assistant/frontend/src/DetectPanel.vue",
   "equipment-assistant/frontend/src/EvalPanel.vue",

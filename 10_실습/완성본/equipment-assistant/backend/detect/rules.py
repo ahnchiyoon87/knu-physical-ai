@@ -122,3 +122,19 @@ def first_threshold_crossing(values: list[float], threshold: float, direction: s
         if (direction == "above" and value >= threshold) or (direction == "below" and value <= threshold):
             return index
     return None
+
+
+def classification_summary(expected, predicted, feature_ids, importances):
+    """Compare the exact held-out rows and preserve fitted feature ordering."""
+    metrics = classification_counts(expected, predicted)
+    if not feature_ids or len(feature_ids) != len(importances) or len(set(feature_ids)) != len(feature_ids):
+        raise ValueError("특징 ID와 중요도 개수가 일치하지 않거나 중복됩니다")
+    weights = [finite_number(value, "특징 중요도") for value in importances]
+    if any(value < 0 for value in weights):
+        raise ValueError("특징 중요도는 음수일 수 없습니다")
+    return {"metrics": metrics,
+            "baseline": {"method": "always_zero", "evaluation": "모델과 동일한 평가 행",
+                         "metrics": classification_counts(expected, [0] * len(expected))},
+            "feature_importances": [{"column_id": identity, "importance": value}
+                                    for identity, value in zip(feature_ids, weights)],
+            "importance_meaning": "학습된 숲의 불순도 감소 기반 중요도. 값 종류가 많은 열에 편향될 수 있으며 인과나 불량 확률이 아님"}

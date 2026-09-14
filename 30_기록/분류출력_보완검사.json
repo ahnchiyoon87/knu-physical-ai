@@ -1,0 +1,16 @@
+{
+  "scope": "순수 계산 단위 검사와 UI 빌드, 코드/화면의 정적 연결. 모델 학습/DB 업무/GUI 미실행",
+  "tests": {
+    "count": 6,
+    "seconds": 0.08,
+    "result": "pass"
+  },
+  "vite_modules": 26,
+  "model_artifact_fields": [
+    "baseline.metrics",
+    "feature_importances",
+    "importance_meaning"
+  ],
+  "source": "https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html",
+  "remaining": "행별 관계 투영과 후속 파이프라인 연결"
+}

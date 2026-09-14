@@ -1,4 +1,5 @@
 {
+  "stamp": "20260914_183149",
   "checked": [
     {
       "id": "실01-start",
@@ -557,7 +558,7 @@
       ]
     }
   ],
-  "day_chain_code_hashes_equal": true,
-  "final_cohort_code_hashes_equal_except_readme": true,
-  "scope": "Selected API/function and source presence, previous completion versus next starter hash equality. Not all semantic dependencies or runtime business behavior."
+  "previous_complete_equals_next_start": true,
+  "final_cohorts_identical": true,
+  "scope": "분류 기능/화면 포함 시점, 이전 완성=다음 출발 및 두 반 최종 파일 해시(README 제외). 전체 기능 의미/실행 미검증"
 }

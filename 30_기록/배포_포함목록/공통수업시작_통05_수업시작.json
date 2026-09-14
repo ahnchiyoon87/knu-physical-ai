@@ -60,6 +60,7 @@
   "프로젝트/equipment-assistant/frontend/package-lock.json",
   "프로젝트/equipment-assistant/frontend/package.json",
   "프로젝트/equipment-assistant/frontend/src/App.vue",
+  "프로젝트/equipment-assistant/frontend/src/ClassificationResult.vue",
   "프로젝트/equipment-assistant/frontend/src/DataPanel.vue",
   "프로젝트/equipment-assistant/frontend/src/DetectPanel.vue",
   "프로젝트/equipment-assistant/frontend/src/ForecastResult.vue",

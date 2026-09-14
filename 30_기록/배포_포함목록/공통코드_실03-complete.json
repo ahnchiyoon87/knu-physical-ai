@@ -49,6 +49,7 @@
   "equipment-assistant/frontend/package-lock.json",
   "equipment-assistant/frontend/package.json",
   "equipment-assistant/frontend/src/App.vue",
+  "equipment-assistant/frontend/src/ClassificationResult.vue",
   "equipment-assistant/frontend/src/DataPanel.vue",
   "equipment-assistant/frontend/src/GraphPanel.vue",
   "equipment-assistant/frontend/src/ModelPanel.vue",

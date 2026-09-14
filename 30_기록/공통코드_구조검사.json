@@ -1,5 +1,6 @@
 {
-  "scope": "38 code ZIPs freshly extracted; exact set/hash, Python syntax and API import only. No DB/model execution.",
+  "stamp": "20260914_183149",
+  "scope": "새 ZIP 재추출·집합/해시·Python 구문·API import. 모델/DB 업무/완주 미실행",
   "results": [
     {
       "id": "실01-start",
@@ -40,91 +41,91 @@
       "id": "실03-complete",
       "python_files": 22,
       "api_routes": 20,
-      "archive_files": 70,
+      "archive_files": 71,
       "result": "pass"
     },
     {
       "id": "실04-start",
       "python_files": 22,
       "api_routes": 20,
-      "archive_files": 70,
+      "archive_files": 71,
       "result": "pass"
     },
     {
       "id": "실04-complete",
       "python_files": 27,
       "api_routes": 23,
-      "archive_files": 78,
+      "archive_files": 79,
       "result": "pass"
     },
     {
       "id": "실05-start",
       "python_files": 27,
       "api_routes": 23,
-      "archive_files": 78,
+      "archive_files": 79,
       "result": "pass"
     },
     {
       "id": "실05-complete",
       "python_files": 30,
       "api_routes": 24,
-      "archive_files": 82,
+      "archive_files": 83,
       "result": "pass"
     },
     {
       "id": "실06-start",
       "python_files": 30,
       "api_routes": 24,
-      "archive_files": 82,
+      "archive_files": 83,
       "result": "pass"
     },
     {
       "id": "실06-complete",
       "python_files": 30,
       "api_routes": 24,
-      "archive_files": 82,
+      "archive_files": 83,
       "result": "pass"
     },
     {
       "id": "실07-start",
       "python_files": 30,
       "api_routes": 24,
-      "archive_files": 82,
+      "archive_files": 83,
       "result": "pass"
     },
     {
       "id": "실07-complete",
       "python_files": 34,
       "api_routes": 29,
-      "archive_files": 118,
+      "archive_files": 119,
       "result": "pass"
     },
     {
       "id": "실08-start",
       "python_files": 34,
       "api_routes": 29,
-      "archive_files": 118,
+      "archive_files": 119,
       "result": "pass"
     },
     {
       "id": "실08-complete",
       "python_files": 41,
       "api_routes": 31,
-      "archive_files": 131,
+      "archive_files": 132,
       "result": "pass"
     },
     {
       "id": "실09-start",
       "python_files": 41,
       "api_routes": 31,
-      "archive_files": 131,
+      "archive_files": 132,
       "result": "pass"
     },
     {
       "id": "실09-complete",
       "python_files": 45,
       "api_routes": 39,
-      "archive_files": 144,
+      "archive_files": 145,
       "result": "pass"
     },
     {
@@ -166,105 +167,105 @@
       "id": "통03-complete",
       "python_files": 22,
       "api_routes": 20,
-      "archive_files": 70,
+      "archive_files": 71,
       "result": "pass"
     },
     {
       "id": "통04-start",
       "python_files": 22,
       "api_routes": 20,
-      "archive_files": 70,
+      "archive_files": 71,
       "result": "pass"
     },
     {
       "id": "통04-complete",
       "python_files": 27,
       "api_routes": 23,
-      "archive_files": 78,
+      "archive_files": 79,
       "result": "pass"
     },
     {
       "id": "통05-start",
       "python_files": 27,
       "api_routes": 23,
-      "archive_files": 78,
+      "archive_files": 79,
       "result": "pass"
     },
     {
       "id": "통05-complete",
       "python_files": 30,
       "api_routes": 24,
-      "archive_files": 82,
+      "archive_files": 83,
       "result": "pass"
     },
     {
       "id": "통06-start",
       "python_files": 30,
       "api_routes": 24,
-      "archive_files": 82,
+      "archive_files": 83,
       "result": "pass"
     },
     {
       "id": "통06-complete",
       "python_files": 30,
       "api_routes": 24,
-      "archive_files": 82,
+      "archive_files": 83,
       "result": "pass"
     },
     {
       "id": "통07-start",
       "python_files": 30,
       "api_routes": 24,
-      "archive_files": 82,
+      "archive_files": 83,
       "result": "pass"
     },
     {
       "id": "통07-complete",
       "python_files": 34,
       "api_routes": 29,
-      "archive_files": 118,
+      "archive_files": 119,
       "result": "pass"
     },
     {
       "id": "통08-start",
       "python_files": 34,
       "api_routes": 29,
-      "archive_files": 118,
+      "archive_files": 119,
       "result": "pass"
     },
     {
       "id": "통08-complete",
       "python_files": 41,
       "api_routes": 31,
-      "archive_files": 126,
+      "archive_files": 127,
       "result": "pass"
     },
     {
       "id": "통09-start",
       "python_files": 41,
       "api_routes": 31,
-      "archive_files": 126,
+      "archive_files": 127,
       "result": "pass"
     },
     {
       "id": "통09-complete",
       "python_files": 41,
       "api_routes": 31,
-      "archive_files": 131,
+      "archive_files": 132,
       "result": "pass"
     },
     {
       "id": "통10-start",
       "python_files": 41,
       "api_routes": 31,
-      "archive_files": 131,
+      "archive_files": 132,
       "result": "pass"
     },
     {
       "id": "통10-complete",
       "python_files": 45,
       "api_routes": 39,
-      "archive_files": 144,
+      "archive_files": 145,
       "result": "pass"
     }
   ]

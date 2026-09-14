@@ -1,0 +1,744 @@
+{
+  "records": [
+    {
+      "group": "실전반",
+      "day": 1,
+      "keys": [
+        "intro"
+      ],
+      "start_features": [],
+      "complete_features": [
+        "data"
+      ],
+      "date": "2026-10-31",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 산업 데이터 첫 만남 · 수집 데이터 다루기",
+      "guide": "10_실습/공통학생가이드/실전반/01일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "실전반",
+      "day": 2,
+      "keys": [
+        "quality",
+        "visual"
+      ],
+      "start_features": [
+        "data"
+      ],
+      "complete_features": [
+        "data",
+        "judge",
+        "quality",
+        "visual"
+      ],
+      "date": "2026-11-07",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 신호와 노이즈 · 데이터 품질",
+      "guide": "10_실습/공통학생가이드/실전반/02일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "실전반",
+      "day": 3,
+      "keys": [
+        "table"
+      ],
+      "start_features": [
+        "data",
+        "judge",
+        "quality",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "judge",
+        "models",
+        "quality",
+        "table",
+        "visual"
+      ],
+      "date": "2026-11-21",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 수집 데이터 시각화와 리포팅",
+      "guide": "10_실습/공통학생가이드/실전반/03일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "실전반",
+      "day": 4,
+      "keys": [
+        "rules",
+        "pipeline"
+      ],
+      "start_features": [
+        "data",
+        "judge",
+        "models",
+        "quality",
+        "table",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "visual"
+      ],
+      "date": "2026-11-28",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 이상감지 첫 구현 — 규칙 기반 탐지",
+      "guide": "10_실습/공통학생가이드/실전반/04일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "실전반",
+      "day": 5,
+      "keys": [
+        "vision",
+        "rul"
+      ],
+      "start_features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-01-25",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 이상감지 구현 · 데이터 파이프라인",
+      "guide": "10_실습/공통학생가이드/실전반/05일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "실전반",
+      "day": 6,
+      "keys": [
+        "integration"
+      ],
+      "start_features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-01-26",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 사내 문서 RAG 구현",
+      "guide": "10_실습/공통학생가이드/실전반/06일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "실전반",
+      "day": 7,
+      "keys": [
+        "rag"
+      ],
+      "start_features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-01-27",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 근거 인용과 응답 평가",
+      "guide": "10_실습/공통학생가이드/실전반/07일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "실전반",
+      "day": 8,
+      "keys": [
+        "eval",
+        "deploy"
+      ],
+      "start_features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-01-28",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 에이전트 구현 · 폐루프 완성",
+      "guide": "10_실습/공통학생가이드/실전반/08일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "실전반",
+      "day": 9,
+      "keys": [
+        "agent",
+        "transfer"
+      ],
+      "start_features": [
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "agent",
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "transfer",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-01-29",
+      "time": "14:00~18:00",
+      "original_title": "[실습] 기업 데이터 적용 · 결과물 구축",
+      "guide": "10_실습/공통학생가이드/실전반/09일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 1,
+      "keys": [
+        "intro"
+      ],
+      "start_features": [],
+      "complete_features": [
+        "data"
+      ],
+      "date": "2026-11-14",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 센서 데이터 첫 만남 · 데이터 읽기",
+      "guide": "10_실습/공통학생가이드/통합반/01일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 2,
+      "keys": [
+        "quality",
+        "visual"
+      ],
+      "start_features": [
+        "data"
+      ],
+      "complete_features": [
+        "data",
+        "judge",
+        "quality",
+        "visual"
+      ],
+      "date": "2027-01-25",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 데이터로 판별기 만들기",
+      "guide": "10_실습/공통학생가이드/통합반/02일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 3,
+      "keys": [
+        "table"
+      ],
+      "start_features": [
+        "data",
+        "judge",
+        "quality",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "judge",
+        "models",
+        "quality",
+        "table",
+        "visual"
+      ],
+      "date": "2027-01-26",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 불량 판별 모델 만들기",
+      "guide": "10_실습/공통학생가이드/통합반/03일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 4,
+      "keys": [
+        "rules",
+        "pipeline"
+      ],
+      "start_features": [
+        "data",
+        "judge",
+        "models",
+        "quality",
+        "table",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "visual"
+      ],
+      "date": "2027-01-27",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 시계열 이상감지 구현",
+      "guide": "10_실습/공통학생가이드/통합반/04일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 5,
+      "keys": [
+        "vision"
+      ],
+      "start_features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-01-28",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 예지보전 모델 적용",
+      "guide": "10_실습/공통학생가이드/통합반/05일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 6,
+      "keys": [
+        "rul",
+        "integration"
+      ],
+      "start_features": [
+        "data",
+        "forecast",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-01-29",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 미니 시스템 3단계 — 감지 붙이기",
+      "guide": "10_실습/공통학생가이드/통합반/06일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 7,
+      "keys": [
+        "rag"
+      ],
+      "start_features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-02-01",
+      "time": "09:00~13:00",
+      "original_title": "[실습] RAG 구현",
+      "guide": "10_실습/공통학생가이드/통합반/07일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 8,
+      "keys": [
+        "eval"
+      ],
+      "start_features": [
+        "data",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-02-02",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 사내 문서 RAG 적용",
+      "guide": "10_실습/공통학생가이드/통합반/08일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 9,
+      "keys": [
+        "deploy"
+      ],
+      "start_features": [
+        "data",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-02-03",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 클라우드 배포",
+      "guide": "10_실습/공통학생가이드/통합반/09일차.md",
+      "block_count": 4,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    },
+    {
+      "group": "통합반",
+      "day": 10,
+      "keys": [
+        "agent",
+        "transfer"
+      ],
+      "start_features": [
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "vision",
+        "visual"
+      ],
+      "complete_features": [
+        "agent",
+        "data",
+        "deploy",
+        "eval",
+        "forecast",
+        "integration",
+        "judge",
+        "models",
+        "pipeline",
+        "pyod",
+        "quality",
+        "rag",
+        "rul",
+        "rules",
+        "table",
+        "transfer",
+        "vision",
+        "visual"
+      ],
+      "date": "2027-02-04",
+      "time": "09:00~13:00",
+      "original_title": "[실습] 에이전트 구현 · 폐루프 완성",
+      "guide": "10_실습/공통학생가이드/통합반/10일차.md",
+      "block_count": 8,
+      "estimated_work_minutes": 200,
+      "estimated_total_minutes": 240
+    }
+  ],
+  "status": "공통 일차별 가이드 집필본; 공통 코드·수업 시작 ZIP 생성, 전체 의미·시간 검토 중",
+  "files": {
+    "10_실습/공통학생가이드/실전반/01일차.md": "341892b47dba76eab736ae5dc6ff8f9f19eeb41f5582ce9b260af819601295c5",
+    "10_실습/공통학생가이드/실전반/02일차.md": "d16b989511d92cf6c8b3ad18ed6477de93e7c0507a59c1b6048435d905e36571",
+    "10_실습/공통학생가이드/실전반/03일차.md": "5c30b73304a68e38d8962958b6b7dc5ddb386bc8d1464abc2665112481c050f1",
+    "10_실습/공통학생가이드/실전반/04일차.md": "aa2b90c8e6493f62c9d6f25ee4e49d4905a98c5be9b2cdd69061bfc5da3b9a8b",
+    "10_실습/공통학생가이드/실전반/05일차.md": "dd4035e207aa38d3a0fc790f146a592123e92f8b2ca6ae4a6a3447ec6f6dcc26",
+    "10_실습/공통학생가이드/실전반/06일차.md": "7d8f14198c8facd8fbc3b63fd7924bad2c4b0f1063d1fc20bf7a57b94531503b",
+    "10_실습/공통학생가이드/실전반/07일차.md": "f58053d2832139f1383c341529fd76a59d7d45335432f1467184b5846f04a5dc",
+    "10_실습/공통학생가이드/실전반/08일차.md": "47b59a09be50734b887da6f6664ed0bd1cd31cf755da3022e0353a4d6604947a",
+    "10_실습/공통학생가이드/실전반/09일차.md": "1e8808dad943f5ab0bcda49d0c2c8acdc2bb8034b42bf55a0be801121d96dcda",
+    "10_실습/공통학생가이드/통합반/01일차.md": "732412a33c0355fe8350132fd35fbf1c047fa2417363dadff49c5e0178a1ea66",
+    "10_실습/공통학생가이드/통합반/02일차.md": "9f13c5c657119cb3c6c71418e65432898d647a8654ba399f197e6e47f428f5e7",
+    "10_실습/공통학생가이드/통합반/03일차.md": "fdb8be20e0b0c2e22771ab7094be938621e763fd17fac93dc86ab9d25b232f5a",
+    "10_실습/공통학생가이드/통합반/04일차.md": "57e816736520f00a247e74149c5ce30255c36a4cb8b31ddb0bf3bc2d4ed4f364",
+    "10_실습/공통학생가이드/통합반/05일차.md": "d21ec82fed1bb13eb10376d442b7ca34c56b71c485422fd22b92f6ac159479cf",
+    "10_실습/공통학생가이드/통합반/06일차.md": "e454582d5a77af886a838838a8a784c24d9e11765cc106c1db8fba98226fe980",
+    "10_실습/공통학생가이드/통합반/07일차.md": "63940266dc300d94308978920de48f7cb456f9a9a36687848478f964ff2905af",
+    "10_실습/공통학생가이드/통합반/08일차.md": "78ec4188d3087ccd4c66d3d50c92b013870b84be34c9dfa7a7c0bd5a46bd832c",
+    "10_실습/공통학생가이드/통합반/09일차.md": "c3e83776daf21b9d9f96dd0ffa8ac3977f71aa6315e441d0fcf74181f6b63b3b",
+    "10_실습/공통학생가이드/통합반/10일차.md": "4248af203569d5fa6d116c93d87dc5ded345fa3004d298975c8ecb07376692e7",
+    "10_실습/공통학생가이드/README.md": "e6048a8bd5d154ac00708d3eb7bc9bd0f2343916a818f42858f01b02109796bd"
+  }
+}

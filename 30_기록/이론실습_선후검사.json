@@ -1,0 +1,331 @@
+{
+  "checks": [
+    {
+      "group": "실전반",
+      "day": 1,
+      "lab": "intro",
+      "topic": "A",
+      "date": "2026-10-31",
+      "video": 1,
+      "release": "2026-10-24"
+    },
+    {
+      "group": "실전반",
+      "day": 2,
+      "lab": "quality",
+      "topic": "B",
+      "date": "2026-11-07",
+      "video": 1,
+      "release": "2026-10-24"
+    },
+    {
+      "group": "실전반",
+      "day": 2,
+      "lab": "visual",
+      "topic": "C",
+      "date": "2026-11-07",
+      "video": 2,
+      "release": "2026-10-31"
+    },
+    {
+      "group": "실전반",
+      "day": 3,
+      "lab": "table",
+      "topic": "F",
+      "date": "2026-11-21",
+      "video": 2,
+      "release": "2026-10-31"
+    },
+    {
+      "group": "실전반",
+      "day": 4,
+      "lab": "rules",
+      "topic": "D",
+      "date": "2026-11-28",
+      "video": 3,
+      "release": "2026-11-14"
+    },
+    {
+      "group": "실전반",
+      "day": 4,
+      "lab": "pipeline",
+      "topic": "E",
+      "date": "2026-11-28",
+      "video": 4,
+      "release": "2026-11-21"
+    },
+    {
+      "group": "실전반",
+      "day": 4,
+      "lab": "pipeline",
+      "topic": "H",
+      "date": "2026-11-28",
+      "video": 3,
+      "release": "2026-11-14"
+    },
+    {
+      "group": "실전반",
+      "day": 5,
+      "lab": "vision",
+      "topic": "G",
+      "date": "2027-01-25",
+      "video": 5,
+      "release": "2027-01-18"
+    },
+    {
+      "group": "실전반",
+      "day": 5,
+      "lab": "rul",
+      "topic": "I",
+      "date": "2027-01-25",
+      "video": 5,
+      "release": "2027-01-18"
+    },
+    {
+      "group": "실전반",
+      "day": 6,
+      "lab": "integration",
+      "topic": "E",
+      "date": "2027-01-26",
+      "video": 4,
+      "release": "2026-11-21"
+    },
+    {
+      "group": "실전반",
+      "day": 6,
+      "lab": "integration",
+      "topic": "N",
+      "date": "2027-01-26",
+      "video": 4,
+      "release": "2026-11-21"
+    },
+    {
+      "group": "실전반",
+      "day": 7,
+      "lab": "rag",
+      "topic": "J",
+      "date": "2027-01-27",
+      "video": 6,
+      "release": "2027-01-19"
+    },
+    {
+      "group": "실전반",
+      "day": 8,
+      "lab": "eval",
+      "topic": "K",
+      "date": "2027-01-28",
+      "video": 7,
+      "release": "2027-01-20"
+    },
+    {
+      "group": "실전반",
+      "day": 8,
+      "lab": "deploy",
+      "topic": "L",
+      "date": "2027-01-28",
+      "video": 7,
+      "release": "2027-01-20"
+    },
+    {
+      "group": "실전반",
+      "day": 9,
+      "lab": "agent",
+      "topic": "O",
+      "date": "2027-01-29",
+      "video": 8,
+      "release": "2027-01-21"
+    },
+    {
+      "group": "실전반",
+      "day": 9,
+      "lab": "agent",
+      "topic": "P",
+      "date": "2027-01-29",
+      "video": 8,
+      "release": "2027-01-21"
+    },
+    {
+      "group": "실전반",
+      "day": 9,
+      "lab": "transfer",
+      "topic": "O",
+      "date": "2027-01-29",
+      "video": 8,
+      "release": "2027-01-21"
+    },
+    {
+      "group": "실전반",
+      "day": 9,
+      "lab": "transfer",
+      "topic": "P",
+      "date": "2027-01-29",
+      "video": 8,
+      "release": "2027-01-21"
+    },
+    {
+      "group": "통합반",
+      "day": 1,
+      "lab": "intro",
+      "topic": "A",
+      "date": "2026-11-14",
+      "video": 1,
+      "release": "2026-11-07"
+    },
+    {
+      "group": "통합반",
+      "day": 2,
+      "lab": "quality",
+      "topic": "B",
+      "date": "2027-01-25",
+      "video": 1,
+      "release": "2026-11-07"
+    },
+    {
+      "group": "통합반",
+      "day": 2,
+      "lab": "visual",
+      "topic": "C",
+      "date": "2027-01-25",
+      "video": 2,
+      "release": "2027-01-18"
+    },
+    {
+      "group": "통합반",
+      "day": 3,
+      "lab": "table",
+      "topic": "F",
+      "date": "2027-01-26",
+      "video": 2,
+      "release": "2027-01-18"
+    },
+    {
+      "group": "통합반",
+      "day": 4,
+      "lab": "rules",
+      "topic": "D",
+      "date": "2027-01-27",
+      "video": 3,
+      "release": "2027-01-19"
+    },
+    {
+      "group": "통합반",
+      "day": 4,
+      "lab": "pipeline",
+      "topic": "E",
+      "date": "2027-01-27",
+      "video": 4,
+      "release": "2027-01-20"
+    },
+    {
+      "group": "통합반",
+      "day": 4,
+      "lab": "pipeline",
+      "topic": "H",
+      "date": "2027-01-27",
+      "video": 3,
+      "release": "2027-01-19"
+    },
+    {
+      "group": "통합반",
+      "day": 5,
+      "lab": "vision",
+      "topic": "G",
+      "date": "2027-01-28",
+      "video": 5,
+      "release": "2027-01-21"
+    },
+    {
+      "group": "통합반",
+      "day": 6,
+      "lab": "rul",
+      "topic": "I",
+      "date": "2027-01-29",
+      "video": 6,
+      "release": "2027-01-22"
+    },
+    {
+      "group": "통합반",
+      "day": 6,
+      "lab": "integration",
+      "topic": "E",
+      "date": "2027-01-29",
+      "video": 4,
+      "release": "2027-01-20"
+    },
+    {
+      "group": "통합반",
+      "day": 6,
+      "lab": "integration",
+      "topic": "N",
+      "date": "2027-01-29",
+      "video": 4,
+      "release": "2027-01-20"
+    },
+    {
+      "group": "통합반",
+      "day": 7,
+      "lab": "rag",
+      "topic": "J",
+      "date": "2027-02-01",
+      "video": 7,
+      "release": "2027-01-25"
+    },
+    {
+      "group": "통합반",
+      "day": 8,
+      "lab": "eval",
+      "topic": "K",
+      "date": "2027-02-02",
+      "video": 8,
+      "release": "2027-01-26"
+    },
+    {
+      "group": "통합반",
+      "day": 9,
+      "lab": "deploy",
+      "topic": "L",
+      "date": "2027-02-03",
+      "video": 9,
+      "release": "2027-01-27"
+    },
+    {
+      "group": "통합반",
+      "day": 10,
+      "lab": "agent",
+      "topic": "O",
+      "date": "2027-02-04",
+      "video": 10,
+      "release": "2027-01-28"
+    },
+    {
+      "group": "통합반",
+      "day": 10,
+      "lab": "agent",
+      "topic": "P",
+      "date": "2027-02-04",
+      "video": 11,
+      "release": "2027-01-28"
+    },
+    {
+      "group": "통합반",
+      "day": 10,
+      "lab": "transfer",
+      "topic": "O",
+      "date": "2027-02-04",
+      "video": 10,
+      "release": "2027-01-28"
+    },
+    {
+      "group": "통합반",
+      "day": 10,
+      "lab": "transfer",
+      "topic": "P",
+      "date": "2027-02-04",
+      "video": 11,
+      "release": "2027-01-28"
+    }
+  ],
+  "late_theory": [],
+  "late_release_fixture_rejected": true,
+  "scope": "명시한 실습별 핵심 주제가 해당 반 실습일 이전 또는 당일 배포되는지 확인. 장별 모든 선수 개념·학습시간·학생 선행 시청을 보장하는 검사는 아님"
+}

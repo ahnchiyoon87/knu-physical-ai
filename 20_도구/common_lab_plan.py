@@ -12,7 +12,7 @@ FEATURES = {
  'rag': {'rag'}, 'eval': {'eval'}, 'deploy': {'deploy'}, 'agent': {'agent'}, 'transfer': {'transfer'},
 }
 THEORY = {'intro':[1], 'quality':[1], 'visual':[2], 'table':[2], 'rules':[3],
-          'pipeline':[3,5], 'vision':[4], 'rul':[4], 'integration':[5], 'rag':[6],
+          'pipeline':[3,4], 'vision':[5], 'rul':[5], 'integration':[4], 'rag':[6],
           'eval':[7], 'deploy':[7], 'agent':[8], 'transfer':[8]}
 
 

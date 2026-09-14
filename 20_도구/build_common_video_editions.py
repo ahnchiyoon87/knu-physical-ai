@@ -25,7 +25,7 @@ def main():
     units=shared['units'];schedule=json.loads((ROOT/'30_기록/일정원본.json').read_text(encoding='utf-8'))['videos']
     practical=[(u,u['title'],u['slides']) for u in units]
     integrated=[]
-    splits={4:('I','이미지 이상 판별','남은 수명과 기준 도달'),7:('L','근거 인용과 응답 평가','서비스 배포와 영속 상태'),8:('P','에이전트와 도구 사용','승인과 재관측의 폐루프')}
+    splits={5:('I','이미지 이상 판별','남은 수명과 기준 도달'),7:('L','근거 인용과 응답 평가','서비스 배포와 영속 상태'),8:('P','에이전트와 도구 사용','승인과 재관측의 폐루프')}
     for u in units:
         if u['unit'] in splits:
             key,a,b=splits[u['unit']];left,right=partition(u,key)

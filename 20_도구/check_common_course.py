@@ -17,7 +17,8 @@ def check_structure(record):
 def main():
     record = json.loads(MANIFEST.read_text(encoding='utf-8'))
     check_structure(record)
-    broken = copy.deepcopy(record); broken['units'][3]['keys'].remove('G')
+    broken = copy.deepcopy(record)
+    next(u for u in broken['units'] if 'G' in u['keys'])['keys'].remove('G')
     try:
         check_structure(broken)
     except ValueError:

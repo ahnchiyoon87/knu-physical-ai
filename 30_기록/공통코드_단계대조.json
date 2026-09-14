@@ -1,21 +1,24 @@
 {
-  "stamp": "20260914_183149",
+  "stamp": "20260914_184210",
   "checked": [
     {
       "id": "실01-start",
-      "features": []
+      "features": [],
+      "csv_files": 5
     },
     {
       "id": "실01-complete",
       "features": [
         "data"
-      ]
+      ],
+      "csv_files": 5
     },
     {
       "id": "실02-start",
       "features": [
         "data"
-      ]
+      ],
+      "csv_files": 5
     },
     {
       "id": "실02-complete",
@@ -24,7 +27,8 @@
         "judge",
         "quality",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실03-start",
@@ -33,7 +37,8 @@
         "judge",
         "quality",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실03-complete",
@@ -44,7 +49,8 @@
         "quality",
         "table",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실04-start",
@@ -55,7 +61,8 @@
         "quality",
         "table",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실04-complete",
@@ -70,7 +77,8 @@
         "rules",
         "table",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실05-start",
@@ -85,7 +93,8 @@
         "rules",
         "table",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실05-complete",
@@ -102,7 +111,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실06-start",
@@ -119,7 +129,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실06-complete",
@@ -137,7 +148,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실07-start",
@@ -155,7 +167,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실07-complete",
@@ -174,7 +187,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실08-start",
@@ -193,7 +207,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실08-complete",
@@ -214,7 +229,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실09-start",
@@ -235,7 +251,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "실09-complete",
@@ -258,23 +275,27 @@
         "transfer",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 9
     },
     {
       "id": "통01-start",
-      "features": []
+      "features": [],
+      "csv_files": 5
     },
     {
       "id": "통01-complete",
       "features": [
         "data"
-      ]
+      ],
+      "csv_files": 5
     },
     {
       "id": "통02-start",
       "features": [
         "data"
-      ]
+      ],
+      "csv_files": 5
     },
     {
       "id": "통02-complete",
@@ -283,7 +304,8 @@
         "judge",
         "quality",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통03-start",
@@ -292,7 +314,8 @@
         "judge",
         "quality",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통03-complete",
@@ -303,7 +326,8 @@
         "quality",
         "table",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통04-start",
@@ -314,7 +338,8 @@
         "quality",
         "table",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통04-complete",
@@ -329,7 +354,8 @@
         "rules",
         "table",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통05-start",
@@ -344,7 +370,8 @@
         "rules",
         "table",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통05-complete",
@@ -360,7 +387,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통06-start",
@@ -376,7 +404,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통06-complete",
@@ -394,7 +423,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통07-start",
@@ -412,7 +442,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통07-complete",
@@ -431,7 +462,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통08-start",
@@ -450,7 +482,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통08-complete",
@@ -470,7 +503,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통09-start",
@@ -490,7 +524,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통09-complete",
@@ -511,7 +546,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통10-start",
@@ -532,7 +568,8 @@
         "table",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 6
     },
     {
       "id": "통10-complete",
@@ -555,10 +592,13 @@
         "transfer",
         "vision",
         "visual"
-      ]
+      ],
+      "csv_files": 9
     }
   ],
   "previous_complete_equals_next_start": true,
   "final_cohorts_identical": true,
-  "scope": "분류 기능/화면 포함 시점, 이전 완성=다음 출발 및 두 반 최종 파일 해시(README 제외). 전체 기능 의미/실행 미검증"
+  "csv_newlines_valid": true,
+  "broken_csv_and_sequence_rejected": true,
+  "scope": "분류 화면/행 관계 포함 시점, CSV 줄바꿈, 코드 연속성. 전체 기능 의미/실행 미검증"
 }

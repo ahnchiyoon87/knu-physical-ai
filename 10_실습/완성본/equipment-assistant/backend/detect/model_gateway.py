@@ -9,6 +9,7 @@ from backend.common.gateway import database
 from backend.common.log import span
 
 from . import models
+from .provenance import bind_predictions
 from .gateway import all_series
 
 
@@ -22,14 +23,21 @@ def job(profile: str,source_id: str,method: str,parameters: dict):
     config=analysis_source(source_id,profile) if method not in {"rul", "vision"} else None
     provenance=config["provenance"] if config else ""
     target=f"{profile}:{source_id}"
+    identity=str(uuid4())
+    edges=[]
     with span("detect","detect.model","backend/detect/model_gateway.py:job",method=method) as observed:
         if method=="table":
             numeric={c["id"] for c in config["columns"] if c["type"]=="number"}
             if not set(parameters["feature_ids"]).issubset(numeric):
                 raise ValueError("선택한 특징이 수치 열 사전에 없습니다")
-            result=models.table_classifier(table_rows(profile,source_id),parameters["feature_ids"],
+            rows=table_rows(profile,source_id)
+            result=models.table_classifier(rows,parameters["feature_ids"],
                 config["label_column_id"],config["label_values"],parameters.get("train_fraction",.7),
                 parameters.get("split","ordered"))
+            with database() as db:
+                imported=db.execute("SELECT id,file_hash,mapping_hash FROM lab.imports WHERE profile=%s AND source_id=%s",
+                                    (profile,source_id)).fetchone()
+            result,edges=bind_predictions(result,rows,profile,source_id,imported,identity)
         elif method in {"pyod","forecast","threshold"}:
             if not parameters.get("lot_id"):
                 raise ValueError("비교할 LOT 하나를 명시하세요")
@@ -61,13 +69,12 @@ def job(profile: str,source_id: str,method: str,parameters: dict):
             target="thermal:" + parameters["side"]
         else:
             raise ValueError("지원하지 않는 분석 방법입니다")
-        identity=str(uuid4())
         result.update(id=identity,method=method,profile=profile if config else "external_dataset",
                       source_id=source_id if config else target,source_provenance=provenance,parameters=parameters)
         with database() as db:
             db.execute("INSERT INTO lab.artifacts(id,kind,payload) VALUES(%s,'model',%s)",(identity,Jsonb(result)))
             graph={"id":identity,"kind":"model_result","status":"observed", "provenance":provenance,
-                   "targets":[target]}
+                   "targets":[target],"edges":edges}
             db.execute("INSERT INTO lab.graph_outbox(id,payload) VALUES(%s,%s)",(identity,Jsonb(graph)))
         observed.update(artifact_id=identity)
     return result

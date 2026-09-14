@@ -31,7 +31,7 @@ PANELS=[('표와 질문','DataPanel','data'),('품질','QualityPanel','quality')
 
 
 def put(folder,name,text):
-    path=folder/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text,encoding='utf-8')
+    path=folder/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text,encoding='utf-8',newline='')
 
 
 def source(name):return (APP/name).read_text(encoding='utf-8')
@@ -138,7 +138,12 @@ def app_files(folder,features):
     put(folder,'backend/data/gateway.py',filtered(source('backend/data/gateway.py'),{'import_csv','query_rows','sql_from_question','probe_sources'}|({'judge_query','repair_query'} if 'judge' in features else set())))
     if 'quality' in features:put(folder,'backend/data/quality.py',source('backend/data/quality.py'))
     put(folder,'backend/ontology/service.py',source('backend/ontology/service.py'))
-    put(folder,'backend/ontology/gateway.py',source('backend/ontology/gateway.py' if 'rag' in features else 'backend/ontology/local.py'))
+    graph_source=source('backend/ontology/gateway.py' if 'rag' in features else 'backend/ontology/local.py')
+    if 'table' not in features:
+        graph_source=graph_source.replace('    from .artifacts import related_rows\n    all_rows += related_rows(start,end)\n','')
+    else:
+        put(folder,'backend/ontology/artifacts.py',source('backend/ontology/artifacts.py'))
+    put(folder,'backend/ontology/gateway.py',graph_source)
     for feature,directory in [('rag','rag'),('eval','eval'),('agent','process')]:
         if feature in features:
             for path in (APP/'backend'/directory).glob('*.py'):put(folder,str(path.relative_to(APP)),path.read_text(encoding='utf-8'))
@@ -159,6 +164,7 @@ def app_files(folder,features):
     if 'rules' in features:
         put(folder,'backend/detect/service.py',source('backend/detect/service.py'));put(folder,'rules.json',source('rules.json'));put(folder,'scripts/seed_rules.py',source('scripts/seed_rules.py'))
     if 'models' in features:
+        put(folder,'backend/detect/provenance.py',source('backend/detect/provenance.py'))
         method_functions={'table':'table_classifier','pyod':'pyod_scores','forecast':'chronos_forecast','rul':'cmapss_regression'}
         selected={value for key,value in method_functions.items() if key in features}
         if 'forecast' in features:selected.add('forecast_evaluation')

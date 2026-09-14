@@ -1,0 +1,139 @@
+{
+  "results": [
+    {
+      "id": "실01",
+      "files": 50,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "실02",
+      "files": 67,
+      "student_document_links": 9,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "실03",
+      "files": 72,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "실04",
+      "files": 79,
+      "student_document_links": 9,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "실05",
+      "files": 86,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "실06",
+      "files": 90,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "실07",
+      "files": 92,
+      "student_document_links": 10,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "실08",
+      "files": 128,
+      "student_document_links": 10,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "실09",
+      "files": 139,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통01",
+      "files": 50,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통02",
+      "files": 67,
+      "student_document_links": 9,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통03",
+      "files": 72,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통04",
+      "files": 79,
+      "student_document_links": 9,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통05",
+      "files": 86,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통06",
+      "files": 91,
+      "student_document_links": 9,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통07",
+      "files": 92,
+      "student_document_links": 10,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통08",
+      "files": 128,
+      "student_document_links": 10,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통09",
+      "files": 134,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    },
+    {
+      "id": "통10",
+      "files": 139,
+      "student_document_links": 8,
+      "missing_links": [],
+      "starter_code_hashes_match": true
+    }
+  ],
+  "checker_valid_and_invalid_verified": true,
+  "scope": "19 ZIPs exact paths/hash, fresh extraction, student document local links, exact prior-stage code hashes and excluded runtime paths. Existing API import evidence applies to identical code; no live lab/GUI/model checks."
+}

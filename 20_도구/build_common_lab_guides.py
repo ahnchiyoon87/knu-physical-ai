@@ -73,7 +73,7 @@ def main():
                       block_count=block_count,estimated_work_minutes=minutes*block_count,estimated_total_minutes=40+minutes*block_count)
         records.append(record)
     index=['# 두 반 공통 내용의 일차별 실습가이드','',
-           '두 반은 같은 14개 실습 단위를 진행합니다. 실제 날짜에 맞춰 묶음만 다릅니다. 시간은 수업 설계용 추정이며 학생 완주로 측정한 값이 아닙니다. 현재 가이드에 맞춘 공통 출발본·완성본 패키지는 전환 작업 중입니다. 기존 반별 패키지를 이 순서의 출발본으로 혼용하지 않습니다.','',
+           '두 반은 같은 14개 실습 단위를 진행합니다. 실제 날짜에 맞춰 묶음만 다릅니다. 시간은 수업 설계용 추정이며 학생 완주로 측정한 값이 아닙니다. [수업 시작 ZIP](../공통배포/README.md)과 [출발본·완성본 코드](../공통코드/README.md)를 구분해 사용합니다. 기존 반별 패키지를 이 순서의 출발본으로 혼용하지 않습니다.','',
            '| 반 | 일차 | 일정 | 실습 단위 |','|---|---|---|---|']
     for r in records:index.append(f'| {r["group"]} | [{r["day"]}일차]({r["group"]}/{r["day"]:02d}일차.md) | {r["date"]} {r["time"]} | {", ".join(r["keys"])} |')
     planned[OUT/'README.md']='\n'.join(index)+'\n'
@@ -87,7 +87,7 @@ def main():
             dest=backup/p.relative_to(ROOT);dest.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(p,dest)
         shutil.copy2(MANIFEST,backup/MANIFEST.name)
     for p,text in planned.items():p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text,encoding='utf-8')
-    data={'records':records,'status':'공통 일차별 가이드 집필본; 출발본 전환·전체 동선 검토 중',
+    data={'records':records,'status':'공통 일차별 가이드 집필본; 공통 코드·수업 시작 ZIP 생성, 전체 의미·시간 검토 중',
           'files':{p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in planned}}
     MANIFEST.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf-8')
     print(json.dumps({'guides':len(records),'units_per_cohort':14,'files':len(planned)},ensure_ascii=False))

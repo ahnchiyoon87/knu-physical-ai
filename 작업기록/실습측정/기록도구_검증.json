@@ -1,0 +1,18 @@
+{
+  "scope": "합성 요청 집계 검사와 실제 빈 기록 폴더 준비. 사용자 실측·모델 호출 아님.",
+  "unit_tests_exit": 0,
+  "unit_tests": "test_duplicates_rejected_for_provider_gateway_and_evidence (__main__.MeasurementTest.test_duplicates_rejected_for_provider_gateway_and_evidence) ... ok\ntest_empty_is_unknown_not_zero (__main__.MeasurementTest.test_empty_is_unknown_not_zero) ... ok\ntest_failed_retry_unknown_cost_keeps_total_unknown (__main__.MeasurementTest.test_failed_retry_unknown_cost_keeps_total_unknown) ... ok\ntest_invalid_money_rejected (__main__.MeasurementTest.test_invalid_money_rejected) ... ok\ntest_missing_evidence_and_outside_path_rejected (__main__.MeasurementTest.test_missing_evidence_and_outside_path_rejected) ... ok\ntest_mixed_rehearsal_rejected (__main__.MeasurementTest.test_mixed_rehearsal_rejected) ... ok\ntest_no_provider_id_uses_evidence_and_gateway_attempt (__main__.MeasurementTest.test_no_provider_id_uses_evidence_and_gateway_attempt) ... ok\ntest_provider_and_proxy_are_separate (__main__.MeasurementTest.test_provider_and_proxy_are_separate) ... ok\ntest_setup_and_recurring_separated (__main__.MeasurementTest.test_setup_and_recurring_separated) ... ok\ntest_template_not_counted (__main__.MeasurementTest.test_template_not_counted) ... ok\ntest_unexpected_secret_field_rejected (__main__.MeasurementTest.test_unexpected_secret_field_rejected) ... ok\ntest_zero_is_confirmed_zero (__main__.MeasurementTest.test_zero_is_confirmed_zero) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.037s\n\nOK\n",
+  "duplicate_init_rejected": true,
+  "existing_files_unchanged": true,
+  "prepared_trials": [
+    "DAY01-P-REHEARSAL",
+    "DAY01-I-REHEARSAL"
+  ],
+  "request_count_each": 0,
+  "health_recheck": {
+    "hydops_http": 200,
+    "platform_health_http": 200,
+    "postgres": "healthy",
+    "neo4j": "healthy"
+  }
+}

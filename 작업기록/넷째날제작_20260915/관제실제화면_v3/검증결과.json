@@ -1,0 +1,1003 @@
+{
+  "scope": "격리 PostgreSQL DB의 실제 원본 관제 UI·offline 처리. 학생 완주 또는 유료모델 검증 아님.",
+  "original_event_unchanged": true,
+  "page_errors": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/app.css"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/vendor/vue.global.prod.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/app.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/assets"
+    },
+    {
+      "method": "POST",
+      "url": "http://localhost:8804/api/sim/HYD-01/inject"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/app.css"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/vendor/vue.global.prod.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/app.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/assets"
+    },
+    {
+      "method": "POST",
+      "url": "http://localhost:8804/api/sim/HYD-01/inject"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114444-HYD-01-ae24"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/app.css"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/vendor/vue.global.prod.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/static/app.js"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/assets"
+    },
+    {
+      "method": "POST",
+      "url": "http://localhost:8804/api/sim/HYD-01/inject"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/state"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/series?asset_id=HYD-01&seconds=180"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events"
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8804/api/events/EVT-20260915-114515-HYD-01-b91a"
+    }
+  ],
+  "cases": [
+    {
+      "name": "단발급등",
+      "run_id": "RUN-d95895c21c",
+      "event_count": 0,
+      "status": null
+    },
+    {
+      "name": "센서결측",
+      "run_id": "RUN-b9bba1a1b7",
+      "event_count": 1,
+      "status": "SENSOR_CHECK"
+    },
+    {
+      "name": "냉각저하",
+      "run_id": "RUN-ce2fc56a75",
+      "event_count": 1,
+      "status": "PENDING_APPROVAL"
+    }
+  ]
+}

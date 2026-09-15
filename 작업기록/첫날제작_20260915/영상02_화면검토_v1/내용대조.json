@@ -1,0 +1,40 @@
+{
+  "scenes": 11,
+  "script_characters_without_headings": 8697,
+  "all_md_body_text_matches_html": true,
+  "missing_filename_mutant_rejected": true,
+  "sensor_spec": {
+    "TS1": {
+      "file": "TS1.txt",
+      "hz": 1,
+      "unit": "°C"
+    },
+    "PS1": {
+      "file": "PS1.txt",
+      "hz": 100,
+      "unit": "bar"
+    },
+    "FS1": {
+      "file": "FS1.txt",
+      "hz": 10,
+      "unit": "L/min"
+    }
+  },
+  "source_sha256": "5f931fc752e99940f237b417da257502e4ae9b2288a4311c4ad19bf979e11d3a",
+  "reviewed_images": [
+    "S01.png",
+    "S02.png",
+    "S03.png",
+    "S04.png",
+    "S05.png",
+    "S06.png",
+    "S07.png",
+    "S08.png",
+    "S09.png",
+    "S10.png",
+    "S11.png"
+  ],
+  "visual_review": "전11장면 모아보기 검토, S07 별도 원본 크기 확인. 잘림·겹침 발견 없음.",
+  "actual_duration": "미측정",
+  "pptx": "미제작"
+}

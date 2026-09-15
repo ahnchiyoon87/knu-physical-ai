@@ -1,0 +1,78 @@
+{
+  "scenes": [
+    {
+      "scene": 1,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "170.1621\n\n어느 설비의 어떤 센서인가? 단위는 무엇인가? 어느 구간인가?\n\n계산한 숫자와 그 숫자를 해석할 정보를 함께 전달합니다."
+    },
+    {
+      "scene": 2,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "레코드: 한 관측에 필요한 여러 항목을 함께 담은 정보 묶음\n\n누구의 값인가 → 값과 단위 → 원본 위치 → 요약과 출처 정보\n\n필드: 레코드 안에서 각각의 정보를 담는 이름 있는 항목"
+    },
+    {
+      "scene": 3,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "필드\t이번 입력\t의미\nasset_id\tHYD-01\t수업에서 데이터를 연결할 설비\nsensor_id\tPS1\t그 설비에서 다룰 압력 센서\n\nHYD-01은 원본 파일에서 읽은 실험 장비 고유번호가 아니라 수업에서 연결한 설비 ID입니다."
+    },
+    {
+      "scene": 4,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "필드\tPS1 첫1초의 결과\nraw_value\t170.1621 — 100개의 평균\nunit\tbar\n\n이 매핑 단계의 raw_value는 원본의 첫 샘플147.21이 아닙니다.\n\n표시값은 소수4자리이며, 실제 계산 결과의 끝자리는 다를 수 있습니다."
+    },
+    {
+      "scene": 5,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "필드\t이번 관측\t의미\norigin_cycle_id\t100\t코드에서0부터 세는 원본 사이클\nelapsed_s\t0\t그 사이클의 첫1초 구간\n\nPS1 기준: 파일101번째 줄 → 인덱스0~99\n\nelapsed_s=10이면 같은 사이클의10초 이상11초 미만 구간입니다."
+    },
+    {
+      "scene": 6,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "PS1 첫1초의 agg: 집계 정보를 담은 작은 묶음\n\nagg 안의 항목\t값\nmin\t141.27\nmax\t189.88\nn\t100\nsource_hz\t100\n\n원본100개 전체를 이 안에 저장한 것은 아닙니다."
+    },
+    {
+      "scene": 7,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "센서\t이번 매핑의 agg\nTS1 · 1Hz\tNone\nFS1 · 10Hz\tmin·max·n·source_hz\nPS1 · 100Hz\tmin·max·n·source_hz\n\n여기서 None: 집계 정보 묶음을 따로 넣지 않았다는 뜻\n\nTS1의 온도값이 없거나 센서가 고장났다는 뜻은 아닙니다."
+    },
+    {
+      "scene": 8,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "is_synthetic = False\n\n이번 관측은 제공 UCI 원본을 읽고 요약한 값입니다.\n\n평균을 계산했다고 합성 시뮬레이터의 관측으로 바뀌지 않습니다.\n\n실제 공장에서 지금 수집한 실시간 관측이라는 뜻도 아닙니다."
+    },
+    {
+      "scene": 9,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "이번 코드에서는 레코드를 딕셔너리로 표현합니다.\n\nsensor_id → PS1\nraw_value → 170.1621\nunit      → bar\n\n왼쪽은 항목을 찾는 이름인 키, 오른쪽은 그 항목의 값입니다.\n\n순서만 외우지 않고 필요한 항목의 이름과 의미를 확인합니다."
+    },
+    {
+      "scene": 10,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "센서\t1초 구간 수\t만들어지는 레코드\nTS1\t60\t60\nPS1\t60\t60\nFS1\t60\t60\n합계\t\t180\n\n각 레코드는 센서 하나의1초 구간을 설명합니다.\n\n원본 샘플은 총6,660개, 생성 관측은180개입니다."
+    },
+    {
+      "scene": 11,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "map_cycle에 전달할 것\n\n센서별 원본 배열 · 원본 사이클100 · 설비HYD-01 · 재생 시작 시각\n\n받는 결과: 세 센서의 관측 레코드180개\n\n단위·원본 사이클·0~59초 구간·평균·집계 정보를 원본과 대조합니다.\n\n이 함수의 결과만으로 품질 검사·DB 저장·관제 갱신 완료를 주장하지 않습니다."
+    },
+    {
+      "scene": 12,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "ts: 실습에서 정한 재생 시작 시각 + 구간의 경과 초\n\n원본 수집 날짜·시각을 파일에서 복원한 값이 아닙니다.\n\n학생의 요청 예시\n\n사이클100을 관측180개로 바꾸고 값·단위·원본 위치를 보여 주세요. ts가 어떤 기준으로 붙었는지 설명해 주세요. 아직 DB에는 저장하지 마세요.\n\n다음 영상: 재생 시각과 실행 구분"
+    }
+  ],
+  "changed_value_rejected": true,
+  "scope": "HTML 레이아웃·본문대조. 실제20분·PPTX·학생이해 미검증."
+}

@@ -1,0 +1,2582 @@
+[
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:00+00:00",
+    "elapsed_s": 0,
+    "origin_cycle_id": 100,
+    "raw_value": 53.219,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:01+00:00",
+    "elapsed_s": 1,
+    "origin_cycle_id": 100,
+    "raw_value": 53.207,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:02+00:00",
+    "elapsed_s": 2,
+    "origin_cycle_id": 100,
+    "raw_value": 53.148,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:03+00:00",
+    "elapsed_s": 3,
+    "origin_cycle_id": 100,
+    "raw_value": 53.07,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:04+00:00",
+    "elapsed_s": 4,
+    "origin_cycle_id": 100,
+    "raw_value": 52.98,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:05+00:00",
+    "elapsed_s": 5,
+    "origin_cycle_id": 100,
+    "raw_value": 52.965,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:06+00:00",
+    "elapsed_s": 6,
+    "origin_cycle_id": 100,
+    "raw_value": 52.91,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:07+00:00",
+    "elapsed_s": 7,
+    "origin_cycle_id": 100,
+    "raw_value": 52.82,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:08+00:00",
+    "elapsed_s": 8,
+    "origin_cycle_id": 100,
+    "raw_value": 52.805,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:09+00:00",
+    "elapsed_s": 9,
+    "origin_cycle_id": 100,
+    "raw_value": 52.723,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:10+00:00",
+    "elapsed_s": 10,
+    "origin_cycle_id": 100,
+    "raw_value": 52.738,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:11+00:00",
+    "elapsed_s": 11,
+    "origin_cycle_id": 100,
+    "raw_value": 52.645,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:12+00:00",
+    "elapsed_s": 12,
+    "origin_cycle_id": 100,
+    "raw_value": 52.723,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:13+00:00",
+    "elapsed_s": 13,
+    "origin_cycle_id": 100,
+    "raw_value": 52.777,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:14+00:00",
+    "elapsed_s": 14,
+    "origin_cycle_id": 100,
+    "raw_value": 52.82,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:15+00:00",
+    "elapsed_s": 15,
+    "origin_cycle_id": 100,
+    "raw_value": 52.902,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:16+00:00",
+    "elapsed_s": 16,
+    "origin_cycle_id": 100,
+    "raw_value": 52.969,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:17+00:00",
+    "elapsed_s": 17,
+    "origin_cycle_id": 100,
+    "raw_value": 52.988,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:18+00:00",
+    "elapsed_s": 18,
+    "origin_cycle_id": 100,
+    "raw_value": 53.074,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:19+00:00",
+    "elapsed_s": 19,
+    "origin_cycle_id": 100,
+    "raw_value": 53.164,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:20+00:00",
+    "elapsed_s": 20,
+    "origin_cycle_id": 100,
+    "raw_value": 53.219,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:21+00:00",
+    "elapsed_s": 21,
+    "origin_cycle_id": 100,
+    "raw_value": 53.23,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:22+00:00",
+    "elapsed_s": 22,
+    "origin_cycle_id": 100,
+    "raw_value": 53.23,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:23+00:00",
+    "elapsed_s": 23,
+    "origin_cycle_id": 100,
+    "raw_value": 53.32,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:24+00:00",
+    "elapsed_s": 24,
+    "origin_cycle_id": 100,
+    "raw_value": 53.297,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:25+00:00",
+    "elapsed_s": 25,
+    "origin_cycle_id": 100,
+    "raw_value": 53.309,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:26+00:00",
+    "elapsed_s": 26,
+    "origin_cycle_id": 100,
+    "raw_value": 53.297,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:27+00:00",
+    "elapsed_s": 27,
+    "origin_cycle_id": 100,
+    "raw_value": 53.375,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:28+00:00",
+    "elapsed_s": 28,
+    "origin_cycle_id": 100,
+    "raw_value": 53.402,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:29+00:00",
+    "elapsed_s": 29,
+    "origin_cycle_id": 100,
+    "raw_value": 53.387,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:30+00:00",
+    "elapsed_s": 30,
+    "origin_cycle_id": 100,
+    "raw_value": 53.402,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:31+00:00",
+    "elapsed_s": 31,
+    "origin_cycle_id": 100,
+    "raw_value": 53.395,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:32+00:00",
+    "elapsed_s": 32,
+    "origin_cycle_id": 100,
+    "raw_value": 53.391,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:33+00:00",
+    "elapsed_s": 33,
+    "origin_cycle_id": 100,
+    "raw_value": 53.488,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:34+00:00",
+    "elapsed_s": 34,
+    "origin_cycle_id": 100,
+    "raw_value": 53.484,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:35+00:00",
+    "elapsed_s": 35,
+    "origin_cycle_id": 100,
+    "raw_value": 53.496,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:36+00:00",
+    "elapsed_s": 36,
+    "origin_cycle_id": 100,
+    "raw_value": 53.562,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:37+00:00",
+    "elapsed_s": 37,
+    "origin_cycle_id": 100,
+    "raw_value": 53.551,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:38+00:00",
+    "elapsed_s": 38,
+    "origin_cycle_id": 100,
+    "raw_value": 53.555,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:39+00:00",
+    "elapsed_s": 39,
+    "origin_cycle_id": 100,
+    "raw_value": 53.551,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:40+00:00",
+    "elapsed_s": 40,
+    "origin_cycle_id": 100,
+    "raw_value": 53.547,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:41+00:00",
+    "elapsed_s": 41,
+    "origin_cycle_id": 100,
+    "raw_value": 53.555,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:42+00:00",
+    "elapsed_s": 42,
+    "origin_cycle_id": 100,
+    "raw_value": 53.473,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:43+00:00",
+    "elapsed_s": 43,
+    "origin_cycle_id": 100,
+    "raw_value": 53.461,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:44+00:00",
+    "elapsed_s": 44,
+    "origin_cycle_id": 100,
+    "raw_value": 53.461,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:45+00:00",
+    "elapsed_s": 45,
+    "origin_cycle_id": 100,
+    "raw_value": 53.473,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:46+00:00",
+    "elapsed_s": 46,
+    "origin_cycle_id": 100,
+    "raw_value": 53.48,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:47+00:00",
+    "elapsed_s": 47,
+    "origin_cycle_id": 100,
+    "raw_value": 53.473,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:48+00:00",
+    "elapsed_s": 48,
+    "origin_cycle_id": 100,
+    "raw_value": 53.484,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:49+00:00",
+    "elapsed_s": 49,
+    "origin_cycle_id": 100,
+    "raw_value": 53.473,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:50+00:00",
+    "elapsed_s": 50,
+    "origin_cycle_id": 100,
+    "raw_value": 53.469,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:51+00:00",
+    "elapsed_s": 51,
+    "origin_cycle_id": 100,
+    "raw_value": 53.473,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:52+00:00",
+    "elapsed_s": 52,
+    "origin_cycle_id": 100,
+    "raw_value": 53.473,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:53+00:00",
+    "elapsed_s": 53,
+    "origin_cycle_id": 100,
+    "raw_value": 53.379,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:54+00:00",
+    "elapsed_s": 54,
+    "origin_cycle_id": 100,
+    "raw_value": 53.387,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:55+00:00",
+    "elapsed_s": 55,
+    "origin_cycle_id": 100,
+    "raw_value": 53.379,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:56+00:00",
+    "elapsed_s": 56,
+    "origin_cycle_id": 100,
+    "raw_value": 53.387,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:57+00:00",
+    "elapsed_s": 57,
+    "origin_cycle_id": 100,
+    "raw_value": 53.387,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:58+00:00",
+    "elapsed_s": 58,
+    "origin_cycle_id": 100,
+    "raw_value": 53.391,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "TS1",
+    "ts": "2026-09-01T00:00:59+00:00",
+    "elapsed_s": 59,
+    "origin_cycle_id": 100,
+    "raw_value": 53.395,
+    "unit": "°C",
+    "agg": null,
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:00+00:00",
+    "elapsed_s": 0,
+    "origin_cycle_id": 100,
+    "raw_value": 170.16209999999998,
+    "unit": "bar",
+    "agg": {
+      "min": 141.27,
+      "max": 189.88,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:01+00:00",
+    "elapsed_s": 1,
+    "origin_cycle_id": 100,
+    "raw_value": 190.1943,
+    "unit": "bar",
+    "agg": {
+      "min": 189.79,
+      "max": 190.38,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:02+00:00",
+    "elapsed_s": 2,
+    "origin_cycle_id": 100,
+    "raw_value": 190.1653,
+    "unit": "bar",
+    "agg": {
+      "min": 189.94,
+      "max": 190.35,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:03+00:00",
+    "elapsed_s": 3,
+    "origin_cycle_id": 100,
+    "raw_value": 190.15019999999996,
+    "unit": "bar",
+    "agg": {
+      "min": 189.98,
+      "max": 190.36,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:04+00:00",
+    "elapsed_s": 4,
+    "origin_cycle_id": 100,
+    "raw_value": 190.1445,
+    "unit": "bar",
+    "agg": {
+      "min": 189.92,
+      "max": 190.47,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:05+00:00",
+    "elapsed_s": 5,
+    "origin_cycle_id": 100,
+    "raw_value": 190.0843,
+    "unit": "bar",
+    "agg": {
+      "min": 189.92,
+      "max": 190.26,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:06+00:00",
+    "elapsed_s": 6,
+    "origin_cycle_id": 100,
+    "raw_value": 190.1061,
+    "unit": "bar",
+    "agg": {
+      "min": 189.87,
+      "max": 190.28,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:07+00:00",
+    "elapsed_s": 7,
+    "origin_cycle_id": 100,
+    "raw_value": 190.09129999999993,
+    "unit": "bar",
+    "agg": {
+      "min": 189.87,
+      "max": 190.23,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:08+00:00",
+    "elapsed_s": 8,
+    "origin_cycle_id": 100,
+    "raw_value": 190.11410000000004,
+    "unit": "bar",
+    "agg": {
+      "min": 189.94,
+      "max": 190.34,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:09+00:00",
+    "elapsed_s": 9,
+    "origin_cycle_id": 100,
+    "raw_value": 174.11159999999995,
+    "unit": "bar",
+    "agg": {
+      "min": 149.53,
+      "max": 190.27,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:10+00:00",
+    "elapsed_s": 10,
+    "origin_cycle_id": 100,
+    "raw_value": 142.2796,
+    "unit": "bar",
+    "agg": {
+      "min": 140.97,
+      "max": 149.23,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:11+00:00",
+    "elapsed_s": 11,
+    "origin_cycle_id": 100,
+    "raw_value": 142.0776,
+    "unit": "bar",
+    "agg": {
+      "min": 141.61,
+      "max": 142.42,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:12+00:00",
+    "elapsed_s": 12,
+    "origin_cycle_id": 100,
+    "raw_value": 142.06609999999998,
+    "unit": "bar",
+    "agg": {
+      "min": 141.71,
+      "max": 142.52,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:13+00:00",
+    "elapsed_s": 13,
+    "origin_cycle_id": 100,
+    "raw_value": 142.0643,
+    "unit": "bar",
+    "agg": {
+      "min": 141.71,
+      "max": 142.46,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:14+00:00",
+    "elapsed_s": 14,
+    "origin_cycle_id": 100,
+    "raw_value": 142.06239999999997,
+    "unit": "bar",
+    "agg": {
+      "min": 141.64,
+      "max": 142.49,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:15+00:00",
+    "elapsed_s": 15,
+    "origin_cycle_id": 100,
+    "raw_value": 142.07070000000002,
+    "unit": "bar",
+    "agg": {
+      "min": 141.59,
+      "max": 142.38,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:16+00:00",
+    "elapsed_s": 16,
+    "origin_cycle_id": 100,
+    "raw_value": 142.0695,
+    "unit": "bar",
+    "agg": {
+      "min": 141.66,
+      "max": 142.31,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:17+00:00",
+    "elapsed_s": 17,
+    "origin_cycle_id": 100,
+    "raw_value": 142.0188,
+    "unit": "bar",
+    "agg": {
+      "min": 141.66,
+      "max": 142.39,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:18+00:00",
+    "elapsed_s": 18,
+    "origin_cycle_id": 100,
+    "raw_value": 142.00250000000003,
+    "unit": "bar",
+    "agg": {
+      "min": 141.58,
+      "max": 142.46,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:19+00:00",
+    "elapsed_s": 19,
+    "origin_cycle_id": 100,
+    "raw_value": 152.4586,
+    "unit": "bar",
+    "agg": {
+      "min": 141.93,
+      "max": 153.41,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:20+00:00",
+    "elapsed_s": 20,
+    "origin_cycle_id": 100,
+    "raw_value": 152.3532,
+    "unit": "bar",
+    "agg": {
+      "min": 152.19,
+      "max": 152.66,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:21+00:00",
+    "elapsed_s": 21,
+    "origin_cycle_id": 100,
+    "raw_value": 152.3653,
+    "unit": "bar",
+    "agg": {
+      "min": 152.14,
+      "max": 152.54,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:22+00:00",
+    "elapsed_s": 22,
+    "origin_cycle_id": 100,
+    "raw_value": 152.28360000000004,
+    "unit": "bar",
+    "agg": {
+      "min": 152.11,
+      "max": 152.45,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:23+00:00",
+    "elapsed_s": 23,
+    "origin_cycle_id": 100,
+    "raw_value": 152.3064,
+    "unit": "bar",
+    "agg": {
+      "min": 152.13,
+      "max": 152.51,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:24+00:00",
+    "elapsed_s": 24,
+    "origin_cycle_id": 100,
+    "raw_value": 152.3015,
+    "unit": "bar",
+    "agg": {
+      "min": 152.13,
+      "max": 152.45,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:25+00:00",
+    "elapsed_s": 25,
+    "origin_cycle_id": 100,
+    "raw_value": 152.3006,
+    "unit": "bar",
+    "agg": {
+      "min": 152.16,
+      "max": 152.48,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:26+00:00",
+    "elapsed_s": 26,
+    "origin_cycle_id": 100,
+    "raw_value": 152.2752,
+    "unit": "bar",
+    "agg": {
+      "min": 152.09,
+      "max": 152.45,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:27+00:00",
+    "elapsed_s": 27,
+    "origin_cycle_id": 100,
+    "raw_value": 152.30859999999998,
+    "unit": "bar",
+    "agg": {
+      "min": 152.09,
+      "max": 152.53,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:28+00:00",
+    "elapsed_s": 28,
+    "origin_cycle_id": 100,
+    "raw_value": 152.26319999999998,
+    "unit": "bar",
+    "agg": {
+      "min": 152.09,
+      "max": 152.41,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:29+00:00",
+    "elapsed_s": 29,
+    "origin_cycle_id": 100,
+    "raw_value": 160.1221,
+    "unit": "bar",
+    "agg": {
+      "min": 152.38,
+      "max": 162.2,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:30+00:00",
+    "elapsed_s": 30,
+    "origin_cycle_id": 100,
+    "raw_value": 162.0556,
+    "unit": "bar",
+    "agg": {
+      "min": 161.85,
+      "max": 162.26,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:31+00:00",
+    "elapsed_s": 31,
+    "origin_cycle_id": 100,
+    "raw_value": 162.00779999999997,
+    "unit": "bar",
+    "agg": {
+      "min": 161.75,
+      "max": 162.21,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:32+00:00",
+    "elapsed_s": 32,
+    "origin_cycle_id": 100,
+    "raw_value": 161.99089999999998,
+    "unit": "bar",
+    "agg": {
+      "min": 161.82,
+      "max": 162.25,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:33+00:00",
+    "elapsed_s": 33,
+    "origin_cycle_id": 100,
+    "raw_value": 161.9691,
+    "unit": "bar",
+    "agg": {
+      "min": 161.79,
+      "max": 162.16,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:34+00:00",
+    "elapsed_s": 34,
+    "origin_cycle_id": 100,
+    "raw_value": 161.9888,
+    "unit": "bar",
+    "agg": {
+      "min": 161.8,
+      "max": 162.17,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:35+00:00",
+    "elapsed_s": 35,
+    "origin_cycle_id": 100,
+    "raw_value": 161.90980000000002,
+    "unit": "bar",
+    "agg": {
+      "min": 161.69,
+      "max": 162.09,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:36+00:00",
+    "elapsed_s": 36,
+    "origin_cycle_id": 100,
+    "raw_value": 161.9422,
+    "unit": "bar",
+    "agg": {
+      "min": 161.66,
+      "max": 162.23,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:37+00:00",
+    "elapsed_s": 37,
+    "origin_cycle_id": 100,
+    "raw_value": 161.9033,
+    "unit": "bar",
+    "agg": {
+      "min": 161.67,
+      "max": 162.15,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:38+00:00",
+    "elapsed_s": 38,
+    "origin_cycle_id": 100,
+    "raw_value": 161.9259,
+    "unit": "bar",
+    "agg": {
+      "min": 161.69,
+      "max": 162.18,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:39+00:00",
+    "elapsed_s": 39,
+    "origin_cycle_id": 100,
+    "raw_value": 154.22729999999999,
+    "unit": "bar",
+    "agg": {
+      "min": 152.16,
+      "max": 161.99,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:40+00:00",
+    "elapsed_s": 40,
+    "origin_cycle_id": 100,
+    "raw_value": 152.18040000000002,
+    "unit": "bar",
+    "agg": {
+      "min": 152.01,
+      "max": 152.38,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:41+00:00",
+    "elapsed_s": 41,
+    "origin_cycle_id": 100,
+    "raw_value": 152.2184,
+    "unit": "bar",
+    "agg": {
+      "min": 152.06,
+      "max": 152.37,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:42+00:00",
+    "elapsed_s": 42,
+    "origin_cycle_id": 100,
+    "raw_value": 152.2013,
+    "unit": "bar",
+    "agg": {
+      "min": 152.05,
+      "max": 152.38,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:43+00:00",
+    "elapsed_s": 43,
+    "origin_cycle_id": 100,
+    "raw_value": 152.20080000000002,
+    "unit": "bar",
+    "agg": {
+      "min": 152.03,
+      "max": 152.37,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:44+00:00",
+    "elapsed_s": 44,
+    "origin_cycle_id": 100,
+    "raw_value": 152.1838,
+    "unit": "bar",
+    "agg": {
+      "min": 152.01,
+      "max": 152.35,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:45+00:00",
+    "elapsed_s": 45,
+    "origin_cycle_id": 100,
+    "raw_value": 152.2076,
+    "unit": "bar",
+    "agg": {
+      "min": 152.08,
+      "max": 152.38,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:46+00:00",
+    "elapsed_s": 46,
+    "origin_cycle_id": 100,
+    "raw_value": 152.2089,
+    "unit": "bar",
+    "agg": {
+      "min": 152.06,
+      "max": 152.44,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:47+00:00",
+    "elapsed_s": 47,
+    "origin_cycle_id": 100,
+    "raw_value": 152.21519999999998,
+    "unit": "bar",
+    "agg": {
+      "min": 152.1,
+      "max": 152.37,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:48+00:00",
+    "elapsed_s": 48,
+    "origin_cycle_id": 100,
+    "raw_value": 152.289,
+    "unit": "bar",
+    "agg": {
+      "min": 152.14,
+      "max": 152.56,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:49+00:00",
+    "elapsed_s": 49,
+    "origin_cycle_id": 100,
+    "raw_value": 147.005,
+    "unit": "bar",
+    "agg": {
+      "min": 145.52,
+      "max": 152.35,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:50+00:00",
+    "elapsed_s": 50,
+    "origin_cycle_id": 100,
+    "raw_value": 147.165,
+    "unit": "bar",
+    "agg": {
+      "min": 146.72,
+      "max": 147.47,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:51+00:00",
+    "elapsed_s": 51,
+    "origin_cycle_id": 100,
+    "raw_value": 147.21679999999998,
+    "unit": "bar",
+    "agg": {
+      "min": 146.91,
+      "max": 147.6,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:52+00:00",
+    "elapsed_s": 52,
+    "origin_cycle_id": 100,
+    "raw_value": 147.2301,
+    "unit": "bar",
+    "agg": {
+      "min": 146.88,
+      "max": 147.56,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:53+00:00",
+    "elapsed_s": 53,
+    "origin_cycle_id": 100,
+    "raw_value": 147.19979999999998,
+    "unit": "bar",
+    "agg": {
+      "min": 146.83,
+      "max": 147.48,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:54+00:00",
+    "elapsed_s": 54,
+    "origin_cycle_id": 100,
+    "raw_value": 147.2344,
+    "unit": "bar",
+    "agg": {
+      "min": 146.8,
+      "max": 147.56,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:55+00:00",
+    "elapsed_s": 55,
+    "origin_cycle_id": 100,
+    "raw_value": 147.2233,
+    "unit": "bar",
+    "agg": {
+      "min": 146.76,
+      "max": 147.6,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:56+00:00",
+    "elapsed_s": 56,
+    "origin_cycle_id": 100,
+    "raw_value": 147.23760000000001,
+    "unit": "bar",
+    "agg": {
+      "min": 146.91,
+      "max": 147.56,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:57+00:00",
+    "elapsed_s": 57,
+    "origin_cycle_id": 100,
+    "raw_value": 147.24659999999997,
+    "unit": "bar",
+    "agg": {
+      "min": 146.81,
+      "max": 147.58,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:58+00:00",
+    "elapsed_s": 58,
+    "origin_cycle_id": 100,
+    "raw_value": 147.3296,
+    "unit": "bar",
+    "agg": {
+      "min": 147.0,
+      "max": 147.66,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:59+00:00",
+    "elapsed_s": 59,
+    "origin_cycle_id": 100,
+    "raw_value": 147.34490000000002,
+    "unit": "bar",
+    "agg": {
+      "min": 146.99,
+      "max": 147.73,
+      "n": 100,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:00+00:00",
+    "elapsed_s": 0,
+    "origin_cycle_id": 100,
+    "raw_value": 0.9027999999999998,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 7.653,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:01+00:00",
+    "elapsed_s": 1,
+    "origin_cycle_id": 100,
+    "raw_value": 0.0019000000000000002,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 0.007,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:02+00:00",
+    "elapsed_s": 2,
+    "origin_cycle_id": 100,
+    "raw_value": 0.0025,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 0.007,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:03+00:00",
+    "elapsed_s": 3,
+    "origin_cycle_id": 100,
+    "raw_value": 0.0019000000000000002,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 0.005,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:04+00:00",
+    "elapsed_s": 4,
+    "origin_cycle_id": 100,
+    "raw_value": 0.0010000000000000002,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 0.004,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:05+00:00",
+    "elapsed_s": 5,
+    "origin_cycle_id": 100,
+    "raw_value": 0.0010000000000000002,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 0.004,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:06+00:00",
+    "elapsed_s": 6,
+    "origin_cycle_id": 100,
+    "raw_value": 0.0016,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 0.005,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:07+00:00",
+    "elapsed_s": 7,
+    "origin_cycle_id": 100,
+    "raw_value": 0.0021999999999999997,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 0.006,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:08+00:00",
+    "elapsed_s": 8,
+    "origin_cycle_id": 100,
+    "raw_value": 0.0024000000000000002,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.0,
+      "max": 0.006,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:09+00:00",
+    "elapsed_s": 9,
+    "origin_cycle_id": 100,
+    "raw_value": 8.2292,
+    "unit": "L/min",
+    "agg": {
+      "min": 0.001,
+      "max": 20.479,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:10+00:00",
+    "elapsed_s": 10,
+    "origin_cycle_id": 100,
+    "raw_value": 7.807600000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.727,
+      "max": 8.273,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:11+00:00",
+    "elapsed_s": 11,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7552,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.741,
+      "max": 7.796,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:12+00:00",
+    "elapsed_s": 12,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7555000000000005,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.733,
+      "max": 7.778,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:13+00:00",
+    "elapsed_s": 13,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7538,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.719,
+      "max": 7.783,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:14+00:00",
+    "elapsed_s": 14,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7585999999999995,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.739,
+      "max": 7.775,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:15+00:00",
+    "elapsed_s": 15,
+    "origin_cycle_id": 100,
+    "raw_value": 7.755599999999999,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.722,
+      "max": 7.781,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:16+00:00",
+    "elapsed_s": 16,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7545,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.718,
+      "max": 7.779,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:17+00:00",
+    "elapsed_s": 17,
+    "origin_cycle_id": 100,
+    "raw_value": 7.760000000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.724,
+      "max": 7.794,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:18+00:00",
+    "elapsed_s": 18,
+    "origin_cycle_id": 100,
+    "raw_value": 7.757300000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.732,
+      "max": 7.777,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:19+00:00",
+    "elapsed_s": 19,
+    "origin_cycle_id": 100,
+    "raw_value": 7.549900000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 6.379,
+      "max": 8.021,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:20+00:00",
+    "elapsed_s": 20,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7811,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.696,
+      "max": 7.889,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:21+00:00",
+    "elapsed_s": 21,
+    "origin_cycle_id": 100,
+    "raw_value": 7.740100000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.636,
+      "max": 7.839,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:22+00:00",
+    "elapsed_s": 22,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7408,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.611,
+      "max": 7.856,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:23+00:00",
+    "elapsed_s": 23,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7456000000000005,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.628,
+      "max": 7.853,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:24+00:00",
+    "elapsed_s": 24,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7124,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.619,
+      "max": 7.784,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:25+00:00",
+    "elapsed_s": 25,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7505,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.628,
+      "max": 7.889,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:26+00:00",
+    "elapsed_s": 26,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7221,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.659,
+      "max": 7.817,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:27+00:00",
+    "elapsed_s": 27,
+    "origin_cycle_id": 100,
+    "raw_value": 7.750200000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.653,
+      "max": 7.873,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:28+00:00",
+    "elapsed_s": 28,
+    "origin_cycle_id": 100,
+    "raw_value": 7.711699999999999,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.634,
+      "max": 7.789,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:29+00:00",
+    "elapsed_s": 29,
+    "origin_cycle_id": 100,
+    "raw_value": 6.1366,
+    "unit": "L/min",
+    "agg": {
+      "min": 1.073,
+      "max": 7.529,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:30+00:00",
+    "elapsed_s": 30,
+    "origin_cycle_id": 100,
+    "raw_value": 7.669700000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.578,
+      "max": 7.761,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:31+00:00",
+    "elapsed_s": 31,
+    "origin_cycle_id": 100,
+    "raw_value": 7.6812999999999985,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.579,
+      "max": 7.799,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:32+00:00",
+    "elapsed_s": 32,
+    "origin_cycle_id": 100,
+    "raw_value": 7.6905,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.601,
+      "max": 7.806,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:33+00:00",
+    "elapsed_s": 33,
+    "origin_cycle_id": 100,
+    "raw_value": 7.678699999999999,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.59,
+      "max": 7.749,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:34+00:00",
+    "elapsed_s": 34,
+    "origin_cycle_id": 100,
+    "raw_value": 7.678500000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.555,
+      "max": 7.797,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:35+00:00",
+    "elapsed_s": 35,
+    "origin_cycle_id": 100,
+    "raw_value": 7.6925,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.591,
+      "max": 7.796,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:36+00:00",
+    "elapsed_s": 36,
+    "origin_cycle_id": 100,
+    "raw_value": 7.6471,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.565,
+      "max": 7.759,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:37+00:00",
+    "elapsed_s": 37,
+    "origin_cycle_id": 100,
+    "raw_value": 7.6815,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.568,
+      "max": 7.779,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:38+00:00",
+    "elapsed_s": 38,
+    "origin_cycle_id": 100,
+    "raw_value": 7.674899999999999,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.533,
+      "max": 7.781,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:39+00:00",
+    "elapsed_s": 39,
+    "origin_cycle_id": 100,
+    "raw_value": 9.2695,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.766,
+      "max": 12.641,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:40+00:00",
+    "elapsed_s": 40,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7268,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.659,
+      "max": 7.9,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:41+00:00",
+    "elapsed_s": 41,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7413,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.66,
+      "max": 7.869,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:42+00:00",
+    "elapsed_s": 42,
+    "origin_cycle_id": 100,
+    "raw_value": 7.717700000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.666,
+      "max": 7.823,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:43+00:00",
+    "elapsed_s": 43,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7495,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.673,
+      "max": 7.808,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:44+00:00",
+    "elapsed_s": 44,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7338,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.628,
+      "max": 7.827,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:45+00:00",
+    "elapsed_s": 45,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7221,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.619,
+      "max": 7.823,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:46+00:00",
+    "elapsed_s": 46,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7425,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.662,
+      "max": 7.943,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:47+00:00",
+    "elapsed_s": 47,
+    "origin_cycle_id": 100,
+    "raw_value": 7.708800000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.649,
+      "max": 7.834,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:48+00:00",
+    "elapsed_s": 48,
+    "origin_cycle_id": 100,
+    "raw_value": 7.760800000000001,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.696,
+      "max": 7.814,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:49+00:00",
+    "elapsed_s": 49,
+    "origin_cycle_id": 100,
+    "raw_value": 7.8237,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.722,
+      "max": 8.342,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:50+00:00",
+    "elapsed_s": 50,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7766,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.75,
+      "max": 7.798,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:51+00:00",
+    "elapsed_s": 51,
+    "origin_cycle_id": 100,
+    "raw_value": 7.776299999999999,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.749,
+      "max": 7.8,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:52+00:00",
+    "elapsed_s": 52,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7735,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.753,
+      "max": 7.808,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:53+00:00",
+    "elapsed_s": 53,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7886,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.747,
+      "max": 7.811,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:54+00:00",
+    "elapsed_s": 54,
+    "origin_cycle_id": 100,
+    "raw_value": 7.787599999999999,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.764,
+      "max": 7.821,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:55+00:00",
+    "elapsed_s": 55,
+    "origin_cycle_id": 100,
+    "raw_value": 7.7966999999999995,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.768,
+      "max": 7.844,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:56+00:00",
+    "elapsed_s": 56,
+    "origin_cycle_id": 100,
+    "raw_value": 7.8062,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.779,
+      "max": 7.823,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:57+00:00",
+    "elapsed_s": 57,
+    "origin_cycle_id": 100,
+    "raw_value": 7.817099999999999,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.789,
+      "max": 7.836,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:58+00:00",
+    "elapsed_s": 58,
+    "origin_cycle_id": 100,
+    "raw_value": 7.871899999999999,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.839,
+      "max": 7.894,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  },
+  {
+    "asset_id": "HYD-01",
+    "sensor_id": "FS1",
+    "ts": "2026-09-01T00:00:59+00:00",
+    "elapsed_s": 59,
+    "origin_cycle_id": 100,
+    "raw_value": 7.8842,
+    "unit": "L/min",
+    "agg": {
+      "min": 7.846,
+      "max": 7.923,
+      "n": 10,
+      "source_hz": 10
+    },
+    "is_synthetic": false
+  }
+]

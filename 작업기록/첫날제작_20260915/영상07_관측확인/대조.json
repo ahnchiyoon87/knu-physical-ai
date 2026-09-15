@@ -1,0 +1,110 @@
+{
+  "records": 180,
+  "per_sensor": {
+    "TS1": 60,
+    "PS1": 60,
+    "FS1": 60
+  },
+  "field_count": 9,
+  "all_raw_groups_match": true,
+  "abs_tolerance": 1e-10,
+  "selected_records": [
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-09-01T00:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 100,
+      "raw_value": 53.219,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-09-01T00:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 100,
+      "raw_value": 53.395,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-09-01T00:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 100,
+      "raw_value": 170.16209999999998,
+      "unit": "bar",
+      "agg": {
+        "min": 141.27,
+        "max": 189.88,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-09-01T00:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 100,
+      "raw_value": 147.34490000000002,
+      "unit": "bar",
+      "agg": {
+        "min": 146.99,
+        "max": 147.73,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-09-01T00:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 100,
+      "raw_value": 0.9027999999999998,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 7.653,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-09-01T00:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 100,
+      "raw_value": 7.8842,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.846,
+        "max": 7.923,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false
+    }
+  ],
+  "bad_records_rejected": [
+    "missing_unit",
+    "wrong_unit",
+    "wrong_cycle",
+    "wrong_synthetic",
+    "first_value_instead_of_mean",
+    "wrong_replay_time",
+    "missing_aggregation"
+  ],
+  "source_sha256": "5f931fc752e99940f237b417da257502e4ae9b2288a4311c4ad19bf979e11d3a",
+  "scope": "원본 사이클100을 map_cycle로 변환한 품질검사 전180개. DB적재·관제·학생완주 검증 아님."
+}

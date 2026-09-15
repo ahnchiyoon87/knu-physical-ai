@@ -1,0 +1,179 @@
+{
+  "scope": "사이클100 실제 샘플과 제공 코드 묶기·선택 비교. 위치번호 반증은 합성 검사 입력이며 센서 실측이 아니다.",
+  "executed_snippet": "shaped = samples.reshape(CYCLE_S, hz)",
+  "solution_sha256": "5f931fc752e99940f237b417da257502e4ae9b2288a4311c4ad19bf979e11d3a",
+  "starter_sha256": "55282a7d37a3a0c7d7e92d0559677532727eedeb29e6eb64b7cf65dc9e04ba66",
+  "records": [
+    {
+      "sensor": "TS1",
+      "cycle": 100,
+      "input_shape": [
+        60
+      ],
+      "grouped_shape": [
+        60,
+        1
+      ],
+      "all_values_in_order": true,
+      "all_60_boundaries_match": true,
+      "position_probe_pass": true,
+      "selected_groups": [
+        {
+          "second": 0,
+          "first_index": 0,
+          "last_index": 0,
+          "count": 1,
+          "first_value": 53.219,
+          "last_value": 53.219
+        },
+        {
+          "second": 1,
+          "first_index": 1,
+          "last_index": 1,
+          "count": 1,
+          "first_value": 53.207,
+          "last_value": 53.207
+        },
+        {
+          "second": 59,
+          "first_index": 59,
+          "last_index": 59,
+          "count": 1,
+          "first_value": 53.395,
+          "last_value": 53.395
+        }
+      ],
+      "starter_outputs": 60,
+      "solution_outputs": 60,
+      "starter_n": 1,
+      "solution_n": 1,
+      "bad_lengths_rejected": [
+        {
+          "count": 59,
+          "message": "샘플 수 59 != 60 x 1"
+        },
+        {
+          "count": 61,
+          "message": "샘플 수 61 != 60 x 1"
+        }
+      ],
+      "input_unchanged": true
+    },
+    {
+      "sensor": "FS1",
+      "cycle": 100,
+      "input_shape": [
+        600
+      ],
+      "grouped_shape": [
+        60,
+        10
+      ],
+      "all_values_in_order": true,
+      "all_60_boundaries_match": true,
+      "position_probe_pass": true,
+      "selected_groups": [
+        {
+          "second": 0,
+          "first_index": 0,
+          "last_index": 9,
+          "count": 10,
+          "first_value": 7.653,
+          "last_value": 0.001
+        },
+        {
+          "second": 1,
+          "first_index": 10,
+          "last_index": 19,
+          "count": 10,
+          "first_value": 0.004,
+          "last_value": 0.001
+        },
+        {
+          "second": 59,
+          "first_index": 590,
+          "last_index": 599,
+          "count": 10,
+          "first_value": 7.923,
+          "last_value": 7.896
+        }
+      ],
+      "starter_outputs": 60,
+      "solution_outputs": 60,
+      "starter_n": 1,
+      "solution_n": 10,
+      "bad_lengths_rejected": [
+        {
+          "count": 599,
+          "message": "샘플 수 599 != 60 x 10"
+        },
+        {
+          "count": 601,
+          "message": "샘플 수 601 != 60 x 10"
+        }
+      ],
+      "input_unchanged": true
+    },
+    {
+      "sensor": "PS1",
+      "cycle": 100,
+      "input_shape": [
+        6000
+      ],
+      "grouped_shape": [
+        60,
+        100
+      ],
+      "all_values_in_order": true,
+      "all_60_boundaries_match": true,
+      "position_probe_pass": true,
+      "selected_groups": [
+        {
+          "second": 0,
+          "first_index": 0,
+          "last_index": 99,
+          "count": 100,
+          "first_value": 147.21,
+          "last_value": 189.88
+        },
+        {
+          "second": 1,
+          "first_index": 100,
+          "last_index": 199,
+          "count": 100,
+          "first_value": 190.02,
+          "last_value": 190.28
+        },
+        {
+          "second": 59,
+          "first_index": 5900,
+          "last_index": 5999,
+          "count": 100,
+          "first_value": 147.27,
+          "last_value": 147.36
+        }
+      ],
+      "starter_outputs": 60,
+      "solution_outputs": 60,
+      "starter_n": 1,
+      "solution_n": 100,
+      "bad_lengths_rejected": [
+        {
+          "count": 5999,
+          "message": "샘플 수 5999 != 60 x 100"
+        },
+        {
+          "count": 6001,
+          "message": "샘플 수 6001 != 60 x 100"
+        }
+      ],
+      "input_unchanged": true
+    }
+  ],
+  "bad_groupings_rejected": {
+    "100_by_60": "wrong number/size of groups",
+    "first_sample_only": "wrong number/size of groups",
+    "wrong_column_order": "values or sequence changed",
+    "one_position_shift": "values or sequence changed"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "practical": {
+    "unchanged_files": [
+      "mapping.py",
+      "test_check.py",
+      "__init__.py"
+    ],
+    "overwrite_rejected": true,
+    "runtime": "not run"
+  },
+  "integrated": {
+    "unchanged_files": [
+      "test_check.py",
+      "__init__.py"
+    ],
+    "overwrite_rejected": true,
+    "runtime": "not run",
+    "cells_preserved": 18
+  },
+  "outside_project_rejected": true
+}

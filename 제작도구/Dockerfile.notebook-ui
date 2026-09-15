@@ -1,0 +1,2 @@
+FROM knu-hydops-notebook:development
+RUN python -m pip install --no-cache-dir jupyterlab==4.6.3

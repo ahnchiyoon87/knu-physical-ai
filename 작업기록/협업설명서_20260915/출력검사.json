@@ -1,0 +1,22 @@
+{
+  "pages": 4,
+  "layout": [
+    {
+      "height": 794,
+      "scroll": 794
+    },
+    {
+      "height": 794,
+      "scroll": 794
+    },
+    {
+      "height": 794,
+      "scroll": 794
+    },
+    {
+      "height": 794,
+      "scroll": 794
+    }
+  ],
+  "pdf": "시나리오와AI운영_협업설명서.pdf"
+}

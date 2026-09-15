@@ -1,0 +1,11 @@
+{
+  "source_extraction_exit": 0,
+  "negative_hours_rejected": true,
+  "broken_links": [],
+  "measurement_slots": 19,
+  "all_unmeasured": true,
+  "compose_config_exit": 0,
+  "source_git_clean": true,
+  "runtime": "미검증: Docker Linux 엔진 연결 실패",
+  "curriculum": "의견 대기; 제안 미적용"
+}

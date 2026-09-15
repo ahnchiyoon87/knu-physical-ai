@@ -1,0 +1,41 @@
+[
+  {
+    "file": "README.md",
+    "local_links": 8,
+    "missing": []
+  },
+  {
+    "file": "강의계획과운영\\첫컨펌_검토안내.md",
+    "local_links": 11,
+    "missing": []
+  },
+  {
+    "file": "실습자료\\1일차\\관측에서원본까지_실습가이드.md",
+    "local_links": 9,
+    "missing": []
+  },
+  {
+    "pptx_slides": 11,
+    "matched_script_notes": 11
+  },
+  {
+    "pdf": "냉각이상대응_시나리오설명서",
+    "pages": 2,
+    "reexport_text_and_pixels_equal": true
+  },
+  {
+    "pdf": "코딩에이전트와LiteLLM_운영설명서",
+    "pages": 2,
+    "reexport_text_and_pixels_equal": true
+  },
+  {
+    "raw_files_match_reference": [
+      "description.txt",
+      "documentation.txt",
+      "FS1.txt",
+      "profile.txt",
+      "PS1.txt",
+      "TS1.txt"
+    ]
+  }
+]

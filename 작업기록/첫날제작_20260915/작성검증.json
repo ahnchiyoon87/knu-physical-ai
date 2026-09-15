@@ -1,0 +1,8 @@
+{
+  "deck_script_ids_match": true,
+  "scenes": 17,
+  "source_files_hash_match": 12,
+  "source_repository_clean": true,
+  "verification": "문서 대응·원문 해시·시작 파일 문법만 확인. 렌더·커널·DB·전체실습·모델·비용은 미검증",
+  "approved_change": "설명 범위만 반영"
+}

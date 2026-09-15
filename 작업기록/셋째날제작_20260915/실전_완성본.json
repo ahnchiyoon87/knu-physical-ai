@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-15T08:37:23.907946+00:00",
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "knu-hydops-local_default",
+    "-e",
+    "HYDOPS_AGENT_MODE=offline",
+    "-e",
+    "HYDOPS_PG_DSN=postgresql://hydops:hydops@postgres:5432/hydops",
+    "-e",
+    "HYDOPS_NEO4J_URI=bolt://neo4j:7687",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\플랫폼코드,target=/course/플랫폼코드,readonly",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\실습자료\\3일차\\완성본\\practical,target=/course/student-work",
+    "knu-hydops-local:development",
+    "python",
+    "-m",
+    "pytest",
+    "/course/student-work/test_check.py",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "exit_code": 0,
+  "output": "......                                                                   [100%]\n6 passed in 3.44s\n",
+  "scope": "실행 환경에서 제공 테스트만 확인. 학생 완주·비용 측정 아님."
+}

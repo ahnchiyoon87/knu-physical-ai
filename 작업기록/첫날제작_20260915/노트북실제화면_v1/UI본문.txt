@@ -1,0 +1,145 @@
+Skip to main panel
+File
+Edit
+View
+Run
+Kernel
+Tabs
+Settings
+Help
+/
+Name
+Modified
+-
+Code
+Markdown
+Raw
+Python 3 (ipykernel)
+통합반 1회 · 센서와 데이터 흐름 알아보기 (제공 노트북)
+
+이 노트북은 위에서 아래로 한 셀씩 실행한다. 셀을 고르고 ▶ 실행 버튼(또는 Shift+Enter)을 누른다.
+
+활동 2: 세 센서 파일(TS1·PS1·FS1)을 열어 모양을 본다
+활동 3: 설비·센서·단위 매핑 표의 ____ 빈칸을 채운다
+활동 4: 재생 셀로 그래프를 확인하고, 품질 플래그를 붙여 본 뒤 saved/ 에 저장본을 남긴다
+
+빈칸은 ____ 로 표시했다. 빈칸을 채우지 않아도 셀은 실행되지만, 마지막 자기 점검 셀이 통과하지 않는다.
+
+[9]:
+# 3-4. 위 값 하나를 내 말로 적는다 — 빈칸을 채운다
+ONE_VALUE = {
+    'asset_id': 'HYD-01',
+    'sensor_id': 'TS1',
+    'origin_cycle_id': 100,
+    'elapsed_s': 30,
+    'raw_value': 53.402,          # 소수 셋째 자리까지
+    'unit': '°C',
+    'source_file': 'TS1.txt',
+    'is_synthetic': False,        # UCI 원본이면 False, 시뮬레이터 합성이면 True
+}
+print(f"설비 {ONE_VALUE['asset_id']} 의 센서 {ONE_VALUE['sensor_id']} 값 {ONE_VALUE['raw_value']} {ONE_VALUE['unit']} 은(는) "
+      f"원본 파일 {ONE_VALUE['source_file']} 의 사이클 #{ONE_VALUE['origin_cycle_id']}, {ONE_VALUE['elapsed_s']}초째 값이다.")
+설비 HYD-01 의 센서 TS1 값 53.402 °C 은(는) 원본 파일 TS1.txt 의 사이클 #100, 30초째 값이다.
+
+활동 4 · 재생 버튼으로 그래프 확인하고 저장본 남기기
+
+아래 셀의 ▶ 버튼을 누르면 사이클 세 개를 이어 붙여 10초씩 재생한다. REPLAY_CYCLES 의 번호를 바꿔 다시 눌러 본다. 원본 CSV 재생은 조치에 반응하지 않는다 — 조치에 반응하는 것은 뒤 회차의 시뮬레이터다.
+
+[10]:
+# 4-1. 재생
+import time
+from IPython.display import clear_output, display
+
+
+REPLAY_CYCLES = [100, 101, 102]
+STEP_S, DELAY_S = 10, 0.05
+
+
+replay_rows = []
+for cid, cyc_rows in uci.replay_cycles(ds, REPLAY_CYCLES, ASSET_ID, start=REPLAY_START):
+    replay_rows.extend(cyc_rows)
+frame = pd.DataFrame(replay_rows).sort_values(['ts', 'sensor_id'])
+total_s = len(REPLAY_CYCLES) * 60
+
+
+for shown in range(STEP_S, total_s + 1, STEP_S):
+    part = frame[frame.ts < REPLAY_START + pd.Timedelta(seconds=shown)]
+    fig, axes = plt.subplots(3, 1, figsize=(11, 6.5), sharex=True)
+    for ax, sid in zip(axes, ['TS1', 'PS1', 'FS1']):
+        s = part[part.sensor_id == sid]
+        ax.plot((s.ts - REPLAY_START).dt.total_seconds(), s.raw_value)
+        ax.set_ylabel(f"{sid} [{SENSOR_TABLE[sid]['unit']}]")
+        ax.set_xlim(0, total_s)
+    for k in range(1, len(REPLAY_CYCLES)):
+        for ax in axes:
+            ax.axvline(k * 60, color='gray', linestyle=':')
+    axes[0].set_title(f'재생 {shown:3d}/{total_s}초 · 원본 사이클 {REPLAY_CYCLES} · {ASSET_ID}')
+    axes[-1].set_xlabel('재생 경과 초 (재생 시각 기준, 실제 수집 시각 아님)')
+    fig.tight_layout()
+    clear_output(wait=True)
+    display(fig)
+    plt.close(fig)
+    time.sleep(DELAY_S)
+print('재생한 관측 레코드 수 =', len(frame))
+재생한 관측 레코드 수 = 540
+
+[11]:
+# 4-2. B2 미리 보기 — 같은 관측에 품질 플래그를 붙인다 (다음 회차에서 자세히 다룬다)
+from hydops.b2_quality.checks import SensorQualityChecker
+
+
+flags = pd.DataFrame(SensorQualityChecker().check_many(replay_rows))
+print(flags.groupby(['sensor_id', 'quality_flag']).size())
+flags[flags.quality_flag != 'OK'][['sensor_id', 'origin_cycle_id', 'elapsed_s', 'raw_value', 'value', 'quality_flag']]
+sensor_id  quality_flag
+FS1        OK              180
+PS1        OK              180
+TS1        OK              180
+dtype: int64
+
+[11]:
+	sensor_id	origin_cycle_id	elapsed_s	raw_value	value	quality_flag
+[12]:
+# 4-3. 저장본 남기기 — saved/ 폴더에 CSV 와 마지막 그래프를 남긴다
+SAVE_DIR = Path('saved')
+SAVE_DIR.mkdir(exist_ok=True)
+out = flags.assign(ts=flags.ts.astype(str), agg=flags['agg'].astype(str))
+out.to_csv(SAVE_DIR / 'S01_replay_observations.csv', index=False)
+fig.savefig(SAVE_DIR / 'S01_replay_last_frame.png', dpi=120)
+pd.DataFrame(SENSOR_TABLE).T.to_csv(SAVE_DIR / 'S01_sensor_table.csv')
+for p in sorted(SAVE_DIR.glob('S01_*')):
+    print(p.name)
+S01_replay_last_frame.png
+S01_replay_observations.csv
+S01_sensor_table.csv
+
+[13]:
+# 5. 자기 점검 — 빈칸이 모두 맞으면 '모든 빈칸 통과' 가 나온다
+problems = []
+for sid in ('TS1', 'PS1', 'FS1'):
+    row, ref = SENSOR_TABLE[sid], uci.SENSOR_MAP[sid]
+    for k in ('file', 'hz', 'unit'):
+        if row[k] != ref[k]:
+            problems.append(f'{sid}.{k}')
+    if row['sensor_id'] != f"{row['asset_id']}.{sid}":
+        problems.append(f'{sid}.sensor_id')
+checks = {
+    'asset_id': ONE_VALUE['asset_id'] == one['asset_id'],
+    'raw_value': isinstance(ONE_VALUE['raw_value'], (int, float)) and abs(ONE_VALUE['raw_value'] - one['raw_value']) < 0.001,
+    'unit': ONE_VALUE['unit'] == one['unit'],
+    'source_file': ONE_VALUE['source_file'] == uci.SENSOR_MAP['TS1']['file'],
+    'is_synthetic': ONE_VALUE['is_synthetic'] is one['is_synthetic'],
+}
+problems += [f'ONE_VALUE.{k}' for k, ok in checks.items() if not ok]
+print('모든 빈칸 통과' if not problems else '확인 필요: ' + ', '.join(problems))
+모든 빈칸 통과
+
+Click to add a cell.
+관측_실행결과.ipynb
+1
+Python 3 (ipykernel) | Idle
+Mode: Command
+Cell 1/18
+Ln 1, Col 1
+관측_실행결과.ipynb
+0

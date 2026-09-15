@@ -1,0 +1,52 @@
+[
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S04\\detector_lab.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\시작본\\practical\\detector_lab.py",
+    "sha256": "2bef9f91f20d59d343efb9d20568d32e7f18646cb4b1352ab0ae36cfb2e49712"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S04\\test_check.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\시작본\\practical\\test_check.py",
+    "sha256": "2b369d4ccbad81edc2dbbd90e5857eaa50de875ec2910297a78f36af8ccd56e3"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S04\\solution\\detector_lab.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\완성본\\practical\\detector_lab.py",
+    "sha256": "76f471a66a2ba9ab05813f11514d372751d11873f93f4c0076156f4f33c17b84"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S04\\test_check.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\완성본\\practical\\test_check.py",
+    "sha256": "2b369d4ccbad81edc2dbbd90e5857eaa50de875ec2910297a78f36af8ccd56e3"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S04\\detect_config.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\시작본\\integrated\\detect_config.py",
+    "sha256": "ec4c6cb1477fab7aea59ea9c2d63dcde220544d8621097bc0481ba186f632862"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S04\\event_types.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\시작본\\integrated\\event_types.py",
+    "sha256": "bb0d1e0a0a117091c5d300d9ec49991e3b6ac0febd270746a932c513ade2e314"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S04\\test_check.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\시작본\\integrated\\test_check.py",
+    "sha256": "7c4221aefc55decd06648b6d076841eb1ca47fbf07a98e3f449d2b78d81bcfeb"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S04\\solution\\detect_config.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\완성본\\integrated\\detect_config.py",
+    "sha256": "378e33e36f64b3ab3fbcceee637a397b36af61483855042809683669657396dc"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S04\\solution\\event_types.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\완성본\\integrated\\event_types.py",
+    "sha256": "d30a97f9f2f4eba02d4113c61f7d39d6c1a799d18303c3d9e0ab04aeb98e0981"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S04\\test_check.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\4일차\\완성본\\integrated\\test_check.py",
+    "sha256": "7c4221aefc55decd06648b6d076841eb1ca47fbf07a98e3f449d2b78d81bcfeb"
+  }
+]

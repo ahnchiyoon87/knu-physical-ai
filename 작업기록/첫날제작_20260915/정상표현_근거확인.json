@@ -1,0 +1,131 @@
+{
+  "scope": "실제 원문 npz/profile와 원본 B2 검사 함수의 분리 실행. QualityRules는 원문 AST에서 로드. .env·DB·LLM·학생 전체 완주 없음.",
+  "source_hashes": {
+    "hydops\\config.py": "24fd1a8fabaed3b5d75e3ee736536a1c33db2d9a1db99a37d348a355afc334a3",
+    "hydops\\b2_quality\\checks.py": "31e18e5452b6df1df1f93cab38d21c4d3c3e4aaa455c601eece8df9e3e62acb2",
+    "data\\raw\\profile.txt": "029909d63307d35dfd13e5fe08783ac87dbd55d6bf03a544bfffa525762ba3ba",
+    "data\\reduced\\hydraulic_1s.npz": "26ac972355e32bb247f716dd6d962046b129ee822890501a2f82bed1edbff79e"
+  },
+  "source_profile_100_102": {
+    "100": [
+      3,
+      100,
+      0,
+      130,
+      1
+    ],
+    "101": [
+      3,
+      100,
+      0,
+      130,
+      1
+    ],
+    "102": [
+      3,
+      100,
+      0,
+      130,
+      1
+    ]
+  },
+  "b2_flags": {
+    "OK": 540
+  },
+  "b2_by_cycle": {
+    "100": {
+      "OK": 180
+    },
+    "101": {
+      "OK": 180
+    },
+    "102": {
+      "OK": 180
+    }
+  },
+  "quality_control_missing": "MISSING",
+  "normal_stable_selection": "cooler_pct == 100 and stable_flag == 0 (원문 B5 fixed_split과 동일 조건)",
+  "normal_stable_count": 489,
+  "max_change_all_2205": {
+    "TS1": {
+      "max_abs_delta": 0.22700000000000387,
+      "cycle": 333,
+      "elapsed_s": 10,
+      "profile": [
+        3,
+        100,
+        0,
+        115,
+        1
+      ]
+    },
+    "PS1": {
+      "max_abs_delta": 40.26129999999995,
+      "cycle": 213,
+      "elapsed_s": 10,
+      "profile": [
+        3,
+        73,
+        2,
+        130,
+        0
+      ]
+    },
+    "FS1": {
+      "max_abs_delta": 10.942300000000001,
+      "cycle": 400,
+      "elapsed_s": 49,
+      "profile": [
+        3,
+        80,
+        1,
+        115,
+        0
+      ]
+    }
+  },
+  "max_change_normal_stable": {
+    "TS1": {
+      "max_abs_delta": 0.19599999999999795,
+      "cycle": 2195,
+      "elapsed_s": 1,
+      "profile": [
+        100,
+        100,
+        0,
+        90,
+        0
+      ]
+    },
+    "PS1": {
+      "max_abs_delta": 36.88409999999999,
+      "cycle": 2075,
+      "elapsed_s": 10,
+      "profile": [
+        100,
+        73,
+        2,
+        90,
+        0
+      ]
+    },
+    "FS1": {
+      "max_abs_delta": 9.198900000000002,
+      "cycle": 1788,
+      "elapsed_s": 9,
+      "profile": [
+        100,
+        100,
+        0,
+        130,
+        0
+      ]
+    }
+  },
+  "source_thresholds": {
+    "TS1": 8.0,
+    "PS1": 60.0,
+    "FS1": 15.0
+  },
+  "interpretation": "OK와 냉각 이상 라벨은 서로 다른 평가 축이므로 동시 성립 가능. 정상 UCI라는 표현의 대상은 모호함. 전체2205개 최대를 정상 안정 구간 최대라고 설명하는 부분은 모집단 불일치."
+}

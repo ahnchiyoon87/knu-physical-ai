@@ -1,0 +1,900 @@
+{
+  "scope": "실제 Neo4jVector+HashEmbeddings 검색 경로. 유료 임베딩/LLM 품질·학생 완주 검증 아님.",
+  "cases": [
+    {
+      "asset": "HYD-01",
+      "type": "COOLING_ANOMALY",
+      "lab": {
+        "asset_id": "HYD-01",
+        "event_type": "COOLING_ANOMALY",
+        "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-01|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": [
+          {
+            "doc_id": "SOP-COOL-001",
+            "version": 2,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.7032,
+            "text": "[SOP-COOL-001 v2 §4 허용 조치] 허용 조치는 승인 부하 감소(SOP-LOAD-001) 한 가지다. 냉각기 분해·밸브 조작은 이 절차에서 허용하지 않는다."
+          },
+          {
+            "doc_id": "SOP-COOL-001",
+            "version": 2,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6407,
+            "text": "[SOP-COOL-001 v2 §2 발동 조건] 유효한 온도 관측이 60°C를 넘는 상태가 10초 이상 이어지면 냉각 이상으로 본다. 센서 품질 플래그가 OK가 아닌 관측은 세지 않는다."
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6297,
+            "text": "[SOP-VER-001 v1 §2 발동 조건] 조치 명령이 성공으로 기록되면 30초 대기 후 발동한다. 조치 이전의 관측은 재측정에 쓰지 않는다."
+          },
+          {
+            "doc_id": "SOP-ESC-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6293,
+            "text": "[SOP-ESC-001 v1 §2 발동 조건] 재점검 결과가 미개선이거나, 조치 명령이 실패했거나, 허용 조치를 이미 한 번 실행한 사건에서 이상이 이어지면 발동한다."
+          }
+        ]
+      },
+      "platform": {
+        "asset_id": "HYD-01",
+        "event_type": "COOLING_ANOMALY",
+        "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-01|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": [
+          {
+            "doc_id": "SOP-COOL-001",
+            "version": 2,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.7032,
+            "text": "[SOP-COOL-001 v2 §4 허용 조치] 허용 조치는 승인 부하 감소(SOP-LOAD-001) 한 가지다. 냉각기 분해·밸브 조작은 이 절차에서 허용하지 않는다."
+          },
+          {
+            "doc_id": "SOP-COOL-001",
+            "version": 2,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6407,
+            "text": "[SOP-COOL-001 v2 §2 발동 조건] 유효한 온도 관측이 60°C를 넘는 상태가 10초 이상 이어지면 냉각 이상으로 본다. 센서 품질 플래그가 OK가 아닌 관측은 세지 않는다."
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6297,
+            "text": "[SOP-VER-001 v1 §2 발동 조건] 조치 명령이 성공으로 기록되면 30초 대기 후 발동한다. 조치 이전의 관측은 재측정에 쓰지 않는다."
+          },
+          {
+            "doc_id": "SOP-ESC-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6293,
+            "text": "[SOP-ESC-001 v1 §2 발동 조건] 재점검 결과가 미개선이거나, 조치 명령이 실패했거나, 허용 조치를 이미 한 번 실행한 사건에서 이상이 이어지면 발동한다."
+          }
+        ]
+      },
+      "proposal": {
+        "raw": {
+          "decision": "PROPOSE",
+          "action_id": "REDUCE_LOAD",
+          "value": 0.8,
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "version": 2,
+              "section": "4"
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "version": 2,
+              "section": "2"
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "version": 1,
+              "section": "2"
+            }
+          ],
+          "rationale": "적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "final": {
+          "decision": "PROPOSE",
+          "action_id": "REDUCE_LOAD",
+          "value": 0.8,
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "version": 2,
+              "section": "4"
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "version": 2,
+              "section": "2"
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "version": 1,
+              "section": "2"
+            }
+          ],
+          "rationale": "적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "citation_problems": [],
+        "trace": [
+          {
+            "tool": "get_asset_context",
+            "result": {
+              "asset_id": "HYD-01",
+              "found": true,
+              "asset": {
+                "educational": true,
+                "line": "L1",
+                "cooling": "수랭식 냉각기",
+                "name": "유압설비 1호기",
+                "asset_id": "HYD-01"
+              },
+              "sensors": [
+                {
+                  "sensor_id": "HYD-01.FS1",
+                  "code": "FS1",
+                  "quantity": "flow",
+                  "unit": "L/min",
+                  "hz": 10
+                },
+                {
+                  "sensor_id": "HYD-01.PS1",
+                  "code": "PS1",
+                  "quantity": "pressure",
+                  "unit": "bar",
+                  "hz": 100
+                },
+                {
+                  "sensor_id": "HYD-01.TS1",
+                  "code": "TS1",
+                  "quantity": "temperature",
+                  "unit": "°C",
+                  "hz": 1
+                }
+              ],
+              "applicable_sops": [
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "version": 2,
+                  "title": "냉각 이상 확인",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "설비 담당자"
+                },
+                {
+                  "doc_id": "SOP-ESC-001",
+                  "version": 1,
+                  "title": "미개선 이관",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "정비 책임자"
+                },
+                {
+                  "doc_id": "SOP-LOAD-001",
+                  "version": 1,
+                  "title": "승인 부하 감소",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "설비 담당자"
+                },
+                {
+                  "doc_id": "SOP-VER-001",
+                  "version": 1,
+                  "title": "조치 후 재점검",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "설비 담당자"
+                },
+                {
+                  "doc_id": "SOP-SEN-001",
+                  "version": 1,
+                  "title": "센서 오류 점검",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "설비 담당자"
+                }
+              ],
+              "allowed_actions": [
+                {
+                  "requires_approval": true,
+                  "min_value": 0.6,
+                  "action_id": "REDUCE_LOAD",
+                  "name": "승인 부하 감소",
+                  "default_value": 0.8,
+                  "max_value": 1.0
+                },
+                {
+                  "requires_approval": false,
+                  "min_value": null,
+                  "action_id": "ESCALATE",
+                  "name": "정비 책임자 이관",
+                  "default_value": null,
+                  "max_value": null
+                },
+                {
+                  "requires_approval": false,
+                  "min_value": null,
+                  "action_id": "SENSOR_CHECK",
+                  "name": "센서 점검 요청",
+                  "default_value": null,
+                  "max_value": null
+                }
+              ]
+            }
+          },
+          {
+            "tool": "search_sop",
+            "result": {
+              "asset_id": "HYD-01",
+              "event_type": "COOLING_ANOMALY",
+              "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+              "filter": {
+                "asset_scope": {
+                  "$like": "|HYD-01|"
+                },
+                "status": {
+                  "$eq": "active"
+                }
+              },
+              "hits": [
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "version": 2,
+                  "section": "4",
+                  "heading": "허용 조치",
+                  "score": 0.7032,
+                  "text": "[SOP-COOL-001 v2 §4 허용 조치] 허용 조치는 승인 부하 감소(SOP-LOAD-001) 한 가지다. 냉각기 분해·밸브 조작은 이 절차에서 허용하지 않는다."
+                },
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "version": 2,
+                  "section": "2",
+                  "heading": "발동 조건",
+                  "score": 0.6407,
+                  "text": "[SOP-COOL-001 v2 §2 발동 조건] 유효한 온도 관측이 60°C를 넘는 상태가 10초 이상 이어지면 냉각 이상으로 본다. 센서 품질 플래그가 OK가 아닌 관측은 세지 않는다."
+                },
+                {
+                  "doc_id": "SOP-VER-001",
+                  "version": 1,
+                  "section": "2",
+                  "heading": "발동 조건",
+                  "score": 0.6297,
+                  "text": "[SOP-VER-001 v1 §2 발동 조건] 조치 명령이 성공으로 기록되면 30초 대기 후 발동한다. 조치 이전의 관측은 재측정에 쓰지 않는다."
+                },
+                {
+                  "doc_id": "SOP-ESC-001",
+                  "version": 1,
+                  "section": "2",
+                  "heading": "발동 조건",
+                  "score": 0.6293,
+                  "text": "[SOP-ESC-001 v1 §2 발동 조건] 재점검 결과가 미개선이거나, 조치 명령이 실패했거나, 허용 조치를 이미 한 번 실행한 사건에서 이상이 이어지면 발동한다."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "asset": "HYD-02",
+      "type": "COOLING_ANOMALY",
+      "lab": {
+        "asset_id": "HYD-02",
+        "event_type": "COOLING_ANOMALY",
+        "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-02|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": [
+          {
+            "doc_id": "SOP-COOL-002",
+            "version": 1,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.6878,
+            "text": "[SOP-COOL-002 v1 §4 허용 조치] 허용 조치는 냉각 팬 증속(FAN_BOOST)으로 팬 속도 배수를 1.3으로 올린다. 허용 값 범위는 1.0 이상 1.5 이하다. 부하 감소는 이 절차의 허용 조치가 아니다."
+          },
+          {
+            "doc_id": "SOP-COOL-002",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6365,
+            "text": "[SOP-COOL-002 v1 §2 발동 조건] 유효한 온도 관측이 58°C를 넘는 상태가 15초 이상 이어지면 발동한다."
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6297,
+            "text": "[SOP-VER-001 v1 §2 발동 조건] 조치 명령이 성공으로 기록되면 30초 대기 후 발동한다. 조치 이전의 관측은 재측정에 쓰지 않는다."
+          },
+          {
+            "doc_id": "SOP-ESC-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6293,
+            "text": "[SOP-ESC-001 v1 §2 발동 조건] 재점검 결과가 미개선이거나, 조치 명령이 실패했거나, 허용 조치를 이미 한 번 실행한 사건에서 이상이 이어지면 발동한다."
+          }
+        ]
+      },
+      "platform": {
+        "asset_id": "HYD-02",
+        "event_type": "COOLING_ANOMALY",
+        "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-02|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": [
+          {
+            "doc_id": "SOP-COOL-002",
+            "version": 1,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.6878,
+            "text": "[SOP-COOL-002 v1 §4 허용 조치] 허용 조치는 냉각 팬 증속(FAN_BOOST)으로 팬 속도 배수를 1.3으로 올린다. 허용 값 범위는 1.0 이상 1.5 이하다. 부하 감소는 이 절차의 허용 조치가 아니다."
+          },
+          {
+            "doc_id": "SOP-COOL-002",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6365,
+            "text": "[SOP-COOL-002 v1 §2 발동 조건] 유효한 온도 관측이 58°C를 넘는 상태가 15초 이상 이어지면 발동한다."
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6297,
+            "text": "[SOP-VER-001 v1 §2 발동 조건] 조치 명령이 성공으로 기록되면 30초 대기 후 발동한다. 조치 이전의 관측은 재측정에 쓰지 않는다."
+          },
+          {
+            "doc_id": "SOP-ESC-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6293,
+            "text": "[SOP-ESC-001 v1 §2 발동 조건] 재점검 결과가 미개선이거나, 조치 명령이 실패했거나, 허용 조치를 이미 한 번 실행한 사건에서 이상이 이어지면 발동한다."
+          }
+        ]
+      },
+      "proposal": {
+        "raw": {
+          "decision": "PROPOSE",
+          "action_id": "FAN_BOOST",
+          "value": 1.3,
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-002",
+              "version": 1,
+              "section": "4"
+            },
+            {
+              "doc_id": "SOP-COOL-002",
+              "version": 1,
+              "section": "2"
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "version": 1,
+              "section": "2"
+            }
+          ],
+          "rationale": "적용 SOP 가 냉각 팬 증속을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "final": {
+          "decision": "PROPOSE",
+          "action_id": "FAN_BOOST",
+          "value": 1.3,
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-002",
+              "version": 1,
+              "section": "4"
+            },
+            {
+              "doc_id": "SOP-COOL-002",
+              "version": 1,
+              "section": "2"
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "version": 1,
+              "section": "2"
+            }
+          ],
+          "rationale": "적용 SOP 가 냉각 팬 증속을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "citation_problems": [],
+        "trace": [
+          {
+            "tool": "get_asset_context",
+            "result": {
+              "asset_id": "HYD-02",
+              "found": true,
+              "asset": {
+                "educational": true,
+                "line": "L2",
+                "cooling": "공랭식 팬",
+                "name": "유압설비 2호기",
+                "asset_id": "HYD-02"
+              },
+              "sensors": [
+                {
+                  "sensor_id": "HYD-02.FS1",
+                  "code": "FS1",
+                  "quantity": "flow",
+                  "unit": "L/min",
+                  "hz": 10
+                },
+                {
+                  "sensor_id": "HYD-02.PS1",
+                  "code": "PS1",
+                  "quantity": "pressure",
+                  "unit": "bar",
+                  "hz": 100
+                },
+                {
+                  "sensor_id": "HYD-02.TS1",
+                  "code": "TS1",
+                  "quantity": "temperature",
+                  "unit": "°C",
+                  "hz": 1
+                }
+              ],
+              "applicable_sops": [
+                {
+                  "doc_id": "SOP-COOL-002",
+                  "version": 1,
+                  "title": "냉각 이상 확인 (2호기 공랭식)",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "2호기 담당자"
+                },
+                {
+                  "doc_id": "SOP-ESC-001",
+                  "version": 1,
+                  "title": "미개선 이관",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "정비 책임자"
+                },
+                {
+                  "doc_id": "SOP-VER-001",
+                  "version": 1,
+                  "title": "조치 후 재점검",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "설비 담당자"
+                },
+                {
+                  "doc_id": "SOP-SEN-001",
+                  "version": 1,
+                  "title": "센서 오류 점검",
+                  "effective_date": "2026-09-01",
+                  "approver_role": "설비 담당자"
+                }
+              ],
+              "allowed_actions": [
+                {
+                  "requires_approval": true,
+                  "min_value": 1.0,
+                  "action_id": "FAN_BOOST",
+                  "name": "냉각 팬 증속",
+                  "default_value": 1.3,
+                  "max_value": 1.5
+                },
+                {
+                  "requires_approval": false,
+                  "min_value": null,
+                  "action_id": "ESCALATE",
+                  "name": "정비 책임자 이관",
+                  "default_value": null,
+                  "max_value": null
+                },
+                {
+                  "requires_approval": false,
+                  "min_value": null,
+                  "action_id": "SENSOR_CHECK",
+                  "name": "센서 점검 요청",
+                  "default_value": null,
+                  "max_value": null
+                }
+              ]
+            }
+          },
+          {
+            "tool": "search_sop",
+            "result": {
+              "asset_id": "HYD-02",
+              "event_type": "COOLING_ANOMALY",
+              "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+              "filter": {
+                "asset_scope": {
+                  "$like": "|HYD-02|"
+                },
+                "status": {
+                  "$eq": "active"
+                }
+              },
+              "hits": [
+                {
+                  "doc_id": "SOP-COOL-002",
+                  "version": 1,
+                  "section": "4",
+                  "heading": "허용 조치",
+                  "score": 0.6878,
+                  "text": "[SOP-COOL-002 v1 §4 허용 조치] 허용 조치는 냉각 팬 증속(FAN_BOOST)으로 팬 속도 배수를 1.3으로 올린다. 허용 값 범위는 1.0 이상 1.5 이하다. 부하 감소는 이 절차의 허용 조치가 아니다."
+                },
+                {
+                  "doc_id": "SOP-COOL-002",
+                  "version": 1,
+                  "section": "2",
+                  "heading": "발동 조건",
+                  "score": 0.6365,
+                  "text": "[SOP-COOL-002 v1 §2 발동 조건] 유효한 온도 관측이 58°C를 넘는 상태가 15초 이상 이어지면 발동한다."
+                },
+                {
+                  "doc_id": "SOP-VER-001",
+                  "version": 1,
+                  "section": "2",
+                  "heading": "발동 조건",
+                  "score": 0.6297,
+                  "text": "[SOP-VER-001 v1 §2 발동 조건] 조치 명령이 성공으로 기록되면 30초 대기 후 발동한다. 조치 이전의 관측은 재측정에 쓰지 않는다."
+                },
+                {
+                  "doc_id": "SOP-ESC-001",
+                  "version": 1,
+                  "section": "2",
+                  "heading": "발동 조건",
+                  "score": 0.6293,
+                  "text": "[SOP-ESC-001 v1 §2 발동 조건] 재점검 결과가 미개선이거나, 조치 명령이 실패했거나, 허용 조치를 이미 한 번 실행한 사건에서 이상이 이어지면 발동한다."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "asset": "HYD-03",
+      "type": "COOLING_ANOMALY",
+      "lab": {
+        "asset_id": "HYD-03",
+        "event_type": "COOLING_ANOMALY",
+        "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-03|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": []
+      },
+      "platform": {
+        "asset_id": "HYD-03",
+        "event_type": "COOLING_ANOMALY",
+        "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-03|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": []
+      },
+      "proposal": {
+        "raw": {
+          "decision": "HOLD",
+          "action_id": null,
+          "value": null,
+          "citations": [],
+          "rationale": "이 설비에 적용되는 냉각 이상 SOP 근거나 허용 조치가 없어 보류한다.",
+          "checks_passed": false
+        },
+        "final": {
+          "decision": "HOLD",
+          "action_id": null,
+          "value": null,
+          "citations": [],
+          "rationale": "이 설비에 적용되는 냉각 이상 SOP 근거나 허용 조치가 없어 보류한다.",
+          "checks_passed": false
+        },
+        "citation_problems": [],
+        "trace": [
+          {
+            "tool": "get_asset_context",
+            "result": {
+              "asset_id": "HYD-03",
+              "found": true,
+              "asset": {
+                "educational": true,
+                "line": "L3",
+                "name": "유압설비 3호기(신규)",
+                "cooling": "수랭식 냉각기",
+                "asset_id": "HYD-03"
+              },
+              "sensors": [
+                {
+                  "sensor_id": "HYD-03.FS1",
+                  "code": "FS1",
+                  "quantity": "flow",
+                  "unit": "L/min",
+                  "hz": 10
+                },
+                {
+                  "sensor_id": "HYD-03.PS1",
+                  "code": "PS1",
+                  "quantity": "pressure",
+                  "unit": "bar",
+                  "hz": 100
+                },
+                {
+                  "sensor_id": "HYD-03.TS1",
+                  "code": "TS1",
+                  "quantity": "temperature",
+                  "unit": "°C",
+                  "hz": 1
+                }
+              ],
+              "applicable_sops": [],
+              "allowed_actions": []
+            }
+          },
+          {
+            "tool": "search_sop",
+            "result": {
+              "asset_id": "HYD-03",
+              "event_type": "COOLING_ANOMALY",
+              "query": "온도 60도 초과 지속 냉각 이상 발동 조건 허용 조치 승인 부하 감소 재점검",
+              "filter": {
+                "asset_scope": {
+                  "$like": "|HYD-03|"
+                },
+                "status": {
+                  "$eq": "active"
+                }
+              },
+              "hits": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "asset": "HYD-01",
+      "type": "SENSOR_FAULT",
+      "lab": {
+        "asset_id": "HYD-01",
+        "event_type": "SENSOR_FAULT",
+        "query": "센서 결측 고착 품질 플래그 센서 점검 설비 조치 보류",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-01|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": [
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "section": "5",
+            "heading": "승인 주체",
+            "score": 0.6469,
+            "text": "[SOP-SEN-001 v1 §5 승인 주체] 센서 점검 요청은 설비 담당자가 확인한다. 설비 조치가 아니므로 부하 변경 승인 절차를 거치지 않는다."
+          },
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.6218,
+            "text": "[SOP-SEN-001 v1 §4 허용 조치] 설비 부하 변경 같은 설비 조치는 보류한다. 허용 조치는 SENSOR_CHECK(센서 배선·커넥터 점검 요청) 한 가지다."
+          },
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "section": "6",
+            "heading": "재점검 기준",
+            "score": 0.6052,
+            "text": "[SOP-SEN-001 v1 §6 재점검 기준] 점검 후 60초 동안 유효 관측 비율이 90% 이상이면 센서 정상으로 본다. 센서가 복구되기 전에는 냉각 이상 여부를 판정하지 않는다."
+          },
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "section": "3",
+            "heading": "확인할 관측",
+            "score": 0.6041,
+            "text": "[SOP-SEN-001 v1 §3 확인할 관측] 품질 플래그(MISSING, GAP, STUCK, SPIKE)의 분포와 최장 결측 길이를 확인한다. 같은 시각의 압력·유량이 정상 범위인지 함께 본다. 다른 센서가 정상이면 설비 이상이 아니라 센서 오류일 가능성이 높다."
+          }
+        ]
+      },
+      "platform": {
+        "asset_id": "HYD-01",
+        "event_type": "SENSOR_FAULT",
+        "query": "센서 결측 고착 품질 플래그 센서 점검 설비 조치 보류",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-01|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": [
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "section": "5",
+            "heading": "승인 주체",
+            "score": 0.6469,
+            "text": "[SOP-SEN-001 v1 §5 승인 주체] 센서 점검 요청은 설비 담당자가 확인한다. 설비 조치가 아니므로 부하 변경 승인 절차를 거치지 않는다."
+          },
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.6218,
+            "text": "[SOP-SEN-001 v1 §4 허용 조치] 설비 부하 변경 같은 설비 조치는 보류한다. 허용 조치는 SENSOR_CHECK(센서 배선·커넥터 점검 요청) 한 가지다."
+          },
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "section": "6",
+            "heading": "재점검 기준",
+            "score": 0.6052,
+            "text": "[SOP-SEN-001 v1 §6 재점검 기준] 점검 후 60초 동안 유효 관측 비율이 90% 이상이면 센서 정상으로 본다. 센서가 복구되기 전에는 냉각 이상 여부를 판정하지 않는다."
+          },
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "section": "3",
+            "heading": "확인할 관측",
+            "score": 0.6041,
+            "text": "[SOP-SEN-001 v1 §3 확인할 관측] 품질 플래그(MISSING, GAP, STUCK, SPIKE)의 분포와 최장 결측 길이를 확인한다. 같은 시각의 압력·유량이 정상 범위인지 함께 본다. 다른 센서가 정상이면 설비 이상이 아니라 센서 오류일 가능성이 높다."
+          }
+        ]
+      },
+      "proposal": {
+        "raw": {
+          "decision": "SENSOR_CHECK",
+          "action_id": "SENSOR_CHECK",
+          "value": null,
+          "citations": [
+            {
+              "doc_id": "SOP-SEN-001",
+              "version": 1,
+              "section": "5"
+            },
+            {
+              "doc_id": "SOP-SEN-001",
+              "version": 1,
+              "section": "4"
+            }
+          ],
+          "rationale": "온도 센서 품질 불량으로 설비 조치를 보류하고 센서 점검을 제안한다.",
+          "checks_passed": true
+        },
+        "final": {
+          "decision": "SENSOR_CHECK",
+          "action_id": "SENSOR_CHECK",
+          "value": null,
+          "citations": [
+            {
+              "doc_id": "SOP-SEN-001",
+              "version": 1,
+              "section": "5"
+            },
+            {
+              "doc_id": "SOP-SEN-001",
+              "version": 1,
+              "section": "4"
+            }
+          ],
+          "rationale": "온도 센서 품질 불량으로 설비 조치를 보류하고 센서 점검을 제안한다.",
+          "checks_passed": true
+        },
+        "citation_problems": [],
+        "trace": [
+          {
+            "tool": "search_sop",
+            "result": {
+              "asset_id": "HYD-01",
+              "event_type": "SENSOR_FAULT",
+              "query": "센서 결측 고착 품질 플래그 센서 점검 설비 조치 보류",
+              "filter": {
+                "asset_scope": {
+                  "$like": "|HYD-01|"
+                },
+                "status": {
+                  "$eq": "active"
+                }
+              },
+              "hits": [
+                {
+                  "doc_id": "SOP-SEN-001",
+                  "version": 1,
+                  "section": "5",
+                  "heading": "승인 주체",
+                  "score": 0.6469,
+                  "text": "[SOP-SEN-001 v1 §5 승인 주체] 센서 점검 요청은 설비 담당자가 확인한다. 설비 조치가 아니므로 부하 변경 승인 절차를 거치지 않는다."
+                },
+                {
+                  "doc_id": "SOP-SEN-001",
+                  "version": 1,
+                  "section": "4",
+                  "heading": "허용 조치",
+                  "score": 0.6218,
+                  "text": "[SOP-SEN-001 v1 §4 허용 조치] 설비 부하 변경 같은 설비 조치는 보류한다. 허용 조치는 SENSOR_CHECK(센서 배선·커넥터 점검 요청) 한 가지다."
+                },
+                {
+                  "doc_id": "SOP-SEN-001",
+                  "version": 1,
+                  "section": "6",
+                  "heading": "재점검 기준",
+                  "score": 0.6052,
+                  "text": "[SOP-SEN-001 v1 §6 재점검 기준] 점검 후 60초 동안 유효 관측 비율이 90% 이상이면 센서 정상으로 본다. 센서가 복구되기 전에는 냉각 이상 여부를 판정하지 않는다."
+                },
+                {
+                  "doc_id": "SOP-SEN-001",
+                  "version": 1,
+                  "section": "3",
+                  "heading": "확인할 관측",
+                  "score": 0.6041,
+                  "text": "[SOP-SEN-001 v1 §3 확인할 관측] 품질 플래그(MISSING, GAP, STUCK, SPIKE)의 분포와 최장 결측 길이를 확인한다. 같은 시각의 압력·유량이 정상 범위인지 함께 본다. 다른 센서가 정상이면 설비 이상이 아니라 센서 오류일 가능성이 높다."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

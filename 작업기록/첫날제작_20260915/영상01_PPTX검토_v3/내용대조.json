@@ -1,0 +1,73 @@
+{
+  "slides": [
+    {
+      "slide": 1,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 11,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 2,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 18,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 3,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 14,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 4,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 11,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 5,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 17,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 6,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 12,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 7,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 15,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 8,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 13,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 9,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 5,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 10,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 12,
+      "picture_shapes": 0
+    },
+    {
+      "slide": 11,
+      "content_equal": true,
+      "nonempty_editable_text_shapes": 5,
+      "picture_shapes": 0
+    }
+  ],
+  "comparison": "all slide text in order; whitespace and Markdown formatting normalized",
+  "omitted_character_countercheck": "11/11 detected",
+  "limits": "Does not prove rendering, instructional quality, voice duration, or native PowerPoint table structure."
+}

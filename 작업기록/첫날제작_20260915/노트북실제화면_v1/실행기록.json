@@ -1,0 +1,28 @@
+{
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\플랫폼코드,target=/course/플랫폼코드,readonly",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\작업기록\\첫날제작_20260915\\노트북실제화면_v1,target=/course/student-work",
+    "-w",
+    "/course/student-work",
+    "-e",
+    "HYDOPS_AGENT_MODE=offline",
+    "knu-hydops-notebook-ui:review",
+    "jupyter",
+    "nbconvert",
+    "--to",
+    "notebook",
+    "--execute",
+    "S01_sensor_flow.ipynb",
+    "--output",
+    "관측_실행결과.ipynb",
+    "--ExecutePreprocessor.timeout=120"
+  ],
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "[NbConvertApp] Converting notebook S01_sensor_flow.ipynb to notebook\n[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.\n[NbConvertApp] Writing 216196 bytes to 관측_실행결과.ipynb\n"
+}

@@ -1,0 +1,16 @@
+{
+  "results": [
+    {
+      "case": "기존폴더",
+      "exit_code": 1,
+      "output": "Traceback (most recent call last):\n  File \"/course/제작도구/체크포인트_저장.py\", line 76, in <module>\n    save(args.output, args.file, args.run_id)\n  File \"/course/제작도구/체크포인트_저장.py\", line 36, in save\n    raise FileExistsError('기존 체크포인트는 보존합니다. 새 폴더를 지정하세요.')\nFileExistsError: 기존 체크포인트는 보존합니다. 새 폴더를 지정하세요.\n"
+    },
+    {
+      "case": "없는실행",
+      "exit_code": 1,
+      "output": "Traceback (most recent call last):\n  File \"/course/제작도구/체크포인트_저장.py\", line 76, in <module>\n    save(args.output, args.file, args.run_id)\n  File \"/course/제작도구/체크포인트_저장.py\", line 43, in save\n    raise ValueError('지정한 run_id가 없습니다.')\nValueError: 지정한 run_id가 없습니다.\n"
+    }
+  ],
+  "existing_unchanged": true,
+  "missing_run_no_folder": true
+}

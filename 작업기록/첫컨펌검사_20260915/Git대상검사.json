@@ -1,0 +1,40 @@
+{
+  "files": 576,
+  "archive_entries": 456,
+  "flags": [],
+  "largest": [
+    {
+      "path": "플랫폼코드/data/raw/PS1.txt",
+      "bytes": 91394097
+    },
+    {
+      "path": "플랫폼코드/data/raw/FS1.txt",
+      "bytes": 7584131
+    },
+    {
+      "path": "강의계획과운영/받은자료/KNU_package_20260914.zip",
+      "bytes": 2931866
+    },
+    {
+      "path": "플랫폼코드/data/reduced/hydraulic_1s.npz",
+      "bytes": 2386393
+    },
+    {
+      "path": "플랫폼코드/data/raw/TS1.txt",
+      "bytes": 906791
+    },
+    {
+      "path": "작업기록/첫날제작_20260915/노트북실제화면_v1/.ipynb_checkpoints/관측_실행결과-checkpoint.ipynb",
+      "bytes": 218330
+    },
+    {
+      "path": "작업기록/첫날제작_20260915/노트북실제화면_v1/관측_실행결과.ipynb",
+      "bytes": 218330
+    },
+    {
+      "path": "작업기록/첫날제작_20260915/통합_원문실행/solution/S01_sensor_flow.ipynb",
+      "bytes": 200133
+    }
+  ],
+  "scope": "Known credential patterns and private paths; not an exhaustive secret audit."
+}

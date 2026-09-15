@@ -1,0 +1,31 @@
+{
+  "at": "2026-09-15T08:51:39.257400+00:00",
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "knu-hydops-local_default",
+    "-e",
+    "HYDOPS_AGENT_MODE=offline",
+    "-e",
+    "HYDOPS_PG_DSN=postgresql://hydops:hydops@postgres:5432/hydops",
+    "-e",
+    "HYDOPS_NEO4J_URI=bolt://neo4j:7687",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\플랫폼코드,target=/course/플랫폼코드,readonly",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\실습자료\\3일차\\시작본\\practical,target=/course/student-work",
+    "knu-hydops-local:development",
+    "python",
+    "-m",
+    "pytest",
+    "/course/student-work/test_check.py",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "exit_code": 1,
+  "output": ".FFFFF                                                                   [100%]\n=================================== FAILURES ===================================\n______________________ test_asset_sensors_only_that_asset ______________________\n\n    def test_asset_sensors_only_that_asset():\n        rows = m.asset_sensors(\"HYD-02\")\n>       assert [r[\"sensor_id\"] for r in rows] == [\"HYD-02.FS1\", \"HYD-02.PS1\", \"HYD-02.TS1\"]\nE       AssertionError: assert ['HYD-01.FS1'...-03.PS1', ...] == ['HYD-02.FS1'... 'HYD-02.TS1']\nE         \nE         At index 0 diff: 'HYD-01.FS1' != 'HYD-02.FS1'\nE         Left contains 6 more items, first extra item: 'HYD-01.PS1'\nE         Use -v to get more diff\n\n/course/student-work/test_check.py:42: AssertionError\n_______________________ test_hyd02_never_gets_hyd01_sop ________________________\n\n    def test_hyd02_never_gets_hyd01_sop():\n        h2 = m.applicable_sops(\"HYD-02\", \"COOLING_ANOMALY\")\n        docs = {d for d, _ in _doc_versions(h2)}\n        assert \"SOP-COOL-002\" in docs\n>       assert \"SOP-COOL-001\" not in docs and \"SOP-LOAD-001\" not in docs\nE       AssertionError: assert ('SOP-COOL-001' not in {'SOP-COOL-001', 'SOP-COOL-002', 'SOP-ESC-001', 'SOP-LOAD-001', 'SOP-VER-001'})\n\n/course/student-work/test_check.py:54: AssertionError\n_______________________ test_hyd01_only_active_versions ________________________\n\n    def test_hyd01_only_active_versions():\n        h1 = m.applicable_sops(\"HYD-01\", \"COOLING_ANOMALY\")\n        dv = _doc_versions(h1)\n>       assert (\"SOP-COOL-001\", 2) in dv and (\"SOP-COOL-001\", 1) not in dv\nE       AssertionError: assert (('SOP-COOL-001', 2) in {('SOP-COOL-001', 1), ('SOP-COOL-001', 2), ('SOP-COOL-002', 1), ('SOP-ESC-001', 1), ('SOP-LOAD-001', 1), ('SOP-VER-001', 1)} and ('SOP-COOL-001', 1) not in {('SOP-COOL-001', 1), ('SOP-COOL-001', 2), ('SOP-COOL-002', 1), ('SOP-ESC-001', 1), ('SOP-LOAD-001', 1), ('SOP-VER-001', 1)})\n\n/course/student-work/test_check.py:64: AssertionError\n____________ test_asset_context_distinguishes_no_sop_from_no_asset _____________\n\n    def test_asset_context_distinguishes_no_sop_from_no_asset():\n        h3 = m.asset_context(\"HYD-03\")\n>       assert h3[\"found\"] is True, \"HYD-03 은 존재하는 설비다 (SOP 가 없을 뿐)\"\nE       AssertionError: HYD-03 은 존재하는 설비다 (SOP 가 없을 뿐)\nE       assert False is True\n\n/course/student-work/test_check.py:72: AssertionError\n__________________ test_join_graph_and_recent_window_by_asset __________________\n\nlab_run_hyd02 = ('LAB-S03-7a8b90c5', [{'asset_id': 'HYD-02', 'sensor_id': 'FS1', 'ts': datetime.datetime(2026, 9, 3, 0, 0, tzinfo=date...sor_id': 'TS1', 'ts': datetime.datetime(2026, 9, 3, 0, 0, 1, tzinfo=datetime.timezone.utc), 'elapsed_s': 1, ...}, ...])\n\n    def test_join_graph_and_recent_window_by_asset(lab_run_hyd02):\n        run_id, rows = lab_run_hyd02\n        out = m.join_recent(\"HYD-02\", run_id, 60)\n        assert out[\"asset_id\"] == \"HYD-02\"\n        assert {s[\"doc_id\"] for s in out[\"cooling_sops\"]} >= {\"SOP-COOL-002\"}\n>       assert \"SOP-COOL-001\" not in {s[\"doc_id\"] for s in out[\"cooling_sops\"]}\nE       AssertionError: assert 'SOP-COOL-001' not in {'SOP-COOL-001', 'SOP-COOL-002', 'SOP-ESC-001', 'SOP-LOAD-001', 'SOP-VER-001'}\n\n/course/student-work/test_check.py:102: AssertionError\n=========================== short test summary info ============================\nFAILED ../course/student-work/test_check.py::test_asset_sensors_only_that_asset\nFAILED ../course/student-work/test_check.py::test_hyd02_never_gets_hyd01_sop\nFAILED ../course/student-work/test_check.py::test_hyd01_only_active_versions\nFAILED ../course/student-work/test_check.py::test_asset_context_distinguishes_no_sop_from_no_asset\nFAILED ../course/student-work/test_check.py::test_join_graph_and_recent_window_by_asset\n5 failed, 1 passed in 1.93s\n",
+  "scope": "실행 환경에서 제공 테스트만 확인. 학생 완주·비용 측정 아님."
+}

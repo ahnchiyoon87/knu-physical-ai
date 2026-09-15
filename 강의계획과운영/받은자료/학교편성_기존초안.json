@@ -1,0 +1,435 @@
+{
+  "source": "30_기록/원자료/경남대_피지컬AI_협업패키지_20260914/참고/KNU_PhysicalAI_uEngine.xlsx",
+  "source_sha256": "ccd799c6f9de1ad78bbf28d6f0cc1df50b1a1ddf74952105f6c87d24c8a13c9d",
+  "status": "새 챕터 설계의 편성안; 기존 배포본에 아직 적용하지 않음",
+  "offline": [
+    {
+      "id": "실1",
+      "cohort": "실전반",
+      "chapter": "C1",
+      "date": "2026-10-31",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "문제와 센서 관측",
+      "source_row_id": "3"
+    },
+    {
+      "id": "실2",
+      "cohort": "실전반",
+      "chapter": "C2",
+      "date": "2026-11-07",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "품질과 시계열 해석",
+      "source_row_id": "4"
+    },
+    {
+      "id": "실3",
+      "cohort": "실전반",
+      "chapter": "C3",
+      "date": "2026-11-21",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "온톨로지·데이터 패브릭",
+      "source_row_id": "6"
+    },
+    {
+      "id": "실4",
+      "cohort": "실전반",
+      "chapter": "C4",
+      "date": "2026-11-28",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "이상 판단·분석 파이프라인",
+      "source_row_id": "7"
+    },
+    {
+      "id": "실5",
+      "cohort": "실전반",
+      "chapter": "C5",
+      "date": "2027-01-25",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "사건과 현행 문서 RAG",
+      "source_row_id": "8"
+    },
+    {
+      "id": "실6",
+      "cohort": "실전반",
+      "chapter": "C6",
+      "date": "2027-01-26",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "평가·후속 대화",
+      "source_row_id": "10"
+    },
+    {
+      "id": "실7",
+      "cohort": "실전반",
+      "chapter": "C7",
+      "date": "2027-01-27",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "도구·에이전트·승인",
+      "source_row_id": "12"
+    },
+    {
+      "id": "실8",
+      "cohort": "실전반",
+      "chapter": "C8",
+      "date": "2027-01-28",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "서비스 배포·운영",
+      "source_row_id": "14"
+    },
+    {
+      "id": "실9",
+      "cohort": "실전반",
+      "chapter": "C9",
+      "date": "2027-01-29",
+      "time": "14:00~18:00",
+      "hours": 4,
+      "title": "자기 문제로 전이",
+      "source_row_id": "16"
+    },
+    {
+      "id": "통1",
+      "cohort": "통합반",
+      "chapter": "C1",
+      "date": "2026-11-14",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "문제와 센서 관측",
+      "source_row_id": "5"
+    },
+    {
+      "id": "통2",
+      "cohort": "통합반",
+      "chapter": "C2",
+      "date": "2027-01-25",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "품질과 시계열 해석",
+      "source_row_id": "9"
+    },
+    {
+      "id": "통3",
+      "cohort": "통합반",
+      "chapter": "C3",
+      "date": "2027-01-26",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "온톨로지·데이터 패브릭",
+      "source_row_id": "11"
+    },
+    {
+      "id": "통4",
+      "cohort": "통합반",
+      "chapter": "C4",
+      "date": "2027-01-27",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "이상 판단·분석 파이프라인",
+      "source_row_id": "13"
+    },
+    {
+      "id": "통5",
+      "cohort": "통합반",
+      "chapter": "C5",
+      "date": "2027-01-28",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "사건과 현행 문서 RAG",
+      "source_row_id": "15"
+    },
+    {
+      "id": "통6",
+      "cohort": "통합반",
+      "chapter": "C6",
+      "date": "2027-01-29",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "평가·후속 대화",
+      "source_row_id": "17"
+    },
+    {
+      "id": "통7",
+      "cohort": "통합반",
+      "chapter": "C7",
+      "date": "2027-02-01",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "도구·에이전트·승인",
+      "source_row_id": "18"
+    },
+    {
+      "id": "통8",
+      "cohort": "통합반",
+      "chapter": "C8",
+      "date": "2027-02-02",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "서비스 배포·운영",
+      "source_row_id": "19"
+    },
+    {
+      "id": "통9",
+      "cohort": "통합반",
+      "chapter": "C9",
+      "date": "2027-02-03",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "자기 문제로 전이",
+      "source_row_id": "20"
+    },
+    {
+      "id": "통10",
+      "cohort": "통합반",
+      "chapter": "C9",
+      "date": "2027-02-04",
+      "time": "09:00~13:00",
+      "hours": 4,
+      "title": "자기 문제로 전이 · 개선과 새 입력 검토",
+      "source_row_id": "21"
+    }
+  ],
+  "videos": [
+    {
+      "id": "실V1",
+      "cohort": "실전반",
+      "chapters": [
+        "C1"
+      ],
+      "title": "문제와 센서 관측",
+      "deadline": "2026-09-25(금)",
+      "publish": "2026-10-24(토)",
+      "hours": 4,
+      "source_video": "영상1"
+    },
+    {
+      "id": "실V2",
+      "cohort": "실전반",
+      "chapters": [
+        "C2"
+      ],
+      "title": "품질과 시계열 해석",
+      "deadline": "2026-10-02(금)",
+      "publish": "2026-10-31(토)",
+      "hours": 4,
+      "source_video": "영상2"
+    },
+    {
+      "id": "실V3",
+      "cohort": "실전반",
+      "chapters": [
+        "C3"
+      ],
+      "title": "온톨로지·데이터 패브릭",
+      "deadline": "2026-10-16(금)",
+      "publish": "2026-11-14(토)",
+      "hours": 4,
+      "source_video": "영상3"
+    },
+    {
+      "id": "실V4",
+      "cohort": "실전반",
+      "chapters": [
+        "C4"
+      ],
+      "title": "이상 판단·분석 파이프라인",
+      "deadline": "2026-10-23(금)",
+      "publish": "2026-11-21(토)",
+      "hours": 4,
+      "source_video": "영상4"
+    },
+    {
+      "id": "실V5",
+      "cohort": "실전반",
+      "chapters": [
+        "C5"
+      ],
+      "title": "사건과 현행 문서 RAG",
+      "deadline": "2026-10-09(금)",
+      "publish": "2027-01-18(월)",
+      "hours": 4,
+      "source_video": "영상5"
+    },
+    {
+      "id": "실V6",
+      "cohort": "실전반",
+      "chapters": [
+        "C6"
+      ],
+      "title": "평가·후속 대화",
+      "deadline": "2026-10-16(금)",
+      "publish": "2027-01-19(화)",
+      "hours": 4,
+      "source_video": "영상6"
+    },
+    {
+      "id": "실V7",
+      "cohort": "실전반",
+      "chapters": [
+        "C7"
+      ],
+      "title": "도구·에이전트·승인",
+      "deadline": "2026-10-30(금)",
+      "publish": "2027-01-20(수)",
+      "hours": 4,
+      "source_video": "영상7"
+    },
+    {
+      "id": "실V8",
+      "cohort": "실전반",
+      "chapters": [
+        "C8",
+        "C9"
+      ],
+      "title": "서비스 배포·운영 / 자기 문제로 전이",
+      "deadline": "2026-11-13(금)",
+      "publish": "2027-01-21(목)",
+      "hours": 4,
+      "source_video": "영상8"
+    },
+    {
+      "id": "통V1",
+      "cohort": "통합반",
+      "chapters": [
+        "C1"
+      ],
+      "title": "문제와 센서 관측",
+      "deadline": "2026-10-09(금)",
+      "publish": "2026-11-07(토)",
+      "hours": 4,
+      "source_video": "영상1"
+    },
+    {
+      "id": "통V2",
+      "cohort": "통합반",
+      "chapters": [
+        "C2"
+      ],
+      "title": "품질과 시계열 해석",
+      "deadline": "2026-10-09(금)",
+      "publish": "2027-01-18(월)",
+      "hours": 4,
+      "source_video": "영상2"
+    },
+    {
+      "id": "통V3",
+      "cohort": "통합반",
+      "chapters": [
+        "C3"
+      ],
+      "title": "온톨로지·데이터 패브릭",
+      "deadline": "2026-10-23(금)",
+      "publish": "2027-01-19(화)",
+      "hours": 4,
+      "source_video": "영상3"
+    },
+    {
+      "id": "통V4",
+      "cohort": "통합반",
+      "chapters": [
+        "C4"
+      ],
+      "title": "이상 판단·분석 파이프라인",
+      "deadline": "2026-11-06(금)",
+      "publish": "2027-01-20(수)",
+      "hours": 4,
+      "source_video": "영상4"
+    },
+    {
+      "id": "통V5",
+      "cohort": "통합반",
+      "chapters": [
+        "C5"
+      ],
+      "title": "사건과 현행 문서 RAG",
+      "deadline": "2026-11-20(금)",
+      "publish": "2027-01-21(목)",
+      "hours": 4,
+      "source_video": "영상5"
+    },
+    {
+      "id": "통V6",
+      "cohort": "통합반",
+      "chapters": [
+        "C6"
+      ],
+      "title": "평가·후속 대화",
+      "deadline": "2026-11-20(금)",
+      "publish": "2027-01-22(금)",
+      "hours": 4,
+      "source_video": "영상6"
+    },
+    {
+      "id": "통V7",
+      "cohort": "통합반",
+      "chapters": [
+        "C7"
+      ],
+      "title": "도구·에이전트·승인",
+      "deadline": "2026-11-27(금)",
+      "publish": "2027-01-25(월)",
+      "hours": 4,
+      "source_video": "영상7"
+    },
+    {
+      "id": "통V8",
+      "cohort": "통합반",
+      "chapters": [
+        "C8"
+      ],
+      "title": "서비스 배포·운영",
+      "deadline": "2026-12-04(금)",
+      "publish": "2027-01-26(화)",
+      "hours": 4,
+      "source_video": "영상8"
+    },
+    {
+      "id": "통V9",
+      "cohort": "통합반",
+      "chapters": [
+        "C9"
+      ],
+      "title": "자기 문제로 전이",
+      "deadline": "2026-12-11(금)",
+      "publish": "2027-01-27(수)",
+      "hours": 4,
+      "source_video": "영상9"
+    },
+    {
+      "id": "통V10",
+      "cohort": "통합반",
+      "chapters": [
+        "C9"
+      ],
+      "title": "전이 사례 풀이 · 새 문제의 입력과 수용 기준",
+      "deadline": "2026-12-18(금)",
+      "publish": "2027-01-28(목)",
+      "hours": 4,
+      "source_video": "영상10"
+    },
+    {
+      "id": "통V11",
+      "cohort": "통합반",
+      "chapters": [
+        "C9"
+      ],
+      "title": "전이 사례 풀이 · 근거 부족과 승인/재실행 실패 분석",
+      "deadline": "2027-01-08(금)",
+      "publish": "2027-01-28(목)",
+      "hours": 4,
+      "source_video": "영상11"
+    }
+  ],
+  "orientation": {
+    "date": "2026-09-29",
+    "duration_hours_actual": 2,
+    "cohorts": "합동",
+    "time": "원본 미정"
+  },
+  "late_prerequisite_videos": []
+}

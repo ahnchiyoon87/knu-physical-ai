@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-15T08:24:21.044735+00:00",
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "knu-hydops-local_default",
+    "-e",
+    "HYDOPS_AGENT_MODE=offline",
+    "-e",
+    "HYDOPS_PG_DSN=postgresql://hydops:hydops@postgres:5432/hydops",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\플랫폼코드,target=/course/플랫폼코드,readonly",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\작업기록\\첫날제작_20260915\\경로연결검사\\integrated,target=/course/student-work",
+    "knu-hydops-notebook:development",
+    "python",
+    "-m",
+    "pytest",
+    "/course/student-work/test_check.py",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "exit_code": 1,
+  "output": "FFFF                                                                     [100%]\n=================================== FAILURES ===================================\n___________________ test_mapping_table_matches_provided_code ___________________\n\n    def test_mapping_table_matches_provided_code():\n        ns = _exec_tag(\"mapping\")\n        table = ns[\"SENSOR_TABLE\"]\n        assert {\"TS1\", \"PS1\", \"FS1\"} <= set(table)  # 경험자가 센서 한 줄을 더해도 된다\n        for sid in (\"TS1\", \"PS1\", \"FS1\"):\n            row = table[sid]\n            ref = uci.SENSOR_MAP[sid]\n            assert row[\"file\"] == ref[\"file\"], f\"{sid} file 빈칸\"\n>           assert row[\"hz\"] == ref[\"hz\"], f\"{sid} hz 빈칸\"\nE           AssertionError: TS1 hz 빈칸\nE           assert None == 1\n\n/course/student-work/test_check.py:45: AssertionError\n_____________________ test_hz_agrees_with_raw_file_columns _____________________\n\n    def test_hz_agrees_with_raw_file_columns():\n        ns = _exec_tag(\"mapping\")\n        for sid in (\"TS1\", \"PS1\", \"FS1\"):\n            row = ns[\"SENSOR_TABLE\"][sid]\n            with open(uci.RAW / uci.SENSOR_MAP[sid][\"file\"]) as f:\n                n_cols = len(f.readline().split(\"\\t\"))\n>           assert row[\"hz\"] == n_cols // 60, f\"{sid}: 원본 한 줄 {n_cols}칸 / 60초\"\nE           AssertionError: TS1: 원본 한 줄 60칸 / 60초\nE           assert None == (60 // 60)\n\n/course/student-work/test_check.py:58: AssertionError\n_________________________ test_one_value_is_explained __________________________\n\n    def test_one_value_is_explained():\n        ns = _exec_tag(\"one_value\")\n        one_value = ns[\"ONE_VALUE\"]\n        ds = uci.load_reduced()\n        rows = uci.cycle_observations(ds, 100, \"HYD-01\", datetime(2026, 11, 14, 9, 0, tzinfo=timezone.utc))\n        ref = next(r for r in rows if r[\"sensor_id\"] == \"TS1\" and r[\"elapsed_s\"] == 30)\n>       assert one_value[\"asset_id\"] == ref[\"asset_id\"]\nE       AssertionError: assert None == 'HYD-01'\n\n/course/student-work/test_check.py:67: AssertionError\n----------------------------- Captured stdout call -----------------------------\n설비 None 의 센서 TS1 값 None None 은(는) 원본 파일 None 의 사이클 #100, 30초째 값이다.\n_______________________ test_notebook_runs_top_to_bottom _______________________\n\n    def test_notebook_runs_top_to_bottom():\n        from nbclient import NotebookClient\n    \n        nb = nbformat.read(NB_PATH, as_version=4)\n        NotebookClient(nb, timeout=300, kernel_name=\"python3\", resources={\"metadata\": {\"path\": str(NB_DIR)}}).execute()\n        check = next(c for c in nb.cells if \"check\" in c.metadata.get(\"tags\", []))\n        text = \"\".join(o.get(\"text\", \"\") for o in check.outputs if o.output_type == \"stream\")\n>       assert \"모든 빈칸 통과\" in text, text\nE       AssertionError: 확인 필요: TS1.hz, TS1.unit, TS1.sensor_id, PS1.file, PS1.hz, PS1.unit, FS1.file, FS1.hz, FS1.unit, FS1.sensor_id, ONE_VALUE.asset_id, ONE_VALUE.raw_value, ONE_VALUE.unit, ONE_VALUE.source_file, ONE_VALUE.is_synthetic\nE         \nE       assert '모든 빈칸 통과' in '확인 필요: TS1.hz, TS1.unit, TS1.sensor_id, PS1.file, PS1.hz, PS1.unit, FS1.file, FS1.hz, FS1.unit, FS1.sensor_id, ONE_VALUE.asset_id, ONE_VALUE.raw_value, ONE_VALUE.unit, ONE_VALUE.source_file, ONE_VALUE.is_synthetic\\n'\n\n/course/student-work/test_check.py:81: AssertionError\n----------------------------- Captured stderr call -----------------------------\n[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.\n=========================== short test summary info ============================\nFAILED ../course/student-work/test_check.py::test_mapping_table_matches_provided_code\nFAILED ../course/student-work/test_check.py::test_hz_agrees_with_raw_file_columns\nFAILED ../course/student-work/test_check.py::test_one_value_is_explained - As...\nFAILED ../course/student-work/test_check.py::test_notebook_runs_top_to_bottom\n4 failed in 12.27s\n",
+  "scope": "실행 환경에서 제공 테스트만 확인. 학생 완주·비용 측정 아님."
+}

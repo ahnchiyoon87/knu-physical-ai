@@ -1,0 +1,14 @@
+{
+  "pages": 2,
+  "layout": [
+    {
+      "height": 794,
+      "scroll": 794
+    },
+    {
+      "height": 794,
+      "scroll": 794
+    }
+  ],
+  "pdf": "냉각이상대응_시나리오설명서.pdf"
+}

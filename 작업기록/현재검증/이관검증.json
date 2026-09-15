@@ -1,0 +1,23 @@
+{
+  "이관직후_해시일치": 105,
+  "원본_재확인": "모두 일치; 인계 연결 안내를 추가하기 전 확인",
+  "이관후_내용수정": [
+    ".gitignore",
+    "AGENTS.md",
+    "README.md",
+    "강의계획과운영/인계.md",
+    "실습자료/1일차/실습가이드_초안.md",
+    "제작도구/check_preparation.py",
+    "제작도구/prepare_day01.py"
+  ],
+  "확인한_문서링크": 11,
+  "준비검사": "passed; 작업기록/현재검증/준비검사.json",
+  "compose_config": "docker compose -f compose.local.yml config --quiet; exit 0",
+  "미실행": [
+    "컨테이너 기동",
+    "모델 호출",
+    "학생 실습 완주",
+    "새 UI 촬영",
+    "Git 초기화 및 원격 게시"
+  ]
+}

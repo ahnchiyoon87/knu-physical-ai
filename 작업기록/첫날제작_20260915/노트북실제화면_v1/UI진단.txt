@@ -1,0 +1,170 @@
+Skip to main panel
+File
+Edit
+View
+Run
+Kernel
+Tabs
+Settings
+Help
+/
+Name
+Modified
+saved
+4m ago
+S01_sensor_flow.ipynb
+2h ago
+UI본문.txt
+33s ago
+UI진단.png
+2m ago
+UI진단.txt
+2m ago
+관측_실행결과.ipynb
+4m ago
+노트북_전체화면.png
+33s ago
+브라우저오류.json
+2m ago
+실행기록.json
+4m ago
+관측_실행결과.ipynb
+-
+Code
+Markdown
+Raw
+Python 3 (ipykernel)
+통합반 1회 · 센서와 데이터 흐름 알아보기 (제공 노트북)
+
+이 노트북은 위에서 아래로 한 셀씩 실행한다. 셀을 고르고 ▶ 실행 버튼(또는 Shift+Enter)을 누른다.
+
+활동 2: 세 센서 파일(TS1·PS1·FS1)을 열어 모양을 본다
+활동 3: 설비·센서·단위 매핑 표의 ____ 빈칸을 채운다
+활동 4: 재생 셀로 그래프를 확인하고, 품질 플래그를 붙여 본 뒤 saved/ 에 저장본을 남긴다
+
+빈칸은 ____ 로 표시했다. 빈칸을 채우지 않아도 셀은 실행되지만, 마지막 자기 점검 셀이 통과하지 않는다.
+
+[1]:
+# 0. 준비 — 플랫폼코드 의 제공 코드를 불러온다 (이 셀은 고치지 않는다)
+import sys, logging, warnings
+from pathlib import Path
+from datetime import datetime, timezone
+
+
+SYSTEM = next(p / '플랫폼코드' for p in [Path.cwd(), *Path.cwd().parents] if (p / '플랫폼코드' / 'hydops').exists())
+sys.path.insert(0, str(SYSTEM))
+
+
+import numpy as np
+import pandas as pd
+import matplotlib
+import matplotlib.pyplot as plt
+logging.getLogger('matplotlib.font_manager').setLevel(logging.ERROR)
+plt.rcParams['font.family'] = ['Pretendard', 'AppleGothic', 'Malgun Gothic', 'NanumGothic', 'DejaVu Sans']
+plt.rcParams['axes.unicode_minus'] = False
+
+
+from hydops.b1_data import uci
+
+
+____ = None  # 빈칸 표시. 빈칸을 채우면 이 값은 쓰이지 않는다
+RAW = SYSTEM / 'data' / 'raw'
+print('제공 코드 위치:', SYSTEM.name, '/ 원본 폴더:', RAW.relative_to(SYSTEM))
+제공 코드 위치: 플랫폼코드 / 원본 폴더: data/raw
+
+활동 2 · 세 센서 파일을 연다
+
+UCI 원본은 탭으로 구분한 표 파일이다. 한 줄이 한 사이클(60초)이고, 한 칸이 한 번의 측정이다. 그래서 열의 개수 ÷ 60초 = 1초에 몇 번 쟀는지(Hz) 가 된다.
+
+[2]:
+# 2-1. 원본 파일의 모양 (PS1 은 파일이 커서 앞 3줄만 읽는다)
+for name in ['TS1.txt', 'PS1.txt', 'FS1.txt']:
+    head = pd.read_csv(RAW / name, sep='\t', header=None, nrows=3)
+    print(f'{name:8s} 한 줄(사이클)의 칸 수 = {head.shape[1]:5d}  →  {head.shape[1] // 60:3d} Hz   첫 값 = {head.iloc[0, 0]}')
+with open(RAW / 'TS1.txt') as f:
+    n_cycles = sum(1 for _ in f)
+print('사이클(줄) 수 =', n_cycles)
+TS1.txt  한 줄(사이클)의 칸 수 =    60  →    1 Hz   첫 값 = 35.57
+PS1.txt  한 줄(사이클)의 칸 수 =  6000  →  100 Hz   첫 값 = 151.47
+FS1.txt  한 줄(사이클)의 칸 수 =   600  →   10 Hz   첫 값 = 8.99
+사이클(줄) 수 = 2205
+
+[3]:
+# 2-2. profile.txt — 사이클마다 붙은 정답 라벨 (탐지 입력에는 쓰지 않는다)
+profile = uci.load_profile()
+print(profile.loc[[0, 100, 1500], ['cooler_pct', 'valve_pct', 'pump_leak', 'accumulator_bar', 'stable_flag']])
+                 cooler_pct  valve_pct  pump_leak  accumulator_bar  \
+origin_cycle_id                                                      
+0                         3        100          0              130   
+100                       3        100          0              130   
+1500                    100        100          0               90   
+
+                 stable_flag  
+origin_cycle_id               
+0                          1  
+100                        1  
+1500                       1  
+
+[4]:
+# 2-3. 강사 제공 축약본 — 모든 센서를 1초 단위(mean/min/max/n)로 줄여 둔 파일
+ds = uci.load_reduced()
+for sid, stats in ds.sensors.items():
+    if sid in ('TS1', 'PS1', 'FS1'):
+        print(sid, '→', {k: v.shape for k, v in stats.items()})
+TS1 → {'mean': (2205, 60), 'min': (2205, 60), 'max': (2205, 60), 'n': (2205, 60)}
+PS1 → {'mean': (2205, 60), 'min': (2205, 60), 'max': (2205, 60), 'n': (2205, 60)}
+FS1 → {'mean': (2205, 60), 'min': (2205, 60), 'max': (2205, 60), 'n': (2205, 60)}
+
+[5]:
+# 2-4. 사이클 #100 의 세 센서 (1초 평균)
+CYCLE = 100
+fig, axes = plt.subplots(1, 3, figsize=(14, 3.6))
+for ax, (sid, label) in zip(axes, [('TS1', '온도'), ('PS1', '압력'), ('FS1', '유량')]):
+    ax.plot(range(60), ds.sensors[sid]['mean'][CYCLE])
+    ax.set_title(f'{sid} {label} · 사이클 #{CYCLE}')
+    ax.set_xlabel('사이클 내 경과 초 (elapsed_s)')
+fig.tight_layout()
+plt.show()
+활동 3 · 설비·센서·단위 매핑 표 채우기
+
+위 출력과 플랫폼코드/data/raw/description.txt 를 보고 빈칸을 채운다.
+
+칸	뜻	어디서 확인하나
+sensor_id	그래프(Neo4j)에서 쓰는 센서 ID. 설비ID.센서코드 모양	교재 2절
+unit	단위 문자열	description.txt · 교재 표
+hz	1초당 측정 횟수 (정수)	2-1 출력의 Hz
+file	원본 파일 이름	2-1 에서 연 파일
+
+단위는 '°C', 'bar', 'L/min' 처럼 따옴표 안의 문자열로 쓴다.
+
+[6]:
+# 3-1. 매핑 표 — 빈칸(____)을 채운다
+ASSET_ID = 'HYD-01'   # 이번 실습에서 UCI 데이터를 재생할 교육용 설비
+
+
+SENSOR_TABLE = {
+    'TS1': {'asset_id': ASSET_ID, 'sensor_id': 'HYD-01.TS1', 'quantity': 'temperature', 'unit': '°C', 'hz': 1, 'file': 'TS1.txt'},
+    'PS1': {'asset_id': ASSET_ID, 'sensor_id': 'HYD-01.PS1', 'quantity': 'pressure', 'unit': 'bar', 'hz': 100, 'file': 'PS1.txt'},
+    'FS1': {'asset_id': ASSET_ID, 'sensor_id': 'HYD-01.FS1', 'quantity': 'flow', 'unit': 'L/min', 'hz': 10, 'file': 'FS1.txt'},
+    # 경험자: 원본에 있는 다른 센서(예: TS2) 한 줄을 여기에 더해 본다
+}
+
+
+pd.DataFrame(SENSOR_TABLE).T
+[6]:
+	asset_id	sensor_id	quantity	unit	hz	file
+TS1	HYD-01	HYD-01.TS1	temperature	°C	1	TS1.txt
+PS1	HYD-01	HYD-01.PS1	pressure	bar	100	PS1.txt
+FS1	HYD-01	HYD-01.FS1	flow	L/min	10	FS1.txt
+Click to add a cell.
+0
+Python 3 (ipykernel) | Initializing
+Mode: Command
+Cell 1/18
+Ln 1, Col 1
+관측_실행결과.ipynb
+1
+Would you like to get notified about official Jupyter news?
+Open privacy policy
+Yes
+No

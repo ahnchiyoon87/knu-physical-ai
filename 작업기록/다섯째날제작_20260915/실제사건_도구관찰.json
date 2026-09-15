@@ -1,0 +1,1337 @@
+{
+  "at": "2026-09-15T09:15:37.543867+00:00",
+  "scope": "지정 실제 사건의 읽기·제안 검사. 승인/실행/유료모델/UI/학생 완주 아님.",
+  "event_id": "EVT-20270126-090043-HYD-01-e51b",
+  "before": {
+    "event": {
+      "event_id": "EVT-20270126-090043-HYD-01-e51b",
+      "run_id": "LAB-S03-EVIDENCE-4b711b98",
+      "asset_id": "HYD-01",
+      "event_type": "COOLING_ANOMALY",
+      "window_start": "2027-01-26 09:00:43+00:00",
+      "window_end": "2027-01-26 09:00:52+00:00",
+      "rule_version": "temp-sustain-v1",
+      "evidence": {
+        "rule": "temp-sustain-v1",
+        "max_c": 63.78,
+        "mean_c": 62.1,
+        "sensor": "TS1",
+        "sustain_s": 10,
+        "threshold_c": 60.0,
+        "valid_samples": 10
+      },
+      "status": "PENDING_APPROVAL",
+      "status_reason": null,
+      "proposal": {
+        "mode": "offline",
+        "model": "offline-skill-runner",
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "proposal": {
+          "value": 0.8,
+          "decision": "PROPOSE",
+          "action_id": "REDUCE_LOAD",
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "4",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "2",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "section": "2",
+              "version": 1
+            }
+          ],
+          "rationale": "유효 온도가 60.0°C 초과로 10초 이상 지속되었다. 적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "tool_trace": [
+          {
+            "args": {
+              "seconds": 60,
+              "asset_id": "HYD-01"
+            },
+            "tool": "get_recent_window",
+            "result_summary": {
+              "valid_max": 63.78,
+              "valid_mean": 50.33,
+              "valid_ratio": 1.0,
+              "sensor_state": "VALID",
+              "longest_valid_above_alarm_s": 10
+            }
+          },
+          {
+            "args": {
+              "asset_id": "HYD-01"
+            },
+            "tool": "get_asset_context",
+            "result_summary": {
+              "sops": [
+                "SOP-COOL-001 v2",
+                "SOP-ESC-001 v1",
+                "SOP-LOAD-001 v1",
+                "SOP-VER-001 v1",
+                "SOP-SEN-001 v1"
+              ],
+              "allowed": [
+                "REDUCE_LOAD",
+                "ESCALATE",
+                "SENSOR_CHECK"
+              ]
+            }
+          },
+          {
+            "args": {
+              "query": "",
+              "asset_id": "HYD-01",
+              "event_type": "COOLING_ANOMALY"
+            },
+            "tool": "search_sop",
+            "result_summary": [
+              "SOP-COOL-001 v2 §4 허용 조치",
+              "SOP-COOL-001 v2 §2 발동 조건",
+              "SOP-VER-001 v1 §2 발동 조건",
+              "SOP-ESC-001 v1 §2 발동 조건",
+              "SOP-LOAD-001 v1 §2 발동 조건"
+            ]
+          },
+          {
+            "args": {
+              "value": 0.8,
+              "event_id": "EVT-20270126-090043-HYD-01-e51b",
+              "action_id": "REDUCE_LOAD",
+              "citations": [
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "section": "4",
+                  "version": 2
+                },
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "section": "2",
+                  "version": 2
+                },
+                {
+                  "doc_id": "SOP-VER-001",
+                  "section": "2",
+                  "version": 1
+                }
+              ]
+            },
+            "tool": "propose_action",
+            "result_summary": {
+              "ok": true,
+              "failed": []
+            }
+          }
+        ],
+        "raw_proposal": {
+          "value": 0.8,
+          "decision": "PROPOSE",
+          "action_id": "REDUCE_LOAD",
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "4",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "2",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "section": "2",
+              "version": 1
+            }
+          ],
+          "rationale": "유효 온도가 60.0°C 초과로 10초 이상 지속되었다. 적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "citation_problems": []
+      },
+      "process_ref": null,
+      "created_at": "2026-09-15 08:42:14.237528+00:00",
+      "updated_at": "2026-09-15 08:42:15.342953+00:00"
+    },
+    "history": [
+      {
+        "id": 1,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "from_status": null,
+        "to_status": "DETECTED",
+        "actor": "detector",
+        "detail": {
+          "rule": "temp-sustain-v1",
+          "max_c": 63.78,
+          "mean_c": 62.1,
+          "sensor": "TS1",
+          "sustain_s": 10,
+          "threshold_c": 60.0,
+          "valid_samples": 10
+        },
+        "at": "2026-09-15 08:42:14.242742+00:00"
+      },
+      {
+        "id": 2,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "from_status": "DETECTED",
+        "to_status": "EVIDENCE_READY",
+        "actor": "agent:offline-skill-runner",
+        "detail": {
+          "decision": "PROPOSE",
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "4",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "2",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "section": "2",
+              "version": 1
+            }
+          ],
+          "tool_calls": [
+            "get_recent_window",
+            "get_asset_context",
+            "search_sop",
+            "propose_action"
+          ]
+        },
+        "at": "2026-09-15 08:42:15.176720+00:00"
+      },
+      {
+        "id": 3,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "from_status": "EVIDENCE_READY",
+        "to_status": "PENDING_APPROVAL",
+        "actor": "orchestrator",
+        "detail": {
+          "value": 0.8,
+          "action_id": "REDUCE_LOAD"
+        },
+        "at": "2026-09-15 08:42:15.344606+00:00"
+      }
+    ],
+    "actions": []
+  },
+  "after": {
+    "event": {
+      "event_id": "EVT-20270126-090043-HYD-01-e51b",
+      "run_id": "LAB-S03-EVIDENCE-4b711b98",
+      "asset_id": "HYD-01",
+      "event_type": "COOLING_ANOMALY",
+      "window_start": "2027-01-26 09:00:43+00:00",
+      "window_end": "2027-01-26 09:00:52+00:00",
+      "rule_version": "temp-sustain-v1",
+      "evidence": {
+        "rule": "temp-sustain-v1",
+        "max_c": 63.78,
+        "mean_c": 62.1,
+        "sensor": "TS1",
+        "sustain_s": 10,
+        "threshold_c": 60.0,
+        "valid_samples": 10
+      },
+      "status": "PENDING_APPROVAL",
+      "status_reason": null,
+      "proposal": {
+        "mode": "offline",
+        "model": "offline-skill-runner",
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "proposal": {
+          "value": 0.8,
+          "decision": "PROPOSE",
+          "action_id": "REDUCE_LOAD",
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "4",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "2",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "section": "2",
+              "version": 1
+            }
+          ],
+          "rationale": "유효 온도가 60.0°C 초과로 10초 이상 지속되었다. 적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "tool_trace": [
+          {
+            "args": {
+              "seconds": 60,
+              "asset_id": "HYD-01"
+            },
+            "tool": "get_recent_window",
+            "result_summary": {
+              "valid_max": 63.78,
+              "valid_mean": 50.33,
+              "valid_ratio": 1.0,
+              "sensor_state": "VALID",
+              "longest_valid_above_alarm_s": 10
+            }
+          },
+          {
+            "args": {
+              "asset_id": "HYD-01"
+            },
+            "tool": "get_asset_context",
+            "result_summary": {
+              "sops": [
+                "SOP-COOL-001 v2",
+                "SOP-ESC-001 v1",
+                "SOP-LOAD-001 v1",
+                "SOP-VER-001 v1",
+                "SOP-SEN-001 v1"
+              ],
+              "allowed": [
+                "REDUCE_LOAD",
+                "ESCALATE",
+                "SENSOR_CHECK"
+              ]
+            }
+          },
+          {
+            "args": {
+              "query": "",
+              "asset_id": "HYD-01",
+              "event_type": "COOLING_ANOMALY"
+            },
+            "tool": "search_sop",
+            "result_summary": [
+              "SOP-COOL-001 v2 §4 허용 조치",
+              "SOP-COOL-001 v2 §2 발동 조건",
+              "SOP-VER-001 v1 §2 발동 조건",
+              "SOP-ESC-001 v1 §2 발동 조건",
+              "SOP-LOAD-001 v1 §2 발동 조건"
+            ]
+          },
+          {
+            "args": {
+              "value": 0.8,
+              "event_id": "EVT-20270126-090043-HYD-01-e51b",
+              "action_id": "REDUCE_LOAD",
+              "citations": [
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "section": "4",
+                  "version": 2
+                },
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "section": "2",
+                  "version": 2
+                },
+                {
+                  "doc_id": "SOP-VER-001",
+                  "section": "2",
+                  "version": 1
+                }
+              ]
+            },
+            "tool": "propose_action",
+            "result_summary": {
+              "ok": true,
+              "failed": []
+            }
+          }
+        ],
+        "raw_proposal": {
+          "value": 0.8,
+          "decision": "PROPOSE",
+          "action_id": "REDUCE_LOAD",
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "4",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "2",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "section": "2",
+              "version": 1
+            }
+          ],
+          "rationale": "유효 온도가 60.0°C 초과로 10초 이상 지속되었다. 적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "citation_problems": []
+      },
+      "process_ref": null,
+      "created_at": "2026-09-15 08:42:14.237528+00:00",
+      "updated_at": "2026-09-15 08:42:15.342953+00:00"
+    },
+    "history": [
+      {
+        "id": 1,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "from_status": null,
+        "to_status": "DETECTED",
+        "actor": "detector",
+        "detail": {
+          "rule": "temp-sustain-v1",
+          "max_c": 63.78,
+          "mean_c": 62.1,
+          "sensor": "TS1",
+          "sustain_s": 10,
+          "threshold_c": 60.0,
+          "valid_samples": 10
+        },
+        "at": "2026-09-15 08:42:14.242742+00:00"
+      },
+      {
+        "id": 2,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "from_status": "DETECTED",
+        "to_status": "EVIDENCE_READY",
+        "actor": "agent:offline-skill-runner",
+        "detail": {
+          "decision": "PROPOSE",
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "4",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "2",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "section": "2",
+              "version": 1
+            }
+          ],
+          "tool_calls": [
+            "get_recent_window",
+            "get_asset_context",
+            "search_sop",
+            "propose_action"
+          ]
+        },
+        "at": "2026-09-15 08:42:15.176720+00:00"
+      },
+      {
+        "id": 3,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "from_status": "EVIDENCE_READY",
+        "to_status": "PENDING_APPROVAL",
+        "actor": "orchestrator",
+        "detail": {
+          "value": 0.8,
+          "action_id": "REDUCE_LOAD"
+        },
+        "at": "2026-09-15 08:42:15.344606+00:00"
+      }
+    ],
+    "actions": []
+  },
+  "unchanged": true,
+  "tool_schemas": {
+    "get_asset_context": {
+      "asset_id": {
+        "title": "Asset Id",
+        "type": "string"
+      }
+    },
+    "get_recent_window": {
+      "asset_id": {
+        "title": "Asset Id",
+        "type": "string"
+      },
+      "seconds": {
+        "default": 60,
+        "title": "Seconds",
+        "type": "integer"
+      }
+    },
+    "search_sop": {
+      "asset_id": {
+        "title": "Asset Id",
+        "type": "string"
+      },
+      "event_type": {
+        "title": "Event Type",
+        "type": "string"
+      },
+      "query": {
+        "default": "",
+        "title": "Query",
+        "type": "string"
+      }
+    },
+    "propose_action": {
+      "event_id": {
+        "title": "Event Id",
+        "type": "string"
+      },
+      "action_id": {
+        "title": "Action Id",
+        "type": "string"
+      },
+      "value": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "title": "Value"
+      },
+      "citations": {
+        "items": {
+          "$ref": "#/$defs/Citation"
+        },
+        "title": "Citations",
+        "type": "array"
+      }
+    }
+  },
+  "window": {
+    "asset_id": "HYD-01",
+    "seconds": 60,
+    "sensors": {
+      "FS1": {
+        "unit": "L/min",
+        "samples": 52,
+        "quality": {
+          "n": 52,
+          "valid": 52,
+          "valid_ratio": 1.0,
+          "flags": {
+            "OK": 52
+          },
+          "longest_gap_s": 0
+        },
+        "valid_mean": 9.0,
+        "valid_min": 8.87,
+        "valid_max": 9.14,
+        "last_valid": 9.14,
+        "from": "2027-01-26T09:00:01+00:00",
+        "to": "2027-01-26T09:00:52+00:00"
+      },
+      "PS1": {
+        "unit": "bar",
+        "samples": 52,
+        "quality": {
+          "n": 52,
+          "valid": 52,
+          "valid_ratio": 1.0,
+          "flags": {
+            "OK": 52
+          },
+          "longest_gap_s": 0
+        },
+        "valid_mean": 149.79,
+        "valid_min": 146.8,
+        "valid_max": 154.37,
+        "last_valid": 149.92,
+        "from": "2027-01-26T09:00:01+00:00",
+        "to": "2027-01-26T09:00:52+00:00"
+      },
+      "TS1": {
+        "unit": "°C",
+        "samples": 52,
+        "quality": {
+          "n": 52,
+          "valid": 52,
+          "valid_ratio": 1.0,
+          "flags": {
+            "OK": 52
+          },
+          "longest_gap_s": 0
+        },
+        "valid_mean": 50.33,
+        "valid_min": 44.58,
+        "valid_max": 63.78,
+        "last_valid": 63.78,
+        "from": "2027-01-26T09:00:01+00:00",
+        "to": "2027-01-26T09:00:52+00:00",
+        "longest_valid_above_alarm_s": 10,
+        "sustained_anomaly": true,
+        "sensor_state": "VALID",
+        "current_quality": {
+          "last_s": 15,
+          "valid_ratio": 1.0,
+          "flags": {
+            "OK": 15
+          }
+        },
+        "quality_issue_earlier_in_window": false
+      }
+    }
+  },
+  "context": {
+    "asset_id": "HYD-01",
+    "found": true,
+    "asset": {
+      "educational": true,
+      "line": "L1",
+      "cooling": "수랭식 냉각기",
+      "name": "유압설비 1호기",
+      "asset_id": "HYD-01"
+    },
+    "sensors": [
+      {
+        "sensor_id": "HYD-01.FS1",
+        "code": "FS1",
+        "quantity": "flow",
+        "unit": "L/min",
+        "hz": 10
+      },
+      {
+        "sensor_id": "HYD-01.PS1",
+        "code": "PS1",
+        "quantity": "pressure",
+        "unit": "bar",
+        "hz": 100
+      },
+      {
+        "sensor_id": "HYD-01.TS1",
+        "code": "TS1",
+        "quantity": "temperature",
+        "unit": "°C",
+        "hz": 1
+      }
+    ],
+    "applicable_sops": [
+      {
+        "doc_id": "SOP-COOL-001",
+        "version": 2,
+        "title": "냉각 이상 확인",
+        "effective_date": "2026-09-01",
+        "approver_role": "설비 담당자"
+      },
+      {
+        "doc_id": "SOP-ESC-001",
+        "version": 1,
+        "title": "미개선 이관",
+        "effective_date": "2026-09-01",
+        "approver_role": "정비 책임자"
+      },
+      {
+        "doc_id": "SOP-LOAD-001",
+        "version": 1,
+        "title": "승인 부하 감소",
+        "effective_date": "2026-09-01",
+        "approver_role": "설비 담당자"
+      },
+      {
+        "doc_id": "SOP-VER-001",
+        "version": 1,
+        "title": "조치 후 재점검",
+        "effective_date": "2026-09-01",
+        "approver_role": "설비 담당자"
+      },
+      {
+        "doc_id": "SOP-SEN-001",
+        "version": 1,
+        "title": "센서 오류 점검",
+        "effective_date": "2026-09-01",
+        "approver_role": "설비 담당자"
+      }
+    ],
+    "allowed_actions": [
+      {
+        "requires_approval": true,
+        "min_value": 0.6,
+        "action_id": "REDUCE_LOAD",
+        "name": "승인 부하 감소",
+        "default_value": 0.8,
+        "max_value": 1.0
+      },
+      {
+        "requires_approval": false,
+        "min_value": null,
+        "action_id": "ESCALATE",
+        "name": "정비 책임자 이관",
+        "default_value": null,
+        "max_value": null
+      },
+      {
+        "requires_approval": false,
+        "min_value": null,
+        "action_id": "SENSOR_CHECK",
+        "name": "센서 점검 요청",
+        "default_value": null,
+        "max_value": null
+      }
+    ]
+  },
+  "search": {
+    "asset_id": "HYD-01",
+    "event_type": "COOLING_ANOMALY",
+    "query": "허용 조치",
+    "filter": {
+      "asset_scope": {
+        "$like": "|HYD-01|"
+      },
+      "status": {
+        "$eq": "active"
+      }
+    },
+    "hits": [
+      {
+        "doc_id": "SOP-COOL-001",
+        "version": 2,
+        "section": "4",
+        "heading": "허용 조치",
+        "score": 0.7454,
+        "text": "[SOP-COOL-001 v2 §4 허용 조치] 허용 조치는 승인 부하 감소(SOP-LOAD-001) 한 가지다. 냉각기 분해·밸브 조작은 이 절차에서 허용하지 않는다."
+      },
+      {
+        "doc_id": "SOP-VER-001",
+        "version": 1,
+        "section": "4",
+        "heading": "허용 조치",
+        "score": 0.6969,
+        "text": "[SOP-VER-001 v1 §4 허용 조치] 재점검은 관측만 하며 새 조치를 하지 않는다."
+      },
+      {
+        "doc_id": "SOP-ESC-001",
+        "version": 1,
+        "section": "2",
+        "heading": "발동 조건",
+        "score": 0.6814,
+        "text": "[SOP-ESC-001 v1 §2 발동 조건] 재점검 결과가 미개선이거나, 조치 명령이 실패했거나, 허용 조치를 이미 한 번 실행한 사건에서 이상이 이어지면 발동한다."
+      },
+      {
+        "doc_id": "SOP-LOAD-001",
+        "version": 1,
+        "section": "4",
+        "heading": "허용 조치",
+        "score": 0.6812,
+        "text": "[SOP-LOAD-001 v1 §4 허용 조치] REDUCE_LOAD 조치로 부하를 1.0에서 0.8로 한 번 낮춘다. 허용 값 범위는 0.6 이상 1.0 이하이며, 승인된 값과 다른 값으로 실행하지 않는다. 같은 사건에서 반복 실행하지 않는다."
+      },
+      {
+        "doc_id": "SOP-VER-001",
+        "version": 1,
+        "section": "2",
+        "heading": "발동 조건",
+        "score": 0.681,
+        "text": "[SOP-VER-001 v1 §2 발동 조건] 조치 명령이 성공으로 기록되면 30초 대기 후 발동한다. 조치 이전의 관측은 재측정에 쓰지 않는다."
+      }
+    ]
+  },
+  "checks": [
+    {
+      "case": "default",
+      "result": {
+        "ok": true,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "action_id": "REDUCE_LOAD",
+        "value": 0.8,
+        "checks": [
+          {
+            "check": "event_exists",
+            "ok": true,
+            "detail": "EVT-20270126-090043-HYD-01-e51b"
+          },
+          {
+            "check": "event_open",
+            "ok": true,
+            "detail": "PENDING_APPROVAL"
+          },
+          {
+            "check": "action_allowed_by_sop",
+            "ok": true,
+            "detail": "REDUCE_LOAD for HYD-01"
+          },
+          {
+            "check": "value_in_range",
+            "ok": true,
+            "detail": "0.8 in [0.6, 1.0]"
+          },
+          {
+            "check": "has_citation",
+            "ok": true,
+            "detail": "3 citations"
+          },
+          {
+            "check": "not_already_executed",
+            "ok": true,
+            "detail": "0 prior executions"
+          }
+        ]
+      }
+    },
+    {
+      "case": "below_minimum",
+      "result": {
+        "ok": false,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "action_id": "REDUCE_LOAD",
+        "value": 0.5,
+        "checks": [
+          {
+            "check": "event_exists",
+            "ok": true,
+            "detail": "EVT-20270126-090043-HYD-01-e51b"
+          },
+          {
+            "check": "event_open",
+            "ok": true,
+            "detail": "PENDING_APPROVAL"
+          },
+          {
+            "check": "action_allowed_by_sop",
+            "ok": true,
+            "detail": "REDUCE_LOAD for HYD-01"
+          },
+          {
+            "check": "value_in_range",
+            "ok": false,
+            "detail": "0.5 in [0.6, 1.0]"
+          },
+          {
+            "check": "has_citation",
+            "ok": true,
+            "detail": "3 citations"
+          },
+          {
+            "check": "not_already_executed",
+            "ok": true,
+            "detail": "0 prior executions"
+          }
+        ]
+      }
+    }
+  ],
+  "tool_trace": [
+    {
+      "tool": "get_recent_window",
+      "args": {
+        "asset_id": "HYD-01",
+        "seconds": 60
+      },
+      "result": {
+        "asset_id": "HYD-01",
+        "seconds": 60,
+        "sensors": {
+          "FS1": {
+            "unit": "L/min",
+            "samples": 52,
+            "quality": {
+              "n": 52,
+              "valid": 52,
+              "valid_ratio": 1.0,
+              "flags": {
+                "OK": 52
+              },
+              "longest_gap_s": 0
+            },
+            "valid_mean": 9.0,
+            "valid_min": 8.87,
+            "valid_max": 9.14,
+            "last_valid": 9.14,
+            "from": "2027-01-26 09:00:01+00:00",
+            "to": "2027-01-26 09:00:52+00:00"
+          },
+          "PS1": {
+            "unit": "bar",
+            "samples": 52,
+            "quality": {
+              "n": 52,
+              "valid": 52,
+              "valid_ratio": 1.0,
+              "flags": {
+                "OK": 52
+              },
+              "longest_gap_s": 0
+            },
+            "valid_mean": 149.79,
+            "valid_min": 146.8,
+            "valid_max": 154.37,
+            "last_valid": 149.92,
+            "from": "2027-01-26 09:00:01+00:00",
+            "to": "2027-01-26 09:00:52+00:00"
+          },
+          "TS1": {
+            "unit": "°C",
+            "samples": 52,
+            "quality": {
+              "n": 52,
+              "valid": 52,
+              "valid_ratio": 1.0,
+              "flags": {
+                "OK": 52
+              },
+              "longest_gap_s": 0
+            },
+            "valid_mean": 50.33,
+            "valid_min": 44.58,
+            "valid_max": 63.78,
+            "last_valid": 63.78,
+            "from": "2027-01-26 09:00:01+00:00",
+            "to": "2027-01-26 09:00:52+00:00",
+            "longest_valid_above_alarm_s": 10,
+            "sustained_anomaly": true,
+            "sensor_state": "VALID",
+            "current_quality": {
+              "last_s": 15,
+              "valid_ratio": 1.0,
+              "flags": {
+                "OK": 15
+              }
+            },
+            "quality_issue_earlier_in_window": false
+          }
+        }
+      }
+    },
+    {
+      "tool": "get_asset_context",
+      "args": {
+        "asset_id": "HYD-01"
+      },
+      "result": {
+        "asset_id": "HYD-01",
+        "found": true,
+        "asset": {
+          "educational": true,
+          "line": "L1",
+          "cooling": "수랭식 냉각기",
+          "name": "유압설비 1호기",
+          "asset_id": "HYD-01"
+        },
+        "sensors": [
+          {
+            "sensor_id": "HYD-01.FS1",
+            "code": "FS1",
+            "quantity": "flow",
+            "unit": "L/min",
+            "hz": 10
+          },
+          {
+            "sensor_id": "HYD-01.PS1",
+            "code": "PS1",
+            "quantity": "pressure",
+            "unit": "bar",
+            "hz": 100
+          },
+          {
+            "sensor_id": "HYD-01.TS1",
+            "code": "TS1",
+            "quantity": "temperature",
+            "unit": "°C",
+            "hz": 1
+          }
+        ],
+        "applicable_sops": [
+          {
+            "doc_id": "SOP-COOL-001",
+            "version": 2,
+            "title": "냉각 이상 확인",
+            "effective_date": "2026-09-01",
+            "approver_role": "설비 담당자"
+          },
+          {
+            "doc_id": "SOP-ESC-001",
+            "version": 1,
+            "title": "미개선 이관",
+            "effective_date": "2026-09-01",
+            "approver_role": "정비 책임자"
+          },
+          {
+            "doc_id": "SOP-LOAD-001",
+            "version": 1,
+            "title": "승인 부하 감소",
+            "effective_date": "2026-09-01",
+            "approver_role": "설비 담당자"
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "title": "조치 후 재점검",
+            "effective_date": "2026-09-01",
+            "approver_role": "설비 담당자"
+          },
+          {
+            "doc_id": "SOP-SEN-001",
+            "version": 1,
+            "title": "센서 오류 점검",
+            "effective_date": "2026-09-01",
+            "approver_role": "설비 담당자"
+          }
+        ],
+        "allowed_actions": [
+          {
+            "requires_approval": true,
+            "min_value": 0.6,
+            "action_id": "REDUCE_LOAD",
+            "name": "승인 부하 감소",
+            "default_value": 0.8,
+            "max_value": 1.0
+          },
+          {
+            "requires_approval": false,
+            "min_value": null,
+            "action_id": "ESCALATE",
+            "name": "정비 책임자 이관",
+            "default_value": null,
+            "max_value": null
+          },
+          {
+            "requires_approval": false,
+            "min_value": null,
+            "action_id": "SENSOR_CHECK",
+            "name": "센서 점검 요청",
+            "default_value": null,
+            "max_value": null
+          }
+        ]
+      }
+    },
+    {
+      "tool": "search_sop",
+      "args": {
+        "asset_id": "HYD-01",
+        "event_type": "COOLING_ANOMALY",
+        "query": "허용 조치"
+      },
+      "result": {
+        "asset_id": "HYD-01",
+        "event_type": "COOLING_ANOMALY",
+        "query": "허용 조치",
+        "filter": {
+          "asset_scope": {
+            "$like": "|HYD-01|"
+          },
+          "status": {
+            "$eq": "active"
+          }
+        },
+        "hits": [
+          {
+            "doc_id": "SOP-COOL-001",
+            "version": 2,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.7454,
+            "text": "[SOP-COOL-001 v2 §4 허용 조치] 허용 조치는 승인 부하 감소(SOP-LOAD-001) 한 가지다. 냉각기 분해·밸브 조작은 이 절차에서 허용하지 않는다."
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.6969,
+            "text": "[SOP-VER-001 v1 §4 허용 조치] 재점검은 관측만 하며 새 조치를 하지 않는다."
+          },
+          {
+            "doc_id": "SOP-ESC-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.6814,
+            "text": "[SOP-ESC-001 v1 §2 발동 조건] 재점검 결과가 미개선이거나, 조치 명령이 실패했거나, 허용 조치를 이미 한 번 실행한 사건에서 이상이 이어지면 발동한다."
+          },
+          {
+            "doc_id": "SOP-LOAD-001",
+            "version": 1,
+            "section": "4",
+            "heading": "허용 조치",
+            "score": 0.6812,
+            "text": "[SOP-LOAD-001 v1 §4 허용 조치] REDUCE_LOAD 조치로 부하를 1.0에서 0.8로 한 번 낮춘다. 허용 값 범위는 0.6 이상 1.0 이하이며, 승인된 값과 다른 값으로 실행하지 않는다. 같은 사건에서 반복 실행하지 않는다."
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "section": "2",
+            "heading": "발동 조건",
+            "score": 0.681,
+            "text": "[SOP-VER-001 v1 §2 발동 조건] 조치 명령이 성공으로 기록되면 30초 대기 후 발동한다. 조치 이전의 관측은 재측정에 쓰지 않는다."
+          }
+        ]
+      }
+    },
+    {
+      "tool": "propose_action",
+      "args": {
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "action_id": "REDUCE_LOAD",
+        "value": 0.8,
+        "citations": [
+          {
+            "doc_id": "SOP-COOL-001",
+            "version": 2,
+            "section": "4"
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "section": "4"
+          },
+          {
+            "doc_id": "SOP-ESC-001",
+            "version": 1,
+            "section": "2"
+          }
+        ]
+      },
+      "result": {
+        "ok": true,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "action_id": "REDUCE_LOAD",
+        "value": 0.8,
+        "checks": [
+          {
+            "check": "event_exists",
+            "ok": true,
+            "detail": "EVT-20270126-090043-HYD-01-e51b"
+          },
+          {
+            "check": "event_open",
+            "ok": true,
+            "detail": "PENDING_APPROVAL"
+          },
+          {
+            "check": "action_allowed_by_sop",
+            "ok": true,
+            "detail": "REDUCE_LOAD for HYD-01"
+          },
+          {
+            "check": "value_in_range",
+            "ok": true,
+            "detail": "0.8 in [0.6, 1.0]"
+          },
+          {
+            "check": "has_citation",
+            "ok": true,
+            "detail": "3 citations"
+          },
+          {
+            "check": "not_already_executed",
+            "ok": true,
+            "detail": "0 prior executions"
+          }
+        ]
+      }
+    },
+    {
+      "tool": "propose_action",
+      "args": {
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "action_id": "REDUCE_LOAD",
+        "value": 0.5,
+        "citations": [
+          {
+            "doc_id": "SOP-COOL-001",
+            "version": 2,
+            "section": "4"
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "version": 1,
+            "section": "4"
+          },
+          {
+            "doc_id": "SOP-ESC-001",
+            "version": 1,
+            "section": "2"
+          }
+        ]
+      },
+      "result": {
+        "ok": false,
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "action_id": "REDUCE_LOAD",
+        "value": 0.5,
+        "checks": [
+          {
+            "check": "event_exists",
+            "ok": true,
+            "detail": "EVT-20270126-090043-HYD-01-e51b"
+          },
+          {
+            "check": "event_open",
+            "ok": true,
+            "detail": "PENDING_APPROVAL"
+          },
+          {
+            "check": "action_allowed_by_sop",
+            "ok": true,
+            "detail": "REDUCE_LOAD for HYD-01"
+          },
+          {
+            "check": "value_in_range",
+            "ok": false,
+            "detail": "0.5 in [0.6, 1.0]"
+          },
+          {
+            "check": "has_citation",
+            "ok": true,
+            "detail": "3 citations"
+          },
+          {
+            "check": "not_already_executed",
+            "ok": true,
+            "detail": "0 prior executions"
+          }
+        ]
+      }
+    }
+  ],
+  "proposal": {
+    "event_id": "EVT-20270126-090043-HYD-01-e51b",
+    "mode": "offline",
+    "model": "offline-skill-runner",
+    "proposal": {
+      "decision": "PROPOSE",
+      "action_id": "REDUCE_LOAD",
+      "value": 0.8,
+      "citations": [
+        {
+          "doc_id": "SOP-COOL-001",
+          "version": 2,
+          "section": "4"
+        },
+        {
+          "doc_id": "SOP-COOL-001",
+          "version": 2,
+          "section": "2"
+        },
+        {
+          "doc_id": "SOP-VER-001",
+          "version": 1,
+          "section": "2"
+        }
+      ],
+      "rationale": "유효 온도가 60.0°C 초과로 10초 이상 지속되었다. 적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+      "checks_passed": true
+    },
+    "raw_proposal": {
+      "decision": "PROPOSE",
+      "action_id": "REDUCE_LOAD",
+      "value": 0.8,
+      "citations": [
+        {
+          "doc_id": "SOP-COOL-001",
+          "version": 2,
+          "section": "4"
+        },
+        {
+          "doc_id": "SOP-COOL-001",
+          "version": 2,
+          "section": "2"
+        },
+        {
+          "doc_id": "SOP-VER-001",
+          "version": 1,
+          "section": "2"
+        }
+      ],
+      "rationale": "유효 온도가 60.0°C 초과로 10초 이상 지속되었다. 적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+      "checks_passed": true
+    },
+    "citation_problems": [],
+    "tool_trace": [
+      {
+        "tool": "get_recent_window",
+        "args": {
+          "asset_id": "HYD-01",
+          "seconds": 60
+        },
+        "result_summary": {
+          "valid_mean": 50.33,
+          "valid_max": 63.78,
+          "longest_valid_above_alarm_s": 10,
+          "sensor_state": "VALID",
+          "valid_ratio": 1.0
+        }
+      },
+      {
+        "tool": "get_asset_context",
+        "args": {
+          "asset_id": "HYD-01"
+        },
+        "result_summary": {
+          "sops": [
+            "SOP-COOL-001 v2",
+            "SOP-ESC-001 v1",
+            "SOP-LOAD-001 v1",
+            "SOP-VER-001 v1",
+            "SOP-SEN-001 v1"
+          ],
+          "allowed": [
+            "REDUCE_LOAD",
+            "ESCALATE",
+            "SENSOR_CHECK"
+          ]
+        }
+      },
+      {
+        "tool": "search_sop",
+        "args": {
+          "asset_id": "HYD-01",
+          "event_type": "COOLING_ANOMALY",
+          "query": ""
+        },
+        "result_summary": [
+          "SOP-COOL-001 v2 §4 허용 조치",
+          "SOP-COOL-001 v2 §2 발동 조건",
+          "SOP-VER-001 v1 §2 발동 조건",
+          "SOP-ESC-001 v1 §2 발동 조건",
+          "SOP-LOAD-001 v1 §2 발동 조건"
+        ]
+      },
+      {
+        "tool": "propose_action",
+        "args": {
+          "event_id": "EVT-20270126-090043-HYD-01-e51b",
+          "action_id": "REDUCE_LOAD",
+          "value": 0.8,
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "version": 2,
+              "section": "4"
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "version": 2,
+              "section": "2"
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "version": 1,
+              "section": "2"
+            }
+          ]
+        },
+        "result_summary": {
+          "ok": true,
+          "failed": []
+        }
+      }
+    ]
+  }
+}

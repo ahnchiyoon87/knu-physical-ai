@@ -1,0 +1,29 @@
+{
+  "scope": "동일 고정 시험180개, 지속10초·평활5초; docker exec 실제 evaluate 결과",
+  "rows": [
+    {
+      "k_sigma": 2,
+      "min_delta_c": 1,
+      "fp": 4,
+      "delay": 9
+    },
+    {
+      "k_sigma": 2,
+      "min_delta_c": 3,
+      "fp": 1,
+      "delay": 9
+    },
+    {
+      "k_sigma": 4,
+      "min_delta_c": 1,
+      "fp": 3,
+      "delay": 9
+    },
+    {
+      "k_sigma": 4,
+      "min_delta_c": 3,
+      "fp": 1,
+      "delay": 9
+    }
+  ]
+}

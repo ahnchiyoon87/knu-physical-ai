@@ -1,0 +1,323 @@
+﻿{
+    "commit":  "5bd83e810631107502c54d930dfe0edef395dd6b",
+    "scope":  "system runtime, templates, tests, reduced data; no raw videos or credentials",
+    "source":  "https://github.com/uengine-oss/lecture-manufacturing-physical-ai-platform",
+    "files":  [
+                  {
+                      "sha256":  "429991E3F6D7DF64DD6D75C896AA3904FCA7ED02E3C4A675B5F2172A52C5B8C8",
+                      "path":  "system/.env.example"
+                  },
+                  {
+                      "sha256":  "D6EC9720BB37E4A849FD804DF198B2EB50FF5E5A5839A474FF770CAC39E3F405",
+                      "path":  "system/Dockerfile"
+                  },
+                  {
+                      "sha256":  "C1183DD625E8A5D600C9606B31751AEA43CED012DC4797A49D86A6B44779B879",
+                      "path":  "system/README.md"
+                  },
+                  {
+                      "sha256":  "26AC972355E32BB247F716DD6D962046B129EE822890501A2F82BED1EDBFF79E",
+                      "path":  "system/data/reduced/hydraulic_1s.npz"
+                  },
+                  {
+                      "sha256":  "8893EEDF247DCDDFB0912BABFD198B747817C0EE0383D556506F532B528991D8",
+                      "path":  "system/data/reduced/profile.csv"
+                  },
+                  {
+                      "sha256":  "CCCE5D33A9AB8023F04F8C1BFDBA61446B53B60039BB0FDC2849F4BB59D34709",
+                      "path":  "system/docker-compose.yml"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/__init__.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b1_data/__init__.py"
+                  },
+                  {
+                      "sha256":  "2309EFB7D5DDB7E7B7004DD8E97C014F226171EE883501BC090899141BEBD5DE",
+                      "path":  "system/hydops/b1_data/inspection.py"
+                  },
+                  {
+                      "sha256":  "578C5A3039DADBBC5311B4DE1DEDE349D7BEA0DC67B8C53EF5766BF1D89C9E72",
+                      "path":  "system/hydops/b1_data/simulator.py"
+                  },
+                  {
+                      "sha256":  "B6E56EA9FE443BF0B0208BB12BF97C6508FF2056F82DB7BADB86162CFF9749E3",
+                      "path":  "system/hydops/b1_data/uci.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b2_quality/__init__.py"
+                  },
+                  {
+                      "sha256":  "31E18E5452B6DF1DF1F93CAB38D21C4D3C3E4AAA455C601EECE8DF9E3E62ACB2",
+                      "path":  "system/hydops/b2_quality/checks.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b3_tsdb/__init__.py"
+                  },
+                  {
+                      "sha256":  "8673DBFD3A4E4EAA8624F114518C592A449061536B65D87C81CCAD79935C96C6",
+                      "path":  "system/hydops/b3_tsdb/store.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b4_ontology/__init__.py"
+                  },
+                  {
+                      "sha256":  "235CA4AD78C6CA97DD77F92E38EFF23C28854C6BC76CAD09DA5E9C7BF60EA7BF",
+                      "path":  "system/hydops/b4_ontology/graph.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b5_detect/__init__.py"
+                  },
+                  {
+                      "sha256":  "EE63F136168600389B627B87A37E2D4D4A9F78F121E969497A11D99A53207C8F",
+                      "path":  "system/hydops/b5_detect/detector.py"
+                  },
+                  {
+                      "sha256":  "EC911B05E6E5FBF526D602148A71A77E51E3CE2EDF90658CFDF3604257E64228",
+                      "path":  "system/hydops/b5_detect/evaluate.py"
+                  },
+                  {
+                      "sha256":  "10F9EB913A650BEBEE105C4D250F8E75173E48808DB8420D31ABCCD24C7BF3FC",
+                      "path":  "system/hydops/b5_detect/product.py"
+                  },
+                  {
+                      "sha256":  "FAA092A97FC5E51C2CA5D8A49F0C95565861C160208E761992563B69DF4E24E9",
+                      "path":  "system/hydops/b5_detect/zeroshot.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b6_sop/__init__.py"
+                  },
+                  {
+                      "sha256":  "037027FAE427536E039F273174EA973946EC767684FF5DFF1E53F18AED703777",
+                      "path":  "system/hydops/b6_sop/docs/SOP-COOL-001_v1.md"
+                  },
+                  {
+                      "sha256":  "918BFB8BD47617F22F395308E5997E1FAE2218763832595E9680B6AB81C14AC1",
+                      "path":  "system/hydops/b6_sop/docs/SOP-COOL-001_v2.md"
+                  },
+                  {
+                      "sha256":  "88BB3D3E3FCF4D15251793B65778F935F2629440244D571D3BBAE47D21157E57",
+                      "path":  "system/hydops/b6_sop/docs/SOP-COOL-002_v1.md"
+                  },
+                  {
+                      "sha256":  "4D50E6968363E555EA56ADE366B5CD20C0AB81EAC3BC18EB103D768E644469D7",
+                      "path":  "system/hydops/b6_sop/docs/SOP-ESC-001_v1.md"
+                  },
+                  {
+                      "sha256":  "85C3B527D3C7F0898466A26C08F2E4EF3FBC3CC2E592B7690889FE78D9C8E61F",
+                      "path":  "system/hydops/b6_sop/docs/SOP-LOAD-001_v1.md"
+                  },
+                  {
+                      "sha256":  "622584D6A0DA93F7FDE81806F2C8EA0D8D15EA9647AA1E1576FF79FB1FF86815",
+                      "path":  "system/hydops/b6_sop/docs/SOP-SEN-001_v1.md"
+                  },
+                  {
+                      "sha256":  "950D89BF00F19C98B579F8923441710FCDE5C1876102022E04FA4A945559BF4E",
+                      "path":  "system/hydops/b6_sop/docs/SOP-VER-001_v1.md"
+                  },
+                  {
+                      "sha256":  "D235A586E1B0BE9A2CFEF86357FFDAF361171E28F7838730E73BD02272BC83D8",
+                      "path":  "system/hydops/b6_sop/search.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b7_agent/__init__.py"
+                  },
+                  {
+                      "sha256":  "B5370B1655894EF6A1CC2CB6713E31706D4B98DFF0EA61DCB1BCCEE52DBCE74D",
+                      "path":  "system/hydops/b7_agent/agent.py"
+                  },
+                  {
+                      "sha256":  "2F98F81197978EEC1F638011B035667A9B2E06AE7DCD7393E27C6D70C0AA91AB",
+                      "path":  "system/hydops/b7_agent/skill_loader.py"
+                  },
+                  {
+                      "sha256":  "AAF07D5C5AD820D938A39EC1FDD2915BEFD91918873BDAD25E567FCB325322A8",
+                      "path":  "system/hydops/b7_agent/tools.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b8_action/__init__.py"
+                  },
+                  {
+                      "sha256":  "460C55C7A04177459B3ED6B922CE10C82679F47964FF1AE019AE9296E0BE3196",
+                      "path":  "system/hydops/b8_action/executor.py"
+                  },
+                  {
+                      "sha256":  "F712C7E03081A1F7A5AEFAE14B435119A95360565BC5C6532D09CECCE8A500AD",
+                      "path":  "system/hydops/b8_action/service.py"
+                  },
+                  {
+                      "sha256":  "6F2E345ADC322A501844D72C720745C101E43846825D8AE751CB5AE78EA4A24F",
+                      "path":  "system/hydops/b8_action/workflow.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/b9_dashboard/__init__.py"
+                  },
+                  {
+                      "sha256":  "86A30680B491E961AB5E67DB0DB16F33A0D2F047BA31B2E86940E423D1BCCA43",
+                      "path":  "system/hydops/b9_dashboard/app.py"
+                  },
+                  {
+                      "sha256":  "8FF3EDF98E2AB0EDFCCC332AA7D366D53559D47B3A3D13350E9EE92725AD74A8",
+                      "path":  "system/hydops/b9_dashboard/static/app.css"
+                  },
+                  {
+                      "sha256":  "087F12F851807F3734A7FADD48A3DBB4FBEC2BBEF08A55F23D2CA36CE0EFD17A",
+                      "path":  "system/hydops/b9_dashboard/static/app.js"
+                  },
+                  {
+                      "sha256":  "90141C0765774C9C4D790BE3347A11BBB9B7E848547D519E5545394B37A8C334",
+                      "path":  "system/hydops/b9_dashboard/static/index.html"
+                  },
+                  {
+                      "sha256":  "184ECAA52D1A4FD979860AB2DD2E3C0350F3447FB05672684CFF1BE6632664C2",
+                      "path":  "system/hydops/b9_dashboard/static/vendor/vue.global.prod.js"
+                  },
+                  {
+                      "sha256":  "24FD1A8FABAED3B5D75E3EE736536A1C33DB2D9A1DB99A37D348A355AFC334A3",
+                      "path":  "system/hydops/config.py"
+                  },
+                  {
+                      "sha256":  "9B6A6C7A6205F1C55F159E45D6E17EE3FBF4442FFE50833C147E84046B462983",
+                      "path":  "system/hydops/golden.py"
+                  },
+                  {
+                      "sha256":  "D0F5B1D638C7189AEF3B8F6DCEF7352D9E748ED46BA188B191F13ACC46E263AE",
+                      "path":  "system/hydops/mcp_tools.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/hydops/platform/__init__.py"
+                  },
+                  {
+                      "sha256":  "12D90F1907DCE415D64240F2FE9BF1AA3E32F35B894A149E9092E2A6BB181B6E",
+                      "path":  "system/hydops/runtime.py"
+                  },
+                  {
+                      "sha256":  "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+                      "path":  "system/labplatform/__init__.py"
+                  },
+                  {
+                      "sha256":  "3B305F2BD8D957E658644513949250F37C6D8D89EA4AF669F8F13128A143EC8C",
+                      "path":  "system/labplatform/agents.py"
+                  },
+                  {
+                      "sha256":  "9D2676BBC0643CF696D3F590ADA36689F5B7D9C1EAF5591A352B195505964F8E",
+                      "path":  "system/labplatform/app_templates/ops-console/index.html"
+                  },
+                  {
+                      "sha256":  "184ECAA52D1A4FD979860AB2DD2E3C0350F3447FB05672684CFF1BE6632664C2",
+                      "path":  "system/labplatform/app_templates/ops-console/vue.global.prod.js"
+                  },
+                  {
+                      "sha256":  "B5052BB0EF3CF0B01DE1DE4D0D7C65A0AAD4794862D072B243B9165E9CCDA444",
+                      "path":  "system/labplatform/apps.py"
+                  },
+                  {
+                      "sha256":  "F22B8F1FCA9C1776C3D3E774CAED20F8873F80A132E8DAA0F8CD656A89D11741",
+                      "path":  "system/labplatform/console/console.css"
+                  },
+                  {
+                      "sha256":  "7672771F94F7B289A12B6E69E3CA2C5AB5EE12F5A146F0132AE92D11528F0EB6",
+                      "path":  "system/labplatform/console/console.js"
+                  },
+                  {
+                      "sha256":  "47296C62746FC9F1BC33CCCC89E8A3224B95A88C1A27EC1C9F9FAFF51A60B5E2",
+                      "path":  "system/labplatform/console/index.html"
+                  },
+                  {
+                      "sha256":  "184ECAA52D1A4FD979860AB2DD2E3C0350F3447FB05672684CFF1BE6632664C2",
+                      "path":  "system/labplatform/console/vue.global.prod.js"
+                  },
+                  {
+                      "sha256":  "8FD486AECFB1B5AD09F21CDFA524CE08E3A6FFDCB97C16C529ABB7358DB97128",
+                      "path":  "system/labplatform/db.py"
+                  },
+                  {
+                      "sha256":  "0AB4534B67D9BD00F721D48E18602E94135D887402DB50CF490173AE35EB8A19",
+                      "path":  "system/labplatform/fabric.py"
+                  },
+                  {
+                      "sha256":  "83789D03051EE619A9FD4FDABC69C8BCFD3591E728B2B8699D2ACBD638A562B5",
+                      "path":  "system/labplatform/main.py"
+                  },
+                  {
+                      "sha256":  "7E899E6E4179A78E6068825E6ABC058FC077A03186C6413BBBF51E594294C13E",
+                      "path":  "system/labplatform/process.py"
+                  },
+                  {
+                      "sha256":  "07D9AE1E033C5D410202F430B281C035CC83F4E9E7F1C42731B29C5A64578895",
+                      "path":  "system/labplatform/studio.py"
+                  },
+                  {
+                      "sha256":  "0C57508ADEA011D8158AF6717E9C8C89F0B15CA37EFB1E0005285CA0A50C132C",
+                      "path":  "system/labplatform/templates/agent_ops.json"
+                  },
+                  {
+                      "sha256":  "E8D992D3280B6601189EC9E9EAE602952EF50B47A5DB8D3697AAF9AF87507B4F",
+                      "path":  "system/labplatform/templates/ontology_hydraulic.json"
+                  },
+                  {
+                      "sha256":  "F41F0ADCE5AB7346E96976032414DFFA59F12EEF73D8C83D4F93E8EB222FD92C",
+                      "path":  "system/labplatform/templates/process_cooling_response.json"
+                  },
+                  {
+                      "sha256":  "2F53689C502EAAF14E2722059AEF300AD994A0DF9CA99F343E4FE0EEB41BF06F",
+                      "path":  "system/labplatform/templates/watch_events.json"
+                  },
+                  {
+                      "sha256":  "0B9FDC87079F4FC515560B00C72EE899839BBF945CA989B3C9DBFAA70C6B38C3",
+                      "path":  "system/requirements.txt"
+                  },
+                  {
+                      "sha256":  "E9F7FF992A78F515A30A20C311BFC153B696729932E16DB354B9F24F246C3B9D",
+                      "path":  "system/scripts/bootstrap_platform.py"
+                  },
+                  {
+                      "sha256":  "C4E02412BBB5D6B44DD4C352AE941C092BDAFA5335AC7F53C6918328BA26EA58",
+                      "path":  "system/scripts/e2e_platform.py"
+                  },
+                  {
+                      "sha256":  "9DF0A422D5C7176EC3B28877F6AD15F87F37A94E5E1C7600C7A50DDB92CB7AC1",
+                      "path":  "system/scripts/make_figures.py"
+                  },
+                  {
+                      "sha256":  "49D51475F3C94A5144AFD5521F82DC4614EB353EB0EB52FCD2867243A99A1E0F",
+                      "path":  "system/scripts/servers.sh"
+                  },
+                  {
+                      "sha256":  "A16F959D3E2F7E61C98982EB3B027BB9825648E4A44D725FA9439D6458938957",
+                      "path":  "system/skills/hydraulic-cooling-response/SKILL.md"
+                  },
+                  {
+                      "sha256":  "53E4D744D3FFE5FED0CF02B12EEDC8E1CB56523F58BA8A4C809F08A71C2102DE",
+                      "path":  "system/sql/01_schema.sql"
+                  },
+                  {
+                      "sha256":  "7312933DF4641003825A184B84063569F3214F692BD4EDD4962CCA32463F4990",
+                      "path":  "system/tests/conftest.py"
+                  },
+                  {
+                      "sha256":  "16164F92B37DF7391CD9FD92D33DDEDBEB05B873FF39550648AAA6553F0BF227",
+                      "path":  "system/tests/helpers.py"
+                  },
+                  {
+                      "sha256":  "12D88E75D0AAFED335E03E6A3A2C5886FD9372123420FC312D1ACADA6000D9F1",
+                      "path":  "system/tests/test_blocks.py"
+                  },
+                  {
+                      "sha256":  "61C790D6B4440197BE548E22FFE605443E32254595EBA57D72DE6721412A1604",
+                      "path":  "system/tests/test_scenarios.py"
+                  }
+              ]
+}

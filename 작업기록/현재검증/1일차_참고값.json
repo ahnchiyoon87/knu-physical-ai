@@ -1,0 +1,272 @@
+[
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 0,
+    "unit": "°C",
+    "mean": 53.219,
+    "min": 53.219,
+    "max": 53.219,
+    "n": 1
+  },
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 1,
+    "unit": "°C",
+    "mean": 53.207,
+    "min": 53.207,
+    "max": 53.207,
+    "n": 1
+  },
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 2,
+    "unit": "°C",
+    "mean": 53.148,
+    "min": 53.148,
+    "max": 53.148,
+    "n": 1
+  },
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 0,
+    "unit": "°C",
+    "mean": 53.379,
+    "min": 53.379,
+    "max": 53.379,
+    "n": 1
+  },
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 1,
+    "unit": "°C",
+    "mean": 53.309,
+    "min": 53.309,
+    "max": 53.309,
+    "n": 1
+  },
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 2,
+    "unit": "°C",
+    "mean": 53.195,
+    "min": 53.195,
+    "max": 53.195,
+    "n": 1
+  },
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 0,
+    "unit": "°C",
+    "mean": 53.379,
+    "min": 53.379,
+    "max": 53.379,
+    "n": 1
+  },
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 1,
+    "unit": "°C",
+    "mean": 53.227,
+    "min": 53.227,
+    "max": 53.227,
+    "n": 1
+  },
+  {
+    "sensor": "TS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 2,
+    "unit": "°C",
+    "mean": 53.203,
+    "min": 53.203,
+    "max": 53.203,
+    "n": 1
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 0,
+    "unit": "bar",
+    "mean": 170.1621,
+    "min": 141.27,
+    "max": 189.88,
+    "n": 100
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 1,
+    "unit": "bar",
+    "mean": 190.1943,
+    "min": 189.79,
+    "max": 190.38,
+    "n": 100
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 2,
+    "unit": "bar",
+    "mean": 190.1653,
+    "min": 189.94,
+    "max": 190.35,
+    "n": 100
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 0,
+    "unit": "bar",
+    "mean": 169.9981,
+    "min": 141.21,
+    "max": 189.84,
+    "n": 100
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 1,
+    "unit": "bar",
+    "mean": 190.197,
+    "min": 189.81,
+    "max": 190.41,
+    "n": 100
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 2,
+    "unit": "bar",
+    "mean": 190.1899,
+    "min": 190.02,
+    "max": 190.5,
+    "n": 100
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 0,
+    "unit": "bar",
+    "mean": 170.0794,
+    "min": 141.47,
+    "max": 189.84,
+    "n": 100
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 1,
+    "unit": "bar",
+    "mean": 190.2207,
+    "min": 190.06,
+    "max": 190.38,
+    "n": 100
+  },
+  {
+    "sensor": "PS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 2,
+    "unit": "bar",
+    "mean": 190.259,
+    "min": 190.09,
+    "max": 190.54,
+    "n": 100
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 0,
+    "unit": "L/min",
+    "mean": 0.9027999999999999,
+    "min": 0.0,
+    "max": 7.653,
+    "n": 10
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 1,
+    "unit": "L/min",
+    "mean": 0.0019,
+    "min": 0.0,
+    "max": 0.007,
+    "n": 10
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 100,
+    "elapsed_s": 2,
+    "unit": "L/min",
+    "mean": 0.0025,
+    "min": 0.0,
+    "max": 0.007,
+    "n": 10
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 0,
+    "unit": "L/min",
+    "mean": 0.9101,
+    "min": 0.0,
+    "max": 7.718,
+    "n": 10
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 1,
+    "unit": "L/min",
+    "mean": 0.0009,
+    "min": 0.0,
+    "max": 0.003,
+    "n": 10
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 101,
+    "elapsed_s": 2,
+    "unit": "L/min",
+    "mean": 0.001,
+    "min": 0.0,
+    "max": 0.005,
+    "n": 10
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 0,
+    "unit": "L/min",
+    "mean": 0.9264,
+    "min": 0.003,
+    "max": 7.834,
+    "n": 10
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 1,
+    "unit": "L/min",
+    "mean": 0.0031,
+    "min": 0.0,
+    "max": 0.009,
+    "n": 10
+  },
+  {
+    "sensor": "FS1",
+    "origin_cycle_id": 102,
+    "elapsed_s": 2,
+    "unit": "L/min",
+    "mean": 0.0039000000000000003,
+    "min": 0.0,
+    "max": 0.007,
+    "n": 10
+  }
+]

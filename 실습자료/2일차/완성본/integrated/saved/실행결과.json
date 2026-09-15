@@ -1,0 +1,3564 @@
+{
+  "run_id": "LAB-S02-3d78d06d",
+  "inserted": 180,
+  "ts1_rows": 60,
+  "flags": {
+    "TS1": {
+      "OK": 49,
+      "SPIKE": 1,
+      "MISSING": 4,
+      "GAP": 3,
+      "STUCK": 3
+    },
+    "PS1": {
+      "OK": 60
+    },
+    "FS1": {
+      "OK": 60
+    }
+  },
+  "rows": [
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.9282999999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 8.311,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.9282999999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 1500,
+      "raw_value": 177.1061,
+      "unit": "bar",
+      "agg": {
+        "min": 150.94,
+        "max": 191.75,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 177.1061
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.586
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:01+00:00",
+      "elapsed_s": 1,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.0006000000000000001,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 0.003,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.0006000000000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:01+00:00",
+      "elapsed_s": 1,
+      "origin_cycle_id": 1500,
+      "raw_value": 191.5659000000001,
+      "unit": "bar",
+      "agg": {
+        "min": 191.41,
+        "max": 191.77,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 191.5659000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:01+00:00",
+      "elapsed_s": 1,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.488,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.488
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:02+00:00",
+      "elapsed_s": 2,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.0029000000000000002,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.001,
+        "max": 0.008,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.0029000000000000002
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:02+00:00",
+      "elapsed_s": 2,
+      "origin_cycle_id": 1500,
+      "raw_value": 191.54190000000006,
+      "unit": "bar",
+      "agg": {
+        "min": 191.36,
+        "max": 191.65,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 191.54190000000006
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:02+00:00",
+      "elapsed_s": 2,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.422
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:03+00:00",
+      "elapsed_s": 3,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.0015,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 0.009,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.0015
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:03+00:00",
+      "elapsed_s": 3,
+      "origin_cycle_id": 1500,
+      "raw_value": 191.53270000000012,
+      "unit": "bar",
+      "agg": {
+        "min": 191.34,
+        "max": 191.63,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 191.53270000000012
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:03+00:00",
+      "elapsed_s": 3,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.402,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.402
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:04+00:00",
+      "elapsed_s": 4,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.0004,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 0.001,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.0004
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:04+00:00",
+      "elapsed_s": 4,
+      "origin_cycle_id": 1500,
+      "raw_value": 191.52239999999995,
+      "unit": "bar",
+      "agg": {
+        "min": 191.38,
+        "max": 191.69,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 191.52239999999995
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:04+00:00",
+      "elapsed_s": 4,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.32,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.32
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:05+00:00",
+      "elapsed_s": 5,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.0019,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 0.008,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.0019
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:05+00:00",
+      "elapsed_s": 5,
+      "origin_cycle_id": 1500,
+      "raw_value": 191.53220000000007,
+      "unit": "bar",
+      "agg": {
+        "min": 191.41,
+        "max": 191.71,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 191.53220000000007
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:05+00:00",
+      "elapsed_s": 5,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.262,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.262
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:06+00:00",
+      "elapsed_s": 6,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.0011000000000000003,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 0.005,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.0011000000000000003
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:06+00:00",
+      "elapsed_s": 6,
+      "origin_cycle_id": 1500,
+      "raw_value": 191.4796999999999,
+      "unit": "bar",
+      "agg": {
+        "min": 191.34,
+        "max": 191.66,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 191.4796999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:06+00:00",
+      "elapsed_s": 6,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.234,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.234
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:07+00:00",
+      "elapsed_s": 7,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.0024000000000000002,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 0.007,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.0024000000000000002
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:07+00:00",
+      "elapsed_s": 7,
+      "origin_cycle_id": 1500,
+      "raw_value": 191.4915,
+      "unit": "bar",
+      "agg": {
+        "min": 191.35,
+        "max": 191.6,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 191.4915
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:07+00:00",
+      "elapsed_s": 7,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.16,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.16
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:08+00:00",
+      "elapsed_s": 8,
+      "origin_cycle_id": 1500,
+      "raw_value": 0.0007,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 0.005,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 0.0007
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:08+00:00",
+      "elapsed_s": 8,
+      "origin_cycle_id": 1500,
+      "raw_value": 191.47079999999994,
+      "unit": "bar",
+      "agg": {
+        "min": 191.36,
+        "max": 191.63,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 191.47079999999994
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:08+00:00",
+      "elapsed_s": 8,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.156,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.156
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:09+00:00",
+      "elapsed_s": 9,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.247800000000001,
+      "unit": "L/min",
+      "agg": {
+        "min": 0.0,
+        "max": 18.978,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.247800000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:09+00:00",
+      "elapsed_s": 9,
+      "origin_cycle_id": 1500,
+      "raw_value": 174.56799999999996,
+      "unit": "bar",
+      "agg": {
+        "min": 150.56,
+        "max": 191.55,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 174.56799999999996
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:09+00:00",
+      "elapsed_s": 9,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.148,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.148
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:10+00:00",
+      "elapsed_s": 10,
+      "origin_cycle_id": 1500,
+      "raw_value": 8.5524,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.954,
+        "max": 9.901,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 8.5524
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:10+00:00",
+      "elapsed_s": 10,
+      "origin_cycle_id": 1500,
+      "raw_value": 147.5816,
+      "unit": "bar",
+      "agg": {
+        "min": 146.59,
+        "max": 150.5,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 147.5816
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:10+00:00",
+      "elapsed_s": 10,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.16,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.16
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:11+00:00",
+      "elapsed_s": 11,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.989700000000001,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.814,
+        "max": 8.172,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.989700000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:11+00:00",
+      "elapsed_s": 11,
+      "origin_cycle_id": 1500,
+      "raw_value": 146.55180000000004,
+      "unit": "bar",
+      "agg": {
+        "min": 146.4,
+        "max": 146.74,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 146.55180000000004
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:11+00:00",
+      "elapsed_s": 11,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.176,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.176
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:12+00:00",
+      "elapsed_s": 12,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.941799999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.766,
+        "max": 8.116,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.941799999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:12+00:00",
+      "elapsed_s": 12,
+      "origin_cycle_id": 1500,
+      "raw_value": 146.51520000000005,
+      "unit": "bar",
+      "agg": {
+        "min": 146.33,
+        "max": 146.65,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 146.51520000000005
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:12+00:00",
+      "elapsed_s": 12,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.262,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.262
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:13+00:00",
+      "elapsed_s": 13,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.9171,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.754,
+        "max": 8.074,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.9171
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:13+00:00",
+      "elapsed_s": 13,
+      "origin_cycle_id": 1500,
+      "raw_value": 146.43540000000002,
+      "unit": "bar",
+      "agg": {
+        "min": 146.31,
+        "max": 146.59,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 146.43540000000002
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:13+00:00",
+      "elapsed_s": 13,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.266,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.266
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:14+00:00",
+      "elapsed_s": 14,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.943899999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.779,
+        "max": 8.114,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.943899999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:14+00:00",
+      "elapsed_s": 14,
+      "origin_cycle_id": 1500,
+      "raw_value": 146.40720000000002,
+      "unit": "bar",
+      "agg": {
+        "min": 146.29,
+        "max": 146.56,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 146.40720000000002
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:14+00:00",
+      "elapsed_s": 14,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.336,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.336
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:15+00:00",
+      "elapsed_s": 15,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.921600000000001,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.795,
+        "max": 8.038,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.921600000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:15+00:00",
+      "elapsed_s": 15,
+      "origin_cycle_id": 1500,
+      "raw_value": 146.3626,
+      "unit": "bar",
+      "agg": {
+        "min": 146.24,
+        "max": 146.48,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 146.3626
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:15+00:00",
+      "elapsed_s": 15,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.344,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.344
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:16+00:00",
+      "elapsed_s": 16,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.897,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.772,
+        "max": 8.076,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.897
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:16+00:00",
+      "elapsed_s": 16,
+      "origin_cycle_id": 1500,
+      "raw_value": 146.35760000000005,
+      "unit": "bar",
+      "agg": {
+        "min": 146.2,
+        "max": 146.5,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 146.35760000000005
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:16+00:00",
+      "elapsed_s": 16,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.328,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.328
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:17+00:00",
+      "elapsed_s": 17,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.9223,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.768,
+        "max": 8.072,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.9223
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:17+00:00",
+      "elapsed_s": 17,
+      "origin_cycle_id": 1500,
+      "raw_value": 146.32950000000002,
+      "unit": "bar",
+      "agg": {
+        "min": 146.16,
+        "max": 146.52,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 146.32950000000002
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:17+00:00",
+      "elapsed_s": 17,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.437,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.437
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:18+00:00",
+      "elapsed_s": 18,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.9049000000000005,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.755,
+        "max": 8.081,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.9049000000000005
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:18+00:00",
+      "elapsed_s": 18,
+      "origin_cycle_id": 1500,
+      "raw_value": 146.35550000000006,
+      "unit": "bar",
+      "agg": {
+        "min": 146.23,
+        "max": 146.52,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 146.35550000000006
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:18+00:00",
+      "elapsed_s": 18,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.41,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.41
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:19+00:00",
+      "elapsed_s": 19,
+      "origin_cycle_id": 1500,
+      "raw_value": 6.4631,
+      "unit": "L/min",
+      "agg": {
+        "min": 1.52,
+        "max": 7.971,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 6.4631
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:19+00:00",
+      "elapsed_s": 19,
+      "origin_cycle_id": 1500,
+      "raw_value": 154.7553999999999,
+      "unit": "bar",
+      "agg": {
+        "min": 146.31,
+        "max": 156.81,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 154.7553999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:19+00:00",
+      "elapsed_s": 19,
+      "origin_cycle_id": 1500,
+      "raw_value": 60.414,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "SPIKE",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:20+00:00",
+      "elapsed_s": 20,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.864099999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.634,
+        "max": 8.006,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.864099999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:20+00:00",
+      "elapsed_s": 20,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.45589999999996,
+      "unit": "bar",
+      "agg": {
+        "min": 156.28,
+        "max": 156.71,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.45589999999996
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:20+00:00",
+      "elapsed_s": 20,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.422
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:21+00:00",
+      "elapsed_s": 21,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.839,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.691,
+        "max": 8.0,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.839
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:21+00:00",
+      "elapsed_s": 21,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.43289999999996,
+      "unit": "bar",
+      "agg": {
+        "min": 156.23,
+        "max": 156.56,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.43289999999996
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:21+00:00",
+      "elapsed_s": 21,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.422
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:22+00:00",
+      "elapsed_s": 22,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.829899999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.657,
+        "max": 7.993,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.829899999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:22+00:00",
+      "elapsed_s": 22,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.40839999999997,
+      "unit": "bar",
+      "agg": {
+        "min": 156.3,
+        "max": 156.55,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.40839999999997
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:22+00:00",
+      "elapsed_s": 22,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.508,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.508
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:23+00:00",
+      "elapsed_s": 23,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.847400000000002,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.628,
+        "max": 8.034,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.847400000000002
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:23+00:00",
+      "elapsed_s": 23,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.41769999999994,
+      "unit": "bar",
+      "agg": {
+        "min": 156.23,
+        "max": 156.58,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.41769999999994
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:23+00:00",
+      "elapsed_s": 23,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.422
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:24+00:00",
+      "elapsed_s": 24,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8408,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.696,
+        "max": 7.978,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8408
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:24+00:00",
+      "elapsed_s": 24,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.35650000000004,
+      "unit": "bar",
+      "agg": {
+        "min": 156.23,
+        "max": 156.54,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.35650000000004
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:24+00:00",
+      "elapsed_s": 24,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.516,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.516
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:25+00:00",
+      "elapsed_s": 25,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8424000000000005,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.691,
+        "max": 7.997,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8424000000000005
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:25+00:00",
+      "elapsed_s": 25,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.3844,
+      "unit": "bar",
+      "agg": {
+        "min": 156.26,
+        "max": 156.57,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.3844
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:25+00:00",
+      "elapsed_s": 25,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.426,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.426
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:26+00:00",
+      "elapsed_s": 26,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8208,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.684,
+        "max": 7.972,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8208
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:26+00:00",
+      "elapsed_s": 26,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.37369999999999,
+      "unit": "bar",
+      "agg": {
+        "min": 156.23,
+        "max": 156.57,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.37369999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:26+00:00",
+      "elapsed_s": 26,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "MISSING",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:27+00:00",
+      "elapsed_s": 27,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8376,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.678,
+        "max": 7.994,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8376
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:27+00:00",
+      "elapsed_s": 27,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.35829999999996,
+      "unit": "bar",
+      "agg": {
+        "min": 156.19,
+        "max": 156.52,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.35829999999996
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:27+00:00",
+      "elapsed_s": 27,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "MISSING",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:28+00:00",
+      "elapsed_s": 28,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8427999999999995,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.66,
+        "max": 8.005,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8427999999999995
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:28+00:00",
+      "elapsed_s": 28,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.35,
+      "unit": "bar",
+      "agg": {
+        "min": 156.22,
+        "max": 156.49,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.35
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:28+00:00",
+      "elapsed_s": 28,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "MISSING",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:29+00:00",
+      "elapsed_s": 29,
+      "origin_cycle_id": 1500,
+      "raw_value": 6.564100000000001,
+      "unit": "L/min",
+      "agg": {
+        "min": 2.573,
+        "max": 7.844,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 6.564100000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:29+00:00",
+      "elapsed_s": 29,
+      "origin_cycle_id": 1500,
+      "raw_value": 164.7169,
+      "unit": "bar",
+      "agg": {
+        "min": 156.39,
+        "max": 166.74,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 164.7169
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:29+00:00",
+      "elapsed_s": 29,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "MISSING",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:30+00:00",
+      "elapsed_s": 30,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8180000000000005,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.764,
+        "max": 7.843,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8180000000000005
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:30+00:00",
+      "elapsed_s": 30,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.29629999999997,
+      "unit": "bar",
+      "agg": {
+        "min": 166.1,
+        "max": 166.48,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.29629999999997
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:30+00:00",
+      "elapsed_s": 30,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "GAP",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:31+00:00",
+      "elapsed_s": 31,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.7901,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.743,
+        "max": 7.848,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.7901
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:31+00:00",
+      "elapsed_s": 31,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.21970000000002,
+      "unit": "bar",
+      "agg": {
+        "min": 166.05,
+        "max": 166.37,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.21970000000002
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:31+00:00",
+      "elapsed_s": 31,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "GAP",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:32+00:00",
+      "elapsed_s": 32,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.7973,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.753,
+        "max": 7.837,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.7973
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:32+00:00",
+      "elapsed_s": 32,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.16969999999998,
+      "unit": "bar",
+      "agg": {
+        "min": 166.02,
+        "max": 166.34,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.16969999999998
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:32+00:00",
+      "elapsed_s": 32,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "GAP",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:33+00:00",
+      "elapsed_s": 33,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.807099999999998,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.748,
+        "max": 7.866,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.807099999999998
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:33+00:00",
+      "elapsed_s": 33,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.1595,
+      "unit": "bar",
+      "agg": {
+        "min": 165.99,
+        "max": 166.33,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.1595
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:33+00:00",
+      "elapsed_s": 33,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.586
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:34+00:00",
+      "elapsed_s": 34,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8125,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.724,
+        "max": 7.902,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8125
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:34+00:00",
+      "elapsed_s": 34,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.08780000000007,
+      "unit": "bar",
+      "agg": {
+        "min": 165.97,
+        "max": 166.24,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.08780000000007
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:34+00:00",
+      "elapsed_s": 34,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.609,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.609
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:35+00:00",
+      "elapsed_s": 35,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.817399999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.733,
+        "max": 7.915,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.817399999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:35+00:00",
+      "elapsed_s": 35,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.19369999999995,
+      "unit": "bar",
+      "agg": {
+        "min": 166.06,
+        "max": 166.34,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.19369999999995
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:35+00:00",
+      "elapsed_s": 35,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.66,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.66
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:36+00:00",
+      "elapsed_s": 36,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.831,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.711,
+        "max": 7.973,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.831
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:36+00:00",
+      "elapsed_s": 36,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.1836,
+      "unit": "bar",
+      "agg": {
+        "min": 166.05,
+        "max": 166.41,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.1836
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:36+00:00",
+      "elapsed_s": 36,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.648,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.648
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:37+00:00",
+      "elapsed_s": 37,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8294,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.69,
+        "max": 7.972,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8294
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:37+00:00",
+      "elapsed_s": 37,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.14429999999996,
+      "unit": "bar",
+      "agg": {
+        "min": 166.02,
+        "max": 166.3,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.14429999999996
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:37+00:00",
+      "elapsed_s": 37,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.586
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:38+00:00",
+      "elapsed_s": 38,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.801,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.654,
+        "max": 7.952,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.801
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:38+00:00",
+      "elapsed_s": 38,
+      "origin_cycle_id": 1500,
+      "raw_value": 166.06779999999998,
+      "unit": "bar",
+      "agg": {
+        "min": 165.88,
+        "max": 166.23,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 166.06779999999998
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:38+00:00",
+      "elapsed_s": 38,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.664,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.664
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:39+00:00",
+      "elapsed_s": 39,
+      "origin_cycle_id": 1500,
+      "raw_value": 8.962299999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.789,
+        "max": 12.345,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 8.962299999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:39+00:00",
+      "elapsed_s": 39,
+      "origin_cycle_id": 1500,
+      "raw_value": 158.4451,
+      "unit": "bar",
+      "agg": {
+        "min": 156.37,
+        "max": 166.09,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 158.4451
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:39+00:00",
+      "elapsed_s": 39,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:40+00:00",
+      "elapsed_s": 40,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8545,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.643,
+        "max": 8.009,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8545
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:40+00:00",
+      "elapsed_s": 40,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.51500000000001,
+      "unit": "bar",
+      "agg": {
+        "min": 156.35,
+        "max": 156.66,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.51500000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:40+00:00",
+      "elapsed_s": 40,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:41+00:00",
+      "elapsed_s": 41,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.848299999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.718,
+        "max": 8.011,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.848299999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:41+00:00",
+      "elapsed_s": 41,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.4114,
+      "unit": "bar",
+      "agg": {
+        "min": 156.31,
+        "max": 156.56,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.4114
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:41+00:00",
+      "elapsed_s": 41,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.664,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.664
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:42+00:00",
+      "elapsed_s": 42,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8558,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.663,
+        "max": 8.001,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8558
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:42+00:00",
+      "elapsed_s": 42,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.3374,
+      "unit": "bar",
+      "agg": {
+        "min": 156.11,
+        "max": 156.54,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.3374
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:42+00:00",
+      "elapsed_s": 42,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.668,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.668
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:43+00:00",
+      "elapsed_s": 43,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8571,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.696,
+        "max": 8.056,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8571
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:43+00:00",
+      "elapsed_s": 43,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.3677,
+      "unit": "bar",
+      "agg": {
+        "min": 156.23,
+        "max": 156.52,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.3677
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:43+00:00",
+      "elapsed_s": 43,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:44+00:00",
+      "elapsed_s": 44,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8459,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.701,
+        "max": 7.967,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8459
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:44+00:00",
+      "elapsed_s": 44,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.3664,
+      "unit": "bar",
+      "agg": {
+        "min": 156.23,
+        "max": 156.52,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.3664
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:44+00:00",
+      "elapsed_s": 44,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:45+00:00",
+      "elapsed_s": 45,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8571,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.688,
+        "max": 8.062,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8571
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:45+00:00",
+      "elapsed_s": 45,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.335,
+      "unit": "bar",
+      "agg": {
+        "min": 156.2,
+        "max": 156.48,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.335
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:45+00:00",
+      "elapsed_s": 45,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:46+00:00",
+      "elapsed_s": 46,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.832000000000001,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.674,
+        "max": 8.015,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.832000000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:46+00:00",
+      "elapsed_s": 46,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.32190000000006,
+      "unit": "bar",
+      "agg": {
+        "min": 156.16,
+        "max": 156.5,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.32190000000006
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:46+00:00",
+      "elapsed_s": 46,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:47+00:00",
+      "elapsed_s": 47,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8332999999999995,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.617,
+        "max": 8.018,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8332999999999995
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:47+00:00",
+      "elapsed_s": 47,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.36159999999995,
+      "unit": "bar",
+      "agg": {
+        "min": 156.16,
+        "max": 156.49,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.36159999999995
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:47+00:00",
+      "elapsed_s": 47,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:48+00:00",
+      "elapsed_s": 48,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.849900000000001,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.661,
+        "max": 8.004,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.849900000000001
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:48+00:00",
+      "elapsed_s": 48,
+      "origin_cycle_id": 1500,
+      "raw_value": 156.39399999999998,
+      "unit": "bar",
+      "agg": {
+        "min": 156.23,
+        "max": 156.55,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 156.39399999999998
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:48+00:00",
+      "elapsed_s": 48,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:49+00:00",
+      "elapsed_s": 49,
+      "origin_cycle_id": 1500,
+      "raw_value": 8.4586,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.82,
+        "max": 10.181,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 8.4586
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:49+00:00",
+      "elapsed_s": 49,
+      "origin_cycle_id": 1500,
+      "raw_value": 152.67430000000004,
+      "unit": "bar",
+      "agg": {
+        "min": 151.63,
+        "max": 156.46,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 152.67430000000004
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:49+00:00",
+      "elapsed_s": 49,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.652
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:50+00:00",
+      "elapsed_s": 50,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.882599999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.719,
+        "max": 8.058,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.882599999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:50+00:00",
+      "elapsed_s": 50,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.62469999999996,
+      "unit": "bar",
+      "agg": {
+        "min": 151.45,
+        "max": 151.83,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.62469999999996
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:50+00:00",
+      "elapsed_s": 50,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "STUCK",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:51+00:00",
+      "elapsed_s": 51,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8649000000000004,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.694,
+        "max": 8.024,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8649000000000004
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:51+00:00",
+      "elapsed_s": 51,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.56470000000002,
+      "unit": "bar",
+      "agg": {
+        "min": 151.45,
+        "max": 151.71,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.56470000000002
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:51+00:00",
+      "elapsed_s": 51,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "STUCK",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:52+00:00",
+      "elapsed_s": 52,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8591999999999995,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.708,
+        "max": 8.056,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8591999999999995
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:52+00:00",
+      "elapsed_s": 52,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.51330000000004,
+      "unit": "bar",
+      "agg": {
+        "min": 151.36,
+        "max": 151.67,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.51330000000004
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:52+00:00",
+      "elapsed_s": 52,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "STUCK",
+      "value": null
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:53+00:00",
+      "elapsed_s": 53,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.875199999999998,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.679,
+        "max": 8.022,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.875199999999998
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:53+00:00",
+      "elapsed_s": 53,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.4552,
+      "unit": "bar",
+      "agg": {
+        "min": 151.34,
+        "max": 151.62,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.4552
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:53+00:00",
+      "elapsed_s": 53,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.57,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.57
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:54+00:00",
+      "elapsed_s": 54,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8574,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.694,
+        "max": 8.064,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8574
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:54+00:00",
+      "elapsed_s": 54,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.45390000000003,
+      "unit": "bar",
+      "agg": {
+        "min": 151.27,
+        "max": 151.64,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.45390000000003
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:54+00:00",
+      "elapsed_s": 54,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.566
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:55+00:00",
+      "elapsed_s": 55,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8432,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.681,
+        "max": 8.049,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8432
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:55+00:00",
+      "elapsed_s": 55,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.42429999999993,
+      "unit": "bar",
+      "agg": {
+        "min": 151.3,
+        "max": 151.59,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.42429999999993
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:55+00:00",
+      "elapsed_s": 55,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.574,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.574
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:56+00:00",
+      "elapsed_s": 56,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.867699999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.681,
+        "max": 8.066,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.867699999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:56+00:00",
+      "elapsed_s": 56,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.4008,
+      "unit": "bar",
+      "agg": {
+        "min": 151.31,
+        "max": 151.59,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.4008
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:56+00:00",
+      "elapsed_s": 56,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.594,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.594
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:57+00:00",
+      "elapsed_s": 57,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.847099999999999,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.688,
+        "max": 8.018,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.847099999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:57+00:00",
+      "elapsed_s": 57,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.3623999999999,
+      "unit": "bar",
+      "agg": {
+        "min": 151.17,
+        "max": 151.55,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.3623999999999
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:57+00:00",
+      "elapsed_s": 57,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.559,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.559
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:58+00:00",
+      "elapsed_s": 58,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8568,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.697,
+        "max": 8.021,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8568
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:58+00:00",
+      "elapsed_s": 58,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.41609999999994,
+      "unit": "bar",
+      "agg": {
+        "min": 151.24,
+        "max": 151.55,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.41609999999994
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:58+00:00",
+      "elapsed_s": 58,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.566
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "FS1",
+      "ts": "2026-01-25 09:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 1500,
+      "raw_value": 7.8621,
+      "unit": "L/min",
+      "agg": {
+        "min": 7.688,
+        "max": 8.071,
+        "n": 10,
+        "source_hz": 10
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 7.8621
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-01-25 09:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 1500,
+      "raw_value": 151.3877,
+      "unit": "bar",
+      "agg": {
+        "min": 151.19,
+        "max": 151.59,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 151.3877
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "unit": "°C",
+      "agg": null,
+      "is_synthetic": false,
+      "quality_flag": "OK",
+      "value": 35.566
+    }
+  ],
+  "database_rows": [
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "value": 35.586,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:01+00:00",
+      "elapsed_s": 1,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.488,
+      "value": 35.488,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:02+00:00",
+      "elapsed_s": 2,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "value": 35.422,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:03+00:00",
+      "elapsed_s": 3,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.402,
+      "value": 35.402,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:04+00:00",
+      "elapsed_s": 4,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.32,
+      "value": 35.32,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:05+00:00",
+      "elapsed_s": 5,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.262,
+      "value": 35.262,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:06+00:00",
+      "elapsed_s": 6,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.234,
+      "value": 35.234,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:07+00:00",
+      "elapsed_s": 7,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.16,
+      "value": 35.16,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:08+00:00",
+      "elapsed_s": 8,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.156,
+      "value": 35.156,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:09+00:00",
+      "elapsed_s": 9,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.148,
+      "value": 35.148,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:10+00:00",
+      "elapsed_s": 10,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.16,
+      "value": 35.16,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:11+00:00",
+      "elapsed_s": 11,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.176,
+      "value": 35.176,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:12+00:00",
+      "elapsed_s": 12,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.262,
+      "value": 35.262,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:13+00:00",
+      "elapsed_s": 13,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.266,
+      "value": 35.266,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:14+00:00",
+      "elapsed_s": 14,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.336,
+      "value": 35.336,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:15+00:00",
+      "elapsed_s": 15,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.344,
+      "value": 35.344,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:16+00:00",
+      "elapsed_s": 16,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.328,
+      "value": 35.328,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:17+00:00",
+      "elapsed_s": 17,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.437,
+      "value": 35.437,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:18+00:00",
+      "elapsed_s": 18,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.41,
+      "value": 35.41,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:19+00:00",
+      "elapsed_s": 19,
+      "origin_cycle_id": 1500,
+      "raw_value": 60.414,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "SPIKE"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:20+00:00",
+      "elapsed_s": 20,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "value": 35.422,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:21+00:00",
+      "elapsed_s": 21,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "value": 35.422,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:22+00:00",
+      "elapsed_s": 22,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.508,
+      "value": 35.508,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:23+00:00",
+      "elapsed_s": 23,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "value": 35.422,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:24+00:00",
+      "elapsed_s": 24,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.516,
+      "value": 35.516,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:25+00:00",
+      "elapsed_s": 25,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.426,
+      "value": 35.426,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:26+00:00",
+      "elapsed_s": 26,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "MISSING"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:27+00:00",
+      "elapsed_s": 27,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "MISSING"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:28+00:00",
+      "elapsed_s": 28,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "MISSING"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:29+00:00",
+      "elapsed_s": 29,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "MISSING"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:30+00:00",
+      "elapsed_s": 30,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "GAP"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:31+00:00",
+      "elapsed_s": 31,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "GAP"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:32+00:00",
+      "elapsed_s": 32,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "GAP"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:33+00:00",
+      "elapsed_s": 33,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "value": 35.586,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:34+00:00",
+      "elapsed_s": 34,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.609,
+      "value": 35.609,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:35+00:00",
+      "elapsed_s": 35,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.66,
+      "value": 35.66,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:36+00:00",
+      "elapsed_s": 36,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.648,
+      "value": 35.648,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:37+00:00",
+      "elapsed_s": 37,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "value": 35.586,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:38+00:00",
+      "elapsed_s": 38,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.664,
+      "value": 35.664,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:39+00:00",
+      "elapsed_s": 39,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:40+00:00",
+      "elapsed_s": 40,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:41+00:00",
+      "elapsed_s": 41,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.664,
+      "value": 35.664,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:42+00:00",
+      "elapsed_s": 42,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.668,
+      "value": 35.668,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:43+00:00",
+      "elapsed_s": 43,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:44+00:00",
+      "elapsed_s": 44,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:45+00:00",
+      "elapsed_s": 45,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:46+00:00",
+      "elapsed_s": 46,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:47+00:00",
+      "elapsed_s": 47,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:48+00:00",
+      "elapsed_s": 48,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:49+00:00",
+      "elapsed_s": 49,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:50+00:00",
+      "elapsed_s": 50,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "STUCK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:51+00:00",
+      "elapsed_s": 51,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "STUCK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:52+00:00",
+      "elapsed_s": 52,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "STUCK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:53+00:00",
+      "elapsed_s": 53,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.57,
+      "value": 35.57,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:54+00:00",
+      "elapsed_s": 54,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "value": 35.566,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:55+00:00",
+      "elapsed_s": 55,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.574,
+      "value": 35.574,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:56+00:00",
+      "elapsed_s": 56,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.594,
+      "value": 35.594,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:57+00:00",
+      "elapsed_s": 57,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.559,
+      "value": 35.559,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:58+00:00",
+      "elapsed_s": 58,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "value": 35.566,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "value": 35.566,
+      "unit": "°C",
+      "quality_flag": "OK"
+    }
+  ]
+}

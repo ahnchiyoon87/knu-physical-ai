@@ -1,0 +1,513 @@
+{
+  "scope": "실제 DB 조회 결과. UI 캡처가 아님.",
+  "graph_stats": {
+    "nodes": {
+      "Asset": 3,
+      "Component": 3,
+      "Sensor": 9,
+      "SOP": 7,
+      "SOPSection": 42,
+      "Action": 4,
+      "Event": 1,
+      "Driver": 2,
+      "Process": 2,
+      "KPI": 2
+    },
+    "relationships": {
+      "HAS_COMPONENT": 3,
+      "HAS_SENSOR": 9,
+      "AFFECTS": 6,
+      "RUNS_ON": 6,
+      "MEASURED_FOR": 6,
+      "APPLIES_TO": 10,
+      "ALLOWS": 6,
+      "HAS_SECTION": 42,
+      "SUPERSEDES": 1,
+      "ON_ASSET": 1,
+      "CITES": 3
+    }
+  },
+  "labels": [
+    {
+      "labels": [
+        "Sensor",
+        "Measure"
+      ],
+      "properties": {
+        "sensor_id": "HYD-01.TS1",
+        "unit": "°C",
+        "hz": 1,
+        "quantity": "temperature",
+        "code": "TS1",
+        "name": "탱크 온도"
+      }
+    }
+  ],
+  "basis": [
+    {
+      "driver": "COOLING_PERF",
+      "sensor": "HYD-01.TS1",
+      "basis": "document",
+      "source": "SOP-COOL-001@v2 §3",
+      "verified": false
+    },
+    {
+      "driver": "COOLING_PERF",
+      "sensor": "HYD-02.TS1",
+      "basis": "document",
+      "source": "SOP-COOL-002@v1 §2",
+      "verified": false
+    },
+    {
+      "driver": "COOLING_PERF",
+      "sensor": "HYD-03.TS1",
+      "basis": "simulator_assumption",
+      "source": "simulator.py T_ss 식 (적용 SOP 없음)",
+      "verified": false
+    },
+    {
+      "driver": "LOAD",
+      "sensor": "HYD-01.TS1",
+      "basis": "simulator_assumption",
+      "source": "simulator.py T_ss 식",
+      "verified": false
+    },
+    {
+      "driver": "LOAD",
+      "sensor": "HYD-02.TS1",
+      "basis": "simulator_assumption",
+      "source": "simulator.py T_ss 식",
+      "verified": false
+    },
+    {
+      "driver": "LOAD",
+      "sensor": "HYD-03.TS1",
+      "basis": "simulator_assumption",
+      "source": "simulator.py T_ss 식",
+      "verified": false
+    }
+  ],
+  "sops": {
+    "HYD-01": [
+      {
+        "doc_id": "SOP-COOL-001",
+        "version": 2,
+        "title": "냉각 이상 확인",
+        "approver_role": "설비 담당자",
+        "allowed_actions": [
+          {
+            "min_value": 0.6,
+            "default_value": 0.8,
+            "action_id": "REDUCE_LOAD",
+            "max_value": 1.0
+          }
+        ]
+      },
+      {
+        "doc_id": "SOP-ESC-001",
+        "version": 1,
+        "title": "미개선 이관",
+        "approver_role": "정비 책임자",
+        "allowed_actions": [
+          {
+            "min_value": null,
+            "default_value": null,
+            "action_id": "ESCALATE",
+            "max_value": null
+          }
+        ]
+      },
+      {
+        "doc_id": "SOP-LOAD-001",
+        "version": 1,
+        "title": "승인 부하 감소",
+        "approver_role": "설비 담당자",
+        "allowed_actions": [
+          {
+            "min_value": 0.6,
+            "default_value": 0.8,
+            "action_id": "REDUCE_LOAD",
+            "max_value": 1.0
+          }
+        ]
+      },
+      {
+        "doc_id": "SOP-VER-001",
+        "version": 1,
+        "title": "조치 후 재점검",
+        "approver_role": "설비 담당자",
+        "allowed_actions": []
+      }
+    ],
+    "HYD-02": [
+      {
+        "doc_id": "SOP-COOL-002",
+        "version": 1,
+        "title": "냉각 이상 확인 (2호기 공랭식)",
+        "approver_role": "2호기 담당자",
+        "allowed_actions": [
+          {
+            "min_value": 1.0,
+            "default_value": 1.3,
+            "action_id": "FAN_BOOST",
+            "max_value": 1.5
+          }
+        ]
+      },
+      {
+        "doc_id": "SOP-ESC-001",
+        "version": 1,
+        "title": "미개선 이관",
+        "approver_role": "정비 책임자",
+        "allowed_actions": [
+          {
+            "min_value": null,
+            "default_value": null,
+            "action_id": "ESCALATE",
+            "max_value": null
+          }
+        ]
+      },
+      {
+        "doc_id": "SOP-VER-001",
+        "version": 1,
+        "title": "조치 후 재점검",
+        "approver_role": "설비 담당자",
+        "allowed_actions": []
+      }
+    ],
+    "HYD-03": []
+  },
+  "contexts": {
+    "HYD-01": {
+      "asset_id": "HYD-01",
+      "found": true,
+      "asset": {
+        "name": "유압설비 1호기",
+        "cooling": "수랭식 냉각기",
+        "asset_id": "HYD-01",
+        "line": "L1"
+      },
+      "component": "HYD-01.COOLER",
+      "active_sops": [
+        "SOP-COOL-001@v2",
+        "SOP-ESC-001@v1",
+        "SOP-LOAD-001@v1",
+        "SOP-SEN-001@v1",
+        "SOP-VER-001@v1"
+      ],
+      "allowed_actions": [
+        "ESCALATE",
+        "REDUCE_LOAD",
+        "SENSOR_CHECK"
+      ]
+    },
+    "HYD-02": {
+      "asset_id": "HYD-02",
+      "found": true,
+      "asset": {
+        "name": "유압설비 2호기",
+        "cooling": "공랭식 팬",
+        "asset_id": "HYD-02",
+        "line": "L2"
+      },
+      "component": "HYD-02.COOLER",
+      "active_sops": [
+        "SOP-COOL-002@v1",
+        "SOP-ESC-001@v1",
+        "SOP-SEN-001@v1",
+        "SOP-VER-001@v1"
+      ],
+      "allowed_actions": [
+        "ESCALATE",
+        "FAN_BOOST",
+        "SENSOR_CHECK"
+      ]
+    },
+    "HYD-03": {
+      "asset_id": "HYD-03",
+      "found": true,
+      "asset": {
+        "name": "유압설비 3호기(신규)",
+        "cooling": "수랭식 냉각기",
+        "asset_id": "HYD-03",
+        "line": "L3"
+      },
+      "component": "HYD-03.COOLER",
+      "active_sops": [],
+      "allowed_actions": []
+    },
+    "HYD-99": {
+      "asset_id": "HYD-99",
+      "found": false
+    }
+  },
+  "sensor_fault_sop": [
+    {
+      "doc_id": "SOP-SEN-001",
+      "version": 1,
+      "title": "센서 오류 점검",
+      "approver_role": "설비 담당자",
+      "allowed_actions": [
+        {
+          "min_value": null,
+          "default_value": null,
+          "action_id": "SENSOR_CHECK",
+          "max_value": null
+        }
+      ]
+    }
+  ],
+  "without_status_filter": [
+    {
+      "doc_id": "SOP-COOL-001",
+      "version": 2,
+      "title": "냉각 이상 확인",
+      "allowed_actions": [
+        "REDUCE_LOAD"
+      ]
+    },
+    {
+      "doc_id": "SOP-COOL-001",
+      "version": 1,
+      "title": "냉각 이상 확인",
+      "allowed_actions": [
+        "REDUCE_LOAD"
+      ]
+    },
+    {
+      "doc_id": "SOP-ESC-001",
+      "version": 1,
+      "title": "미개선 이관",
+      "allowed_actions": [
+        "ESCALATE"
+      ]
+    },
+    {
+      "doc_id": "SOP-LOAD-001",
+      "version": 1,
+      "title": "승인 부하 감소",
+      "allowed_actions": [
+        "REDUCE_LOAD"
+      ]
+    },
+    {
+      "doc_id": "SOP-VER-001",
+      "version": 1,
+      "title": "조치 후 재점검",
+      "allowed_actions": []
+    }
+  ],
+  "merge_same_ids": [
+    {
+      "what": "Sensor HYD-01/TS1",
+      "merged": [
+        "HYD-01.TS1"
+      ],
+      "nodes_created": 0,
+      "relationships_created": 0,
+      "committed": true
+    },
+    {
+      "what": "Sensor HYD-01/PS1",
+      "merged": [
+        "HYD-01.PS1"
+      ],
+      "nodes_created": 0,
+      "relationships_created": 0,
+      "committed": true
+    },
+    {
+      "what": "Sensor HYD-01/FS1",
+      "merged": [
+        "HYD-01.FS1"
+      ],
+      "nodes_created": 0,
+      "relationships_created": 0,
+      "committed": true
+    },
+    {
+      "what": "SOP-COOL-001@v2 APPLIES_TO HYD-01",
+      "merged": [
+        "SOP-COOL-001@v2 -> HYD-01"
+      ],
+      "nodes_created": 0,
+      "relationships_created": 0,
+      "committed": true
+    }
+  ],
+  "merge_wrong_id": {
+    "merged": [
+      "HYD-01-TS1"
+    ],
+    "nodes_created": 1,
+    "relationships_created": 1,
+    "committed": false
+  },
+  "wrong_id_after_rollback": [
+    {
+      "n": 0
+    }
+  ],
+  "event_evidence": [
+    {
+      "event_id": "EVT-20270126-090043-HYD-01-e51b",
+      "asset_id": "HYD-01",
+      "event_type": "COOLING_ANOMALY",
+      "status": "PENDING_APPROVAL",
+      "citations": [
+        "SOP-VER-001 v1 §2",
+        "SOP-COOL-001 v2 §2",
+        "SOP-COOL-001 v2 §4"
+      ]
+    }
+  ],
+  "cycle100_integrated": [
+    {
+      "sensor_id": "HYD-01.FS1",
+      "unit_graph": "L/min",
+      "unit_db": "L/min",
+      "n": 60,
+      "valid": 60,
+      "last_value": 7.884,
+      "origin_cycle_id": 100
+    },
+    {
+      "sensor_id": "HYD-01.PS1",
+      "unit_graph": "bar",
+      "unit_db": "bar",
+      "n": 60,
+      "valid": 60,
+      "last_value": 147.345,
+      "origin_cycle_id": 100
+    },
+    {
+      "sensor_id": "HYD-01.TS1",
+      "unit_graph": "°C",
+      "unit_db": "°C",
+      "n": 60,
+      "valid": 60,
+      "last_value": 53.395,
+      "origin_cycle_id": 100
+    }
+  ],
+  "cycle100_practical": {
+    "asset_id": "HYD-01",
+    "run_id": "LAB-S03-99baf027",
+    "context": {
+      "asset_id": "HYD-01",
+      "found": true,
+      "asset": {
+        "name": "유압설비 1호기",
+        "cooling": "수랭식 냉각기",
+        "asset_id": "HYD-01",
+        "line": "L1"
+      },
+      "component": "HYD-01.COOLER",
+      "active_sops": [
+        "SOP-COOL-001@v2",
+        "SOP-ESC-001@v1",
+        "SOP-LOAD-001@v1",
+        "SOP-SEN-001@v1",
+        "SOP-VER-001@v1"
+      ],
+      "allowed_actions": [
+        "ESCALATE",
+        "REDUCE_LOAD",
+        "SENSOR_CHECK"
+      ]
+    },
+    "cooling_sops": [
+      {
+        "doc_id": "SOP-COOL-001",
+        "version": 2,
+        "title": "냉각 이상 확인",
+        "approver_role": "설비 담당자",
+        "allowed_actions": [
+          {
+            "min_value": 0.6,
+            "default_value": 0.8,
+            "action_id": "REDUCE_LOAD",
+            "max_value": 1.0
+          }
+        ]
+      },
+      {
+        "doc_id": "SOP-ESC-001",
+        "version": 1,
+        "title": "미개선 이관",
+        "approver_role": "정비 책임자",
+        "allowed_actions": [
+          {
+            "min_value": null,
+            "default_value": null,
+            "action_id": "ESCALATE",
+            "max_value": null
+          }
+        ]
+      },
+      {
+        "doc_id": "SOP-LOAD-001",
+        "version": 1,
+        "title": "승인 부하 감소",
+        "approver_role": "설비 담당자",
+        "allowed_actions": [
+          {
+            "min_value": 0.6,
+            "default_value": 0.8,
+            "action_id": "REDUCE_LOAD",
+            "max_value": 1.0
+          }
+        ]
+      },
+      {
+        "doc_id": "SOP-VER-001",
+        "version": 1,
+        "title": "조치 후 재점검",
+        "approver_role": "설비 담당자",
+        "allowed_actions": []
+      }
+    ],
+    "sensors": [
+      {
+        "sensor_id": "HYD-01.FS1",
+        "code": "FS1",
+        "quantity": "flow",
+        "unit_graph": "L/min",
+        "unit_obs": "L/min",
+        "unit_match": true,
+        "samples": 60,
+        "valid_ratio": 1.0,
+        "valid_mean": 6.6,
+        "last_valid": 7.88,
+        "sensor_state": null
+      },
+      {
+        "sensor_id": "HYD-01.PS1",
+        "code": "PS1",
+        "quantity": "pressure",
+        "unit_graph": "bar",
+        "unit_obs": "bar",
+        "unit_match": true,
+        "samples": 60,
+        "valid_ratio": 1.0,
+        "valid_mean": 157.14,
+        "last_valid": 147.34,
+        "sensor_state": null
+      },
+      {
+        "sensor_id": "HYD-01.TS1",
+        "code": "TS1",
+        "quantity": "temperature",
+        "unit_graph": "°C",
+        "unit_obs": "°C",
+        "unit_match": true,
+        "samples": 60,
+        "valid_ratio": 1.0,
+        "valid_mean": 53.26,
+        "last_valid": 53.4,
+        "sensor_state": "VALID"
+      }
+    ]
+  }
+}

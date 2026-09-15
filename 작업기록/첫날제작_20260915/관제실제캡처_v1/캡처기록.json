@@ -1,0 +1,50 @@
+{
+  "time_utc": "2026-09-15T10:03:37.255846+00:00",
+  "url": "http://localhost:8800/",
+  "title": "HydOps 관제 · B9",
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://localhost:8800/",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8800/static/app.css",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8800/static/vendor/vue.global.prod.js",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8800/static/app.js",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8800/api/state",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8800/api/series?asset_id=HYD-01&seconds=180",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8800/api/events",
+      "allowed": true
+    },
+    {
+      "method": "GET",
+      "url": "http://localhost:8800/api/assets",
+      "allowed": true
+    }
+  ],
+  "page_errors": [],
+  "blocked_requests": [],
+  "capture": "Actual Chromium page, no DOM edits or mock responses"
+}

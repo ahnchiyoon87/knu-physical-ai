@@ -1,0 +1,533 @@
+{
+  "설명": "경로·안내 수정 전 복사 해시. 원본은 그대로 보존.",
+  "파일": [
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\.gitignore",
+      "새위치": ".gitignore",
+      "이관직후_sha256": "cac348906d538f22587bfea3ce276ea6ff0cc52207ff12404d5adb3a48cdece6"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\AGENTS.md",
+      "새위치": "AGENTS.md",
+      "이관직후_sha256": "4753ea7553d5af4f122e12082b3866c2dcf33df269c730485f21a655cca33d68"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\README.md",
+      "새위치": "README.md",
+      "이관직후_sha256": "ae89bd83a637f5780162908b82e1a53c64f92b8b6537c7f580995d1c56a30bcb"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\00_문서\\01_일차_진행설계.md",
+      "새위치": "강의계획과운영/1일차_진행설계_초안.md",
+      "이관직후_sha256": "091af043b078a9f46e5d812f63cceffedbb05ef84881ec12fd18b45f75953424"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\00_문서\\0_인계.md",
+      "새위치": "강의계획과운영/인계.md",
+      "이관직후_sha256": "ae26c30aee2c715fa22c83c29cda1a7812dba55f31aef458aea1cf774c6afdbf"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\00_문서\\1_공통실라버스.md",
+      "새위치": "강의계획과운영/공통실라버스_초안.md",
+      "이관직후_sha256": "6e9492d370e15b0c996db64908f71335a41b94f6b6cf4e3cd595cb8f5eb24732"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\00_문서\\대표님_제작스킬_영상검토.md",
+      "새위치": "작업기록/대표님_제작스킬_영상검토.md",
+      "이관직후_sha256": "5904eb4bea7ff419455388aa7b4a2a5ce843dd086ee81be7e2f02eccbc86776a"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\01_센서데이터_읽고_바꾸기.md",
+      "새위치": "실습자료/1일차/실습가이드_초안.md",
+      "이관직후_sha256": "ba74dfa709cccb871e71eb0c26075f2fc7c9a0f801b2e39d6a36b453f24e5dbd"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\20_도구\\check_preparation.py",
+      "새위치": "제작도구/check_preparation.py",
+      "이관직후_sha256": "a7e60678b49afc1d141af0b37484231318ada6085faad1776ad2deb9c5cb6747"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\20_도구\\prepare_day01.py",
+      "새위치": "제작도구/prepare_day01.py",
+      "이관직후_sha256": "cd73b0b5844613eff484a7c3d815f0806f0b4ac2dddd24a80aefd75eb8376a6f"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\30_기록\\初日参考値.json",
+      "새위치": "작업기록/이관전검증/初日参考値.json",
+      "이관직후_sha256": "96ed55d14f5f7316cac01d0383d961a2dec1ea20aa64e0a4b743f60aca117897"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\30_기록\\準備検査.json",
+      "새위치": "작업기록/이관전검증/準備検査.json",
+      "이관직후_sha256": "56e024333fe0d04ce6a37c901d249876af48281ce52beb4e73c1ceaf949b2be3"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\30_기록\\원천도입.json",
+      "새위치": "작업기록/이관전검증/원천도입.json",
+      "이관직후_sha256": "e56cfc413fc515e9baef02f768b9fe247f473a6c956b52fb272e0bb08af67831"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\01_출발본\\README.md",
+      "새위치": "실습자료/1일차/시작코드/README.md",
+      "이관직후_sha256": "df7b520fd1147a5c1d3eb4c6ef6f93ca0cf7635c5b856e4c7cd14a9503477d53"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\.env.example",
+      "새위치": "플랫폼코드/.env.example",
+      "이관직후_sha256": "429991e3f6d7df64dd6d75c896aa3904fca7ed02e3c4a675b5f2172a52c5b8c8"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\compose.local.yml",
+      "새위치": "플랫폼코드/compose.local.yml",
+      "이관직후_sha256": "19feaa9f1f95dc57011e97fa292fe683087a60a952ecf57e4d50f3c23ef5b354"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\docker-compose.yml",
+      "새위치": "플랫폼코드/docker-compose.yml",
+      "이관직후_sha256": "ccce5d33a9ab8023f04f8c1bfdba61446b53b60039bb0fdc2849f4bb59d34709"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\Dockerfile",
+      "새위치": "플랫폼코드/Dockerfile",
+      "이관직후_sha256": "d6ec9720bb37e4a849fd804df198b2eb50ff5e5a5839a474ff770cac39e3f405"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\LOCAL_SETUP.md",
+      "새위치": "플랫폼코드/LOCAL_SETUP.md",
+      "이관직후_sha256": "ac3df91ef4f384e7d8e11788bbcae1db5423f2313ef8460aad66cbeeee169f32"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\README.md",
+      "새위치": "플랫폼코드/README.md",
+      "이관직후_sha256": "c1183dd625e8a5d600c9606b31751aea43ced012dc4797a49d86a6b44779b879"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\requirements.txt",
+      "새위치": "플랫폼코드/requirements.txt",
+      "이관직후_sha256": "0b9fdc87079f4fc515560b00c72ee899839bbf945ca989b3c9dbfaa70c6b38c3"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\config.py",
+      "새위치": "플랫폼코드/hydops/config.py",
+      "이관직후_sha256": "24fd1a8fabaed3b5d75e3ee736536a1c33db2d9a1db99a37d348a355afc334a3"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\golden.py",
+      "새위치": "플랫폼코드/hydops/golden.py",
+      "이관직후_sha256": "9b6a6c7a6205f1c55f159e45d6e17ee3fbf4442ffe50833c147e84046b462983"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\mcp_tools.py",
+      "새위치": "플랫폼코드/hydops/mcp_tools.py",
+      "이관직후_sha256": "d0f5b1d638c7189aef3b8f6dcef7352d9e748ed46ba188b191f13acc46e263ae"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\runtime.py",
+      "새위치": "플랫폼코드/hydops/runtime.py",
+      "이관직후_sha256": "12d90f1907dce415d64240f2fe9bf1aa3e32f35b894a149e9092e2a6bb181b6e"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\__init__.py",
+      "새위치": "플랫폼코드/hydops/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\agents.py",
+      "새위치": "플랫폼코드/labplatform/agents.py",
+      "이관직후_sha256": "3b305f2bd8d957e658644513949250f37c6d8d89ea4af669f8f13128a143ec8c"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\apps.py",
+      "새위치": "플랫폼코드/labplatform/apps.py",
+      "이관직후_sha256": "d1712c8131054a85a510e0f713b8eb426f9477349483da7f6921458562464d66"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\db.py",
+      "새위치": "플랫폼코드/labplatform/db.py",
+      "이관직후_sha256": "8fd486aecfb1b5ad09f21cdfa524ce08e3a6ffdcb97c16c529abb7358db97128"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\fabric.py",
+      "새위치": "플랫폼코드/labplatform/fabric.py",
+      "이관직후_sha256": "0ab4534b67d9bd00f721d48e18602e94135d887402db50cf490173ae35eb8a19"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\main.py",
+      "새위치": "플랫폼코드/labplatform/main.py",
+      "이관직후_sha256": "83789d03051ee619a9fd4fdabc69c8bcfd3591e728b2b8699d2acbd638a562b5"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\process.py",
+      "새위치": "플랫폼코드/labplatform/process.py",
+      "이관직후_sha256": "7e899e6e4179a78e6068825e6abc058fc077a03186c6413bbbf51e594294c13e"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\studio.py",
+      "새위치": "플랫폼코드/labplatform/studio.py",
+      "이관직후_sha256": "07d9ae1e033c5d410202f430b281c035cc83f4e9e7f1c42731b29c5a64578895"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\__init__.py",
+      "새위치": "플랫폼코드/labplatform/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\scripts\\bootstrap_platform.py",
+      "새위치": "플랫폼코드/scripts/bootstrap_platform.py",
+      "이관직후_sha256": "3f87bf4dcdb101f0bdc7aa7442a273679064c6edf927c030617e3218883c9455"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\scripts\\e2e_platform.py",
+      "새위치": "플랫폼코드/scripts/e2e_platform.py",
+      "이관직후_sha256": "c4e02412bbb5d6b44dd4c352ae941c092bdafa5335ac7f53c6918328ba26ea58"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\scripts\\make_figures.py",
+      "새위치": "플랫폼코드/scripts/make_figures.py",
+      "이관직후_sha256": "9df0a422d5c7176ec3b28877f6ad15f87f37a94e5e1c7600c7a50ddb92cb7ac1"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\scripts\\servers.sh",
+      "새위치": "플랫폼코드/scripts/servers.sh",
+      "이관직후_sha256": "49d51475f3c94a5144afd5521f82dc4614eb353eb0eb52fcd2867243a99a1e0f"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\sql\\01_schema.sql",
+      "새위치": "플랫폼코드/sql/01_schema.sql",
+      "이관직후_sha256": "53e4d744d3ffe5fed0cf02b12eedc8e1cb56523f58ba8a4c809f08a71c2102de"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\tests\\conftest.py",
+      "새위치": "플랫폼코드/tests/conftest.py",
+      "이관직후_sha256": "7312933df4641003825a184b84063569f3214f692bd4edd4962cca32463f4990"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\tests\\helpers.py",
+      "새위치": "플랫폼코드/tests/helpers.py",
+      "이관직후_sha256": "16164f92b37df7391cd9fd92d33ddedbeb05b873ff39550648aaa6553f0bf227"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\tests\\test_blocks.py",
+      "새위치": "플랫폼코드/tests/test_blocks.py",
+      "이관직후_sha256": "12d88e75d0aafed335e03e6a3a2c5886fd9372123420fc312d1acada6000d9f1"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\tests\\test_scenarios.py",
+      "새위치": "플랫폼코드/tests/test_scenarios.py",
+      "이관직후_sha256": "61c790d6b4440197be548e22ffe605443e32254595eba57d72de6721412a1604"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\skills\\hydraulic-cooling-response\\SKILL.md",
+      "새위치": "플랫폼코드/skills/hydraulic-cooling-response/SKILL.md",
+      "이관직후_sha256": "a16f959d3e2f7e61c98982eb3b027bb9825648e4a44d725fa9439d6458938957"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\console\\console.css",
+      "새위치": "플랫폼코드/labplatform/console/console.css",
+      "이관직후_sha256": "f22b8f1fca9c1776c3d3e774caed20f8873f80a132e8daa0f8cd656a89d11741"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\console\\console.js",
+      "새위치": "플랫폼코드/labplatform/console/console.js",
+      "이관직후_sha256": "7672771f94f7b289a12b6e69e3ca2c5ab5ee12f5a146f0132ae92d11528f0eb6"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\console\\index.html",
+      "새위치": "플랫폼코드/labplatform/console/index.html",
+      "이관직후_sha256": "47296c62746fc9f1bc33cccc89e8a3224b95a88c1a27ec1c9f9faff51a60b5e2"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\console\\vue.global.prod.js",
+      "새위치": "플랫폼코드/labplatform/console/vue.global.prod.js",
+      "이관직후_sha256": "184ecaa52d1a4fd979860ab2dd2e3c0350f3447fb05672684cff1be6632664c2"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\templates\\agent_ops.json",
+      "새위치": "플랫폼코드/labplatform/templates/agent_ops.json",
+      "이관직후_sha256": "0c57508adea011d8158af6717e9c8c89f0b15ca37efb1e0005285ca0a50c132c"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\templates\\ontology_hydraulic.json",
+      "새위치": "플랫폼코드/labplatform/templates/ontology_hydraulic.json",
+      "이관직후_sha256": "e8d992d3280b6601189ec9e9eae602952ef50b47a5db8d3697aaf9af87507b4f"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\templates\\process_cooling_response.json",
+      "새위치": "플랫폼코드/labplatform/templates/process_cooling_response.json",
+      "이관직후_sha256": "f41f0adce5ab7346e96976032414dffa59f12eef73d8c83d4f93e8eb222fd92c"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\templates\\watch_events.json",
+      "새위치": "플랫폼코드/labplatform/templates/watch_events.json",
+      "이관직후_sha256": "2f53689c502eaaf14e2722059aef300ad994a0df9ca99f343e4fe0eeb41bf06f"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\app_templates\\ops-console\\index.html",
+      "새위치": "플랫폼코드/labplatform/app_templates/ops-console/index.html",
+      "이관직후_sha256": "9d2676bbc0643cf696d3f590ada36689f5b7d9c1eaf5591a352b195505964f8e"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\labplatform\\app_templates\\ops-console\\vue.global.prod.js",
+      "새위치": "플랫폼코드/labplatform/app_templates/ops-console/vue.global.prod.js",
+      "이관직후_sha256": "184ecaa52d1a4fd979860ab2dd2e3c0350f3447fb05672684cff1be6632664c2"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b1_data\\inspection.py",
+      "새위치": "플랫폼코드/hydops/b1_data/inspection.py",
+      "이관직후_sha256": "2309efb7d5ddb7e7b7004dd8e97c014f226171ee883501bc090899141bebd5de"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b1_data\\simulator.py",
+      "새위치": "플랫폼코드/hydops/b1_data/simulator.py",
+      "이관직후_sha256": "578c5a3039dadbbc5311b4de1dede349d7bea0dc67b8c53ef5766bf1d89c9e72"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b1_data\\uci.py",
+      "새위치": "플랫폼코드/hydops/b1_data/uci.py",
+      "이관직후_sha256": "b6e56ea9fe443bf0b0208bb12bf97c6508ff2056f82db7badb86162cff9749e3"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b1_data\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b1_data/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b2_quality\\checks.py",
+      "새위치": "플랫폼코드/hydops/b2_quality/checks.py",
+      "이관직후_sha256": "31e18e5452b6df1df1f93cab38d21c4d3c3e4aaa455c601eece8df9e3e62acb2"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b2_quality\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b2_quality/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b3_tsdb\\store.py",
+      "새위치": "플랫폼코드/hydops/b3_tsdb/store.py",
+      "이관직후_sha256": "8673dbfd3a4e4eaa8624f114518c592a449061536b65d87c81ccad79935c96c6"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b3_tsdb\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b3_tsdb/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b4_ontology\\graph.py",
+      "새위치": "플랫폼코드/hydops/b4_ontology/graph.py",
+      "이관직후_sha256": "235ca4ad78c6ca97dd77f92e38eff23c28854c6bc76cad09da5e9c7bf60ea7bf"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b4_ontology\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b4_ontology/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b5_detect\\detector.py",
+      "새위치": "플랫폼코드/hydops/b5_detect/detector.py",
+      "이관직후_sha256": "ee63f136168600389b627b87a37e2d4d4a9f78f121e969497a11d99a53207c8f"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b5_detect\\evaluate.py",
+      "새위치": "플랫폼코드/hydops/b5_detect/evaluate.py",
+      "이관직후_sha256": "ec911b05e6e5fbf526d602148a71a77e51e3ce2edf90658cfdf3604257e64228"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b5_detect\\product.py",
+      "새위치": "플랫폼코드/hydops/b5_detect/product.py",
+      "이관직후_sha256": "10f9eb913a650bebee105c4d250f8e75173e48808db8420d31abccd24c7bf3fc"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b5_detect\\zeroshot.py",
+      "새위치": "플랫폼코드/hydops/b5_detect/zeroshot.py",
+      "이관직후_sha256": "faa092a97fc5e51c2ca5d8a49f0c95565861c160208e761992563b69df4e24e9"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b5_detect\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b5_detect/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\search.py",
+      "새위치": "플랫폼코드/hydops/b6_sop/search.py",
+      "이관직후_sha256": "d235a586e1b0be9a2cfef86357ffdaf361171e28f7838730e73bd02272bc83d8"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b6_sop/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b7_agent\\agent.py",
+      "새위치": "플랫폼코드/hydops/b7_agent/agent.py",
+      "이관직후_sha256": "b5370b1655894ef6a1cc2cb6713e31706d4b98dff0ea61dcb1bccee52dbce74d"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b7_agent\\skill_loader.py",
+      "새위치": "플랫폼코드/hydops/b7_agent/skill_loader.py",
+      "이관직후_sha256": "2f98f81197978eec1f638011b035667a9b2e06ae7dcd7393e27c6d70c0aa91ab"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b7_agent\\tools.py",
+      "새위치": "플랫폼코드/hydops/b7_agent/tools.py",
+      "이관직후_sha256": "aaf07d5c5ad820d938a39ec1fdd2915befd91918873bdad25e567fcb325322a8"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b7_agent\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b7_agent/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b8_action\\executor.py",
+      "새위치": "플랫폼코드/hydops/b8_action/executor.py",
+      "이관직후_sha256": "460c55c7a04177459b3ed6b922ce10c82679f47964ff1ae019ae9296e0be3196"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b8_action\\service.py",
+      "새위치": "플랫폼코드/hydops/b8_action/service.py",
+      "이관직후_sha256": "f712c7e03081a1f7a5aefae14b435119a95360565bc5c6532d09cecce8a500ad"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b8_action\\workflow.py",
+      "새위치": "플랫폼코드/hydops/b8_action/workflow.py",
+      "이관직후_sha256": "6f2e345adc322a501844d72c720745c101e43846825d8ae751cb5ae78ea4a24f"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b8_action\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b8_action/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b9_dashboard\\app.py",
+      "새위치": "플랫폼코드/hydops/b9_dashboard/app.py",
+      "이관직후_sha256": "86a30680b491e961ab5e67db0db16f33a0d2f047ba31b2e86940e423d1bcca43"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b9_dashboard\\__init__.py",
+      "새위치": "플랫폼코드/hydops/b9_dashboard/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\platform\\__init__.py",
+      "새위치": "플랫폼코드/hydops/platform/__init__.py",
+      "이관직후_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b9_dashboard\\static\\app.css",
+      "새위치": "플랫폼코드/hydops/b9_dashboard/static/app.css",
+      "이관직후_sha256": "8ff3edf98e2ab0edfccc332aa7d366d53559d47b3a3d13350e9ee92725ad74a8"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b9_dashboard\\static\\app.js",
+      "새위치": "플랫폼코드/hydops/b9_dashboard/static/app.js",
+      "이관직후_sha256": "087f12f851807f3734a7fadd48a3dbb4fbec2bbef08a55f23d2ca36ce0efd17a"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b9_dashboard\\static\\index.html",
+      "새위치": "플랫폼코드/hydops/b9_dashboard/static/index.html",
+      "이관직후_sha256": "90141c0765774c9c4d790be3347a11bbb9b7e848547d519e5545394b37a8c334"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b9_dashboard\\static\\vendor\\vue.global.prod.js",
+      "새위치": "플랫폼코드/hydops/b9_dashboard/static/vendor/vue.global.prod.js",
+      "이관직후_sha256": "184ecaa52d1a4fd979860ab2dd2e3c0350f3447fb05672684cff1be6632664c2"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\docs\\SOP-COOL-001_v1.md",
+      "새위치": "플랫폼코드/hydops/b6_sop/docs/SOP-COOL-001_v1.md",
+      "이관직후_sha256": "037027fae427536e039f273174ea973946ec767684ff5dff1e53f18aed703777"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\docs\\SOP-COOL-001_v2.md",
+      "새위치": "플랫폼코드/hydops/b6_sop/docs/SOP-COOL-001_v2.md",
+      "이관직후_sha256": "918bfb8bd47617f22f395308e5997e1fae2218763832595e9680b6ab81c14ac1"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\docs\\SOP-COOL-002_v1.md",
+      "새위치": "플랫폼코드/hydops/b6_sop/docs/SOP-COOL-002_v1.md",
+      "이관직후_sha256": "88bb3d3e3fcf4d15251793b65778f935f2629440244d571d3bbae47d21157e57"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\docs\\SOP-ESC-001_v1.md",
+      "새위치": "플랫폼코드/hydops/b6_sop/docs/SOP-ESC-001_v1.md",
+      "이관직후_sha256": "4d50e6968363e555ea56ade366b5cd20c0ab81eac3bc18eb103d768e644469d7"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\docs\\SOP-LOAD-001_v1.md",
+      "새위치": "플랫폼코드/hydops/b6_sop/docs/SOP-LOAD-001_v1.md",
+      "이관직후_sha256": "85c3b527d3c7f0898466a26c08f2e4ef3fbc3cc2e592b7690889fe78d9c8e61f"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\docs\\SOP-SEN-001_v1.md",
+      "새위치": "플랫폼코드/hydops/b6_sop/docs/SOP-SEN-001_v1.md",
+      "이관직후_sha256": "622584d6a0da93f7fde81806f2c8ea0d8d15ea9647aa1e1576ff79fb1ff86815"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\hydops\\b6_sop\\docs\\SOP-VER-001_v1.md",
+      "새위치": "플랫폼코드/hydops/b6_sop/docs/SOP-VER-001_v1.md",
+      "이관직후_sha256": "950d89bf00f19c98b579f8923441710fcde5c1876102022e04fa4a945559bf4e"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\data\\reduced\\hydraulic_1s.npz",
+      "새위치": "플랫폼코드/data/reduced/hydraulic_1s.npz",
+      "이관직후_sha256": "26ac972355e32bb247f716dd6d962046b129ee822890501a2f82bed1edbff79e"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\플랫폼\\data\\reduced\\profile.csv",
+      "새위치": "플랫폼코드/data/reduced/profile.csv",
+      "이관직후_sha256": "8893eedf247dcddfb0912babfd198b747817c0ee0383d556506f532b528991d8"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\플랫폼기반_개편\\10_실습\\01_출발본\\data\\sensor_windows.json",
+      "새위치": "실습자료/1일차/시작코드/data/sensor_windows.json",
+      "이관직후_sha256": "823f3a83a74ba3f02f0758becbbaae6e0acdc70e28a42ba89a72745d32f0f13e"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\KNU_package_20260914.zip",
+      "새위치": "강의계획과운영/받은자료/KNU_package_20260914.zip",
+      "이관직후_sha256": "c6e3b74877c4a3c8d478f3639e0d7b517bf7c20c8ab28e5009d5fde70609ea75"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\KNU_syllabus_20260914.html",
+      "새위치": "강의계획과운영/받은자료/KNU_syllabus_20260914.html",
+      "이관직후_sha256": "5230bbc34270febc7d9db33a2ec38360c58f2c93c85db8222433a93618533d56"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\KNU_60명_AI_Coding_Agent_1순위_운영안_CloudRun.md",
+      "새위치": "강의계획과운영/운영안/60명_AI이용운영안.md",
+      "이관직후_sha256": "f0f5112e7e378a26119b103d4385e0b3cbd8deb972064155f7835467a764cf63"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\30_기록\\재설계_편성.json",
+      "새위치": "강의계획과운영/받은자료/학교편성_기존초안.json",
+      "이관직후_sha256": "01604fd51a747c623bfd618638f5274ce768a303e87d2ca5e9fb748c09de6608"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\30_기록\\스킬보강_20260915\\result.json",
+      "새위치": "작업기록/이관전검증/스킬보강_검증.json",
+      "이관직후_sha256": "523c92b0d996edca569b7da8c12dc3829a3206f8c013b0f5072217f03c3fd3ce"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\30_기록\\원자료\\경남대_피지컬AI_협업패키지_20260914\\참고\\KNU_PhysicalAI_uEngine.xlsx",
+      "새위치": "강의계획과운영/받은자료/KNU_PhysicalAI_uEngine.xlsx",
+      "이관직후_sha256": "ccd799c6f9de1ad78bbf28d6f0cc1df50b1a1ddf74952105f6c87d24c8a13c9d"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\작업보고내용\\2026-09-15-루트-리소스정리.md",
+      "새위치": "작업기록/이전보고/2026-09-15-루트-리소스정리.md",
+      "이관직후_sha256": "adf6693b7e5154d5f77199949577ba758ecb7ca440faa88c316aa764cab92da4"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\작업보고내용\\2026-09-15-새프로젝트-디렉터리최종안과-견적.md",
+      "새위치": "작업기록/이전보고/2026-09-15-새프로젝트-디렉터리최종안과-견적.md",
+      "이관직후_sha256": "7be5a2ef2dd94f1eaf4319b503763ff74d638ebdb1040cf35b6bb646e1527d93"
+    },
+    {
+      "원본": "D:\\work\\study\\경남대 피지컬 AI 강의(리뉴얼)\\작업보고내용\\2026-09-15-피지컬AI-개편방향과-스킬보강.md",
+      "새위치": "작업기록/이전보고/2026-09-15-피지컬AI-개편방향과-스킬보강.md",
+      "이관직후_sha256": "0e7254242598c6c12803bd7570dc6e73ee3227cb15f240fc797c4d19be7b6a6a"
+    }
+  ],
+  "제외한_실행캐시": [
+    "20_도구/__pycache__/prepare_day01.cpython-314.pyc"
+  ]
+}

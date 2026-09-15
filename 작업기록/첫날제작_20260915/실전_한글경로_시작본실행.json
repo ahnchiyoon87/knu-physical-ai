@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-15T08:24:10.905582+00:00",
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "knu-hydops-local_default",
+    "-e",
+    "HYDOPS_AGENT_MODE=offline",
+    "-e",
+    "HYDOPS_PG_DSN=postgresql://hydops:hydops@postgres:5432/hydops",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\플랫폼코드,target=/course/플랫폼코드,readonly",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\작업기록\\첫날제작_20260915\\경로연결검사\\practical,target=/course/student-work",
+    "knu-hydops-local:development",
+    "python",
+    "-m",
+    "pytest",
+    "/course/student-work/test_check.py",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "exit_code": 1,
+  "output": "FFF                                                                      [100%]\n=================================== FAILURES ===================================\n_______________________ test_reduce_keeps_mean_min_max_n _______________________\n\nraw100 = {'TS1': array([53.219, 53.207, 53.148, 53.07 , 52.98 , 52.965, 52.91 , 52.82 ,\n       52.805, 52.723, 52.738, 52.645, ...0, 7.8910e+00, 7.8830e+00, 7.8860e+00, 7.8930e+00,\n       7.9040e+00, 7.8460e+00, 7.8530e+00, 7.8670e+00, 7.8960e+00])}\nreduced = ReducedDataset(sensors={'TS1': {'mean': array([[35.57 , 35.492, 35.469, ..., 36.102, 36.09 , 36.152],\n       [36.156, ....            0       True\n2204                    100        100  ...            0       True\n\n[2205 rows x 6 columns])\n\n    def test_reduce_keeps_mean_min_max_n(raw100, reduced):\n        secs = m.reduce_to_seconds(raw100[\"PS1\"], 100)\n        assert len(secs) == 60\n        means = np.array([s[\"mean\"] for s in secs])\n        # 강사 제공 축약본(hydraulic_1s.npz)과 같은 1초 평균이어야 한다\n>       assert np.allclose(means, reduced.sensors[\"PS1\"][\"mean\"][100], atol=1e-6)\nE       assert False\nE        +  where False = <function allclose at 0x74f4097203b0>(array([147.21, 190.02, 190.23, 190.04, 190.15, 190.26, 190.09, 190.11,\\n       190.17, 190.27, 149.23, 142.18, 141.88, ... 152.18,\\n       152.21, 152.3 , 147.3 , 147.04, 147.4 , 147.43, 147.34, 147.36,\\n       147.13, 147.42, 147.64, 147.27]), array([170.1621, 190.1943, 190.1653, 190.1502, 190.1445, 190.0843,\\n       190.1061, 190.0913, 190.1141, 174.1116, 142...., 147.005 , 147.165 , 147.2168, 147.2301, 147.1998,\\n       147.2344, 147.2233, 147.2376, 147.2466, 147.3296, 147.3449]), atol=1e-06)\nE        +    where <function allclose at 0x74f4097203b0> = np.allclose\n\n/course/student-work/test_check.py:47: AssertionError\n_________________________ test_map_cycle_common_record _________________________\n\nraw100 = {'TS1': array([53.219, 53.207, 53.148, 53.07 , 52.98 , 52.965, 52.91 , 52.82 ,\n       52.805, 52.723, 52.738, 52.645, ...0, 7.8910e+00, 7.8830e+00, 7.8860e+00, 7.8930e+00,\n       7.9040e+00, 7.8460e+00, 7.8530e+00, 7.8670e+00, 7.8960e+00])}\n\n    def test_map_cycle_common_record(raw100):\n        from datetime import datetime, timezone\n    \n        start = datetime(2026, 9, 1, tzinfo=timezone.utc)\n        rows = m.map_cycle(raw100, 100, \"HYD-01\", start)\n        assert len(rows) == 180\n        by = {sid: [r for r in rows if r[\"sensor_id\"] == sid] for sid in (\"TS1\", \"PS1\", \"FS1\")}\n        assert {r[\"unit\"] for r in by[\"TS1\"]} == {\"°C\"}\n>       assert {r[\"unit\"] for r in by[\"PS1\"]} == {\"bar\"}\nE       AssertionError: assert {'°C'} == {'bar'}\nE         \nE         Extra items in the left set:\nE         '°C'\nE         Extra items in the right set:\nE         'bar'\nE         Use -v to get more diff\n\n/course/student-work/test_check.py:61: AssertionError\n__________________ test_load_and_recent_window_tracks_origin ___________________\n\nlab_run = 'LAB-S01-8b2b898f'\n\n    def test_load_and_recent_window_tracks_origin(lab_run):\n        from hydops.b3_tsdb import store\n    \n        n = m.load_cycles(lab_run, [100, 101, 102], \"HYD-01\")\n        assert n == 540\n        with store.connect() as c:\n            run = c.execute(\"SELECT source FROM run WHERE run_id=%s\", (lab_run,)).fetchone()\n>       assert run[\"source\"] == \"uci_replay\"\nE       AssertionError: assert 'simulator' == 'uci_replay'\nE         \nE         - uci_replay\nE         + simulator\n\n/course/student-work/test_check.py:86: AssertionError\n=========================== short test summary info ============================\nFAILED ../course/student-work/test_check.py::test_reduce_keeps_mean_min_max_n\nFAILED ../course/student-work/test_check.py::test_map_cycle_common_record - A...\nFAILED ../course/student-work/test_check.py::test_load_and_recent_window_tracks_origin\n3 failed in 2.23s\n",
+  "scope": "실행 환경에서 제공 테스트만 확인. 학생 완주·비용 측정 아님."
+}

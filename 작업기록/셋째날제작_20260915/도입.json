@@ -1,0 +1,42 @@
+[
+  {
+    "target": "경남대 제조 피지컬 AI\\실습자료\\3일차\\시작본\\practical\\context_queries.py",
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S03\\context_queries.py",
+    "sha256": "a05ea0cabd5ad6eb166f3c9347cd7079c7865aa5d118e13fbcd47fb3b8d08779"
+  },
+  {
+    "target": "경남대 제조 피지컬 AI\\실습자료\\3일차\\시작본\\practical\\test_check.py",
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S03\\test_check.py",
+    "sha256": "6845ddf28aa0ae7b74f316122f1909a0d97390943c785df3d8019e5a66432183"
+  },
+  {
+    "target": "경남대 제조 피지컬 AI\\실습자료\\3일차\\완성본\\practical\\context_queries.py",
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S03\\solution\\context_queries.py",
+    "sha256": "4c62518856e904f67e5264d454e35b3a7307aa30f594cdac4d0106146c5f419a"
+  },
+  {
+    "target": "경남대 제조 피지컬 AI\\실습자료\\3일차\\완성본\\practical\\test_check.py",
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S03\\test_check.py",
+    "sha256": "6845ddf28aa0ae7b74f316122f1909a0d97390943c785df3d8019e5a66432183"
+  },
+  {
+    "target": "경남대 제조 피지컬 AI\\실습자료\\3일차\\시작본\\integrated\\graph_lab.py",
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S03\\graph_lab.py",
+    "sha256": "bc4828087b583f20d3b01045da560c39230085b50dbdc01740228424efa4b774"
+  },
+  {
+    "target": "경남대 제조 피지컬 AI\\실습자료\\3일차\\시작본\\integrated\\test_check.py",
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S03\\test_check.py",
+    "sha256": "da8fbad6fd801cb8ec972f4cb87ecc53206f72e0ea61570efbc7a9f89041e528"
+  },
+  {
+    "target": "경남대 제조 피지컬 AI\\실습자료\\3일차\\완성본\\integrated\\graph_lab.py",
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S03\\solution\\graph_lab.py",
+    "sha256": "27fd999ae631ad60f3ef95548cfefe441ea3850b6207c4edaaafba70c392c5ea"
+  },
+  {
+    "target": "경남대 제조 피지컬 AI\\실습자료\\3일차\\완성본\\integrated\\test_check.py",
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S03\\test_check.py",
+    "sha256": "da8fbad6fd801cb8ec972f4cb87ecc53206f72e0ea61570efbc7a9f89041e528"
+  }
+]

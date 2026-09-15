@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-15T08:29:01.885256+00:00",
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--network",
+    "knu-hydops-local_default",
+    "-e",
+    "HYDOPS_AGENT_MODE=offline",
+    "-e",
+    "HYDOPS_PG_DSN=postgresql://hydops:hydops@postgres:5432/hydops",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\플랫폼코드,target=/course/플랫폼코드,readonly",
+    "--mount",
+    "type=bind,source=D:\\work\\study\\경남대 제조 피지컬 AI\\작업기록\\둘째날제작_20260915\\FS1_과거값_반증,target=/course/student-work",
+    "knu-hydops-local:development",
+    "python",
+    "-m",
+    "pytest",
+    "/course/student-work/test_check.py",
+    "-q",
+    "-p",
+    "no:cacheprovider"
+  ],
+  "exit_code": 1,
+  "output": ".....F                                                                   [100%]\n=================================== FAILURES ===================================\n_________________ test_unmodified_flow_is_not_flagged_as_spike _________________\n\n    def test_unmodified_flow_is_not_flagged_as_spike():\n        checked = lab.check_rows(lab.make_injected_rows())\n>       assert lab.RULES.spike_delta[\"FS1\"] == QR.spike_delta[\"FS1\"]\nE       assert 6.0 == 15.0\n\n/course/student-work/test_check.py:91: AssertionError\n=========================== short test summary info ============================\nFAILED ../course/student-work/test_check.py::test_unmodified_flow_is_not_flagged_as_spike\n1 failed, 5 passed in 1.53s\n",
+  "scope": "실행 환경에서 제공 테스트만 확인. 학생 완주·비용 측정 아님."
+}

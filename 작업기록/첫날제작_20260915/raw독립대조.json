@@ -1,0 +1,17 @@
+{
+  "TS1": {
+    "max_abs_delta": 0.22700000000000387,
+    "cycle": 333,
+    "elapsed_s": 10
+  },
+  "PS1": {
+    "max_abs_delta": 40.261300000000006,
+    "cycle": 213,
+    "elapsed_s": 10
+  },
+  "FS1": {
+    "max_abs_delta": 10.942300000000001,
+    "cycle": 400,
+    "elapsed_s": 49
+  }
+}

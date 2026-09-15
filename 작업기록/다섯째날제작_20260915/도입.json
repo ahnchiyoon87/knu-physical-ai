@@ -1,0 +1,82 @@
+[
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S05\\search_lab.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\시작본\\practical\\search_lab.py",
+    "sha256": "2853322ac2081b4dc798a31cfd0e58797509473b4e5ad6983ba724d76b214b52"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S05\\test_check.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\시작본\\practical\\test_check.py",
+    "sha256": "751436933deeadcb8a69a0819120c5b2c327b884fa45794d2e1c324aca1d0c94"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S05\\skills\\hydraulic-cooling-response\\SKILL.md",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\시작본\\practical\\skills\\hydraulic-cooling-response\\SKILL.md",
+    "sha256": "73630b222897542948825a834cc12eb19a5420b33f2ace33e0a315960ff07ef0"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S05\\solution\\search_lab.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\완성본\\practical\\search_lab.py",
+    "sha256": "ad712f36f48eedb3163163d8edec8ea13605de9c652a38a5b2cfea3081bad209"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S05\\test_check.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\완성본\\practical\\test_check.py",
+    "sha256": "751436933deeadcb8a69a0819120c5b2c327b884fa45794d2e1c324aca1d0c94"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\practical\\S05\\solution\\skills\\hydraulic-cooling-response\\SKILL.md",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\완성본\\practical\\skills\\hydraulic-cooling-response\\SKILL.md",
+    "sha256": "d4cd59fd1f740b108f0285bc420b3f8725973388de9329210bd45584ad46e0a8"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\evidence.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\시작본\\integrated\\evidence.py",
+    "sha256": "53301f7b6ded046cf0c762eb50b47886a5de9490d8927c1f04eb933f4cc3a9b4"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\roles.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\시작본\\integrated\\roles.py",
+    "sha256": "0f75252dc3942692498669c488e424c8b0182b1350a6c068c7a18f1d66536a17"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\test_check.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\시작본\\integrated\\test_check.py",
+    "sha256": "33027adba844541abba032fe0e35eadeb9fbe346875bbeef2d226b2e291f9c28"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\skill_checker.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\시작본\\integrated\\skill_checker.py",
+    "sha256": "c3730454a8595cd7dbbfdf881009b83226294d1063eb553ee95b2994ad2a9ea1"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\skills\\hydraulic-cooling-response\\SKILL.md",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\시작본\\integrated\\skills\\hydraulic-cooling-response\\SKILL.md",
+    "sha256": "6ac555eda36056bebe65d6b3e2fa47e914320f83b37841159b38406d4f0ee82f"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\solution\\evidence.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\완성본\\integrated\\evidence.py",
+    "sha256": "0ebfdc4ea3245a859404060aa6654e143175260bd48a7051d293fe1ae89d4a7f"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\solution\\roles.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\완성본\\integrated\\roles.py",
+    "sha256": "08b948ffdeb58b29134af5d0901aa40e2b196831be72e323bfb5154ba9d50caf"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\test_check.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\완성본\\integrated\\test_check.py",
+    "sha256": "33027adba844541abba032fe0e35eadeb9fbe346875bbeef2d226b2e291f9c28"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\skill_checker.py",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\완성본\\integrated\\skill_checker.py",
+    "sha256": "c3730454a8595cd7dbbfdf881009b83226294d1063eb553ee95b2994ad2a9ea1"
+  },
+  {
+    "source": "lecture-manufacturing-physical-ai-platform\\labs\\integrated\\S05\\solution\\skills\\hydraulic-cooling-response\\SKILL.md",
+    "target": "경남대 제조 피지컬 AI\\실습자료\\5일차\\완성본\\integrated\\skills\\hydraulic-cooling-response\\SKILL.md",
+    "sha256": "d4cd59fd1f740b108f0285bc420b3f8725973388de9329210bd45584ad46e0a8"
+  }
+]

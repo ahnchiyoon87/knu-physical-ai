@@ -1,0 +1,78 @@
+{
+  "scenes": [
+    {
+      "scene": 1,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "저장한 전체 관측 중 무엇을 볼까요?\n\n어느 설비 · 어느 실행 · 어느 센서 · 어느 시간 구간\n\n예: 이번 재생 실행의 압력 센서, 마지막60초"
+    },
+    {
+      "scene": 2,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "설명용 조회 예입니다.\n\nSELECT ts, sensor_id, value\nFROM observation\nWHERE sensor_id = 'PS1'\n\nSELECT: 읽을 항목 / FROM: 대상 테이블 / WHERE: 선택 조건"
+    },
+    {
+      "scene": 3,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "설비 = HYD-01\nAND 실행 = 내가 선택한 실행\nAND 센서 = PS1\n\nAND: 세 조건을 모두 만족\n\n조건 하나가 빠지면 선택 범위가 달라집니다."
+    },
+    {
+      "scene": 4,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "제공 코드의 조건 일부입니다.\n\nWHERE asset_id = %s\n전달할 값: HYD-01\n\n%s는 실제 조건값을 전달할 자리입니다.\n\n함수 인수와 조회 결과를 대조합니다."
+    },
+    {
+      "scene": 5,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "제공 함수의 마지막 조건:\n\nORDER BY ts, sensor_id\n\n시각순으로, 같은 시각에서는 센서 이름순으로 읽습니다.\n\n저장한 순서와 조회 순서를 같은 것으로 가정하지 않습니다."
+    },
+    {
+      "scene": 6,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "제공 recent_window의 기본 끝 시각:\n\n선택한 설비·실행의 max(ts)\n\n끝 시각을 별도로 지정하면 그 값을 사용합니다.\n\n센서 조건은 이후 관측 선택에 적용됩니다."
+    },
+    {
+      "scene": 7,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "같은 날짜·UTC 기준입니다.\n\n확인 항목\t실제 결과\n마지막 관측 시각\t00:02:59\n선택된 시각\t00:02:00~00:02:59\n전체 센서\t180행\nPS1만 선택\t60행\n원본 사이클\t102"
+    },
+    {
+      "scene": 8,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "끝 시각until = 00:01:30, 길이60초\n\n실제 선택: 00:00:31~00:01:30\n\n원본 사이클\t센서별 행 수\t세 센서 합계\n100\t29\t87\n101\t31\t93\n합계\t60\t180"
+    },
+    {
+      "scene": 9,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "제공 함수는 관측의 ts를 다음 조건으로 고릅니다.\n\nts > 끝 시각 - 60초\nAND ts <= 끝 시각\n\n00:00:30은 제외 / 00:01:30은 포함\n\n시작도 포함하도록 바꾸면 이 예에서는 183행이 됩니다."
+    },
+    {
+      "scene": 10,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "같은 설비에 재생 시작이1시간 뒤인 별도 실행도 저장했습니다.\n\n조회 조건\t선택된 마지막 구간\n내 실행 지정\t00:02:00~00:02:59\n실행 조건 없음\t01:02:00~01:02:59\n\n둘 다180행이어도 실행이 다릅니다."
+    },
+    {
+      "scene": 11,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "등록하지 않은 실행을 지정한 실제 조회 결과: 0행\n\n0행 ≠ 센서값0\n\n확인 순서: DB 대상 → 실행 이름 → 센서·시간 조건 → 저장 여부"
+    },
+    {
+      "scene": 12,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "요청 예시\n\n내 실행의 HYD-01·PS1에서 끝 시각00:01:30까지 최근60초를 조회해 주세요. 실제 run_id, 첫·마지막 시각, 원본 사이클별 개수도 보여 주세요.\n\n다음: 목적·입력·동작·확인 기준으로 작업을 맡기기"
+    }
+  ],
+  "changed_value_rejected": true,
+  "scope": "HTML 레이아웃·본문대조. 실제20분·PPTX·학생이해 미검증."
+}

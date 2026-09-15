@@ -1,0 +1,80 @@
+{
+  "cases": {
+    "latest_all": {
+      "count": 180,
+      "run_ids": [
+        "LAB-V10-STORAGE"
+      ],
+      "cycles": {
+        "102": 180
+      },
+      "per_sensor": {
+        "FS1": 60,
+        "PS1": 60,
+        "TS1": 60
+      },
+      "first": "2026-09-01T00:02:00+00:00",
+      "last": "2026-09-01T00:02:59+00:00"
+    },
+    "latest_ps1": {
+      "count": 60,
+      "run_ids": [
+        "LAB-V10-STORAGE"
+      ],
+      "cycles": {
+        "102": 60
+      },
+      "per_sensor": {
+        "PS1": 60
+      },
+      "first": "2026-09-01T00:02:00+00:00",
+      "last": "2026-09-01T00:02:59+00:00"
+    },
+    "boundary": {
+      "count": 180,
+      "run_ids": [
+        "LAB-V10-STORAGE"
+      ],
+      "cycles": {
+        "100": 87,
+        "101": 93
+      },
+      "per_sensor": {
+        "FS1": 60,
+        "PS1": 60,
+        "TS1": 60
+      },
+      "first": "2026-09-01T00:00:31+00:00",
+      "last": "2026-09-01T00:01:30+00:00"
+    },
+    "missing_run": {
+      "count": 0,
+      "run_ids": [],
+      "cycles": {},
+      "per_sensor": {},
+      "first": null,
+      "last": null
+    },
+    "without_run": {
+      "count": 180,
+      "run_ids": [
+        "LAB-V11-OTHER"
+      ],
+      "cycles": {
+        "102": 180
+      },
+      "per_sensor": {
+        "FS1": 60,
+        "PS1": 60,
+        "TS1": 60
+      },
+      "first": "2026-09-01T01:02:00+00:00",
+      "last": "2026-09-01T01:02:59+00:00"
+    }
+  },
+  "inclusive_lower_bound_count": 183,
+  "wrong_boundary_detected": true,
+  "primary_run_unchanged": true,
+  "primary_sha256": "cdae1790e8dc09631c75733e654e4aa77bf1f4090759c79e1a381142de7c831a",
+  "scope": "actual store functions, isolated DB; added other replay run540; no source/runtime app changes"
+}

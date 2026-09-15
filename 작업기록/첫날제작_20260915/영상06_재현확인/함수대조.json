@@ -1,0 +1,79 @@
+{
+  "scope": "실제 원본 첫1초와 제공 함수의 통계 대조. 학생 완주 검증 아님.",
+  "records": [
+    {
+      "sensor": "TS1",
+      "provided_solution": {
+        "mean": 53.219,
+        "min": 53.219,
+        "max": 53.219,
+        "n": 1
+      },
+      "provided_starter": {
+        "mean": 53.219,
+        "min": 53.219,
+        "max": 53.219,
+        "n": 1
+      },
+      "decimal_comparison_abs_tolerance": 1e-10,
+      "matches_independent_decimal": true
+    },
+    {
+      "sensor": "FS1",
+      "provided_solution": {
+        "mean": 0.9027999999999998,
+        "min": 0.0,
+        "max": 7.653,
+        "n": 10
+      },
+      "provided_starter": {
+        "mean": 7.653,
+        "min": 7.653,
+        "max": 7.653,
+        "n": 1
+      },
+      "decimal_comparison_abs_tolerance": 1e-10,
+      "matches_independent_decimal": true
+    },
+    {
+      "sensor": "PS1",
+      "provided_solution": {
+        "mean": 170.16209999999998,
+        "min": 141.27,
+        "max": 189.88,
+        "n": 100
+      },
+      "provided_starter": {
+        "mean": 147.21,
+        "min": 147.21,
+        "max": 147.21,
+        "n": 1
+      },
+      "decimal_comparison_abs_tolerance": 1e-10,
+      "matches_independent_decimal": true
+    }
+  ],
+  "hypothetical_order_example": {
+    "sequences": [
+      [
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        4,
+        2,
+        3,
+        1
+      ]
+    ],
+    "statistics": {
+      "mean": 2.5,
+      "min": 1,
+      "max": 4,
+      "n": 4
+    },
+    "same_statistics_different_order": true
+  }
+}

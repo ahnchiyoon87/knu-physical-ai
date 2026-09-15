@@ -1,0 +1,60 @@
+{
+  "probe_kind": "없는 ID에 대한 SET. 생성/삭제 명령 없음.",
+  "before": {
+    "nodes": {
+      "Asset": 3,
+      "Component": 3,
+      "Sensor": 9,
+      "SOP": 7,
+      "SOPSection": 42,
+      "Action": 4,
+      "Event": 1,
+      "Driver": 2,
+      "Process": 2,
+      "KPI": 2
+    },
+    "relationships": {
+      "HAS_COMPONENT": 3,
+      "HAS_SENSOR": 9,
+      "AFFECTS": 6,
+      "RUNS_ON": 6,
+      "MEASURED_FOR": 6,
+      "APPLIES_TO": 10,
+      "ALLOWS": 6,
+      "HAS_SECTION": 42,
+      "SUPERSEDES": 1,
+      "ON_ASSET": 1,
+      "CITES": 3
+    }
+  },
+  "write_statement_accepted": false,
+  "exception_type": "ClientError",
+  "error_code": "Neo.ClientError.Statement.AccessMode",
+  "after": {
+    "nodes": {
+      "Asset": 3,
+      "Component": 3,
+      "Sensor": 9,
+      "SOP": 7,
+      "SOPSection": 42,
+      "Action": 4,
+      "Event": 1,
+      "Driver": 2,
+      "Process": 2,
+      "KPI": 2
+    },
+    "relationships": {
+      "HAS_COMPONENT": 3,
+      "HAS_SENSOR": 9,
+      "AFFECTS": 6,
+      "RUNS_ON": 6,
+      "MEASURED_FOR": 6,
+      "APPLIES_TO": 10,
+      "ALLOWS": 6,
+      "HAS_SECTION": 42,
+      "SUPERSEDES": 1,
+      "ON_ASSET": 1,
+      "CITES": 3
+    }
+  }
+}

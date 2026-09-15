@@ -1,0 +1,662 @@
+[
+  {
+    "aria": null,
+    "title": "",
+    "text": "connection status: connected\nInstance:\nneo4j://localhost:57687\n. Click to open instance menu"
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "Database:\nneo4j\n. Click to open database menu"
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "User:\nneo4j\n. Click to open database user menu"
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "Connect your instance to Aura console for more tools and features"
+  },
+  {
+    "aria": "All Nodes",
+    "title": "*",
+    "text": "*"
+  },
+  {
+    "aria": null,
+    "title": "Action",
+    "text": "Action"
+  },
+  {
+    "aria": null,
+    "title": "Asset",
+    "text": "Asset"
+  },
+  {
+    "aria": null,
+    "title": "Component",
+    "text": "Component"
+  },
+  {
+    "aria": null,
+    "title": "Driver",
+    "text": "Driver"
+  },
+  {
+    "aria": null,
+    "title": "Event",
+    "text": "Event"
+  },
+  {
+    "aria": null,
+    "title": "KPI",
+    "text": "KPI"
+  },
+  {
+    "aria": null,
+    "title": "Measure",
+    "text": "Measure"
+  },
+  {
+    "aria": null,
+    "title": "Process",
+    "text": "Process"
+  },
+  {
+    "aria": null,
+    "title": "Resource",
+    "text": "Resource"
+  },
+  {
+    "aria": null,
+    "title": "Sensor",
+    "text": "Sensor"
+  },
+  {
+    "aria": null,
+    "title": "SOP",
+    "text": "SOP"
+  },
+  {
+    "aria": null,
+    "title": "SOPSection",
+    "text": "SOPSection"
+  },
+  {
+    "aria": "All Relationships",
+    "title": "*",
+    "text": "*"
+  },
+  {
+    "aria": null,
+    "title": "AFFECTS",
+    "text": "AFFECTS"
+  },
+  {
+    "aria": null,
+    "title": "ALLOWS",
+    "text": "ALLOWS"
+  },
+  {
+    "aria": null,
+    "title": "APPLIES_TO",
+    "text": "APPLIES_TO"
+  },
+  {
+    "aria": null,
+    "title": "CITES",
+    "text": "CITES"
+  },
+  {
+    "aria": null,
+    "title": "HAS_COMPONENT",
+    "text": "HAS_COMPONENT"
+  },
+  {
+    "aria": null,
+    "title": "HAS_SECTION",
+    "text": "HAS_SECTION"
+  },
+  {
+    "aria": null,
+    "title": "HAS_SENSOR",
+    "text": "HAS_SENSOR"
+  },
+  {
+    "aria": null,
+    "title": "MEASURED_FOR",
+    "text": "MEASURED_FOR"
+  },
+  {
+    "aria": null,
+    "title": "ON_ASSET",
+    "text": "ON_ASSET"
+  },
+  {
+    "aria": null,
+    "title": "RUNS_ON",
+    "text": "RUNS_ON"
+  },
+  {
+    "aria": null,
+    "title": "SUPERSEDES",
+    "text": "SUPERSEDES"
+  },
+  {
+    "aria": null,
+    "title": "action_id",
+    "text": "action_id"
+  },
+  {
+    "aria": null,
+    "title": "approver_role",
+    "text": "approver_role"
+  },
+  {
+    "aria": null,
+    "title": "asset_id",
+    "text": "asset_id"
+  },
+  {
+    "aria": null,
+    "title": "asset_scope",
+    "text": "asset_scope"
+  },
+  {
+    "aria": null,
+    "title": "basis",
+    "text": "basis"
+  },
+  {
+    "aria": null,
+    "title": "code",
+    "text": "code"
+  },
+  {
+    "aria": null,
+    "title": "component_id",
+    "text": "component_id"
+  },
+  {
+    "aria": null,
+    "title": "cooling",
+    "text": "cooling"
+  },
+  {
+    "aria": null,
+    "title": "default_value",
+    "text": "default_value"
+  },
+  {
+    "aria": null,
+    "title": "doc_id",
+    "text": "doc_id"
+  },
+  {
+    "aria": null,
+    "title": "driver_id",
+    "text": "driver_id"
+  },
+  {
+    "aria": null,
+    "title": "educational",
+    "text": "educational"
+  },
+  {
+    "aria": null,
+    "title": "effective_date",
+    "text": "effective_date"
+  },
+  {
+    "aria": null,
+    "title": "embedding_offline",
+    "text": "embedding_offline"
+  },
+  {
+    "aria": null,
+    "title": "event_id",
+    "text": "event_id"
+  },
+  {
+    "aria": null,
+    "title": "event_type",
+    "text": "event_type"
+  },
+  {
+    "aria": null,
+    "title": "heading",
+    "text": "heading"
+  },
+  {
+    "aria": null,
+    "title": "hz",
+    "text": "hz"
+  },
+  {
+    "aria": null,
+    "title": "id",
+    "text": "id"
+  },
+  {
+    "aria": null,
+    "title": "kind",
+    "text": "kind"
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "Show all property keys (18 more)"
+  },
+  {
+    "aria": "Refresh database information",
+    "title": "Refresh database information",
+    "text": ""
+  },
+  {
+    "aria": "More options",
+    "title": "More options",
+    "text": ""
+  },
+  {
+    "aria": "Run",
+    "title": "Run",
+    "text": ""
+  },
+  {
+    "aria": "Interactive table view",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Results on bottom",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Results on right",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Shrink frame",
+    "title": "Shrink frame",
+    "text": ""
+  },
+  {
+    "aria": "Open save cypher prompt",
+    "title": "Open save cypher prompt",
+    "text": ""
+  },
+  {
+    "aria": "Run",
+    "title": "Run",
+    "text": ""
+  },
+  {
+    "aria": "Filter table results",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Select graph objects view",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Download",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "asset_id"
+  },
+  {
+    "aria": "Resizing bar",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "asset_name"
+  },
+  {
+    "aria": "Resizing bar",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "active_sop"
+  },
+  {
+    "aria": "Resizing bar",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": "Copy cell content to the clipboard",
+    "title": "Copy to clipboard",
+    "text": ""
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "neo4j$\nMATCH p=(sop:SOP)-[:APPLIES_TO]->(a:Asset)-[:HAS_SENSOR]->(s:Sensor) WHERE sop.status = 'active' RETURN p"
+  },
+  {
+    "aria": "Open save cypher prompt",
+    "title": "Open save cypher prompt",
+    "text": ""
+  },
+  {
+    "aria": "Run",
+    "title": "Run",
+    "text": ""
+  },
+  {
+    "aria": "Minimize frame",
+    "title": "Minimize frame",
+    "text": ""
+  },
+  {
+    "aria": "Expand frame",
+    "title": "Expand frame",
+    "text": ""
+  },
+  {
+    "aria": "Remove frame",
+    "title": "Remove frame",
+    "text": ""
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "Graph"
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "Table"
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "Raw"
+  },
+  {
+    "aria": "Search",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Download",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Toggle graph details panel",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Select gesture",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Zoom in",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Zoom out",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Zoom to fit",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Select layout",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": "Update styling priority",
+    "title": "",
+    "text": ""
+  },
+  {
+    "aria": null,
+    "title": "*",
+    "text": "* (14)"
+  },
+  {
+    "aria": null,
+    "title": "Asset",
+    "text": "Asset (2)"
+  },
+  {
+    "aria": null,
+    "title": "Measure",
+    "text": "Measure (6)"
+  },
+  {
+    "aria": null,
+    "title": "Resource",
+    "text": "Resource (2)"
+  },
+  {
+    "aria": null,
+    "title": "Sensor",
+    "text": "Sensor (6)"
+  },
+  {
+    "aria": null,
+    "title": "SOP",
+    "text": "SOP (6)"
+  },
+  {
+    "aria": null,
+    "title": "*",
+    "text": "* (15)"
+  },
+  {
+    "aria": null,
+    "title": "APPLIES_TO",
+    "text": "APPLIES_TO (9)"
+  },
+  {
+    "aria": null,
+    "title": "HAS_SENSOR",
+    "text": "HAS_SENSOR (6)"
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "$\n:welcome"
+  },
+  {
+    "aria": "Open save cypher prompt",
+    "title": "Open save cypher prompt",
+    "text": ""
+  },
+  {
+    "aria": "Run",
+    "title": "Run",
+    "text": ""
+  },
+  {
+    "aria": "Minimize frame",
+    "title": "Minimize frame",
+    "text": ""
+  },
+  {
+    "aria": "Remove frame",
+    "title": "Remove frame",
+    "text": ""
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "Do more with Community Edition\nConnect in Aura for free access to:\nRich graph exploration and dashboards\nCloud storage for your queries\nData import tooling\nAI copilots"
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "GUIDE\n\nGet to know the latest in Query/Browser\nTake a quick tour to learn about the latest features to help you be productive."
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "DATASET\n\nTry Neo4j with the Movie Graph\nDive into a fully-built graph example to kickstart your Neo4j journey. Discover key query patterns through a fun, familiar world of actors and films."
+  },
+  {
+    "aria": null,
+    "title": "",
+    "text": "$\n:connect"
+  },
+  {
+    "aria": "Open save cypher prompt",
+    "title": "Open save cypher prompt",
+    "text": ""
+  },
+  {
+    "aria": "Run",
+    "title": "Run",
+    "text": ""
+  },
+  {
+    "aria": "Minimize frame",
+    "title": "Minimize frame",
+    "text": ""
+  },
+  {
+    "aria": "Remove frame",
+    "title": "Remove frame",
+    "text": ""
+  }
+]

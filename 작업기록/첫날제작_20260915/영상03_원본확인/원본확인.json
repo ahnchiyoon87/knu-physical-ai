@@ -1,0 +1,209 @@
+{
+  "TS1": {
+    "row_count": 2205,
+    "columns_per_row": 60,
+    "header": false,
+    "delimiter": "tab",
+    "sha256": "ef28d385bbc2882dad387a3c3961956c5417ef6e30328e672f10fd1491d31af7",
+    "selected_rows": [
+      {
+        "cycle_index": 0,
+        "physical_line": 1,
+        "columns": 60,
+        "first_values": [
+          35.57,
+          35.492,
+          35.469,
+          35.422
+        ],
+        "last_values": [
+          36.09,
+          36.152
+        ]
+      },
+      {
+        "cycle_index": 99,
+        "physical_line": 100,
+        "columns": 60,
+        "first_values": [
+          53.324,
+          53.234,
+          53.16,
+          53.074
+        ],
+        "last_values": [
+          53.301,
+          53.293
+        ]
+      },
+      {
+        "cycle_index": 100,
+        "physical_line": 101,
+        "columns": 60,
+        "first_values": [
+          53.219,
+          53.207,
+          53.148,
+          53.07
+        ],
+        "last_values": [
+          53.391,
+          53.395
+        ]
+      },
+      {
+        "cycle_index": 101,
+        "physical_line": 102,
+        "columns": 60,
+        "first_values": [
+          53.379,
+          53.309,
+          53.195,
+          53.129
+        ],
+        "last_values": [
+          53.391,
+          53.391
+        ]
+      }
+    ]
+  },
+  "FS1": {
+    "row_count": 2205,
+    "columns_per_row": 600,
+    "header": false,
+    "delimiter": "tab",
+    "sha256": "ab1bdd67d3e1d2dac1d56a1aae186c2f47757a95b5424a550f8676b9cf2c807c",
+    "selected_rows": [
+      {
+        "cycle_index": 0,
+        "physical_line": 1,
+        "columns": 600,
+        "first_values": [
+          8.99,
+          0.77,
+          0.641,
+          0.006
+        ],
+        "last_values": [
+          7.738,
+          8.036
+        ]
+      },
+      {
+        "cycle_index": 99,
+        "physical_line": 100,
+        "columns": 600,
+        "first_values": [
+          7.81,
+          0.841,
+          0.61,
+          0.026
+        ],
+        "last_values": [
+          7.898,
+          7.871
+        ]
+      },
+      {
+        "cycle_index": 100,
+        "physical_line": 101,
+        "columns": 600,
+        "first_values": [
+          7.653,
+          0.881,
+          0.43,
+          0.057
+        ],
+        "last_values": [
+          7.867,
+          7.896
+        ]
+      },
+      {
+        "cycle_index": 101,
+        "physical_line": 102,
+        "columns": 600,
+        "first_values": [
+          7.718,
+          0.871,
+          0.476,
+          0.028
+        ],
+        "last_values": [
+          7.924,
+          7.865
+        ]
+      }
+    ]
+  },
+  "PS1": {
+    "row_count": 2205,
+    "columns_per_row": 6000,
+    "header": false,
+    "delimiter": "tab",
+    "sha256": "0f121c4afeffa121a7b30bc552d5d07247b73c0a70dc352d125bd96a28fda7f9",
+    "selected_rows": [
+      {
+        "cycle_index": 0,
+        "physical_line": 1,
+        "columns": 6000,
+        "first_values": [
+          151.47,
+          151.45,
+          151.52,
+          151.27
+        ],
+        "last_values": [
+          151.21,
+          151.19
+        ]
+      },
+      {
+        "cycle_index": 99,
+        "physical_line": 100,
+        "columns": 6000,
+        "first_values": [
+          147.21,
+          147.24,
+          147.2,
+          146.15
+        ],
+        "last_values": [
+          147.27,
+          147.1
+        ]
+      },
+      {
+        "cycle_index": 100,
+        "physical_line": 101,
+        "columns": 6000,
+        "first_values": [
+          147.21,
+          147.3,
+          147.38,
+          146.64
+        ],
+        "last_values": [
+          147.34,
+          147.36
+        ]
+      },
+      {
+        "cycle_index": 101,
+        "physical_line": 102,
+        "columns": 6000,
+        "first_values": [
+          147.37,
+          147.4,
+          147.36,
+          146.31
+        ],
+        "last_values": [
+          147.26,
+          147.19
+        ]
+      }
+    ]
+  }
+}

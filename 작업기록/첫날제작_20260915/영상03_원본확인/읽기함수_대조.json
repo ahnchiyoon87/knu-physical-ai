@@ -1,0 +1,78 @@
+{
+  "scope": "제공 함수의 실제 원본 읽기와 독립 줄 조회 대조. DB·UI·학생완주 검증 아님.",
+  "records": [
+    {
+      "sensor": "TS1",
+      "cycle_index": 99,
+      "physical_line": 100,
+      "sample_count": 60,
+      "first_value": 53.324,
+      "whole_row_equal": true
+    },
+    {
+      "sensor": "TS1",
+      "cycle_index": 100,
+      "physical_line": 101,
+      "sample_count": 60,
+      "first_value": 53.219,
+      "whole_row_equal": true
+    },
+    {
+      "sensor": "TS1",
+      "cycle_index": 101,
+      "physical_line": 102,
+      "sample_count": 60,
+      "first_value": 53.379,
+      "whole_row_equal": true
+    },
+    {
+      "sensor": "FS1",
+      "cycle_index": 99,
+      "physical_line": 100,
+      "sample_count": 600,
+      "first_value": 7.81,
+      "whole_row_equal": true
+    },
+    {
+      "sensor": "FS1",
+      "cycle_index": 100,
+      "physical_line": 101,
+      "sample_count": 600,
+      "first_value": 7.653,
+      "whole_row_equal": true
+    },
+    {
+      "sensor": "FS1",
+      "cycle_index": 101,
+      "physical_line": 102,
+      "sample_count": 600,
+      "first_value": 7.718,
+      "whole_row_equal": true
+    },
+    {
+      "sensor": "PS1",
+      "cycle_index": 99,
+      "physical_line": 100,
+      "sample_count": 6000,
+      "first_value": 147.21,
+      "whole_row_equal": true
+    },
+    {
+      "sensor": "PS1",
+      "cycle_index": 100,
+      "physical_line": 101,
+      "sample_count": 6000,
+      "first_value": 147.21,
+      "whole_row_equal": true
+    },
+    {
+      "sensor": "PS1",
+      "cycle_index": 101,
+      "physical_line": 102,
+      "sample_count": 6000,
+      "first_value": 147.37,
+      "whole_row_equal": true
+    }
+  ],
+  "adjacent_cycle_is_different": true
+}

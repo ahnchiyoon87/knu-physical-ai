@@ -1,0 +1,69 @@
+{
+  "scope": "원본 사이클100과 제공 함수, 첫 샘플0초의 상대 시간 계산. 실제 수집 시각·센서 동기화·학생 완주 검증 아님.",
+  "mapping_sha256": "5f931fc752e99940f237b417da257502e4ae9b2288a4311c4ad19bf979e11d3a",
+  "records": [
+    {
+      "sensor": "TS1",
+      "hz": 1,
+      "samples": 60,
+      "raw_sha256": "ef28d385bbc2882dad387a3c3961956c5417ef6e30328e672f10fd1491d31af7",
+      "relative_step_s": "1",
+      "index10_relative_s": "10",
+      "index_at_10s": 10,
+      "value_at_10s": 52.738,
+      "last_index": 59,
+      "last_relative_s": "59",
+      "position_at_10_05s": "201/20",
+      "has_sample_at_10_05s": false,
+      "second10_indices": [
+        10,
+        10
+      ],
+      "all_60_groups_cover_each_sample_once": true,
+      "all_60_groups_match_practical_and_platform": true,
+      "wrong_inclusive_60_endpoint_rejected": true
+    },
+    {
+      "sensor": "FS1",
+      "hz": 10,
+      "samples": 600,
+      "raw_sha256": "ab1bdd67d3e1d2dac1d56a1aae186c2f47757a95b5424a550f8676b9cf2c807c",
+      "relative_step_s": "1/10",
+      "index10_relative_s": "1",
+      "index_at_10s": 100,
+      "value_at_10s": 8.273,
+      "last_index": 599,
+      "last_relative_s": "599/10",
+      "position_at_10_05s": "201/2",
+      "has_sample_at_10_05s": false,
+      "second10_indices": [
+        100,
+        109
+      ],
+      "all_60_groups_cover_each_sample_once": true,
+      "all_60_groups_match_practical_and_platform": true,
+      "wrong_inclusive_60_endpoint_rejected": true
+    },
+    {
+      "sensor": "PS1",
+      "hz": 100,
+      "samples": 6000,
+      "raw_sha256": "0f121c4afeffa121a7b30bc552d5d07247b73c0a70dc352d125bd96a28fda7f9",
+      "relative_step_s": "1/100",
+      "index10_relative_s": "1/10",
+      "index_at_10s": 1000,
+      "value_at_10s": 149.23,
+      "last_index": 5999,
+      "last_relative_s": "5999/100",
+      "position_at_10_05s": "1005",
+      "has_sample_at_10_05s": true,
+      "second10_indices": [
+        1000,
+        1099
+      ],
+      "all_60_groups_cover_each_sample_once": true,
+      "all_60_groups_match_practical_and_platform": true,
+      "wrong_inclusive_60_endpoint_rejected": true
+    }
+  ]
+}

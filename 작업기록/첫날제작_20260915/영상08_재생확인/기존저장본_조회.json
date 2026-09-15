@@ -1,0 +1,45 @@
+{
+  "scope": "기존 저장본 SELECT만 실행. 새 적재/수정 없음.",
+  "query": "SELECT json_agg(q) FROM (SELECT o.run_id,r.source,o.sensor_id,count(*) AS n,min(o.ts) AS first_ts,max(o.ts) AS last_ts,array_agg(DISTINCT o.origin_cycle_id) AS cycles FROM observation o JOIN run r USING(run_id) WHERE o.run_id = 'LAB-S01-VIEW-86225428' GROUP BY o.run_id,r.source,o.sensor_id ORDER BY o.sensor_id) q;",
+  "rows": [
+    {
+      "run_id": "LAB-S01-VIEW-86225428",
+      "source": "uci_replay",
+      "sensor_id": "FS1",
+      "n": 180,
+      "first_ts": "2026-09-01T00:00:00+00:00",
+      "last_ts": "2026-09-01T00:02:59+00:00",
+      "cycles": [
+        100,
+        101,
+        102
+      ]
+    },
+    {
+      "run_id": "LAB-S01-VIEW-86225428",
+      "source": "uci_replay",
+      "sensor_id": "PS1",
+      "n": 180,
+      "first_ts": "2026-09-01T00:00:00+00:00",
+      "last_ts": "2026-09-01T00:02:59+00:00",
+      "cycles": [
+        100,
+        101,
+        102
+      ]
+    },
+    {
+      "run_id": "LAB-S01-VIEW-86225428",
+      "source": "uci_replay",
+      "sensor_id": "TS1",
+      "n": 180,
+      "first_ts": "2026-09-01T00:00:00+00:00",
+      "last_ts": "2026-09-01T00:02:59+00:00",
+      "cycles": [
+        100,
+        101,
+        102
+      ]
+    }
+  ]
+}

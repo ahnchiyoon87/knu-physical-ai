@@ -1,0 +1,115 @@
+{
+  "scope": "원본3사이클과 실제 map_cycle로 재생 시각을 구성. load_cycles/DB적재 실행 아님.",
+  "start": "2026-09-01T00:00:00+00:00",
+  "records": 540,
+  "per_sensor": {
+    "TS1": 180,
+    "PS1": 180,
+    "FS1": 180
+  },
+  "boundaries": [
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-09-01T00:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 100,
+      "raw_value": 170.16209999999998,
+      "unit": "bar",
+      "agg": {
+        "min": 141.27,
+        "max": 189.88,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-09-01T00:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 100,
+      "raw_value": 147.34490000000002,
+      "unit": "bar",
+      "agg": {
+        "min": 146.99,
+        "max": 147.73,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-09-01T00:01:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 101,
+      "raw_value": 169.99810000000002,
+      "unit": "bar",
+      "agg": {
+        "min": 141.21,
+        "max": 189.84,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-09-01T00:01:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 101,
+      "raw_value": 147.29030000000003,
+      "unit": "bar",
+      "agg": {
+        "min": 146.85,
+        "max": 147.66,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-09-01T00:02:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 102,
+      "raw_value": 170.0794,
+      "unit": "bar",
+      "agg": {
+        "min": 141.47,
+        "max": 189.84,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false
+    },
+    {
+      "asset_id": "HYD-01",
+      "sensor_id": "PS1",
+      "ts": "2026-09-01T00:02:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 102,
+      "raw_value": 147.3302,
+      "unit": "bar",
+      "agg": {
+        "min": 146.91,
+        "max": 147.69,
+        "n": 100,
+        "source_hz": 100
+      },
+      "is_synthetic": false
+    }
+  ],
+  "bad_timeline_rejected": [
+    "reset_time_each_cycle",
+    "continuous_elapsed",
+    "wrong_origin"
+  ],
+  "shift_start_preserves_source_and_values": true,
+  "source_sha256": "5f931fc752e99940f237b417da257502e4ae9b2288a4311c4ad19bf979e11d3a"
+}

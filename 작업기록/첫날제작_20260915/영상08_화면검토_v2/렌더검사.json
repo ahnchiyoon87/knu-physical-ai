@@ -1,0 +1,78 @@
+{
+  "scenes": [
+    {
+      "scene": 1,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "한 사이클의 관측180개를 만들었습니다.\n\n이번에는 사이클100 → 101 → 102를 순서대로 재생합니다.\n\n다음 사이클의 첫 구간을 앞 사이클 뒤에 놓아야 합니다."
+    },
+    {
+      "scene": 2,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "제공 실습 코드의 재생 시작 기준:\n\n2026-09-01 00:00:00 UTC\n\n원본 센서 파일의 실제 수집 날짜·시각이 아닙니다.\n\nUTC는 시각을 해석하는 기준입니다. 시각의 시간대도 함께 읽습니다."
+    },
+    {
+      "scene": 3,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "표현\t의미\ndatetime\t날짜·시각을 표현\ntimedelta\t60초 같은 시간 길이를 표현\n재생 시작 시각 + 60초\t다음 사이클의 시작 시각\n\n00:00:00 + 60초 = 00:01:00\n\n시각을 더하는 이유를 이해하고 구현은 에이전트에 맡깁니다."
+    },
+    {
+      "scene": 4,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "같은 날짜·UTC 기준입니다.\n\n재생 순서\t원본 사이클\t시작에서 더할 시간\t그 사이클의 시작\n첫 번째\t100\t0초\t00:00:00\n두 번째\t101\t60초\t00:01:00\n세 번째\t102\t120초\t00:02:00\n\n원본 사이클 번호100에60을 곱하는 계산이 아닙니다."
+    },
+    {
+      "scene": 5,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "실제 생성 관측의 경계입니다. 날짜는2026-09-01, 시간대는UTC입니다.\n\nts\torigin_cycle_id\telapsed_s\n00:00:59\t100\t59\n00:01:00\t101\t0\n00:01:59\t101\t59\n00:02:00\t102\t0\n\n전체 재생 시각과 원본 사이클 안의 위치를 함께 보존합니다."
+    },
+    {
+      "scene": 6,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "3사이클 × 60초 × 3센서 = 540개 관측\n\n구분\t개수\n센서 하나의 관측\t180개\n각 시각의 센서별 관측\t3개\n전체 관측\t540개\n\n첫 구간 시각00:00:00 / 마지막 구간 시각00:02:59\n\n마지막 구간은00:03:00 직전까지를 설명합니다."
+    },
+    {
+      "scene": 7,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "시작 시각을1시간 옮겨 생성한 결과를 대조했습니다.\n\n바뀌는 정보\t그대로인 정보\n각 관측의 ts: 1시간 뒤\t값·단위·원본 사이클·elapsed_s·집계\n\n다른 재생 시각에 놓았다고 새로운 센서 측정이 생긴 것은 아닙니다."
+    },
+    {
+      "scene": 8,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "설명용 두 실행 예시\n\n실행 이름\t원본 사이클\t재생 시작 시각\nLAB-DEMO-A\t100·101·102\t같은 기준 시각\nLAB-DEMO-B\t100·101·102\t같은 기준 시각\n\n원본 위치와 시각이 같아도 이번 실행과 이전 실행은 구분해야 합니다."
+    },
+    {
+      "scene": 9,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "식별 정보\t구분하는 대상\nasset_id\t어느 설비인가\norigin_cycle_id\t어느 원본 사이클인가\nrun_id\t어느 실행에서 만든 결과인가\n\n제공 load_cycles는 실행을 기록하고, 저장할 관측에 그run_id를 연결합니다.\n\n이름을 붙이는 것과 중복 저장을 자동으로 막는 것은 다릅니다."
+    },
+    {
+      "scene": 10,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "HYD-01 전체 → 원하는 run_id → 센서와 시간 구간\n\n설비 이름만 같으면 파일 재생과 시뮬레이터 관측이 함께 존재할 수 있습니다.\n\n조회한 결과의 run_id·원본 사이클·합성 여부도 확인합니다.\n\n구체적인 DB 조회 방법은 뒤 영상에서 다룹니다."
+    },
+    {
+      "scene": 11,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "잘못된 결과\t확인할 문제\n사이클마다 ts가00:00:00으로 돌아감\t재생 시간 구간이 겹침\n두 번째 사이클 elapsed_s가60부터 시작\t원본 사이클 안의 위치를 잃음\n모든 관측의 원본 사이클이100\t출처를 잘못 붙임\n\n총540개라는 숫자와 함께 센서별 개수·사이클 경계·실행 구분을 봅니다."
+    },
+    {
+      "scene": 12,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "학생의 요청 예시\n\n사이클100·101·102를 순서대로 이어 주세요. 센서별180개, 전체540개와 두 사이클 경계를 보여 주세요. 저장할 실행 이름을 알려 주고 이전 실행과 구분해 주세요.\n\n지금의 단계: 언제, 어느 실행, 어느 원본인가\n\n다음 영상: 그 관측을 사용해도 되는지 나타내는 품질 정보"
+    }
+  ],
+  "changed_value_rejected": true,
+  "scope": "HTML 레이아웃·본문대조. 실제20분·PPTX·학생이해 미검증."
+}

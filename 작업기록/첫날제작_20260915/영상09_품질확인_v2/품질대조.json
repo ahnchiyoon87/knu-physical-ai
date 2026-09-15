@@ -1,0 +1,168 @@
+{
+  "scope": "Real UCI540 and separate illustrative TS1 sequences; no DB or inference",
+  "uci_flags": {
+    "OK": 540
+  },
+  "source_fields_preserved": true,
+  "examples": {
+    "OK": {
+      "kind": "설명용 입력을 제공 검사기로 실행",
+      "inputs": [
+        53.0,
+        53.2
+      ],
+      "first": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:00+00:00",
+        "raw_value": 53.0,
+        "unit": "°C",
+        "quality_flag": "OK",
+        "value": 53.0
+      },
+      "last": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:01+00:00",
+        "raw_value": 53.2,
+        "unit": "°C",
+        "quality_flag": "OK",
+        "value": 53.2
+      }
+    },
+    "SPIKE": {
+      "kind": "설명용 입력을 제공 검사기로 실행",
+      "inputs": [
+        53.0,
+        80.0
+      ],
+      "first": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:00+00:00",
+        "raw_value": 53.0,
+        "unit": "°C",
+        "quality_flag": "OK",
+        "value": 53.0
+      },
+      "last": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:01+00:00",
+        "raw_value": 80.0,
+        "unit": "°C",
+        "quality_flag": "SPIKE",
+        "value": null
+      }
+    },
+    "MISSING": {
+      "kind": "설명용 입력을 제공 검사기로 실행",
+      "inputs": [
+        53.0,
+        null
+      ],
+      "first": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:00+00:00",
+        "raw_value": 53.0,
+        "unit": "°C",
+        "quality_flag": "OK",
+        "value": 53.0
+      },
+      "last": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:01+00:00",
+        "raw_value": null,
+        "unit": "°C",
+        "quality_flag": "MISSING",
+        "value": null
+      }
+    },
+    "GAP": {
+      "kind": "설명용 입력을 제공 검사기로 실행",
+      "inputs": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "first": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:00+00:00",
+        "raw_value": null,
+        "unit": "°C",
+        "quality_flag": "MISSING",
+        "value": null
+      },
+      "last": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:04+00:00",
+        "raw_value": null,
+        "unit": "°C",
+        "quality_flag": "GAP",
+        "value": null
+      }
+    },
+    "STUCK": {
+      "kind": "설명용 입력을 제공 검사기로 실행",
+      "inputs": [
+        53.0,
+        53.0,
+        53.0,
+        53.0,
+        53.0,
+        53.0,
+        53.0,
+        53.0
+      ],
+      "first": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:00+00:00",
+        "raw_value": 53.0,
+        "unit": "°C",
+        "quality_flag": "OK",
+        "value": 53.0
+      },
+      "last": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:07+00:00",
+        "raw_value": 53.0,
+        "unit": "°C",
+        "quality_flag": "STUCK",
+        "value": null
+      }
+    },
+    "OUT_OF_RANGE": {
+      "kind": "설명용 입력을 제공 검사기로 실행",
+      "inputs": [
+        -20.0
+      ],
+      "first": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:00+00:00",
+        "raw_value": -20.0,
+        "unit": "°C",
+        "quality_flag": "OUT_OF_RANGE",
+        "value": null
+      },
+      "last": {
+        "asset_id": "EXAMPLE",
+        "sensor_id": "TS1",
+        "ts": "2026-09-01T00:00:00+00:00",
+        "raw_value": -20.0,
+        "unit": "°C",
+        "quality_flag": "OUT_OF_RANGE",
+        "value": null
+      }
+    }
+  },
+  "checker_sha256": "31e18e5452b6df1df1f93cab38d21c4d3c3e4aaa455c601eece8df9e3e62acb2"
+}

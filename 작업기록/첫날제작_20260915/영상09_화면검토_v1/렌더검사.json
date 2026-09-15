@@ -1,0 +1,78 @@
+{
+  "scenes": [
+    {
+      "scene": 1,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "관측을 다음 단계로 넘기기 전에 사용 여부를 표시합니다.\n\n냉각 상태를 판단하려는 값에 누락·급변·반복이 있다면 먼저 확인해야 합니다.\n\n이번 영상: 제공 검사기의 결과 읽기\n\n다음 회차: 오류를 주입하고 품질 규칙을 바꾸며 비교하기"
+    },
+    {
+      "scene": 2,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "항목\t읽을 내용\nraw_value\t품질 검사에 들어온 값\nquality_flag\t제공 규칙이 붙인 품질 상태\nvalue\t이번 검사에서 사용하도록 남긴 값\n\n앞에서 만든 관측에 quality_flag·value를 추가합니다."
+    },
+    {
+      "scene": 3,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "설명용 TS1 입력53.0 → 53.2를 제공 검사기로 실행한 결과입니다.\n\nraw_value\tquality_flag\tvalue\n53.2\tOK\t53.2\n\n이번 검사에서는 값을 바꾸지 않고 통과시켰습니다."
+    },
+    {
+      "scene": 4,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "별도 설명용 입력53.0 → 80.0의 결과입니다.\n\nraw_value\tquality_flag\tvalue\n80.0\tSPIKE\tNone\n\n80.0은 기록에 남고, 사용값은 비워집니다."
+    },
+    {
+      "scene": 5,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "상태\traw_value\tvalue\n입력값이 없음\tNone\tNone\n입력80.0의 사용을 보류\t80.0\tNone\n\nvalue가 비어 있을 때 raw_value와 플래그를 함께 읽습니다.\n\n빈 값을0으로 채우면 새로운 측정값처럼 오해할 수 있습니다."
+    },
+    {
+      "scene": 6,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "제공 검사기의 상태 이름입니다. 범위·횟수 기준은 교육용 설정입니다.\n\n플래그\t결과를 읽는 뜻\nOK\t현재 품질 규칙 통과\nMISSING\t입력값 누락\nGAP\t누락이 설정 기준 이상 이어짐\nSPIKE\t최근 기준값 대비 큰 변화\nSTUCK\t같은 값이 설정 횟수 이상 반복\nOUT_OF_RANGE\t설정한 값 범위 이탈"
+    },
+    {
+      "scene": 7,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "별도 설명용 입력을 실제 검사기에 전달했습니다.\n\n입력 이력\t마지막 값\t마지막 플래그\n53.0을 처음 입력\t53.0\tOK\n53.0을8번 연속 입력\t53.0\tSTUCK\n\n품질 결과에는 앞서 들어온 관측 이력도 영향을 줍니다."
+    },
+    {
+      "scene": 8,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "제공 check_many는 관측을 ts·sensor_id 순서로 정렬해 검사합니다.\n\n센서별 상태는 asset_id·sensor_id로 구분합니다.\n\n새 검사기를 만들면 이전 검사 이력이 이어지지 않습니다."
+    },
+    {
+      "scene": 9,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "관측 → 품질 표시 추가 → 사용 여부와 원시 값 함께 보관\n\n품질 검사는 보류된 행을 목록에서 삭제하지 않습니다.\n\n설비·센서·시각·출처도 유지됩니다."
+    },
+    {
+      "scene": 10,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "원본 사이클100·101·102의 세 센서를 제공 코드로 검사했습니다.\n\n전체540개 / 품질OK 540개\n\n말할 수 있는 결과: 제공 센서 품질 규칙을 통과함.\n\n이 결과만으로 확정할 수 없는 것: 설비 정상·냉각 성능 정상."
+    },
+    {
+      "scene": 11,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "요청 예시\n\n이번 실행의 센서별 품질 플래그 개수와 raw_value·value를 보여 주세요. 보류된 행이 있으면 입력값과 사용값을 비교하고, 원본 출처가 남아 있는지도 확인해 주세요.\n\n비교 조건: 같은 입력·순서·검사 시작 상태·규칙"
+    },
+    {
+      "scene": 12,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "이번에 추가한 것: 품질 상태와 사용값\n\n다음 단계: 관측을 PostgreSQL에 저장하고 다시 읽기\n\n확인할 질문: 저장한 뒤에도 값·플래그·출처를 함께 찾을 수 있는가?"
+    }
+  ],
+  "changed_value_rejected": true,
+  "scope": "HTML 레이아웃·본문대조. 실제20분·PPTX·학생이해 미검증."
+}

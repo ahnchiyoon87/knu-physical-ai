@@ -1,0 +1,40 @@
+{
+  "checks": [
+    {
+      "case": "generate_expiring_zero_budget_key",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "case": "virtual_key_models",
+      "status": 429,
+      "passed": false
+    },
+    {
+      "case": "virtual_key_cannot_list_admin_keys",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "case": "new_revision",
+      "revision": "knu-litellm-00002-xcg",
+      "passed": true
+    },
+    {
+      "case": "key_valid_after_new_revision",
+      "status": 429,
+      "passed": false
+    },
+    {
+      "case": "delete_setup_key",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "case": "deleted_key_denied",
+      "status": 401,
+      "passed": true
+    }
+  ],
+  "scope": "Temporary key lifecycle and revision persistence; no inference calls"
+}

@@ -1,0 +1,8 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: [build, -t, asia-northeast3-docker.pkg.dev/project-f49d373f-f76d-47a1-bdb/knu-ai-gateway/litellm:v1.90.2-knu1, .]
+images:
+  - asia-northeast3-docker.pkg.dev/project-f49d373f-f76d-47a1-bdb/knu-ai-gateway/litellm:v1.90.2-knu1
+options:
+  logging: CLOUD_LOGGING_ONLY
+serviceAccount: projects/project-f49d373f-f76d-47a1-bdb/serviceAccounts/knu-litellm-build@project-f49d373f-f76d-47a1-bdb.iam.gserviceaccount.com

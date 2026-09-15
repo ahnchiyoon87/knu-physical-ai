@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "case": "zero_budget_denied",
+      "status": 429,
+      "budget_error": true,
+      "passed": true
+    },
+    {
+      "case": "generate_expiring_test_key",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "case": "virtual_key_models",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "case": "virtual_key_cannot_list_admin_keys",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "case": "new_revision",
+      "before": "knu-litellm-00002-xcg",
+      "revision": "knu-litellm-00003-tj5",
+      "passed": true
+    },
+    {
+      "case": "key_valid_after_new_revision",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "case": "delete_setup_key",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "case": "deleted_key_denied",
+      "status": 401,
+      "passed": true
+    }
+  ],
+  "scope": "Temporary key lifecycle and revision persistence; no inference calls"
+}

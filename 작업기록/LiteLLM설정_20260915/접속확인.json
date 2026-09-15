@@ -1,0 +1,38 @@
+{
+  "url": "https://knu-litellm-h4ifvih7fq-du.a.run.app",
+  "revision": "knu-litellm-00003-tj5",
+  "checks": [
+    {
+      "case": "no_iam",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "case": "iam_without_proxy_key",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "case": "invalid_proxy_key",
+      "status": 401,
+      "passed": true
+    },
+    {
+      "case": "master_key",
+      "status": 200,
+      "passed": true,
+      "model_count": 0
+    },
+    {
+      "case": "/health/liveliness",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "case": "/health/readiness",
+      "status": 200,
+      "passed": true
+    }
+  ],
+  "scope": "IAM/proxy auth, model listing and health. No model inference; no cost or concurrency verification."
+}

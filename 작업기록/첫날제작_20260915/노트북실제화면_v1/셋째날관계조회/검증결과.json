@@ -1,0 +1,117 @@
+{
+  "event": [
+    {
+      "event_id": "EVT-20270126-090043-HYD-01-e51b",
+      "asset_id": "HYD-01",
+      "event_type": "COOLING_ANOMALY",
+      "status": "PENDING_APPROVAL",
+      "citations": [
+        "SOP-VER-001 v1 §2",
+        "SOP-COOL-001 v2 §2",
+        "SOP-COOL-001 v2 §4"
+      ]
+    }
+  ],
+  "citations": [
+    {
+      "document": "SOP-COOL-001",
+      "version": 2,
+      "section": "2",
+      "heading": "발동 조건"
+    },
+    {
+      "document": "SOP-COOL-001",
+      "version": 2,
+      "section": "4",
+      "heading": "허용 조치"
+    },
+    {
+      "document": "SOP-VER-001",
+      "version": 1,
+      "section": "2",
+      "heading": "발동 조건"
+    }
+  ],
+  "same_ids": [
+    {
+      "what": "Sensor HYD-01/TS1",
+      "merged": [
+        "HYD-01.TS1"
+      ],
+      "nodes_created": 0,
+      "relationships_created": 0,
+      "committed": true
+    },
+    {
+      "what": "Sensor HYD-01/PS1",
+      "merged": [
+        "HYD-01.PS1"
+      ],
+      "nodes_created": 0,
+      "relationships_created": 0,
+      "committed": true
+    },
+    {
+      "what": "Sensor HYD-01/FS1",
+      "merged": [
+        "HYD-01.FS1"
+      ],
+      "nodes_created": 0,
+      "relationships_created": 0,
+      "committed": true
+    },
+    {
+      "what": "SOP-COOL-001@v2 APPLIES_TO HYD-01",
+      "merged": [
+        "SOP-COOL-001@v2 -> HYD-01"
+      ],
+      "nodes_created": 0,
+      "relationships_created": 0,
+      "committed": true
+    }
+  ],
+  "wrong_id": {
+    "merged": [
+      "HYD-01-TS1"
+    ],
+    "nodes_created": 1,
+    "relationships_created": 1,
+    "committed": false
+  },
+  "wrong_id_after": 0,
+  "joined": [
+    {
+      "sensor_id": "HYD-01.FS1",
+      "unit_graph": "L/min",
+      "unit_db": "L/min",
+      "n": 60,
+      "valid": 60,
+      "last_value": 7.884,
+      "origin_cycle_id": 100
+    },
+    {
+      "sensor_id": "HYD-01.PS1",
+      "unit_graph": "bar",
+      "unit_db": "bar",
+      "n": 60,
+      "valid": 60,
+      "last_value": 147.345,
+      "origin_cycle_id": 100
+    },
+    {
+      "sensor_id": "HYD-01.TS1",
+      "unit_graph": "°C",
+      "unit_db": "°C",
+      "n": 60,
+      "valid": 60,
+      "last_value": 53.395,
+      "origin_cycle_id": 100
+    }
+  ],
+  "run_id": "LAB-S03-392af1be",
+  "run_remaining": 0,
+  "observations_remaining": 0,
+  "saved_result_reopened": true,
+  "graph_before_sha256": "d577b2e131d131002e3d77016ef588d6f7160d443b14a236cbd17e5d043733bd",
+  "graph_after_sha256": "d577b2e131d131002e3d77016ef588d6f7160d443b14a236cbd17e5d043733bd"
+}

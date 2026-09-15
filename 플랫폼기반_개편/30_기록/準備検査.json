@@ -1,0 +1,13 @@
+{
+  "scope": "offline structure and extraction only",
+  "sample_windows": 27,
+  "python_files_parsed": 50,
+  "extractor_normal_input": "passed",
+  "extractor_overwrite_rejected": "passed",
+  "extractor_invalid_width_rejected": "passed",
+  "sample_sha256": "823f3a83a74ba3f02f0758becbbaae6e0acdc70e28a42ba89a72745d32f0f13e",
+  "docker_runtime": "not run: daemon unavailable",
+  "model_calls": "not run",
+  "student_completion": "not run",
+  "new_ui_capture": "not run: no connected browser"
+}

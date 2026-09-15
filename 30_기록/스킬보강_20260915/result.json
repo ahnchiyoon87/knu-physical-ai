@@ -1,0 +1,158 @@
+{
+  "study": {
+    "doctor_exit": 0,
+    "doctor": {
+      "errors": [],
+      "skills": [
+        {
+          "name": "lecture-work",
+          "description_chars": 115,
+          "lines": 39
+        },
+        {
+          "name": "lecture-contract",
+          "description_chars": 145,
+          "lines": 67
+        },
+        {
+          "name": "lecture-resume",
+          "description_chars": 101,
+          "lines": 26
+        },
+        {
+          "name": "lecture-guide",
+          "description_chars": 113,
+          "lines": 29
+        },
+        {
+          "name": "lecture-deck",
+          "description_chars": 98,
+          "lines": 55
+        },
+        {
+          "name": "lecture-lab",
+          "description_chars": 128,
+          "lines": 65
+        },
+        {
+          "name": "lecture-sync",
+          "description_chars": 107,
+          "lines": 25
+        },
+        {
+          "name": "lecture-verify",
+          "description_chars": 113,
+          "lines": 31
+        },
+        {
+          "name": "lecture-package",
+          "description_chars": 115,
+          "lines": 53
+        },
+        {
+          "name": "lecture-handoff",
+          "description_chars": 108,
+          "lines": 26
+        },
+        {
+          "name": "lecture-report",
+          "description_chars": 172,
+          "lines": 201
+        },
+        {
+          "name": "research-note",
+          "description_chars": 129,
+          "lines": 47
+        }
+      ],
+      "not_measured": [
+        "host fresh-session selection",
+        "semantic correctness",
+        "task execution quality",
+        "host hook execution",
+        "non-Markdown or dynamic resource references"
+      ]
+    },
+    "tests_exit": 0,
+    "tests": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.295s\n\nOK\n"
+  },
+  "robo": {
+    "doctor_exit": 0,
+    "doctor": {
+      "errors": [],
+      "skills": [
+        {
+          "name": "robo-analyzer",
+          "description_chars": 338,
+          "lines": 273
+        },
+        {
+          "name": "robo-verify",
+          "description_chars": 236,
+          "lines": 102
+        },
+        {
+          "name": "robo-tune",
+          "description_chars": 111,
+          "lines": 54
+        },
+        {
+          "name": "robo-work",
+          "description_chars": 356,
+          "lines": 195
+        },
+        {
+          "name": "robo-handoff",
+          "description_chars": 325,
+          "lines": 125
+        },
+        {
+          "name": "robo-report",
+          "description_chars": 169,
+          "lines": 211
+        },
+        {
+          "name": "robo-demo-recording",
+          "description_chars": 148,
+          "lines": 75
+        },
+        {
+          "name": "robo-research-note",
+          "description_chars": 119,
+          "lines": 34
+        },
+        {
+          "name": "robo-slides",
+          "description_chars": 136,
+          "lines": 33
+        }
+      ],
+      "not_measured": [
+        "host fresh-session selection",
+        "semantic correctness",
+        "task execution quality",
+        "host hook execution",
+        "non-Markdown or dynamic resource references"
+      ]
+    },
+    "tests_exit": 0,
+    "tests": ".....\n----------------------------------------------------------------------\nRan 5 tests in 0.261s\n\nOK\n"
+  },
+  "copies": {
+    "scripts/check_media_cues.py": {
+      "study": "5db66fd293011f62e4814c8901a2452073699303a59ca0b7f78479c1e058aa9c",
+      "robo": "5db66fd293011f62e4814c8901a2452073699303a59ca0b7f78479c1e058aa9c",
+      "equal": true
+    },
+    "scripts/test_media_cues.py": {
+      "study": "32063c097163203a6a86250990b2fd3ca7c234d6f83ac038a6ff10313a9fc245",
+      "robo": "32063c097163203a6a86250990b2fd3ca7c234d6f83ac038a6ff10313a9fc245",
+      "equal": true
+    },
+    "references/scene-cues.md": {
+      "study": "078aa20a68dcf76961cca39350236d2c9d75e133cebe8bb4627e9979fb1de2fc",
+      "robo": "078aa20a68dcf76961cca39350236d2c9d75e133cebe8bb4627e9979fb1de2fc",
+      "equal": true
+    }
+  }
+}

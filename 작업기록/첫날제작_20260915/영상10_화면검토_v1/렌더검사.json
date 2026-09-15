@@ -1,0 +1,78 @@
+{
+  "scenes": [
+    {
+      "scene": 1,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "품질 표시까지 붙은 관측을 만들었습니다.\n\n프로그램 안의 목록 → DB에 저장한 기록\n\n목표: 다음에 다시 접속해 같은 관측을 읽기"
+    },
+    {
+      "scene": 2,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "방식\t이번 수업에서의 쓰임\nCSV 파일\t선택한 결과를 파일로 내보내고 전달하기\nPostgreSQL\t실행별 관측을 쌓고 필요한 조건으로 조회하기\n\n파일 내보내기와 DB 저장은 각각 확인합니다."
+    },
+    {
+      "scene": 3,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "학생의 실행 코드 → PostgreSQL 접속 → 지정한 데이터베이스\n\n접속할 주소·포트·DB 이름을 구분합니다.\n\n저장과 조회가 같은 대상을 사용하는지 확인합니다."
+    },
+    {
+      "scene": 4,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "관측을 보관하는 테이블: observation\n\n항목 예\t저장할 정보 종류\nsensor_id·unit\t글자\nraw_value·value\t숫자\nts\t시간대가 있는 시각\nagg\t구조가 있는 집계 정보\n\n테이블 정의를 스키마라고 부릅니다."
+    },
+    {
+      "scene": 5,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "테이블\t담는 정보\nrun\t실행 이름·원천 종류·시나리오 등\nobservation\t그 실행에서 만든 개별 관측\n\nobservation의 run_id → run의 run_id\n\n등록한 실행에 관측을 연결합니다."
+    },
+    {
+      "scene": 6,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "observation에는 DB가 부여하는 id가 추가됩니다.\n\n항목\t구분할 역할\nid\tDB 안의 관측 행 식별\nrun_id\t실행과 연결\norigin_cycle_id\t원본 사이클 출처\n\n행 번호만 보고 원본 위치를 추측하지 않습니다."
+    },
+    {
+      "scene": 7,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "프로그램의 None → DB의 NULL\n\nvalue가 NULL인 행에도 다음 항목을 남깁니다.\n\n- raw_value\n- quality_flag\n- 설비·센서·시각·출처\n\n빈 값을0으로 바꾸지 않습니다."
+    },
+    {
+      "scene": 8,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "create_run → 품질 처리한 관측 → insert_observations\n\ninsert_observations는 COPY로 관측을 전달합니다.\n\nCOPY는 여러 행을 DB에 넣는 제공 함수의 적재 방식입니다."
+    },
+    {
+      "scene": 9,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "제공 적재 함수로 확인한 실행 결과입니다.\n\n입력 문제\t실제 결과\n등록하지 않은 run_id\t연결 조건 위반으로 거부\n필수 unit이 비어 있음\t필수값 조건 위반으로 거부\n\n오류를 없애기 전에 어떤 조건을 어겼는지 읽습니다."
+    },
+    {
+      "scene": 10,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "실제 제공 load_cycles 실행: 540개 저장 반환\n\n별도 프로세스의 DB 조회: 540개 확인\n\n원본에서 다시 만든 관측과 전체 행의 값·품질·단위·시간·출처·집계를 대조했습니다."
+    },
+    {
+      "scene": 11,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "load_cycles는 사이클마다 관측을 적재합니다.\n\n한 적재가 실패했다고 이전 적재까지 모두 취소됐다고 가정하지 않습니다.\n\n확인할 것: 실행 존재·관측 개수·누락 구간\n\n재실행 전 이미 저장된 범위를 확인합니다."
+    },
+    {
+      "scene": 12,
+      "overflow": [],
+      "body_matches_md": true,
+      "body_text": "저장 확인 요청\n\n이번 실행을 저장한 DB와 관측 개수를 확인하고, 저장 전후의 값·품질·출처를 대조해 주세요.\n\n다음 질문: 전체 기록 중 어느 실행의 어느 시간 구간을 볼 것인가?"
+    }
+  ],
+  "changed_value_rejected": true,
+  "scope": "HTML 레이아웃·본문대조. 실제20분·PPTX·학생이해 미검증."
+}

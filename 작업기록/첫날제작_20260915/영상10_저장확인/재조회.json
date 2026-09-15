@@ -1,0 +1,35 @@
+{
+  "scope": "fresh process, read-only query, all540 compared to recomputed source",
+  "run": {
+    "run_id": "LAB-V10-STORAGE",
+    "source": "uci_replay",
+    "scenario": "lab-s01"
+  },
+  "count": 540,
+  "per_sensor": {
+    "FS1": 180,
+    "PS1": 180,
+    "TS1": 180
+  },
+  "all_original_fields_match": true,
+  "sample": {
+    "id": 2,
+    "run_id": "LAB-V10-STORAGE",
+    "asset_id": "HYD-01",
+    "sensor_id": "PS1",
+    "ts": "2026-09-01T00:00:00+00:00",
+    "elapsed_s": 0,
+    "origin_cycle_id": 100,
+    "raw_value": 170.16209999999998,
+    "value": 170.16209999999998,
+    "unit": "bar",
+    "quality_flag": "OK",
+    "agg": {
+      "n": 100,
+      "max": 189.88,
+      "min": 141.27,
+      "source_hz": 100
+    },
+    "is_synthetic": false
+  }
+}

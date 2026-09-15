@@ -1,0 +1,8 @@
+{
+  "rejected": [
+    "missing_run",
+    "null_unit_second_row"
+  ],
+  "count_after_failures": 540,
+  "scope": "one COPY statement rollback; does not prove entire load_cycles atomic"
+}

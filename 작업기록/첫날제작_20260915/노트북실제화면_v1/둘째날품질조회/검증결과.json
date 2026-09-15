@@ -1,0 +1,671 @@
+{
+  "run_id": "LAB-S02-6aee5060",
+  "inserted": 180,
+  "database_rows": [
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:00+00:00",
+      "elapsed_s": 0,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "value": 35.586,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:01+00:00",
+      "elapsed_s": 1,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.488,
+      "value": 35.488,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:02+00:00",
+      "elapsed_s": 2,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "value": 35.422,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:03+00:00",
+      "elapsed_s": 3,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.402,
+      "value": 35.402,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:04+00:00",
+      "elapsed_s": 4,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.32,
+      "value": 35.32,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:05+00:00",
+      "elapsed_s": 5,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.262,
+      "value": 35.262,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:06+00:00",
+      "elapsed_s": 6,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.234,
+      "value": 35.234,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:07+00:00",
+      "elapsed_s": 7,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.16,
+      "value": 35.16,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:08+00:00",
+      "elapsed_s": 8,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.156,
+      "value": 35.156,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:09+00:00",
+      "elapsed_s": 9,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.148,
+      "value": 35.148,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:10+00:00",
+      "elapsed_s": 10,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.16,
+      "value": 35.16,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:11+00:00",
+      "elapsed_s": 11,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.176,
+      "value": 35.176,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:12+00:00",
+      "elapsed_s": 12,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.262,
+      "value": 35.262,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:13+00:00",
+      "elapsed_s": 13,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.266,
+      "value": 35.266,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:14+00:00",
+      "elapsed_s": 14,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.336,
+      "value": 35.336,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:15+00:00",
+      "elapsed_s": 15,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.344,
+      "value": 35.344,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:16+00:00",
+      "elapsed_s": 16,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.328,
+      "value": 35.328,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:17+00:00",
+      "elapsed_s": 17,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.437,
+      "value": 35.437,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:18+00:00",
+      "elapsed_s": 18,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.41,
+      "value": 35.41,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:19+00:00",
+      "elapsed_s": 19,
+      "origin_cycle_id": 1500,
+      "raw_value": 60.414,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "SPIKE"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:20+00:00",
+      "elapsed_s": 20,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "value": 35.422,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:21+00:00",
+      "elapsed_s": 21,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "value": 35.422,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:22+00:00",
+      "elapsed_s": 22,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.508,
+      "value": 35.508,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:23+00:00",
+      "elapsed_s": 23,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.422,
+      "value": 35.422,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:24+00:00",
+      "elapsed_s": 24,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.516,
+      "value": 35.516,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:25+00:00",
+      "elapsed_s": 25,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.426,
+      "value": 35.426,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:26+00:00",
+      "elapsed_s": 26,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "MISSING"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:27+00:00",
+      "elapsed_s": 27,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "MISSING"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:28+00:00",
+      "elapsed_s": 28,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "MISSING"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:29+00:00",
+      "elapsed_s": 29,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "MISSING"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:30+00:00",
+      "elapsed_s": 30,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "GAP"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:31+00:00",
+      "elapsed_s": 31,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "GAP"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:32+00:00",
+      "elapsed_s": 32,
+      "origin_cycle_id": 1500,
+      "raw_value": null,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "GAP"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:33+00:00",
+      "elapsed_s": 33,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "value": 35.586,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:34+00:00",
+      "elapsed_s": 34,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.609,
+      "value": 35.609,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:35+00:00",
+      "elapsed_s": 35,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.66,
+      "value": 35.66,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:36+00:00",
+      "elapsed_s": 36,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.648,
+      "value": 35.648,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:37+00:00",
+      "elapsed_s": 37,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.586,
+      "value": 35.586,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:38+00:00",
+      "elapsed_s": 38,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.664,
+      "value": 35.664,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:39+00:00",
+      "elapsed_s": 39,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:40+00:00",
+      "elapsed_s": 40,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:41+00:00",
+      "elapsed_s": 41,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.664,
+      "value": 35.664,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:42+00:00",
+      "elapsed_s": 42,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.668,
+      "value": 35.668,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:43+00:00",
+      "elapsed_s": 43,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:44+00:00",
+      "elapsed_s": 44,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:45+00:00",
+      "elapsed_s": 45,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:46+00:00",
+      "elapsed_s": 46,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:47+00:00",
+      "elapsed_s": 47,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:48+00:00",
+      "elapsed_s": 48,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:49+00:00",
+      "elapsed_s": 49,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": 35.652,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:50+00:00",
+      "elapsed_s": 50,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "STUCK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:51+00:00",
+      "elapsed_s": 51,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "STUCK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:52+00:00",
+      "elapsed_s": 52,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.652,
+      "value": null,
+      "unit": "°C",
+      "quality_flag": "STUCK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:53+00:00",
+      "elapsed_s": 53,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.57,
+      "value": 35.57,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:54+00:00",
+      "elapsed_s": 54,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "value": 35.566,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:55+00:00",
+      "elapsed_s": 55,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.574,
+      "value": 35.574,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:56+00:00",
+      "elapsed_s": 56,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.594,
+      "value": 35.594,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:57+00:00",
+      "elapsed_s": 57,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.559,
+      "value": 35.559,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:58+00:00",
+      "elapsed_s": 58,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "value": 35.566,
+      "unit": "°C",
+      "quality_flag": "OK"
+    },
+    {
+      "sensor_id": "TS1",
+      "ts": "2026-01-25 09:00:59+00:00",
+      "elapsed_s": 59,
+      "origin_cycle_id": 1500,
+      "raw_value": 35.566,
+      "value": 35.566,
+      "unit": "°C",
+      "quality_flag": "OK"
+    }
+  ],
+  "flags": [
+    {
+      "센서": "TS1",
+      "OK": 49,
+      "SPIKE": 1,
+      "MISSING": 4,
+      "GAP": 3,
+      "STUCK": 3
+    },
+    {
+      "센서": "PS1",
+      "OK": 60
+    },
+    {
+      "센서": "FS1",
+      "OK": 60
+    }
+  ],
+  "ranges": [
+    {
+      "구간": "전체",
+      "경과 초": "0~59",
+      "관측 수": 60,
+      "품질 표시": "{'OK': 49, 'SPIKE': 1, 'MISSING': 4, 'GAP': 3, 'STUCK': 3}",
+      "결과": "SENSOR_FAULT"
+    },
+    {
+      "구간": "비교 A",
+      "경과 초": "5~9",
+      "관측 수": 5,
+      "품질 표시": "{'OK': 5}",
+      "결과": "VALID"
+    },
+    {
+      "구간": "비교 B",
+      "경과 초": "17~21",
+      "관측 수": 5,
+      "품질 표시": "{'OK': 4, 'SPIKE': 1}",
+      "결과": "VALID"
+    },
+    {
+      "구간": "비교 C",
+      "경과 초": "28~32",
+      "관측 수": 5,
+      "품질 표시": "{'MISSING': 2, 'GAP': 3}",
+      "결과": "SENSOR_FAULT"
+    }
+  ],
+  "simulator": [
+    {
+      "사례": "냉각 심각 저하",
+      "최근 관측 수": 60,
+      "SPIKE 수": 0,
+      "최근60초 STUCK 수": 0,
+      "결과": "EQUIPMENT_ANOMALY"
+    },
+    {
+      "사례": "냉각 저하 뒤 고착",
+      "최근 관측 수": 60,
+      "SPIKE 수": 0,
+      "최근60초 STUCK 수": 8,
+      "결과": "SENSOR_FAULT"
+    }
+  ],
+  "cohort_quality_outputs_equal": true
+}

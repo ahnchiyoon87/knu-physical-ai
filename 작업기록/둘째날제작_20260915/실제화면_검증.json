@@ -1,0 +1,21 @@
+{
+  "run_id": "LAB-S02-6aee5060",
+  "code_cells_executed": 6,
+  "errors": 0,
+  "database_inserted": 180,
+  "database_ts1_rows": 60,
+  "raw_null": 7,
+  "value_null": 11,
+  "cohort_quality_outputs_equal": true,
+  "copied_source_hashes_equal": true,
+  "guide_images": [
+    "그림/실제_원본과주입.png",
+    "그림/실제_결측집계.png",
+    "그림/실제_품질표.png",
+    "그림/온도_품질조회.png",
+    "그림/실제_구간판단.png",
+    "그림/실제_설비와센서.png"
+  ],
+  "new_actual_ui_images": 5,
+  "scope": "완성 코드 실제 실행과 DB 재조회·저장된 노트북 UI 캡처. 학생의 에이전트 사용 완주·새 학생 UI 설치·비용 측정 아님."
+}

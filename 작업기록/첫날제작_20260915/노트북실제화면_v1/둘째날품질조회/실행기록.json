@@ -1,0 +1,6 @@
+{
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "[NbConvertApp] Converting notebook 품질_입력.ipynb to notebook\n[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.\n[NbConvertApp] Writing 23838 bytes to 품질_결과.ipynb\n",
+  "scope": "기존 run 재조회. 적재·삭제 없음. 구간 표의 생략 표시를 개별 플래그 열로 수정."
+}

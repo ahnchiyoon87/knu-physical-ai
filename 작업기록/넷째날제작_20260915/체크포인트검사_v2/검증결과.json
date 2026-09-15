@@ -1,0 +1,142 @@
+{
+  "scope": "제공 완성본 1~4일차 저장·실제 UCI 평가·지정 DB 사건 읽기. 학생 완주·DB 복원 아님.",
+  "result": {
+    "code_files": 25,
+    "phase_comparisons": 4,
+    "test_cycles": 180,
+    "events": 1,
+    "history": 3,
+    "scope": "저장 코드 해시·구간·사건 연결 확인. DB 복원 및 코드 재실행 아님."
+  },
+  "checks": [
+    {
+      "case": "기존 저장본 덮어쓰기",
+      "rejected": true,
+      "error": "기존 체크포인트는 보존합니다. 새 폴더를 지정하세요."
+    },
+    {
+      "case": "공통 경로 없이 같은 파일명",
+      "rejected": true,
+      "error": "저장 경로가 중복됩니다. --root로 개인 작업의 공통 폴더를 지정하세요."
+    },
+    {
+      "case": "공통 경로 밖 코드",
+      "rejected": true,
+      "error": "'/course/project/실습자료/1일차/완성본/integrated/S01_sensor_flow.ipynb' is not in the subpath of '/course/project/실습자료/4일차'"
+    },
+    {
+      "case": "잘못된 비교 구간",
+      "rejected": true,
+      "error": "지속·평활 구간은 1~60의 정수로 지정하세요."
+    },
+    {
+      "case": "존재하지 않는 실행",
+      "rejected": true,
+      "error": "지정한 run_id가 없습니다."
+    },
+    {
+      "case": "저장 코드 변조",
+      "rejected": true,
+      "error": "저장 코드의 위치 또는 해시가 다릅니다."
+    },
+    {
+      "case": "시험 ID 변조",
+      "rejected": true,
+      "error": "시험 ID 해시가 다릅니다."
+    },
+    {
+      "case": "평가 사이클 변조",
+      "rejected": true,
+      "error": "평가 결과의 시험 ID가 다릅니다."
+    },
+    {
+      "case": "다른 실행의 사건",
+      "rejected": true,
+      "error": "다른 실행의 사건 또는 이력이 섞였습니다."
+    },
+    {
+      "case": "상위 경로 참조",
+      "rejected": true,
+      "error": "체크포인트 밖의 파일 경로입니다."
+    }
+  ],
+  "db_before_sha256": "b464e3132a543057e5fb22f589f04d69026fcbbb4b0a85713bd519927e94187c",
+  "db_after_sha256": "b464e3132a543057e5fb22f589f04d69026fcbbb4b0a85713bd519927e94187c",
+  "evaluations": [
+    {
+      "params": {
+        "k_sigma": 4,
+        "min_delta_c": 3,
+        "sustain_s": 10,
+        "smooth_s": 5
+      },
+      "baseline_cycles": 244,
+      "test_cycles": 180,
+      "tp": 120,
+      "fp": 1,
+      "fn": 0,
+      "tn": 59,
+      "miss_rate": 0.0,
+      "false_alarm_rate": 0.017,
+      "mean_delay_s": 9.0
+    },
+    {
+      "params": {
+        "k_sigma": 2,
+        "min_delta_c": 1,
+        "sustain_s": 1,
+        "smooth_s": 1
+      },
+      "baseline_cycles": 244,
+      "test_cycles": 180,
+      "tp": 120,
+      "fp": 4,
+      "fn": 0,
+      "tn": 56,
+      "miss_rate": 0.0,
+      "false_alarm_rate": 0.067,
+      "mean_delay_s": 0.0
+    },
+    {
+      "params": {
+        "k_sigma": 4,
+        "min_delta_c": 3,
+        "sustain_s": 1,
+        "smooth_s": 5
+      },
+      "baseline_cycles": 244,
+      "test_cycles": 180,
+      "tp": 120,
+      "fp": 1,
+      "fn": 0,
+      "tn": 59,
+      "miss_rate": 0.0,
+      "false_alarm_rate": 0.017,
+      "mean_delay_s": 0.0
+    },
+    {
+      "params": {
+        "k_sigma": 4,
+        "min_delta_c": 3,
+        "sustain_s": 20,
+        "smooth_s": 5
+      },
+      "baseline_cycles": 244,
+      "test_cycles": 180,
+      "tp": 120,
+      "fp": 1,
+      "fn": 0,
+      "tn": 59,
+      "miss_rate": 0.0,
+      "false_alarm_rate": 0.017,
+      "mean_delay_s": 19.0
+    }
+  ],
+  "saved_code_days": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "duplicate_basenames_preserved": true
+}

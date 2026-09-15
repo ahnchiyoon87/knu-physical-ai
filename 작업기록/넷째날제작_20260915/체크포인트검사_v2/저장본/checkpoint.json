@@ -1,0 +1,6648 @@
+{
+  "format_version": 2,
+  "saved_at": "2026-09-15T11:30:53.744263+00:00",
+  "scope": "코드·설정·시험 구간·지정 실행의 사건/이력 보존. DB 복원·학생 완주 검증 아님.",
+  "thresholds": {
+    "alarm_temp_c": 60.0,
+    "alarm_sustain_s": 10,
+    "recovery_temp_c": 55.0,
+    "recovery_sustain_s": 10,
+    "verify_wait_s": 30,
+    "verify_window_s": 60,
+    "verify_min_valid_ratio": 0.7,
+    "default_load": 1.0,
+    "reduced_load": 0.8,
+    "min_load": 0.6,
+    "max_load": 1.0,
+    "max_action_attempts": 1,
+    "rule_version": "temp-sustain-v1"
+  },
+  "quality_rules": {
+    "physical_min": {
+      "TS1": -10.0,
+      "PS1": 0.0,
+      "FS1": 0.0
+    },
+    "physical_max": {
+      "TS1": 120.0,
+      "PS1": 250.0,
+      "FS1": 30.0
+    },
+    "spike_delta": {
+      "TS1": 8.0,
+      "PS1": 60.0,
+      "FS1": 15.0
+    },
+    "spike_window": 5,
+    "stuck_run": 8,
+    "gap_hold_s": 5
+  },
+  "settings_scope": "저장 시 불러온 플랫폼 기본값. 지정 run이나 학생 코드가 실제 사용한 설정임을 증명하지 않는다.",
+  "phase_evaluation_scope": "명시한 비교값으로 제공 evaluate.evaluate를 지금 실행한 결과. 학생 수정 코드의 결과 또는 지정 run의 설정과 구분한다.",
+  "phase_evaluations": [
+    {
+      "params": {
+        "k_sigma": 4,
+        "min_delta_c": 3,
+        "sustain_s": 10,
+        "smooth_s": 5
+      },
+      "baseline_cycles": 244,
+      "test_cycles": 180,
+      "tp": 120,
+      "fp": 1,
+      "fn": 0,
+      "tn": 59,
+      "miss_rate": 0.0,
+      "false_alarm_rate": 0.017,
+      "mean_delay_s": 9.0,
+      "rows": [
+        {
+          "cycle": 21,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 12.46
+        },
+        {
+          "cycle": 30,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 14.06
+        },
+        {
+          "cycle": 34,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 14.52
+        },
+        {
+          "cycle": 63,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 16.07
+        },
+        {
+          "cycle": 64,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 16.16
+        },
+        {
+          "cycle": 91,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 17.14
+        },
+        {
+          "cycle": 101,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 17.36
+        },
+        {
+          "cycle": 112,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 17.64
+        },
+        {
+          "cycle": 122,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 17.75
+        },
+        {
+          "cycle": 131,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 17.87
+        },
+        {
+          "cycle": 134,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 17.87
+        },
+        {
+          "cycle": 145,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 17.98
+        },
+        {
+          "cycle": 153,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 17.97
+        },
+        {
+          "cycle": 166,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.09
+        },
+        {
+          "cycle": 169,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.1
+        },
+        {
+          "cycle": 176,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.14
+        },
+        {
+          "cycle": 179,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.17
+        },
+        {
+          "cycle": 184,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.22
+        },
+        {
+          "cycle": 204,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.36
+        },
+        {
+          "cycle": 209,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.42
+        },
+        {
+          "cycle": 219,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.31
+        },
+        {
+          "cycle": 220,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.31
+        },
+        {
+          "cycle": 252,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.53
+        },
+        {
+          "cycle": 257,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 258,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 265,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.52
+        },
+        {
+          "cycle": 269,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 270,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.52
+        },
+        {
+          "cycle": 296,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.76
+        },
+        {
+          "cycle": 311,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 19.09
+        },
+        {
+          "cycle": 317,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 19.16
+        },
+        {
+          "cycle": 318,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 19.16
+        },
+        {
+          "cycle": 337,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 18.6
+        },
+        {
+          "cycle": 373,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.39
+        },
+        {
+          "cycle": 386,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.91
+        },
+        {
+          "cycle": 387,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.93
+        },
+        {
+          "cycle": 397,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.88
+        },
+        {
+          "cycle": 415,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.1
+        },
+        {
+          "cycle": 423,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.08
+        },
+        {
+          "cycle": 433,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.85
+        },
+        {
+          "cycle": 447,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.35
+        },
+        {
+          "cycle": 464,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.34
+        },
+        {
+          "cycle": 522,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.83
+        },
+        {
+          "cycle": 528,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.9
+        },
+        {
+          "cycle": 551,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.93
+        },
+        {
+          "cycle": 563,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.76
+        },
+        {
+          "cycle": 569,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.51
+        },
+        {
+          "cycle": 578,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.44
+        },
+        {
+          "cycle": 594,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.12
+        },
+        {
+          "cycle": 597,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.23
+        },
+        {
+          "cycle": 606,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.69
+        },
+        {
+          "cycle": 625,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.22
+        },
+        {
+          "cycle": 637,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.3
+        },
+        {
+          "cycle": 641,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.37
+        },
+        {
+          "cycle": 654,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.57
+        },
+        {
+          "cycle": 670,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.39
+        },
+        {
+          "cycle": 672,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.42
+        },
+        {
+          "cycle": 680,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.36
+        },
+        {
+          "cycle": 683,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 21.26
+        },
+        {
+          "cycle": 712,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 20.36
+        },
+        {
+          "cycle": 760,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 12.17
+        },
+        {
+          "cycle": 766,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 11.81
+        },
+        {
+          "cycle": 771,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 11.64
+        },
+        {
+          "cycle": 781,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 11.41
+        },
+        {
+          "cycle": 792,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 11.21
+        },
+        {
+          "cycle": 800,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 11.09
+        },
+        {
+          "cycle": 808,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 11.03
+        },
+        {
+          "cycle": 821,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.99
+        },
+        {
+          "cycle": 854,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.8
+        },
+        {
+          "cycle": 857,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.74
+        },
+        {
+          "cycle": 860,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.74
+        },
+        {
+          "cycle": 866,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.72
+        },
+        {
+          "cycle": 867,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.68
+        },
+        {
+          "cycle": 924,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.48
+        },
+        {
+          "cycle": 943,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.3
+        },
+        {
+          "cycle": 949,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.15
+        },
+        {
+          "cycle": 957,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.01
+        },
+        {
+          "cycle": 958,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.05
+        },
+        {
+          "cycle": 961,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.09
+        },
+        {
+          "cycle": 984,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.07
+        },
+        {
+          "cycle": 991,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.09
+        },
+        {
+          "cycle": 997,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.99
+        },
+        {
+          "cycle": 999,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 10.01
+        },
+        {
+          "cycle": 1004,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.92
+        },
+        {
+          "cycle": 1011,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.92
+        },
+        {
+          "cycle": 1018,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.82
+        },
+        {
+          "cycle": 1023,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1026,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1045,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1064,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.61
+        },
+        {
+          "cycle": 1070,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.55
+        },
+        {
+          "cycle": 1074,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.5
+        },
+        {
+          "cycle": 1086,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.08
+        },
+        {
+          "cycle": 1091,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.05
+        },
+        {
+          "cycle": 1101,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.01
+        },
+        {
+          "cycle": 1102,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 9.02
+        },
+        {
+          "cycle": 1117,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.91
+        },
+        {
+          "cycle": 1119,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.89
+        },
+        {
+          "cycle": 1174,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.79
+        },
+        {
+          "cycle": 1224,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.2
+        },
+        {
+          "cycle": 1236,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.23
+        },
+        {
+          "cycle": 1253,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.22
+        },
+        {
+          "cycle": 1256,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.27
+        },
+        {
+          "cycle": 1268,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.14
+        },
+        {
+          "cycle": 1284,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.19
+        },
+        {
+          "cycle": 1312,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.39
+        },
+        {
+          "cycle": 1316,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.45
+        },
+        {
+          "cycle": 1318,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.48
+        },
+        {
+          "cycle": 1324,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.47
+        },
+        {
+          "cycle": 1325,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.47
+        },
+        {
+          "cycle": 1327,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.51
+        },
+        {
+          "cycle": 1328,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.48
+        },
+        {
+          "cycle": 1346,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.18
+        },
+        {
+          "cycle": 1347,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.13
+        },
+        {
+          "cycle": 1375,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.18
+        },
+        {
+          "cycle": 1378,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.2
+        },
+        {
+          "cycle": 1397,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.19
+        },
+        {
+          "cycle": 1415,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.26
+        },
+        {
+          "cycle": 1434,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.62
+        },
+        {
+          "cycle": 1446,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 8.67
+        },
+        {
+          "cycle": 1467,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": true,
+          "delay_s": 9,
+          "max_residual": 5.46
+        },
+        {
+          "cycle": 1471,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 2.75
+        },
+        {
+          "cycle": 1475,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 1.39
+        },
+        {
+          "cycle": 1476,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 1.15
+        },
+        {
+          "cycle": 1483,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.2
+        },
+        {
+          "cycle": 1486,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.0
+        },
+        {
+          "cycle": 1487,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.09
+        },
+        {
+          "cycle": 1492,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.28
+        },
+        {
+          "cycle": 1493,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.3
+        },
+        {
+          "cycle": 1494,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.33
+        },
+        {
+          "cycle": 1498,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1509,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.51
+        },
+        {
+          "cycle": 1514,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.49
+        },
+        {
+          "cycle": 1516,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.49
+        },
+        {
+          "cycle": 1524,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.5
+        },
+        {
+          "cycle": 1537,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.54
+        },
+        {
+          "cycle": 1560,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1563,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.41
+        },
+        {
+          "cycle": 1566,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.39
+        },
+        {
+          "cycle": 1568,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.38
+        },
+        {
+          "cycle": 1569,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.37
+        },
+        {
+          "cycle": 1574,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.35
+        },
+        {
+          "cycle": 1604,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.44
+        },
+        {
+          "cycle": 1606,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.45
+        },
+        {
+          "cycle": 1615,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.43
+        },
+        {
+          "cycle": 1621,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.43
+        },
+        {
+          "cycle": 1628,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.46
+        },
+        {
+          "cycle": 1651,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1672,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.29
+        },
+        {
+          "cycle": 1673,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.28
+        },
+        {
+          "cycle": 1679,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.33
+        },
+        {
+          "cycle": 1686,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.27
+        },
+        {
+          "cycle": 1692,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.24
+        },
+        {
+          "cycle": 1719,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.05
+        },
+        {
+          "cycle": 1730,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.01
+        },
+        {
+          "cycle": 1745,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.07
+        },
+        {
+          "cycle": 1746,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.06
+        },
+        {
+          "cycle": 1765,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.23
+        },
+        {
+          "cycle": 1771,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.28
+        },
+        {
+          "cycle": 1804,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.36
+        },
+        {
+          "cycle": 1850,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.44
+        },
+        {
+          "cycle": 1911,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.35
+        },
+        {
+          "cycle": 1964,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.41
+        },
+        {
+          "cycle": 1973,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.43
+        },
+        {
+          "cycle": 1988,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.45
+        },
+        {
+          "cycle": 2000,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.35
+        },
+        {
+          "cycle": 2026,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.31
+        },
+        {
+          "cycle": 2028,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.31
+        },
+        {
+          "cycle": 2055,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.27
+        },
+        {
+          "cycle": 2067,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.14
+        },
+        {
+          "cycle": 2070,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.16
+        },
+        {
+          "cycle": 2079,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.04
+        },
+        {
+          "cycle": 2103,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.07
+        },
+        {
+          "cycle": 2105,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.12
+        },
+        {
+          "cycle": 2117,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.15
+        },
+        {
+          "cycle": 2128,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.19
+        },
+        {
+          "cycle": 2130,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.2
+        },
+        {
+          "cycle": 2144,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.31
+        },
+        {
+          "cycle": 2171,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.36
+        },
+        {
+          "cycle": 2202,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.56
+        }
+      ]
+    },
+    {
+      "params": {
+        "k_sigma": 2,
+        "min_delta_c": 1,
+        "sustain_s": 1,
+        "smooth_s": 1
+      },
+      "baseline_cycles": 244,
+      "test_cycles": 180,
+      "tp": 120,
+      "fp": 4,
+      "fn": 0,
+      "tn": 56,
+      "miss_rate": 0.0,
+      "false_alarm_rate": 0.067,
+      "mean_delay_s": 0.0,
+      "rows": [
+        {
+          "cycle": 21,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 12.5
+        },
+        {
+          "cycle": 30,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 14.07
+        },
+        {
+          "cycle": 34,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 14.55
+        },
+        {
+          "cycle": 63,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 16.07
+        },
+        {
+          "cycle": 64,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 16.17
+        },
+        {
+          "cycle": 91,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.17
+        },
+        {
+          "cycle": 101,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.34
+        },
+        {
+          "cycle": 112,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.67
+        },
+        {
+          "cycle": 122,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.77
+        },
+        {
+          "cycle": 131,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.89
+        },
+        {
+          "cycle": 134,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.93
+        },
+        {
+          "cycle": 145,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.02
+        },
+        {
+          "cycle": 153,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.0
+        },
+        {
+          "cycle": 166,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.11
+        },
+        {
+          "cycle": 169,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.11
+        },
+        {
+          "cycle": 176,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.15
+        },
+        {
+          "cycle": 179,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.18
+        },
+        {
+          "cycle": 184,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.25
+        },
+        {
+          "cycle": 204,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.37
+        },
+        {
+          "cycle": 209,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.45
+        },
+        {
+          "cycle": 219,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.35
+        },
+        {
+          "cycle": 220,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.33
+        },
+        {
+          "cycle": 252,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.49
+        },
+        {
+          "cycle": 257,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.51
+        },
+        {
+          "cycle": 258,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 265,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.53
+        },
+        {
+          "cycle": 269,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 270,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.53
+        },
+        {
+          "cycle": 296,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.75
+        },
+        {
+          "cycle": 311,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 19.1
+        },
+        {
+          "cycle": 317,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 19.18
+        },
+        {
+          "cycle": 318,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 19.18
+        },
+        {
+          "cycle": 337,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.53
+        },
+        {
+          "cycle": 373,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.42
+        },
+        {
+          "cycle": 386,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.85
+        },
+        {
+          "cycle": 387,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.95
+        },
+        {
+          "cycle": 397,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.83
+        },
+        {
+          "cycle": 415,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.07
+        },
+        {
+          "cycle": 423,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.05
+        },
+        {
+          "cycle": 433,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.78
+        },
+        {
+          "cycle": 447,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.31
+        },
+        {
+          "cycle": 464,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.39
+        },
+        {
+          "cycle": 522,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.8
+        },
+        {
+          "cycle": 528,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.87
+        },
+        {
+          "cycle": 551,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.89
+        },
+        {
+          "cycle": 563,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.74
+        },
+        {
+          "cycle": 569,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.46
+        },
+        {
+          "cycle": 578,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.5
+        },
+        {
+          "cycle": 594,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.09
+        },
+        {
+          "cycle": 597,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.29
+        },
+        {
+          "cycle": 606,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.72
+        },
+        {
+          "cycle": 625,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.19
+        },
+        {
+          "cycle": 637,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.25
+        },
+        {
+          "cycle": 641,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.29
+        },
+        {
+          "cycle": 654,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.5
+        },
+        {
+          "cycle": 670,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.35
+        },
+        {
+          "cycle": 672,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.39
+        },
+        {
+          "cycle": 680,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.32
+        },
+        {
+          "cycle": 683,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.22
+        },
+        {
+          "cycle": 712,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.37
+        },
+        {
+          "cycle": 760,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 12.16
+        },
+        {
+          "cycle": 766,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.82
+        },
+        {
+          "cycle": 771,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.65
+        },
+        {
+          "cycle": 781,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.35
+        },
+        {
+          "cycle": 792,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.16
+        },
+        {
+          "cycle": 800,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.11
+        },
+        {
+          "cycle": 808,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.05
+        },
+        {
+          "cycle": 821,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.98
+        },
+        {
+          "cycle": 854,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.74
+        },
+        {
+          "cycle": 857,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.76
+        },
+        {
+          "cycle": 860,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.74
+        },
+        {
+          "cycle": 866,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.72
+        },
+        {
+          "cycle": 867,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.7
+        },
+        {
+          "cycle": 924,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.49
+        },
+        {
+          "cycle": 943,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.25
+        },
+        {
+          "cycle": 949,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.13
+        },
+        {
+          "cycle": 957,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.01
+        },
+        {
+          "cycle": 958,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.03
+        },
+        {
+          "cycle": 961,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.05
+        },
+        {
+          "cycle": 984,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.05
+        },
+        {
+          "cycle": 991,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.05
+        },
+        {
+          "cycle": 997,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.99
+        },
+        {
+          "cycle": 999,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.05
+        },
+        {
+          "cycle": 1004,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.92
+        },
+        {
+          "cycle": 1011,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.88
+        },
+        {
+          "cycle": 1018,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1023,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.82
+        },
+        {
+          "cycle": 1026,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1045,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1064,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.64
+        },
+        {
+          "cycle": 1070,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.56
+        },
+        {
+          "cycle": 1074,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.48
+        },
+        {
+          "cycle": 1086,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.06
+        },
+        {
+          "cycle": 1091,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.05
+        },
+        {
+          "cycle": 1101,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.0
+        },
+        {
+          "cycle": 1102,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.98
+        },
+        {
+          "cycle": 1117,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.97
+        },
+        {
+          "cycle": 1119,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.92
+        },
+        {
+          "cycle": 1174,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.74
+        },
+        {
+          "cycle": 1224,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.19
+        },
+        {
+          "cycle": 1236,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.21
+        },
+        {
+          "cycle": 1253,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.22
+        },
+        {
+          "cycle": 1256,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.22
+        },
+        {
+          "cycle": 1268,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.13
+        },
+        {
+          "cycle": 1284,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.16
+        },
+        {
+          "cycle": 1312,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.39
+        },
+        {
+          "cycle": 1316,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.46
+        },
+        {
+          "cycle": 1318,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.46
+        },
+        {
+          "cycle": 1324,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.47
+        },
+        {
+          "cycle": 1325,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.51
+        },
+        {
+          "cycle": 1327,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.49
+        },
+        {
+          "cycle": 1328,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.46
+        },
+        {
+          "cycle": 1346,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.12
+        },
+        {
+          "cycle": 1347,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.12
+        },
+        {
+          "cycle": 1375,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.17
+        },
+        {
+          "cycle": 1378,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.15
+        },
+        {
+          "cycle": 1397,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.16
+        },
+        {
+          "cycle": 1415,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.29
+        },
+        {
+          "cycle": 1434,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.63
+        },
+        {
+          "cycle": 1446,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.64
+        },
+        {
+          "cycle": 1467,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 5.51
+        },
+        {
+          "cycle": 1471,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 2.74
+        },
+        {
+          "cycle": 1475,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 1.4
+        },
+        {
+          "cycle": 1476,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 1.14
+        },
+        {
+          "cycle": 1483,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.16
+        },
+        {
+          "cycle": 1486,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.04
+        },
+        {
+          "cycle": 1487,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.11
+        },
+        {
+          "cycle": 1492,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.32
+        },
+        {
+          "cycle": 1493,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.36
+        },
+        {
+          "cycle": 1494,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.37
+        },
+        {
+          "cycle": 1498,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.43
+        },
+        {
+          "cycle": 1509,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.49
+        },
+        {
+          "cycle": 1514,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.51
+        },
+        {
+          "cycle": 1516,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.47
+        },
+        {
+          "cycle": 1524,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.53
+        },
+        {
+          "cycle": 1537,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.55
+        },
+        {
+          "cycle": 1560,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.44
+        },
+        {
+          "cycle": 1563,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.43
+        },
+        {
+          "cycle": 1566,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.41
+        },
+        {
+          "cycle": 1568,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.39
+        },
+        {
+          "cycle": 1569,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.39
+        },
+        {
+          "cycle": 1574,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.38
+        },
+        {
+          "cycle": 1604,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.47
+        },
+        {
+          "cycle": 1606,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.44
+        },
+        {
+          "cycle": 1615,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.46
+        },
+        {
+          "cycle": 1621,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.47
+        },
+        {
+          "cycle": 1628,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.5
+        },
+        {
+          "cycle": 1651,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1672,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.3
+        },
+        {
+          "cycle": 1673,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.3
+        },
+        {
+          "cycle": 1679,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.36
+        },
+        {
+          "cycle": 1686,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.24
+        },
+        {
+          "cycle": 1692,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.29
+        },
+        {
+          "cycle": 1719,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.1
+        },
+        {
+          "cycle": 1730,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.05
+        },
+        {
+          "cycle": 1745,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.04
+        },
+        {
+          "cycle": 1746,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.06
+        },
+        {
+          "cycle": 1765,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.21
+        },
+        {
+          "cycle": 1771,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.28
+        },
+        {
+          "cycle": 1804,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.36
+        },
+        {
+          "cycle": 1850,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.43
+        },
+        {
+          "cycle": 1911,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.31
+        },
+        {
+          "cycle": 1964,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.38
+        },
+        {
+          "cycle": 1973,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.44
+        },
+        {
+          "cycle": 1988,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.45
+        },
+        {
+          "cycle": 2000,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.33
+        },
+        {
+          "cycle": 2026,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.29
+        },
+        {
+          "cycle": 2028,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.28
+        },
+        {
+          "cycle": 2055,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.23
+        },
+        {
+          "cycle": 2067,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.13
+        },
+        {
+          "cycle": 2070,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.11
+        },
+        {
+          "cycle": 2079,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.07
+        },
+        {
+          "cycle": 2103,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.11
+        },
+        {
+          "cycle": 2105,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.13
+        },
+        {
+          "cycle": 2117,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.12
+        },
+        {
+          "cycle": 2128,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.21
+        },
+        {
+          "cycle": 2130,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.23
+        },
+        {
+          "cycle": 2144,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.33
+        },
+        {
+          "cycle": 2171,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.4
+        },
+        {
+          "cycle": 2202,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.59
+        }
+      ]
+    },
+    {
+      "params": {
+        "k_sigma": 4,
+        "min_delta_c": 3,
+        "sustain_s": 1,
+        "smooth_s": 5
+      },
+      "baseline_cycles": 244,
+      "test_cycles": 180,
+      "tp": 120,
+      "fp": 1,
+      "fn": 0,
+      "tn": 59,
+      "miss_rate": 0.0,
+      "false_alarm_rate": 0.017,
+      "mean_delay_s": 0.0,
+      "rows": [
+        {
+          "cycle": 21,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 12.46
+        },
+        {
+          "cycle": 30,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 14.06
+        },
+        {
+          "cycle": 34,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 14.52
+        },
+        {
+          "cycle": 63,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 16.07
+        },
+        {
+          "cycle": 64,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 16.16
+        },
+        {
+          "cycle": 91,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.14
+        },
+        {
+          "cycle": 101,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.36
+        },
+        {
+          "cycle": 112,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.64
+        },
+        {
+          "cycle": 122,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.75
+        },
+        {
+          "cycle": 131,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.87
+        },
+        {
+          "cycle": 134,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.87
+        },
+        {
+          "cycle": 145,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.98
+        },
+        {
+          "cycle": 153,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 17.97
+        },
+        {
+          "cycle": 166,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.09
+        },
+        {
+          "cycle": 169,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.1
+        },
+        {
+          "cycle": 176,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.14
+        },
+        {
+          "cycle": 179,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.17
+        },
+        {
+          "cycle": 184,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.22
+        },
+        {
+          "cycle": 204,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.36
+        },
+        {
+          "cycle": 209,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.42
+        },
+        {
+          "cycle": 219,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.31
+        },
+        {
+          "cycle": 220,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.31
+        },
+        {
+          "cycle": 252,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.53
+        },
+        {
+          "cycle": 257,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 258,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 265,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.52
+        },
+        {
+          "cycle": 269,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 270,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.52
+        },
+        {
+          "cycle": 296,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.76
+        },
+        {
+          "cycle": 311,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 19.09
+        },
+        {
+          "cycle": 317,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 19.16
+        },
+        {
+          "cycle": 318,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 19.16
+        },
+        {
+          "cycle": 337,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 18.6
+        },
+        {
+          "cycle": 373,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.39
+        },
+        {
+          "cycle": 386,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.91
+        },
+        {
+          "cycle": 387,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.93
+        },
+        {
+          "cycle": 397,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.88
+        },
+        {
+          "cycle": 415,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.1
+        },
+        {
+          "cycle": 423,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.08
+        },
+        {
+          "cycle": 433,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.85
+        },
+        {
+          "cycle": 447,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.35
+        },
+        {
+          "cycle": 464,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.34
+        },
+        {
+          "cycle": 522,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.83
+        },
+        {
+          "cycle": 528,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.9
+        },
+        {
+          "cycle": 551,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.93
+        },
+        {
+          "cycle": 563,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.76
+        },
+        {
+          "cycle": 569,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.51
+        },
+        {
+          "cycle": 578,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.44
+        },
+        {
+          "cycle": 594,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.12
+        },
+        {
+          "cycle": 597,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.23
+        },
+        {
+          "cycle": 606,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.69
+        },
+        {
+          "cycle": 625,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.22
+        },
+        {
+          "cycle": 637,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.3
+        },
+        {
+          "cycle": 641,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.37
+        },
+        {
+          "cycle": 654,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.57
+        },
+        {
+          "cycle": 670,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.39
+        },
+        {
+          "cycle": 672,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.42
+        },
+        {
+          "cycle": 680,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.36
+        },
+        {
+          "cycle": 683,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 21.26
+        },
+        {
+          "cycle": 712,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 20.36
+        },
+        {
+          "cycle": 760,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 12.17
+        },
+        {
+          "cycle": 766,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.81
+        },
+        {
+          "cycle": 771,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.64
+        },
+        {
+          "cycle": 781,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.41
+        },
+        {
+          "cycle": 792,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.21
+        },
+        {
+          "cycle": 800,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.09
+        },
+        {
+          "cycle": 808,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 11.03
+        },
+        {
+          "cycle": 821,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.99
+        },
+        {
+          "cycle": 854,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.8
+        },
+        {
+          "cycle": 857,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.74
+        },
+        {
+          "cycle": 860,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.74
+        },
+        {
+          "cycle": 866,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.72
+        },
+        {
+          "cycle": 867,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.68
+        },
+        {
+          "cycle": 924,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.48
+        },
+        {
+          "cycle": 943,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.3
+        },
+        {
+          "cycle": 949,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.15
+        },
+        {
+          "cycle": 957,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.01
+        },
+        {
+          "cycle": 958,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.05
+        },
+        {
+          "cycle": 961,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.09
+        },
+        {
+          "cycle": 984,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.07
+        },
+        {
+          "cycle": 991,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.09
+        },
+        {
+          "cycle": 997,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.99
+        },
+        {
+          "cycle": 999,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 10.01
+        },
+        {
+          "cycle": 1004,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.92
+        },
+        {
+          "cycle": 1011,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.92
+        },
+        {
+          "cycle": 1018,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.82
+        },
+        {
+          "cycle": 1023,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1026,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1045,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1064,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.61
+        },
+        {
+          "cycle": 1070,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.55
+        },
+        {
+          "cycle": 1074,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.5
+        },
+        {
+          "cycle": 1086,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.08
+        },
+        {
+          "cycle": 1091,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.05
+        },
+        {
+          "cycle": 1101,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.01
+        },
+        {
+          "cycle": 1102,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 9.02
+        },
+        {
+          "cycle": 1117,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.91
+        },
+        {
+          "cycle": 1119,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.89
+        },
+        {
+          "cycle": 1174,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.79
+        },
+        {
+          "cycle": 1224,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.2
+        },
+        {
+          "cycle": 1236,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.23
+        },
+        {
+          "cycle": 1253,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.22
+        },
+        {
+          "cycle": 1256,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.27
+        },
+        {
+          "cycle": 1268,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.14
+        },
+        {
+          "cycle": 1284,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.19
+        },
+        {
+          "cycle": 1312,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.39
+        },
+        {
+          "cycle": 1316,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.45
+        },
+        {
+          "cycle": 1318,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.48
+        },
+        {
+          "cycle": 1324,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.47
+        },
+        {
+          "cycle": 1325,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.47
+        },
+        {
+          "cycle": 1327,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.51
+        },
+        {
+          "cycle": 1328,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.48
+        },
+        {
+          "cycle": 1346,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.18
+        },
+        {
+          "cycle": 1347,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.13
+        },
+        {
+          "cycle": 1375,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.18
+        },
+        {
+          "cycle": 1378,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.2
+        },
+        {
+          "cycle": 1397,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.19
+        },
+        {
+          "cycle": 1415,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.26
+        },
+        {
+          "cycle": 1434,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.62
+        },
+        {
+          "cycle": 1446,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 8.67
+        },
+        {
+          "cycle": 1467,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": true,
+          "delay_s": 0,
+          "max_residual": 5.46
+        },
+        {
+          "cycle": 1471,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 2.75
+        },
+        {
+          "cycle": 1475,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 1.39
+        },
+        {
+          "cycle": 1476,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 1.15
+        },
+        {
+          "cycle": 1483,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.2
+        },
+        {
+          "cycle": 1486,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.0
+        },
+        {
+          "cycle": 1487,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.09
+        },
+        {
+          "cycle": 1492,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.28
+        },
+        {
+          "cycle": 1493,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.3
+        },
+        {
+          "cycle": 1494,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.33
+        },
+        {
+          "cycle": 1498,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1509,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.51
+        },
+        {
+          "cycle": 1514,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.49
+        },
+        {
+          "cycle": 1516,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.49
+        },
+        {
+          "cycle": 1524,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.5
+        },
+        {
+          "cycle": 1537,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.54
+        },
+        {
+          "cycle": 1560,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1563,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.41
+        },
+        {
+          "cycle": 1566,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.39
+        },
+        {
+          "cycle": 1568,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.38
+        },
+        {
+          "cycle": 1569,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.37
+        },
+        {
+          "cycle": 1574,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.35
+        },
+        {
+          "cycle": 1604,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.44
+        },
+        {
+          "cycle": 1606,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.45
+        },
+        {
+          "cycle": 1615,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.43
+        },
+        {
+          "cycle": 1621,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.43
+        },
+        {
+          "cycle": 1628,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.46
+        },
+        {
+          "cycle": 1651,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1672,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.29
+        },
+        {
+          "cycle": 1673,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.28
+        },
+        {
+          "cycle": 1679,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.33
+        },
+        {
+          "cycle": 1686,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.27
+        },
+        {
+          "cycle": 1692,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.24
+        },
+        {
+          "cycle": 1719,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.05
+        },
+        {
+          "cycle": 1730,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.01
+        },
+        {
+          "cycle": 1745,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.07
+        },
+        {
+          "cycle": 1746,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.06
+        },
+        {
+          "cycle": 1765,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.23
+        },
+        {
+          "cycle": 1771,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.28
+        },
+        {
+          "cycle": 1804,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.36
+        },
+        {
+          "cycle": 1850,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.44
+        },
+        {
+          "cycle": 1911,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.35
+        },
+        {
+          "cycle": 1964,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.41
+        },
+        {
+          "cycle": 1973,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.43
+        },
+        {
+          "cycle": 1988,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.45
+        },
+        {
+          "cycle": 2000,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.35
+        },
+        {
+          "cycle": 2026,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.31
+        },
+        {
+          "cycle": 2028,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.31
+        },
+        {
+          "cycle": 2055,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.27
+        },
+        {
+          "cycle": 2067,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.14
+        },
+        {
+          "cycle": 2070,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.16
+        },
+        {
+          "cycle": 2079,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.04
+        },
+        {
+          "cycle": 2103,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.07
+        },
+        {
+          "cycle": 2105,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.12
+        },
+        {
+          "cycle": 2117,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.15
+        },
+        {
+          "cycle": 2128,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.19
+        },
+        {
+          "cycle": 2130,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.2
+        },
+        {
+          "cycle": 2144,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.31
+        },
+        {
+          "cycle": 2171,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.36
+        },
+        {
+          "cycle": 2202,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.56
+        }
+      ]
+    },
+    {
+      "params": {
+        "k_sigma": 4,
+        "min_delta_c": 3,
+        "sustain_s": 20,
+        "smooth_s": 5
+      },
+      "baseline_cycles": 244,
+      "test_cycles": 180,
+      "tp": 120,
+      "fp": 1,
+      "fn": 0,
+      "tn": 59,
+      "miss_rate": 0.0,
+      "false_alarm_rate": 0.017,
+      "mean_delay_s": 19.0,
+      "rows": [
+        {
+          "cycle": 21,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 12.46
+        },
+        {
+          "cycle": 30,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 14.06
+        },
+        {
+          "cycle": 34,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 14.52
+        },
+        {
+          "cycle": 63,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 16.07
+        },
+        {
+          "cycle": 64,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 16.16
+        },
+        {
+          "cycle": 91,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 17.14
+        },
+        {
+          "cycle": 101,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 17.36
+        },
+        {
+          "cycle": 112,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 17.64
+        },
+        {
+          "cycle": 122,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 17.75
+        },
+        {
+          "cycle": 131,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 17.87
+        },
+        {
+          "cycle": 134,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 17.87
+        },
+        {
+          "cycle": 145,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 17.98
+        },
+        {
+          "cycle": 153,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 17.97
+        },
+        {
+          "cycle": 166,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.09
+        },
+        {
+          "cycle": 169,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.1
+        },
+        {
+          "cycle": 176,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.14
+        },
+        {
+          "cycle": 179,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.17
+        },
+        {
+          "cycle": 184,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.22
+        },
+        {
+          "cycle": 204,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.36
+        },
+        {
+          "cycle": 209,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.42
+        },
+        {
+          "cycle": 219,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.31
+        },
+        {
+          "cycle": 220,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.31
+        },
+        {
+          "cycle": 252,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.53
+        },
+        {
+          "cycle": 257,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 258,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 265,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.52
+        },
+        {
+          "cycle": 269,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.54
+        },
+        {
+          "cycle": 270,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.52
+        },
+        {
+          "cycle": 296,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.76
+        },
+        {
+          "cycle": 311,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 19.09
+        },
+        {
+          "cycle": 317,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 19.16
+        },
+        {
+          "cycle": 318,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 19.16
+        },
+        {
+          "cycle": 337,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 18.6
+        },
+        {
+          "cycle": 373,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.39
+        },
+        {
+          "cycle": 386,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.91
+        },
+        {
+          "cycle": 387,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.93
+        },
+        {
+          "cycle": 397,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.88
+        },
+        {
+          "cycle": 415,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.1
+        },
+        {
+          "cycle": 423,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.08
+        },
+        {
+          "cycle": 433,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.85
+        },
+        {
+          "cycle": 447,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.35
+        },
+        {
+          "cycle": 464,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.34
+        },
+        {
+          "cycle": 522,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.83
+        },
+        {
+          "cycle": 528,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.9
+        },
+        {
+          "cycle": 551,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.93
+        },
+        {
+          "cycle": 563,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.76
+        },
+        {
+          "cycle": 569,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.51
+        },
+        {
+          "cycle": 578,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.44
+        },
+        {
+          "cycle": 594,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.12
+        },
+        {
+          "cycle": 597,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.23
+        },
+        {
+          "cycle": 606,
+          "cooler_pct": 3,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.69
+        },
+        {
+          "cycle": 625,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.22
+        },
+        {
+          "cycle": 637,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.3
+        },
+        {
+          "cycle": 641,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.37
+        },
+        {
+          "cycle": 654,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.57
+        },
+        {
+          "cycle": 670,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.39
+        },
+        {
+          "cycle": 672,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.42
+        },
+        {
+          "cycle": 680,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.36
+        },
+        {
+          "cycle": 683,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 21.26
+        },
+        {
+          "cycle": 712,
+          "cooler_pct": 3,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 20.36
+        },
+        {
+          "cycle": 760,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 12.17
+        },
+        {
+          "cycle": 766,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 11.81
+        },
+        {
+          "cycle": 771,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 11.64
+        },
+        {
+          "cycle": 781,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 11.41
+        },
+        {
+          "cycle": 792,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 11.21
+        },
+        {
+          "cycle": 800,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 11.09
+        },
+        {
+          "cycle": 808,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 11.03
+        },
+        {
+          "cycle": 821,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.99
+        },
+        {
+          "cycle": 854,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.8
+        },
+        {
+          "cycle": 857,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.74
+        },
+        {
+          "cycle": 860,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.74
+        },
+        {
+          "cycle": 866,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.72
+        },
+        {
+          "cycle": 867,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.68
+        },
+        {
+          "cycle": 924,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.48
+        },
+        {
+          "cycle": 943,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.3
+        },
+        {
+          "cycle": 949,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.15
+        },
+        {
+          "cycle": 957,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.01
+        },
+        {
+          "cycle": 958,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.05
+        },
+        {
+          "cycle": 961,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.09
+        },
+        {
+          "cycle": 984,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.07
+        },
+        {
+          "cycle": 991,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.09
+        },
+        {
+          "cycle": 997,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.99
+        },
+        {
+          "cycle": 999,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 10.01
+        },
+        {
+          "cycle": 1004,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.92
+        },
+        {
+          "cycle": 1011,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.92
+        },
+        {
+          "cycle": 1018,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.82
+        },
+        {
+          "cycle": 1023,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1026,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1045,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.81
+        },
+        {
+          "cycle": 1064,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.61
+        },
+        {
+          "cycle": 1070,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.55
+        },
+        {
+          "cycle": 1074,
+          "cooler_pct": 20,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.5
+        },
+        {
+          "cycle": 1086,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.08
+        },
+        {
+          "cycle": 1091,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.05
+        },
+        {
+          "cycle": 1101,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.01
+        },
+        {
+          "cycle": 1102,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 9.02
+        },
+        {
+          "cycle": 1117,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.91
+        },
+        {
+          "cycle": 1119,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.89
+        },
+        {
+          "cycle": 1174,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.79
+        },
+        {
+          "cycle": 1224,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.2
+        },
+        {
+          "cycle": 1236,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.23
+        },
+        {
+          "cycle": 1253,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.22
+        },
+        {
+          "cycle": 1256,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.27
+        },
+        {
+          "cycle": 1268,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.14
+        },
+        {
+          "cycle": 1284,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.19
+        },
+        {
+          "cycle": 1312,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.39
+        },
+        {
+          "cycle": 1316,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.45
+        },
+        {
+          "cycle": 1318,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.48
+        },
+        {
+          "cycle": 1324,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.47
+        },
+        {
+          "cycle": 1325,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.47
+        },
+        {
+          "cycle": 1327,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.51
+        },
+        {
+          "cycle": 1328,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.48
+        },
+        {
+          "cycle": 1346,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.18
+        },
+        {
+          "cycle": 1347,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.13
+        },
+        {
+          "cycle": 1375,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.18
+        },
+        {
+          "cycle": 1378,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.2
+        },
+        {
+          "cycle": 1397,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.19
+        },
+        {
+          "cycle": 1415,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.26
+        },
+        {
+          "cycle": 1434,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.62
+        },
+        {
+          "cycle": 1446,
+          "cooler_pct": 20,
+          "stable": true,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 8.67
+        },
+        {
+          "cycle": 1467,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": true,
+          "delay_s": 19,
+          "max_residual": 5.46
+        },
+        {
+          "cycle": 1471,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 2.75
+        },
+        {
+          "cycle": 1475,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 1.39
+        },
+        {
+          "cycle": 1476,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 1.15
+        },
+        {
+          "cycle": 1483,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.2
+        },
+        {
+          "cycle": 1486,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.0
+        },
+        {
+          "cycle": 1487,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.09
+        },
+        {
+          "cycle": 1492,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.28
+        },
+        {
+          "cycle": 1493,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.3
+        },
+        {
+          "cycle": 1494,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.33
+        },
+        {
+          "cycle": 1498,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1509,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.51
+        },
+        {
+          "cycle": 1514,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.49
+        },
+        {
+          "cycle": 1516,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.49
+        },
+        {
+          "cycle": 1524,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.5
+        },
+        {
+          "cycle": 1537,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.54
+        },
+        {
+          "cycle": 1560,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1563,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.41
+        },
+        {
+          "cycle": 1566,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.39
+        },
+        {
+          "cycle": 1568,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.38
+        },
+        {
+          "cycle": 1569,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.37
+        },
+        {
+          "cycle": 1574,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.35
+        },
+        {
+          "cycle": 1604,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.44
+        },
+        {
+          "cycle": 1606,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.45
+        },
+        {
+          "cycle": 1615,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.43
+        },
+        {
+          "cycle": 1621,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.43
+        },
+        {
+          "cycle": 1628,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.46
+        },
+        {
+          "cycle": 1651,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.42
+        },
+        {
+          "cycle": 1672,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.29
+        },
+        {
+          "cycle": 1673,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.28
+        },
+        {
+          "cycle": 1679,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.33
+        },
+        {
+          "cycle": 1686,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.27
+        },
+        {
+          "cycle": 1692,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.24
+        },
+        {
+          "cycle": 1719,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.05
+        },
+        {
+          "cycle": 1730,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.01
+        },
+        {
+          "cycle": 1745,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.07
+        },
+        {
+          "cycle": 1746,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.06
+        },
+        {
+          "cycle": 1765,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.23
+        },
+        {
+          "cycle": 1771,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.28
+        },
+        {
+          "cycle": 1804,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.36
+        },
+        {
+          "cycle": 1850,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.44
+        },
+        {
+          "cycle": 1911,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.35
+        },
+        {
+          "cycle": 1964,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.41
+        },
+        {
+          "cycle": 1973,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.43
+        },
+        {
+          "cycle": 1988,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.45
+        },
+        {
+          "cycle": 2000,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.35
+        },
+        {
+          "cycle": 2026,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.31
+        },
+        {
+          "cycle": 2028,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.31
+        },
+        {
+          "cycle": 2055,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.27
+        },
+        {
+          "cycle": 2067,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.14
+        },
+        {
+          "cycle": 2070,
+          "cooler_pct": 100,
+          "stable": false,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": 0.16
+        },
+        {
+          "cycle": 2079,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.04
+        },
+        {
+          "cycle": 2103,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.07
+        },
+        {
+          "cycle": 2105,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.12
+        },
+        {
+          "cycle": 2117,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.15
+        },
+        {
+          "cycle": 2128,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.19
+        },
+        {
+          "cycle": 2130,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.2
+        },
+        {
+          "cycle": 2144,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.31
+        },
+        {
+          "cycle": 2171,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.36
+        },
+        {
+          "cycle": 2202,
+          "cooler_pct": 100,
+          "stable": true,
+          "pred": false,
+          "delay_s": null,
+          "max_residual": -0.56
+        }
+      ]
+    }
+  ],
+  "split_seed": 2026,
+  "baseline_ids": [
+    1675,
+    1676,
+    1678,
+    1680,
+    1681,
+    1684,
+    1687,
+    1689,
+    1690,
+    1695,
+    1697,
+    1699,
+    1700,
+    1701,
+    1705,
+    1707,
+    1708,
+    1709,
+    1710,
+    1713,
+    1716,
+    1717,
+    1718,
+    1720,
+    1722,
+    1725,
+    1729,
+    1734,
+    1736,
+    1739,
+    1740,
+    1741,
+    1749,
+    1750,
+    1752,
+    1754,
+    1755,
+    1757,
+    1763,
+    1767,
+    1768,
+    1770,
+    1772,
+    1774,
+    1775,
+    1780,
+    1782,
+    1785,
+    1786,
+    1788,
+    1789,
+    1791,
+    1794,
+    1795,
+    1808,
+    1812,
+    1813,
+    1816,
+    1817,
+    1818,
+    1819,
+    1820,
+    1821,
+    1823,
+    1824,
+    1826,
+    1829,
+    1830,
+    1831,
+    1834,
+    1835,
+    1837,
+    1838,
+    1840,
+    1843,
+    1846,
+    1847,
+    1851,
+    1852,
+    1853,
+    1855,
+    1860,
+    1861,
+    1863,
+    1866,
+    1868,
+    1870,
+    1871,
+    1874,
+    1876,
+    1878,
+    1879,
+    1881,
+    1884,
+    1885,
+    1890,
+    1891,
+    1893,
+    1894,
+    1895,
+    1897,
+    1899,
+    1902,
+    1903,
+    1905,
+    1909,
+    1913,
+    1914,
+    1917,
+    1918,
+    1923,
+    1924,
+    1925,
+    1928,
+    1929,
+    1942,
+    1943,
+    1945,
+    1947,
+    1948,
+    1949,
+    1951,
+    1952,
+    1953,
+    1954,
+    1959,
+    1962,
+    1965,
+    1966,
+    1967,
+    1968,
+    1969,
+    1971,
+    1972,
+    1975,
+    1978,
+    1979,
+    1980,
+    1983,
+    1984,
+    1987,
+    1990,
+    1991,
+    1992,
+    1995,
+    1997,
+    1998,
+    2002,
+    2004,
+    2006,
+    2008,
+    2013,
+    2015,
+    2016,
+    2020,
+    2021,
+    2024,
+    2030,
+    2031,
+    2032,
+    2037,
+    2038,
+    2040,
+    2042,
+    2043,
+    2044,
+    2046,
+    2047,
+    2049,
+    2051,
+    2052,
+    2053,
+    2056,
+    2057,
+    2058,
+    2062,
+    2074,
+    2075,
+    2077,
+    2078,
+    2080,
+    2086,
+    2087,
+    2089,
+    2090,
+    2091,
+    2092,
+    2093,
+    2094,
+    2098,
+    2099,
+    2100,
+    2104,
+    2106,
+    2109,
+    2111,
+    2116,
+    2119,
+    2121,
+    2122,
+    2126,
+    2132,
+    2133,
+    2134,
+    2136,
+    2138,
+    2140,
+    2145,
+    2148,
+    2149,
+    2151,
+    2152,
+    2153,
+    2156,
+    2158,
+    2159,
+    2160,
+    2161,
+    2163,
+    2165,
+    2166,
+    2167,
+    2168,
+    2169,
+    2170,
+    2172,
+    2176,
+    2177,
+    2178,
+    2180,
+    2181,
+    2182,
+    2183,
+    2186,
+    2188,
+    2190,
+    2191,
+    2192,
+    2193,
+    2195,
+    2196,
+    2197,
+    2200,
+    2203
+  ],
+  "test_ids": [
+    21,
+    30,
+    34,
+    63,
+    64,
+    91,
+    101,
+    112,
+    122,
+    131,
+    134,
+    145,
+    153,
+    166,
+    169,
+    176,
+    179,
+    184,
+    204,
+    209,
+    219,
+    220,
+    252,
+    257,
+    258,
+    265,
+    269,
+    270,
+    296,
+    311,
+    317,
+    318,
+    337,
+    373,
+    386,
+    387,
+    397,
+    415,
+    423,
+    433,
+    447,
+    464,
+    522,
+    528,
+    551,
+    563,
+    569,
+    578,
+    594,
+    597,
+    606,
+    625,
+    637,
+    641,
+    654,
+    670,
+    672,
+    680,
+    683,
+    712,
+    760,
+    766,
+    771,
+    781,
+    792,
+    800,
+    808,
+    821,
+    854,
+    857,
+    860,
+    866,
+    867,
+    924,
+    943,
+    949,
+    957,
+    958,
+    961,
+    984,
+    991,
+    997,
+    999,
+    1004,
+    1011,
+    1018,
+    1023,
+    1026,
+    1045,
+    1064,
+    1070,
+    1074,
+    1086,
+    1091,
+    1101,
+    1102,
+    1117,
+    1119,
+    1174,
+    1224,
+    1236,
+    1253,
+    1256,
+    1268,
+    1284,
+    1312,
+    1316,
+    1318,
+    1324,
+    1325,
+    1327,
+    1328,
+    1346,
+    1347,
+    1375,
+    1378,
+    1397,
+    1415,
+    1434,
+    1446,
+    1467,
+    1471,
+    1475,
+    1476,
+    1483,
+    1486,
+    1487,
+    1492,
+    1493,
+    1494,
+    1498,
+    1509,
+    1514,
+    1516,
+    1524,
+    1537,
+    1560,
+    1563,
+    1566,
+    1568,
+    1569,
+    1574,
+    1604,
+    1606,
+    1615,
+    1621,
+    1628,
+    1651,
+    1672,
+    1673,
+    1679,
+    1686,
+    1692,
+    1719,
+    1730,
+    1745,
+    1746,
+    1765,
+    1771,
+    1804,
+    1850,
+    1911,
+    1964,
+    1973,
+    1988,
+    2000,
+    2026,
+    2028,
+    2055,
+    2067,
+    2070,
+    2079,
+    2103,
+    2105,
+    2117,
+    2128,
+    2130,
+    2144,
+    2171,
+    2202
+  ],
+  "test_ids_sha256": "2bb1593b85bc83a9cf613bceceb3f4b0854ba9b25b022e9363e44be382e3d61d",
+  "dataset_files": {
+    "reduced/hydraulic_1s.npz": "26ac972355e32bb247f716dd6d962046b129ee822890501a2f82bed1edbff79e",
+    "reduced/profile.csv": "8893eedf247dcddfb0912babfd198b747817c0ee0383d556506f532b528991d8"
+  },
+  "files": [
+    {
+      "path": "1일차/완성본/integrated/S01_sensor_flow.ipynb",
+      "sha256": "a2ed100ca94f46a8254eed1d4a3b1ae8b46807526169e6bc32a979be15fd8b0e"
+    },
+    {
+      "path": "1일차/완성본/integrated/conftest.py",
+      "sha256": "f99312a17fbcb074e8b1354a5ecb8b3e21b71a5f6d0606b731ed9a99d6925570"
+    },
+    {
+      "path": "1일차/완성본/integrated/test_check.py",
+      "sha256": "c7858c7986a2f456a2d283aa665965a84db26160387d94d32c0008eeaf297a15"
+    },
+    {
+      "path": "1일차/완성본/practical/conftest.py",
+      "sha256": "f99312a17fbcb074e8b1354a5ecb8b3e21b71a5f6d0606b731ed9a99d6925570"
+    },
+    {
+      "path": "1일차/완성본/practical/mapping.py",
+      "sha256": "5f931fc752e99940f237b417da257502e4ae9b2288a4311c4ad19bf979e11d3a"
+    },
+    {
+      "path": "1일차/완성본/practical/test_check.py",
+      "sha256": "bbf61a4df0486d41b3ae8d09ba0153edf887573ee07b162105cf7f664ca7e556"
+    },
+    {
+      "path": "2일차/완성본/integrated/conftest.py",
+      "sha256": "f99312a17fbcb074e8b1354a5ecb8b3e21b71a5f6d0606b731ed9a99d6925570"
+    },
+    {
+      "path": "2일차/완성본/integrated/quality_lab.py",
+      "sha256": "5deb98bdfefb77cd90afed9c3592870fb2d6b93934bc201867ba88243487fd26"
+    },
+    {
+      "path": "2일차/완성본/integrated/test_check.py",
+      "sha256": "71e4e7bf54604000d39e97d41cb8eb36ebb7c709d9dc95602550a543cd84e5da"
+    },
+    {
+      "path": "2일차/완성본/practical/conftest.py",
+      "sha256": "f99312a17fbcb074e8b1354a5ecb8b3e21b71a5f6d0606b731ed9a99d6925570"
+    },
+    {
+      "path": "2일차/완성본/practical/quality.py",
+      "sha256": "9ff8e690cfb334f86d124686c7874e83c0836233ca5f8043e11f0086c0634796"
+    },
+    {
+      "path": "2일차/완성본/practical/test_check.py",
+      "sha256": "01dc20e101aa8d8584aac88f72a96402a733d18e10770bee1a4633d113e2494e"
+    },
+    {
+      "path": "3일차/완성본/integrated/conftest.py",
+      "sha256": "f99312a17fbcb074e8b1354a5ecb8b3e21b71a5f6d0606b731ed9a99d6925570"
+    },
+    {
+      "path": "3일차/완성본/integrated/graph_lab.py",
+      "sha256": "27fd999ae631ad60f3ef95548cfefe441ea3850b6207c4edaaafba70c392c5ea"
+    },
+    {
+      "path": "3일차/완성본/integrated/test_check.py",
+      "sha256": "da8fbad6fd801cb8ec972f4cb87ecc53206f72e0ea61570efbc7a9f89041e528"
+    },
+    {
+      "path": "3일차/완성본/practical/conftest.py",
+      "sha256": "f99312a17fbcb074e8b1354a5ecb8b3e21b71a5f6d0606b731ed9a99d6925570"
+    },
+    {
+      "path": "3일차/완성본/practical/context_queries.py",
+      "sha256": "4c62518856e904f67e5264d454e35b3a7307aa30f594cdac4d0106146c5f419a"
+    },
+    {
+      "path": "3일차/완성본/practical/test_check.py",
+      "sha256": "6845ddf28aa0ae7b74f316122f1909a0d97390943c785df3d8019e5a66432183"
+    },
+    {
+      "path": "4일차/완성본/integrated/conftest.py",
+      "sha256": "f99312a17fbcb074e8b1354a5ecb8b3e21b71a5f6d0606b731ed9a99d6925570"
+    },
+    {
+      "path": "4일차/완성본/integrated/detect_config.py",
+      "sha256": "378e33e36f64b3ab3fbcceee637a397b36af61483855042809683669657396dc"
+    },
+    {
+      "path": "4일차/완성본/integrated/event_types.py",
+      "sha256": "d30a97f9f2f4eba02d4113c61f7d39d6c1a799d18303c3d9e0ab04aeb98e0981"
+    },
+    {
+      "path": "4일차/완성본/integrated/test_check.py",
+      "sha256": "7c4221aefc55decd06648b6d076841eb1ca47fbf07a98e3f449d2b78d81bcfeb"
+    },
+    {
+      "path": "4일차/완성본/practical/conftest.py",
+      "sha256": "f99312a17fbcb074e8b1354a5ecb8b3e21b71a5f6d0606b731ed9a99d6925570"
+    },
+    {
+      "path": "4일차/완성본/practical/detector_lab.py",
+      "sha256": "76f471a66a2ba9ab05813f11514d372751d11873f93f4c0076156f4f33c17b84"
+    },
+    {
+      "path": "4일차/완성본/practical/test_check.py",
+      "sha256": "2b369d4ccbad81edc2dbbd90e5857eaa50de875ec2910297a78f36af8ccd56e3"
+    }
+  ],
+  "run": {
+    "run_id": "LAB-S03-EVIDENCE-4b711b98",
+    "source": "simulator",
+    "seed": 42,
+    "scenario": "lab-s03-citation-prerequisite",
+    "started_at": "2026-09-15 08:42:13.591678+00:00",
+    "note": "교육용 합성 데이터"
+  },
+  "events": [
+    {
+      "event_id": "EVT-20270126-090043-HYD-01-e51b",
+      "run_id": "LAB-S03-EVIDENCE-4b711b98",
+      "asset_id": "HYD-01",
+      "event_type": "COOLING_ANOMALY",
+      "window_start": "2027-01-26 09:00:43+00:00",
+      "window_end": "2027-01-26 09:00:52+00:00",
+      "rule_version": "temp-sustain-v1",
+      "evidence": {
+        "rule": "temp-sustain-v1",
+        "max_c": 63.78,
+        "mean_c": 62.1,
+        "sensor": "TS1",
+        "sustain_s": 10,
+        "threshold_c": 60.0,
+        "valid_samples": 10
+      },
+      "status": "PENDING_APPROVAL",
+      "status_reason": null,
+      "proposal": {
+        "mode": "offline",
+        "model": "offline-skill-runner",
+        "event_id": "EVT-20270126-090043-HYD-01-e51b",
+        "proposal": {
+          "value": 0.8,
+          "decision": "PROPOSE",
+          "action_id": "REDUCE_LOAD",
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "4",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "2",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "section": "2",
+              "version": 1
+            }
+          ],
+          "rationale": "유효 온도가 60.0°C 초과로 10초 이상 지속되었다. 적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "tool_trace": [
+          {
+            "args": {
+              "seconds": 60,
+              "asset_id": "HYD-01"
+            },
+            "tool": "get_recent_window",
+            "result_summary": {
+              "valid_max": 63.78,
+              "valid_mean": 50.33,
+              "valid_ratio": 1.0,
+              "sensor_state": "VALID",
+              "longest_valid_above_alarm_s": 10
+            }
+          },
+          {
+            "args": {
+              "asset_id": "HYD-01"
+            },
+            "tool": "get_asset_context",
+            "result_summary": {
+              "sops": [
+                "SOP-COOL-001 v2",
+                "SOP-ESC-001 v1",
+                "SOP-LOAD-001 v1",
+                "SOP-VER-001 v1",
+                "SOP-SEN-001 v1"
+              ],
+              "allowed": [
+                "REDUCE_LOAD",
+                "ESCALATE",
+                "SENSOR_CHECK"
+              ]
+            }
+          },
+          {
+            "args": {
+              "query": "",
+              "asset_id": "HYD-01",
+              "event_type": "COOLING_ANOMALY"
+            },
+            "tool": "search_sop",
+            "result_summary": [
+              "SOP-COOL-001 v2 §4 허용 조치",
+              "SOP-COOL-001 v2 §2 발동 조건",
+              "SOP-VER-001 v1 §2 발동 조건",
+              "SOP-ESC-001 v1 §2 발동 조건",
+              "SOP-LOAD-001 v1 §2 발동 조건"
+            ]
+          },
+          {
+            "args": {
+              "value": 0.8,
+              "event_id": "EVT-20270126-090043-HYD-01-e51b",
+              "action_id": "REDUCE_LOAD",
+              "citations": [
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "section": "4",
+                  "version": 2
+                },
+                {
+                  "doc_id": "SOP-COOL-001",
+                  "section": "2",
+                  "version": 2
+                },
+                {
+                  "doc_id": "SOP-VER-001",
+                  "section": "2",
+                  "version": 1
+                }
+              ]
+            },
+            "tool": "propose_action",
+            "result_summary": {
+              "ok": true,
+              "failed": []
+            }
+          }
+        ],
+        "raw_proposal": {
+          "value": 0.8,
+          "decision": "PROPOSE",
+          "action_id": "REDUCE_LOAD",
+          "citations": [
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "4",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-COOL-001",
+              "section": "2",
+              "version": 2
+            },
+            {
+              "doc_id": "SOP-VER-001",
+              "section": "2",
+              "version": 1
+            }
+          ],
+          "rationale": "유효 온도가 60.0°C 초과로 10초 이상 지속되었다. 적용 SOP 가 승인 부하 감소을(를) 허용한다.",
+          "checks_passed": true
+        },
+        "citation_problems": []
+      },
+      "process_ref": null,
+      "created_at": "2026-09-15 08:42:14.237528+00:00",
+      "updated_at": "2026-09-15 08:42:15.342953+00:00"
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "event_id": "EVT-20270126-090043-HYD-01-e51b",
+      "from_status": null,
+      "to_status": "DETECTED",
+      "actor": "detector",
+      "detail": {
+        "rule": "temp-sustain-v1",
+        "max_c": 63.78,
+        "mean_c": 62.1,
+        "sensor": "TS1",
+        "sustain_s": 10,
+        "threshold_c": 60.0,
+        "valid_samples": 10
+      },
+      "at": "2026-09-15 08:42:14.242742+00:00"
+    },
+    {
+      "id": 2,
+      "event_id": "EVT-20270126-090043-HYD-01-e51b",
+      "from_status": "DETECTED",
+      "to_status": "EVIDENCE_READY",
+      "actor": "agent:offline-skill-runner",
+      "detail": {
+        "decision": "PROPOSE",
+        "citations": [
+          {
+            "doc_id": "SOP-COOL-001",
+            "section": "4",
+            "version": 2
+          },
+          {
+            "doc_id": "SOP-COOL-001",
+            "section": "2",
+            "version": 2
+          },
+          {
+            "doc_id": "SOP-VER-001",
+            "section": "2",
+            "version": 1
+          }
+        ],
+        "tool_calls": [
+          "get_recent_window",
+          "get_asset_context",
+          "search_sop",
+          "propose_action"
+        ]
+      },
+      "at": "2026-09-15 08:42:15.176720+00:00"
+    },
+    {
+      "id": 3,
+      "event_id": "EVT-20270126-090043-HYD-01-e51b",
+      "from_status": "EVIDENCE_READY",
+      "to_status": "PENDING_APPROVAL",
+      "actor": "orchestrator",
+      "detail": {
+        "value": 0.8,
+        "action_id": "REDUCE_LOAD"
+      },
+      "at": "2026-09-15 08:42:15.344606+00:00"
+    }
+  ]
+}
